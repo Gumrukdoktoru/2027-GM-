@@ -34,6 +34,7 @@ SORU SAYISI: [sayı | "fasıl tükenene kadar"]
 ZORLUK: [sınav gerçekliği (varsayılan) | orta-üstü | zor]
 NOMENKLATÜR SÜRÜMÜ: [ör. TGTC 2026 / HS 2022; HS 2027 değişiklikleri dahil mi?]
 GÖRSEL: [kullanılmaz (varsayılan) | görsel betimlemesi metinle verilir]
+ALT TİP: [OTOMATİK (varsayılan; Bölüm 4) | ör. O4×3, D5×2, V4×1 | KARMA-24-25]
 ÇIKTI BİÇİMİ: [Çalışma kitabı (varsayılan) | 3 bölümlü]
 ```
 **Kural:** Doğru cevabın dayanağı kaynak metindeki **pozisyon metni, not veya izahname cümlesi** olmalıdır. Kaynakta yoksa yalnızca kesin bildiğin 4 haneli pozisyonları kullan; emin olmadığın alt pozisyon ve GTİP'i doğru cevap yapma.
@@ -130,6 +131,23 @@ Olumsuz %38–42 · Düz (farklı olanı bul ve "hangi pozisyonda" dahil) %35–
 (Gerçek tarife soruları: 5 yıl ortalaması olumsuz %42, düz %34, doğru %9, vaka %7, kavram %3. 2024–25'te düz %43'e çıktı.)
 Doğru şıklar harflere dengeli dağıtılır. 2023'te tarifede 18 sorunun 9'u D çıktı; bunu **taklit etme.**
 
+**Alt tip hedefi** (kodlar, gerçek örnekler ve üretim tarifleri `12-SORU-TIPI-KATALOGU` dosyasında). Gerçek tarife soruları (76): O4 %42 (2024–25: %37) · D5 %21 (2024–25: %29) · D4 %12 · V4 %9 · G4 %3 · E1 %3 · G1 %3 · S2, G2, B2 birer.
+
+| Bölüm | Alt tip hedefi |
+|---|---|
+| Tarife bloğu (17 soru) | O4 7 · D5 4 · D4 2 · V4 2 · esnek 2 (E1, G4, S2, G2 ya da B2) |
+
+| Aile | En sık alt tip | Not |
+|---|---|---|
+| T1 Fasıl/pozisyon kapsamı | O4 "yer almaz", D5 "yer alır", D4 "farklı olan" | O4 ile D5'i dönüşümlü kullan |
+| T2 Notlar ve izahname | O4 | Cevap: notla hariç tutulan eşya |
+| T3 GYKK | G4 örnek seçme, E1 "hangi GYK yanlış gösterilmiştir" | Doğru örnek izahnameden (makarna seti iki kez doğru cevap oldu) |
+| T4 Tanım/görsel | V4 | Çeldiriciler tanımdaki malzeme ve çağrışım kelimelerinden |
+| T5 Pozisyon metni | O4, D5 | Komşu pozisyon (09.09/09.10) |
+| T6 HS değişiklikleri | D5, O4 | Çeldiricilerden biri değişiklik öncesi eski pozisyon |
+| T7 Yapı ve tarife hukuku | O4 ("bu GTİP için söylenemez"), G2 (474 yetki merdiveni) | |
+| T8 Sıralama/eşleştirme | S2, E1, B2 | Yalnız 1–2 öğenin yeri bozuk |
+
 ---
 
 ## 5. DİL, BİÇİM, YASAKLAR
@@ -157,7 +175,7 @@ E) …
 Doğru Cevap: X
 Gerekçe: GYKK 1 uyarınca … pozisyon metni / Fasıl … Not … gereği … . A) … → xx.xx; B) … → xx.xx; … Bu nedenle doğru cevap X seçeneğidir.
 Tuzak: [Ad, malzeme, bileşen veya sayı komşusu tuzağı]
-Kalıp/Teknik: [Aile T1–T8 – kök tipi – bozma tekniği]
+Kalıp/Teknik: [Aile T1–T8 – alt tip kodu – bozma tekniği]
 ```
 
 ---
@@ -175,6 +193,6 @@ E) Müzikli kutu (zaman kadranı olmayan)
 Doğru Cevap: B
 Gerekçe: Okçuluk eşyası spor eşyası olarak 95.06'da yer alır. Başlıklar Fasıl 65'e (65.06), mobilyalar 94.01'e gider. Kum saati Fasıl 91'e girmez, yapıldığı maddeye göre sınıflandırılır. Zaman kadranı olmayan müzik kutusu 92.08'dedir. Bu nedenle doğru cevap B seçeneğidir.
 Tuzak: "Çocuk eşyası/oyun = Fasıl 95" ve "saat adı geçen = 91" sezgileri; malzeme faslına (39, 40) kayma.
-Kalıp/Teknik: T1 – düz – ad tuzağı + malzeme ↔ işlev
+Kalıp/Teknik: T1 – D5 – ad tuzağı + malzeme ↔ işlev
 ```
 > Not: Örnekteki bilgiler 2021/92, 2025/40 ve 2025/55'te ölçülen kurallardır. Üretimde pozisyonları kaynak metinden doğrula.

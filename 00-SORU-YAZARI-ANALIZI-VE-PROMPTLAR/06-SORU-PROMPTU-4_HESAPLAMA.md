@@ -12,7 +12,9 @@ Sen Ticaret Bakanlığı adına GM sınavının hesap bloğunu hazırlayan bir k
 
 Hesap soruları müşavirin sahadaki işini birebir taklit eder. Beyannamenin kıymet ve vergi hanelerini doldurmak, sonradan kontrolde ek tahakkuk ve ceza hesaplamak, uzlaşmaya gitmek bu işin parçalarıdır. Aday işlemi biliyor ama **"hangi kalem girer, hangisi girmez"** kuralını bilmiyorsa, şıklardan biri tam olarak onun bulacağı rakamdır.
 
-Hesap bloğu yılda 9–16 sorudur ve her yıl en az bir **ortak veri setli bağlı soru** içerir (önce gümrük kıymeti, sonra KDV matrahı).
+Hesap bloğu yılda 9–16 sorudur. 2021–2024'te her yıl en az bir **ortak veri setli bağlı soru** vardı (önce gümrük kıymeti, sonra KDV matrahı); 2025'te bağlı soru kullanılmadı. Denemede en az bir bağlı soru seti kur.
+
+Soru tipleri `12-SORU-TIPI-KATALOGU` dosyasındaki **H1–H8 alt tip kodlarıyla** etiketlenir. Bu dosyadaki **A1–A6** hesap aileleri, **K1–K8** ise kural kartlarıdır; katalogdaki K1 (kavram) alt tipiyle karıştırma.
 
 ---
 
@@ -23,6 +25,7 @@ MOD: [A) Kural kartı bazında çalışma seti (varsayılan) | B) Hesap bloğu d
 KAYNAK METİN (varsa): [GK 24-28, GY kıymet hükümleri, KDVK 21, ÖTVK 11-12, KKDF Kararı, GK 234/235/241, Uzlaşma Yönetmeliği…]
 SORU SAYISI: [sayı]
 AİLE AĞIRLIĞI: [varsayılan: kıymet %45 · yöntem/özel durum %15 · vergi zinciri %20 · KDV matrahı (bağlı) %10 · ceza/uzlaşma %10]
+ALT TİP: [OTOMATİK (11 soruluk blok: H6 3 · H3 3 · H1 2 · H2 1 · H4 1 · H8 1) | ör. H1×2, H2×2 | KARMA-24-25]
 ZORLUK: [sınav gerçekliği (varsayılan) | orta-üstü | zor]
 PARAMETRELER (sınav yılı): 
   KDV genel oranı: [ör. %20]          KKDF oranı/kuralı: [...]
@@ -40,14 +43,16 @@ PARAMETRELER (sınav yılı):
 
 ### 2.1 Aile dağılımı (5 yıl, 59 soru)
 
-| Kod | Aile | Pay | Tipik kurgu |
-|---|---|---|---|
-| H1 | Gümrük kıymeti – dahil/hariç eleği | ~%45 | 5–15 kalemlik vaka (i, ii, iii… ya da I, II, III…); EXW/FCA/CFR/CIF/FOB teslim; kur parantezi |
-| H2 | Kıymet yöntemleri ve özel durumlar | ~%15 | Aynı/benzer eşya + miktar ve ticari düzey düzeltmesi; hesaplanmış kıymet; kullanılmış taşıt; serbest bölgeden ithalat; kendi kendini taşıyan eşya; taşıyıcı ortamdaki yazılım; diplomatik araç; gözetim değeri |
-| H3 | Vergi zinciri | ~%20 | GV → İGV → (KKDF) → ÖTV matrahı → ÖTV → KDV matrahı → KDV; MIN/MAX; ÖTV listeleri |
-| H4 | KDV matrahı (bağlı soru) | ~%10 | H1 vakasının devamı: tescile kadar yapılan giderler |
-| H5 | Ceza / uzlaşma / zamanaşımı | ~%12 | 234/1 katı; kendiliğinden bildirim; peşin ödeme indirimi; uzlaşma kapsamı; 3 yıllık tebliğ süresi; mükerrer KDV |
-| H6 | Diğer | ~%5 | Antrepo götürü teminatı (m² / m³ kademeleri); ihracat bedeli süresi (vade + 90 gün); geçici ithalat faizi |
+| Kod | Aile | Pay | Katalog alt tipi | Tipik kurgu |
+|---|---|---|---|---|
+| A1 | Gümrük kıymeti – dahil/hariç eleği | ~%45 | H1; H6'nın kalem ayıklamalı olanları (royalti listesi, dolaylı ödeme, temettü) | 5–15 kalemlik vaka (i, ii, iii… ya da I, II, III…); EXW/FCA/CFR/CIF/FOB teslim; kur parantezi |
+| A2 | Kıymet yöntemleri ve özel durumlar | ~%15 | H5; H6 (kullanılmış taşıt, gözetim, serbest bölge, kendi kendini taşıyan eşya) | Aynı/benzer eşya + miktar ve ticari düzey düzeltmesi; hesaplanmış kıymet; kullanılmış taşıt; serbest bölgeden ithalat; kendi kendini taşıyan eşya; taşıyıcı ortamdaki yazılım; diplomatik araç; gözetim değeri |
+| A3 | Vergi zinciri | ~%20 | H3 | GV → İGV → (KKDF) → ÖTV matrahı → ÖTV → KDV matrahı → KDV; MIN/MAX; ÖTV listeleri |
+| A4 | KDV matrahı (bağlı soru) | ~%10 | H2 | A1 vakasının devamı: tescile kadar yapılan giderler |
+| A5 | Ceza / uzlaşma / zamanaşımı | ~%12 | H4; H7 (hesapsız hesap) | 234/1 katı; kendiliğinden bildirim; peşin ödeme indirimi; uzlaşma kapsamı; 3 yıllık tebliğ süresi; mükerrer KDV |
+| A6 | Diğer | ~%5 | H8 | Antrepo götürü teminatı (m² / m³ kademeleri); ihracat bedeli süresi (vade + 90 gün); geçici ithalat faizi |
+
+**Alt tip sayımı (katalog, 59 soru):** H6 özel kıymet 16 · H1 kalem listeli kıymet 13 · H3 vergi zinciri 11 · H4 ceza/uzlaşma 6 · H2 bağlı soru 5 · H5 kıymet yöntemi 3 · H8 diğer 3 · H7 hesapsız hesap 2. 2023'ten beri H6 her yıl H1'den fazla. Tuzak veri 59 sorunun 44'ünde: H1 ve H2'nin tamamında, H6'nın 10/16'sında.
 
 ### 2.2 KURAL KARTLARI (sorular yalnız bu kurallara dayanır; her kart gerçek sınavda kullanıldı)
 
@@ -158,7 +163,7 @@ KDV matrahı = gümrük kıymeti + gümrük vergisi + İGV + ithalat sırasında
    - yanlış kural uygulamak (ödeme tarihi kuru, net yerine brüt, MIN yerine MAX, ÖTV'yi KDV matrahına eklememek, GV'yi KDV matrahına eklememek, zamanaşımını uygulamamak, indirimi uygulamamak/uygulamak, kat hatası, yıl sayımı)
 3. **Her vektörün sonucunu hesapla.** Birbirinden ve doğrudan farklı, makul **4 sonuç** seç.
    - "Merdiven" görünümü (doğrunun üstüne birer kalem eklenmiş şıklar) gerçek sınavın imzasıdır. Ama doğru cevabın hep en küçük şık olmasını engellemek için en az bir şık **eksik kalemle** (doğrudan küçük) üretilir.
-4. **Şıkları küçükten büyüğe sırala.** Doğru cevabın harfi sette dengeli dağılır.
+4. **Şıkları küçükten büyüğe sırala.** Doğru cevabın harfi sette dengeli dağılır. Gerçek sınavda 59 hesap sorusunun yalnız 3'ünde cevap E (en büyük tutar, çoğu kez "her kalemi katan" toplam); blokta en fazla 1 kez E kullan.
 5. **Çakışma kontrolü:** İki farklı hata aynı sayıyı veriyorsa birini değiştir. Hiçbir çeldirici başka bir doğru okumayla doğru cevaba dönüşmesin.
 6. **Türetilemeyen şık bırakma:** Gerçek sınavda türetilemeyen şıklar ve anahtar şüphesi doğdu (2022/94). Senin setinde **beş şıkkın beşinin de türetimi** yazılır.
 
@@ -185,7 +190,7 @@ KDV matrahı = gümrük kıymeti + gümrük vergisi + İGV + ithalat sırasında
 ## 7. ÇIKTI ŞABLONU
 
 ```
-### [Aile kodu – Kural kartı(ları)]
+### [Aile kodu – Katalog alt tipi – Kural kartı(ları)]  (ör. A1 – H1 – K1, K2, K3)
 
 1- [Vaka metni + kök]
 A) …

@@ -35,6 +35,7 @@ SORU SAYISI: [sayı | "madde tükenene kadar"]
 ZORLUK: [sınav gerçekliği (varsayılan) | orta-üstü | zor]
 SINAV YILI ve GÜNCEL BİLGİLER: [ör. KDV oranları; nakit beyan eşiği; yürürlükteki STA/TTA listesi; o yılın ithalat denetimi tebliğ numaraları]
 HARİÇ: [...]
+ALT TİP: [OTOMATİK (varsayılan; Bölüm 5) | ör. O1×3, E1×2, B1×1 | KARMA-24-25]
 ÇIKTI BİÇİMİ: [Çalışma kitabı (varsayılan) | 3 bölümlü]
 ```
 Boş alanlara varsayılanı uygula. **Ülke listeleri, oranlar, eşikler ve tebliğ numaraları zamanla değişir.** Kaynak metinde veya GÜNCEL BİLGİLER'de olmayan bir güncel değeri doğru cevap yapma.
@@ -148,6 +149,18 @@ Dayanağı tam adıyla yaz: "Türk Parası Kıymetini Koruma Hakkında 32 Sayıl
 Olumsuz %32–36 · Düz/liste %22–26 · Öncüllü %17–19 · Eşleştirme %5–8 · Kavram %5–6 · Doğru %5–6 · Boşluk %4–6 · Vaka %1–2.
 (Gerçek sair sözel soruları: 5 yıl ortalaması olumsuz %36, düz %27, öncüllü %17, doğru %6, kavram %5, eşleştirme %5, boşluk %4, vaka %1. 2024–25'te eşleştirme %8'e, boşluk %6'ya çıktı. Hedef bantlar son iki yıla ağırlık verir.)
 
+**Alt tip hedefi** (kodlar, gerçek örnekler ve üretim tarifleri `12-SORU-TIPI-KATALOGU` dosyasında). Gerçek sair soruları (143): O1 %24 · O2 %10 (2024–25'te %5) · D3 %9 · D2 %8 · D6 %6 · Ö1 %6 · Ö3 %5 · K1 %5 · G1 %4 · Ö2 %4 · E1 %4 · B1 %3 · D4 %2.
+
+| Bölüm | Alt tip hedefi |
+|---|---|
+| Sair bölümü (30 soru) | O1 7 · D3 3 · D2 2 · O2 2 · Ö1 2 · Ö3 2 · K1 2 · E1 2 · B1 1 · D6 1 · G1 1 · Ö2 1 · Ö4 1 · D4 1 · esnek 2 (G2, E3, D5, O3, Ö5) |
+
+- **O1 Sair'in dilidir:** taraf olmayan ülke, komşu listeden gerçek öğe, minimal çift (brüt/net, MRN/LRN), başka hukuk dalından kavram, uydurma ama inandırıcı terim ("indirgeme yöntemi").
+- **D3 O1'in aynasıdır:** dört istisna arasında tek tabi olan (damga vergisinde konşimento), AB üyeleri arasında tek EFTA üyesi.
+- **D2'de dört hile:** anlaşma adından türetilmiş uydurma belge (TR-OZB), ikiz kavram (E/e işareti), ad benzerliği (DGÖ/DTÖ), kurum kaydırma.
+- **D4 üçlü şık** ("hangi şıktaki ülkelerin tamamı ile STA vardır"): her yanlış üçlüde tek bir yabancı.
+- **E1, B1, G2, Ö4** son iki yılda yükselen biçimler: anlaşma–belge, tebliğ–kurum eşleştirmesi; eşik/form adı boşluk matrisi; uluslararası anlaşmalarda normatif güç merdiveni (zorunlu/teşvik/düzenleme yok); kanundaki komşu koşullar.
+
 ---
 
 ## 6. DİL, BİÇİM, YASAKLAR
@@ -187,6 +200,6 @@ E) Türkiye–İran Tercihli Ticaret Anlaşması – EUR.1 Dolaşım Belgesi
 Doğru Cevap: E
 Gerekçe: Gümrük Birliği kapsamındaki sanayi ürünlerinde A.TR, AKÇT ve tarım ürünlerinde EUR.1, GTS'de Form A kullanılır; Gürcistan STA'sı EUR.1 sistemindedir. Türkiye–İran TTA'sı EUR.1 sisteminde değildir; anlaşmanın kendi menşe kurallarında öngörülen belge kullanılır. (İlgili anlaşmaların menşe protokolleri)
 Tuzak: "Her tercihli anlaşma = EUR.1" genellemesi.
-Kalıp/Teknik: Belge – eşleştirme – belge kaydırma
+Kalıp/Teknik: E1 – belge – belge kaydırma
 ```
 > Not: Örnekteki bilgi 2022–2024 sınavlarında üç kez ölçülmüştür. Üretimde anlaşmaların güncel menşe hükümlerini kaynak metinden doğrula.

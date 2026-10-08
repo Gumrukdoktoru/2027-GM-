@@ -29,6 +29,7 @@ ZORLUK: [sınav gerçekliği (varsayılan) | orta-üstü | zor]
 SINAV YILI ve GÜNCEL TUTARLAR: [ör. 2027; götürü teminat tutarları; posta/hızlı kargo eşikleri; ücret tarifesi]
 HARİÇ: [daha önce sorulmuş hüküm–eksen çiftleri]
 MADDE ATFI: [kapalı (varsayılan) | nadir açık]
+ALT TİP: [OTOMATİK (varsayılan; Bölüm 5) | ör. O2×3, Ö3×2, V1×1 | KARMA-24-25]
 ÇIKTI BİÇİMİ: [Çalışma kitabı (varsayılan) | 3 bölümlü]
 ```
 Boş alanlara varsayılanı uygula; soru sormadan üret.
@@ -150,14 +151,26 @@ Eski kurum adı (Müsteşarlık) tek başına bir şıkkı yanlış yapmaz; ayn�
 ## 5. TİP PAYLARI (GM bölümü için hedef)
 Olumsuz %38–42 · Öncüllü %20–23 · Düz %13–17 · Doğru %8–10 · Vaka %4–5 · Boşluk %3–4 · Kavram %2–4 · Eşleştirme/tablo %2–3 · Sıralama ≤%1.
 (Gerçek GM sözel soruları: 5 yıl ortalaması olumsuz %44, öncüllü %19, düz %18, doğru %9, vaka %4, boşluk %3, kavram %2, eşleştirme %2. 2024–25'te olumsuz %39'a indi, öncüllü %23'e çıktı. Hedef bantlar son iki yıla ağırlık verir.)
-Olumsuz kutuplu toplam ≈ %45. Öncüllülerde cevap dağılımı: ~%18 "Yalnız X", ~%19 tüm öncüller, ~%63 ara kombinasyon. Öncül sayısı çoğunlukla 4, sonra 5.
+Olumsuz kutuplu toplam ≈ %45. Öncüllülerde cevap dağılımı: ~%19 "Yalnız X", ~%16 tüm öncüller (liste öncüllüde ~%31), ~%65 ara kombinasyon. Öncül sayısı çoğunlukla 4, sonra 5.
+
+**Alt tip hedefi** (kodlar, gerçek örnekler ve üretim tarifleri `12-SORU-TIPI-KATALOGU` dosyasında). Gerçek GM soruları (222): O2 %27 · O1 %15 · D1 %9 (2024–25'te %5) · Ö3 %8 · G1 %8 · Ö1 %6 · Ö2 %4 · D3 %3 · D6 %3 · O3 %3 (2022'den beri neredeyse yok) · K1 %2 · vaka (V1–V3) %3 · boşluk %3 · eşleştirme %1.
+
+| Bölüm | Alt tip hedefi |
+|---|---|
+| GM bölümü (42 soru) | O2 11 · O1 6 · Ö3 4 · G1 4 · Ö1 3 · D1 2 · Ö2 2 · D3 2 · D6 1 · K1 1 · V1/V2/V3 2 · B1/B2 2 · E1/E2 1 · esnek 1 (O3, D2 ya da G3) |
+
+- **O2 GM'nin dilidir.** Bozma tekniklerini çeşitlendir: polarite tersi ~%23, süre/sayı ~%15, makam ~%14, uydurma şart ~%10, kapsam ~%10, kavram/belge etiketi ~%10, mutlaklaştırma ~%8. Hiçbiri O2'lerin %30'unu geçmesin.
+- **Ö3 (liste öncüllü) Ö1'den çok kullanılır** (18'e 13). Liste öğeleri: rejim basitleştirmeleri, sorumlular, muafiyet hâlleri, belge türleri.
+- **D1 (çıplak sayı) azalıyor.** Süre ve oranları B1/B2 matrisine ya da "yalnız süresi değişen beş cümle" kalıbına (G1) taşı.
+- **Seri bloklar:** 2025'te transit 65–70 ve antrepo 78–83 gibi; seri içinde alt tip değişsin (O2 → Ö1 → V1).
+
 
 ---
 
 ## 6. DİL, BİÇİM, YASAKLAR
 
 - Resmî ve kısa sınav dili kullan; yapay nitelemeler ("temel kural", "kritik husus") ekleme.
-- Madde numarası köke yazılmaz (MADDE ATFI kapalı). "Nadir açık" ise yalnız 241/1–241/2, 234/1–234/3 gibi uygulamada adıyla anılan fıkralar şık olabilir; sette en fazla %2.
+- Madde numarası: Gerçek sınavda ~%8 soruda kökte dayanak olarak geçer, ama numarayı bilmek cevabı vermez. MADDE ATFI kapalıysa (varsayılan) köke yazılmaz. "Nadir açık" ise en fazla %8 ve yalnız dayanak gösterimi olarak; numaranın kendisi yalnız 241/1–241/2, 234/1–234/3 gibi uygulamada adıyla anılan fıkralarda şık olabilir.
 - Uydurma hüküm, sayı, makam yasak. Güncelliği şüpheli tutarı doğru cevap yapma.
 - Çıkmış soruyu kopyalama; ölçtüğü bilgiyi mutlaka yeni kurguyla sor.
 - Bir sorunun kökü veya öncülü başka sorunun cevabını vermesin.
@@ -187,7 +200,7 @@ E) …
 Doğru Cevap: X
 Gerekçe: Mevzuata göre … . Bu nedenle doğru cevap X seçeneğidir. [Diğer şıkların neden doğru/yanlış olduğu kısaca.] (MD …)
 Tuzak: [Adayın hangi yanlış inançla hangi şıkka kayacağı]
-Kalıp/Teknik: [bilgi türü – kök tipi – bozma tekniği]
+Kalıp/Teknik: [alt tip kodu – bilgi türü – bozma tekniği]
 ```
 
 ---
@@ -207,7 +220,7 @@ E) Geçici ithalat süresince her ay için vergilerin %3'ü tahsil edilir.
 Doğru Cevap: B
 Gerekçe: Tam muafiyetle geçici ithal edilen eşya serbest dolaşıma girdiğinde vergiler, serbest dolaşıma giriş (kati ithalat) beyannamesinin tescil tarihindeki unsurlara göre hesaplanır. 10.02 tarihi kısmi muafiyetli geçici ithalatın kuralıdır (A); 10.08 izin süresinin sonudur (C); aylık %3 kısmi muafiyete özgüdür (E). (GK geçici ithalat hükümleri)
 Tuzak: Kısmi muafiyet kuralını (geçici ithalat tescil tarihi, aylık %3) tam muafiyete taşımak.
-Kalıp/Teknik: Hukuki sonuç – tarihli vaka – rejim türü kaydırma + tarih kaydırma
+Kalıp/Teknik: V1 – hukuki sonuç – rejim türü kaydırma + tarih kaydırma
 ```
 > Not: Örnekteki kural 2025 sınavının 87–88. sorularında ölçülen ayrımdır. Üretimde her zaman kaynak metindeki güncel hükmü esas al.
 
@@ -228,5 +241,5 @@ E) I, II, III ve IV
 Doğru Cevap: B
 Gerekçe: I ve III mevzuatın kendisidir. Kefil, rejim hak sahibinden farklı bir kişidir; kefalet üçüncü kişi güvencesidir (II yanlış). Alternatif kanıt idarenin verdiği MRN'yi taşıyan belgedir; beyan sahibinin yerel referansı (LRN) kanıt sayılmaz (IV yanlış). (Transit Tebliği ilgili maddeler)
 Tuzak: LRN ile MRN'yi karıştırmak; kefili "rejim hak sahibinin kendi teminatı" sanmak.
-Kalıp/Teknik: Usul – öncüllü (4) – etiket kaydırma (LRN/MRN) + kapsam genişletme (kefil)
+Kalıp/Teknik: Ö1 (4 öncül) – usul – etiket kaydırma (LRN/MRN) + kapsam genişletme (kefil)
 ```

@@ -14,9 +14,9 @@
 3. **Müşavirin cebinden çıkacak parayı ölçüyor.** Gümrük kıymeti ve KDV matrahı 2021–2024'te her yıl 11–14 soru, 2025'te 6–8 soru; 5 yılın en çok sorulan tek konusu. Müşavir dolaylı temsilci olarak müteselsil sorumlu olduğu için en pahalı hata kıymet ve GTİP hatasıdır. Bakanlık bu yüzden kıymeti tanımla değil "**hangi kalem girer, hangisi girmez**" eleğiyle soruyor.
 4. **Tarifede sezgiyi cezalandırıyor.** "Adında *saat* geçen eşya 91'dedir", "kauçuktan olan 40'tadır", "araba parçası 87'dedir" diyen aday kaybediyor. Ölçülen şey pozisyon ezberi değil; **fasıl/bölüm notlarındaki hariçler, izahname ve GYKK**.
 5. **Hesapta formülü değil hukuki kuralı ölçüyor.** Yanlış şıkların neredeyse hepsi tek bir kalemin yanlış tarafa konmasıyla üretilmiş ("merdiven" şıklar). Soruda kullanılmaması gereken tuzak veri var. Bazı sorular hesap gibi görünüp hesap gerektirmiyor.
-6. **Güncel değişikliği takip edip etmediğine bakıyor.** Her yıl yaklaşık 8–12 soru o yıl veya bir önceki yıl yürürlüğe giren düzenlemeye dayanıyor. Örnekler: HS 2022, KDV %20, yeni STA/TTA'lar, posta/hızlı kargo eşikleri, nakit beyan eşiği, asgari ücret tarifesi (her yıl!), yeniden değerlenen teminat tutarları, yıllık ithalat denetimi tebliğleri.
+6. **Güncel değişikliği takip edip etmediğine bakıyor.** Dar tanımla (o yıl veya bir önceki yıl yürürlüğe giren düzenleme) 5 yılda 14 soru: 2022'de 8 (HS 2022 ve 2022 tebliğleri), diğer yıllarda 0–4. Buna ek olarak her yıl birkaç soru yıllık güncellenen bir rakamı ya da eşiği bilmeyi gerektiriyor. Örnekler: HS 2022, KDV %20, yeni STA/TTA'lar, posta/hızlı kargo eşikleri, nakit beyan eşiği, asgari ücret tarifesi (her yıl!), yeniden değerlenen teminat tutarları, yıllık ithalat denetimi tebliğleri.
 7. **Kanundan çok yönetmelik ve tebliğ soruyor.** Son üç yılda ağırlık Gümrük Kanunu'ndan Gümrük Yönetmeliği'ne, genel tebliğlere (Transit Seri 4-5, Nihai Kullanım, Serbest Dolaşım Seri 16) ve 2009/15481 sayılı Karar'a kaydı. Kenar köşeler de soruluyor: BS kodu, YGM tespit kodları, ücret tarifesi, gümrüksüz satış mağazası, statü belgesi.
-8. **Soru tiplerini çeşitlendiriyor.** 2021'de soruların %55'i düz olumsuz kökle sorulurken 2025'te bu oran %30'a indi. Öncüllü (4 → 17), boşluk (0 → 5) ve eşleştirme (1 → 5) soruları arttı. Amaç eleme stratejisini kırmak ve bir soruda birden çok bilgiyi ölçmek.
+8. **Soru tiplerini çeşitlendiriyor.** 2021'de soruların %53'ü olumsuz kökle sorulurken 2025'te bu oran %30'a indi. Öncüllü (4 → 17), boşluk (0 → 5) ve eşleştirme (2 → 5) soruları arttı. Amaç eleme stratejisini kırmak ve bir soruda birden çok bilgiyi ölçmek. 39 alt tipin sayımı, gerçek örnekleri ve üretim tarifleri `12-SORU-TIPI-KATALOGU` dosyasındadır.
 9. **Aynı paragraftan seri soru çıkarıyor.** Bir hükmü açınca 2–6 soru arka arkaya geliyor; ilk soruda kural, ikincide vaka. Örnekler: 2025'te transit 65–70, antrepo 78–83, geçici ithalat 87→88; 2023'te kıymet 72→73 ve 81→82.
 10. **Hata da yapıyor.** 5 yılda en az 5–6 soruda anahtar tartışmalı ya da basım hatalı: 2021/89-90, 2022/94, 2023/72-73 (10 kat ölçek), 2024/46, 2025/12 ve 16. Soru bankası hazırlarken bu hatalar **taklit edilmeyecek**, ders olarak alınacak.
 
@@ -57,20 +57,22 @@
 
 | Kök tipi | 2021 | 2022 | 2023 | 2024 | 2025 | 5 yıl ort. |
 |---|---|---|---|---|---|---|
-| Olumsuz kök (değildir / yanlıştır / söylenemez / aranmaz / sayılmamıştır) | 55 | 34 | 27 | 35 | 30 | **36** |
-| Düz bilgi (kimdir / kaçtır / hangisidir / farklı olanı bul) | 20 | 22 | 22 | 23 | 17 | **21** |
-| Öncüllü (I-II-III…) | 4 | 15 | 16 | 14 | 17 | **13** |
-| Hesap | 10 | 13 | 16 | 11 | 9 | **12** |
-| "Hangisi doğrudur" | 6 | 11 | 4 | 4 | 9 | **7** |
-| Vaka / mizansen (hesapsız) | 1 | 1 | 7 | 3 | 3 | **3** |
-| Kavram (tanım verilip adı sorulur) | 2 | 1 | 2 | 5 | 4 | **3** |
+| Olumsuz kök (değildir / yanlıştır / söylenemez / aranmaz / sayılmamıştır) | 53 | 34 | 28 | 35 | 30 | **36** |
+| Düz bilgi (kimdir / kaçtır / hangisidir / farklı olanı bul) | 23 | 21 | 21 | 23 | 17 | **21** |
+| Öncüllü (I-II-III…) | 4 | 15 | 16 | 15 | 17 | **13,4** |
+| Hesap | 10 | 13 | 16 | 11 | 9 | **11,8** |
+| "Hangisi doğrudur" | 4 | 12 | 5 | 4 | 9 | **6,8** |
+| Vaka / mizansen (hesapsız) | 1 | 1 | 6 | 2 | 5 | **3** |
+| Kavram (tanım verilip adı sorulur) | 2 | 1 | 2 | 5 | 2 | **2,4** |
 | Boşluk doldurma | 0 | 3 | 2 | 2 | 5 | **2,4** |
-| Eşleştirme | 1 | 0 | 3 | 3 | 5 | **2,4** |
+| Eşleştirme | 2 | 0 | 3 | 3 | 5 | **2,6** |
 | Sıralama | 1 | 0 | 1 | 0 | 1 | **0,6** |
+
+Sayılar 500 sorunun tek tip sözlükle yapılan etiketlemesinden (`12-SORU-TIPI-KATALOGU`). Yıl yıl analiz dosyalarındaki ilk sayımdan 1–3 soru farklı olabilir.
 
 - **Olumsuz kutuplu toplam** (olumsuz yönlü öncüllü ve eşleştirmeler dahil): 2022'de 40, 2023'te yaklaşık 40, 2024'te 43, 2025'te 37. **Yani soruların ~%40'ı "yanlış olanı bul".**
 - Öncüllü soruların öncül sayısı 3–5 arasında; en sık 4. 5 öncüllü sorular arttı (2025: 6 adet).
-- Öncüllü sorularda uç cevaplar küçümsenmeyecek kadar sık: 5 yılın 68 öncüllü sorusunda %18 "Yalnız X", %19 tüm öncüller, %63 ara kombinasyon. 2024'te bu eğilim en uçtaydı (15 sorunun 9'u uçta). 2023'te iki soruda "hepsi doğru" ve "hepsi yanlış" cevap. **"Hepsi olamaz" önyargısı bilinçli olarak cezalandırılıyor.**
+- Öncüllü sorularda uç cevaplar küçümsenmeyecek kadar sık: 5 yılın 68 öncüllü sorusunda %19 "Yalnız X", %16 tüm öncüller, %65 ara kombinasyon. 2024'te bu eğilim en uçtaydı (15 sorunun 9'u uçta). 2023'te iki soruda "hepsi doğru" ve "hepsi yanlış" cevap. **"Hepsi olamaz" önyargısı bilinçli olarak cezalandırılıyor.**
 
 ### 1.3b Soru tipi alana göre çok farklı
 
@@ -88,7 +90,7 @@
 | Eşleştirme | 2 | 2 | 5 | 8 | 1 | 3 |
 | Sıralama | 0,5 | 0 | 1 | 0 | 1 | 3 |
 
-Öncüllü sorular (68 adet): öncül sayısı 4 → %54, 5 → %26, 3 → %19. Doğru cevap: ara kombinasyon %63, tek öncül ("Yalnız X") %18, tüm öncüller %19. Tarifede öncüllü soru 5 yılda yalnız 1 kez kullanıldı.
+Öncüllü sorular (68 adet): öncül sayısı 4 → %54, 5 → %26, 3 → %19. Doğru cevap: ara kombinasyon %65, tek öncül ("Yalnız X") %19, tüm öncüller %16. Tarifede öncüllü soru 5 yılda yalnız 1 kez kullanıldı.
 
 **Okuma:** Tarifede öncüllü soru yok denecek kadar az; tarife "farklı olanı bul / hangi fasılda" ve olumsuz kökle soruluyor. Öncüllü soru gümrük mevzuatı ve sairin aracı. Eşleştirme ve boşluk en çok sairde (ülke–belge, tebliğ–kurum, eşik–belge). Gümrük mevzuatında olumsuz kök hâlâ en büyük pay, ama öncüllüye doğru kayıyor.
 
@@ -102,11 +104,25 @@ Kapsam (kim/ne dahil-hariç) › Sınıflandırma kuralı › Matrah/kıymet uns
 | Gösterge | Bulgu |
 |---|---|
 | Doğru cevap harfi (500 soru) | A 95 · B 94 · C 105 · D 106 · E 100. Dengeli, ama 2023'te üst üste 5 C var; Bakanlık optik dengeyi her yıl gözetmiyor. |
-| Doğru şıkkın uzunluğu | Cümle şıklı sorularda doğru şık %50–64 **orta**, %16–32 **en uzun**, %14–22 **en kısa**. |
-| Olumlu kök ("hangisi doğrudur" / kavram) | Doğru şık sıklıkla **en uzun ve en eksiksiz** cümle; mevzuat cümlesi tam aktarılıyor. |
-| Olumsuz kök | Doğru cevap olan bozuk ifade sıklıkla **kısa ve mutlak** ("Her türlü eşya…", "Kefil ve rejim hak sahibi aynı kişi olabilir."). Bazen de uzun cümle içine gizlenmiş tek bir bozulma. |
+| Doğru şıkkın uzunluğu | Cümle/eşleşme şıklı 187 soruda doğru şık %59 **orta**, %24 **en uzun**, %17 **en kısa**. |
+| Olumlu kök (G1–G4; n=33) | Doğru şık %64 orta, %27 en uzun, %9 en kısa. En uzun olma eğilimi hafif (beklenen %20); asıl işaret, **en kısa şıkkın nadiren doğru** olması. G2 ve G4'te doğru şık mevzuatın tam aktarımı olduğu için en uzun. |
+| Olumsuz kök (O2, O3; n=78) | Bozuk şık %59 orta, **%27 en uzun**, yalnız %14 en kısa. "Kısa ve mutlak şık bozuktur" genellemesi veride yok. Mutlak ifade O2'lerin yalnız 10/73'ünde bozulmanın kendisi; 2021/63, 2022/30, 2023/35, 2023/50'de "yalnızca / hiçbir şekilde" içeren şık mevzuatın aynısı (doğru ifade). Uzun hâl cümleli O1'de ise yabancı öğe çoğu kez en kısa (%31). |
+| Öncüllü cevap (n=68) | Ara kombinasyon %65 · "Yalnız X" %19 · tüm öncüller %16. Liste öncüllüde (Ö3) "hepsi" %31. |
+| Hesap cevabı (n=59) | A 12 · B 14 · C 16 · D 14 · **E 3**. Şıklar çoğunlukla küçükten büyüğe; en büyük tutar nadiren doğru. |
+| Tek değer (D1; n=24) | Sıralı sayı şıklarında doğru cevap 12 kez C (%50). |
 | Eski kurum adı | "Müsteşarlık", "Bakanlar Kurulu" ibareleri doğru şıklarda bırakılmış. **Eski kurum adı tek başına bir şıkkı yanlış yapmıyor.** |
-| Madde numarası | Köklerde nadiren var ("Gümrük Yönetmeliğinin 482 nci maddesine göre"). Şıklarda daha da nadir: 2025/81'de "GK 241/1–241/2", 2023/67'de "GK md. 27/1-d", 2022/95'te "GK 241/1". 5 yılda 4–5 soru. Bunlar madde ezberi değil, **hangi ceza fıkrasının/kıymet bendinin uygulanacağı** bilgisi. |
+| Madde numarası | 500 sorunun 38'inde (~%8; yılda 5–10) kökte ya da şıkta madde/fıkra/bent numarası geçiyor. Hemen hepsi dayanak gösterimi ("Gümrük Yönetmeliğinin 482 nci maddesine göre", "… 244 üncü maddesinde düzenlenen uzlaşma"). Numara yalnız 5–6 soruda şıkta ya da cevabın kendisinde: 2025/81 "GK 241/1–241/2", 2023/67 "md. 27/1-d", 2022/49 "241/1, 234/1", 2023/69 "234/3", 2023/12 "GYK 2-a". Bunlar madde ezberi değil, **hangi ceza fıkrasının/kıymet bendinin uygulanacağı** bilgisi. |
+
+### 1.6 Alt tip düzeyi (özet)
+
+500 soru 39 alt tipe ayrıldı. En sık on alt tip sınavın %65'i: **O2 bozuk cümle 73 · O1 liste dışı eleman 68 · O4 tarife olumsuz 32 · Ö3 liste öncüllü 26 · G1 beş cümleden doğru 25 · D1 tek değer 24 · Ö1 hangileri doğrudur 22 · D3 liste içi eleman 20 · D2 ad/kimlik 17 · D5 tarifede yer tespiti 17.**
+
+- GM'nin dili O2 (%27), Sair'in dili O1 (%24). Tarifenin %75'i O4 + D5 + D4. Hesabın en büyük alt tipi H6 özel kıymet durumu (16).
+- Çıplak sayı sorusu (D1) 9 → 1'e indi; sayı bilgisi boşluk matrisine ve cümle şıkkına taşındı.
+- Matris şıklar (F_MATRIS) 2 → 9'a, seri sorular (F_SERI) 2025'te 47'ye çıktı.
+- Bakanlık kanıtlanmış doğru örneği yeniden kullanıyor: GYKK 3(b) makarna seti 2021/94 ve 2025/42'de doğru cevap.
+
+Her alt tipin tanımı, gerçek örneği, doğru cevap ve çeldirici kurgusu, üretim tarifi ve 100 soruluk deneme reçetesi: **`12-SORU-TIPI-KATALOGU`**.
 
 ---
 
@@ -409,11 +425,11 @@ Hesap sorularının konusu (59 soru): gümrük kıymeti 32 · KDV matrahı 9 · 
 
 | Trend | Kanıt | Soru üretimine etkisi |
 |---|---|---|
-| Olumsuz kök azalıyor, öncüllü/boşluk/eşleştirme artıyor | Olumsuz %55 → %30; öncüllü 4 → 17; boşluk 0 → 5; eşleştirme 1 → 5 | Bankada öncüllü ~%15–18, boşluk + eşleştirme ~%8–10 olmalı |
+| Olumsuz kök azalıyor, öncüllü/boşluk/eşleştirme artıyor | Olumsuz %53 → %30 (düşüş O2'den: 25 → 9); öncüllü 4 → 17; boşluk 0 → 5; eşleştirme 2 → 5 | Bankada öncüllü ~%15–18, boşluk + eşleştirme ~%8–10 olmalı |
 | Tarife büyüdü | 10 → 17–18 | Tarife bankası 1/5 ağırlıkta; not, hariç ve HS değişikliği odaklı |
 | Yönetmelik/tebliğ ağırlığı | 2025'te GK'ya doğrudan atıflı kök sadece 6 | GM sorularının çoğu GY ve tebliğlerden |
-| Hesap blokları ortak veriyle | Her yıl en az bir bağlı soru | Bağlı soru setleri (kıymet → KDV matrahı) |
-| Güncellik | Her yıl 8–12 soru | Yıllık güncellenen rakamlar ve yeni düzenlemeler için ayrı "güncel" modülü |
+| Hesap blokları ortak veriyle | 2021–2024'te her yıl en az bir bağlı soru; 2025'te yok. Özel kıymet durumu (H6) 2023'ten beri kalem listeli kıymeti (H1) geçti | Bağlı soru setleri (kıymet → KDV matrahı) korunmalı; H6 payı artırılmalı |
+| Güncellik | Dar tanımla 5 yılda 14 soru; yeni nomenklatür yılında sıçrıyor (2022: 8) | Yıllık güncellenen rakamlar ve yeni düzenlemeler için ayrı "güncel" modülü; HS 2027 yılında artır |
 | Kenar konular | BS kodu, YGM kodları, ücret tarifesi, GSM | Ana rejimlerin dışındaki küçük tebliğler atlanmamalı |
 | Uygulamaya dönüklük arttı | Analizlerin tahmini: uygulama/pratik payı 2021 ~%35, 2022 ~%33, 2023 ~%40, 2025 ~%60 | Vaka ve mizansen payı artırılmalı |
 
@@ -451,9 +467,10 @@ Hesap sorularının konusu (59 soru): gümrük kıymeti 32 · KDV matrahı 9 · 
 
 ## 8. ÖĞRENCİYE STRATEJİ ÖZETİ (bonus)
 
-1. Olumsuz kökte önce **mutlak ifadeli ve kısa** şıkkı kontrol et.
-2. Olumlu kökte ("hangisi doğrudur") en eksiksiz, mevzuat cümlesi gibi duran şık çoğu zaman doğrudur. Bu bir eğilimdir, kural değildir.
+1. Olumsuz kökte önce **mutlak ifadeli** şıkkı kontrol et, ama tek başına karar verme: bazı "yalnızca / hiçbir şekilde" içeren şıklar mevzuatın aynısıdır. Şık uzunluğu ipucu vermez; bozuk şık en uzun şık da olabilir (%27).
+2. Olumlu kökte ("hangisi doğrudur") en kısa şık nadiren doğrudur (33 soruda 3). En uzun şık hafif bir eğilim taşır (%27); kural değildir.
 3. Öncüllüde "hepsi doğru" ya da "yalnız I" cevabından korkma; Bakanlık bunları bilerek kullanıyor.
-4. Hesapta önce kalemleri **dahil/hariç** diye işaretle, sonra topla. Şıklar merdiven gibiyse doğru cevap genelde alt basamaklardadır, çünkü üst basamaklar fazladan kalem eklenmiş hâllerdir.
+4. Hesapta önce kalemleri **dahil/hariç** diye işaretle, sonra topla. Şıklar merdiven gibiyse en üst basamak (her kalemi katan toplam) nadiren doğrudur: 59 hesap sorusunda cevap yalnız 3 kez E.
 5. Tarifede adın çağrıştırdığı fasla gitmeden önce **notlardaki hariçleri** düşün.
 6. Sınav içinde aynı hüküm iki kez geçebilir; kökler ve doğru öncüller birbirine ipucu verebilir.
+7. Soruyu görünce **tipini tanı** (`12-SORU-TIPI-KATALOGU`): liste dışı eleman mı (O1), bozuk cümle mi (O2), liste öncüllü mü (Ö3)? Her tipin yakalama noktası farklıdır. Ö3'te "hepsi" cevabı üç soruda bir doğru.

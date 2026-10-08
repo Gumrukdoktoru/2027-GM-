@@ -110,6 +110,7 @@ En az 8 tuzak kutusu yaz. Konu büyükse daha fazla yaz.
 ### 11 · MİNİ TEST (Bakanlık tarzında)
 
 - 8–10 soru. Dağılım: olumsuz kök 3–4, öncüllü 2, boşluk veya eşleştirme 1, vaka 1, düz 1–2.
+- Alt tipleri konunun alanına göre seç (`12-SORU-TIPI-KATALOGU`): GM konusunda O2 ağırlıklı, Sair konusunda O1 ve D3 ağırlıklı, tarifede O4 + D5 + D4, hesapta H1/H6 + bağlı soru (H2). Öncüllülerden en az biri liste öncüllü (Ö3) olsun. Her sorunun yanında alt tip kodu yazılır.
 - Ardından cevap anahtarı + her soru için tek satır gerekçe + ilgili not bölümü.
 - Sorular soru üretim promptlarının standartlarına uyar: tek doğru, aynı kategoriden çeldiriciler.
 

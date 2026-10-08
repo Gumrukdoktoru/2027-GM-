@@ -32,6 +32,7 @@ ZORLUK: [sınav gerçekliği (varsayılan) | orta-üstü | zor]
 HARİÇ: [daha önce üretilmiş hüküm–bilgi türü çiftleri]
 SINAV YILI ve GÜNCEL TUTARLAR: [ör. 2027; KDV %20; asgari ücret tarifesi rakamları; eşikler…]
 MADDE ATFI: [kapalı (varsayılan) | nadir açık]
+ALT TİP: [OTOMATİK (varsayılan; 12-SORU-TIPI-KATALOGU Bölüm 5) | ör. O2×3, Ö3×2, B2×1 | KARMA-24-25]
 ÇIKTI BİÇİMİ: [Çalışma kitabı (varsayılan) | 3 bölümlü deneme]
 ```
 
@@ -83,10 +84,23 @@ Kullanıcı bir alanı boş bırakırsa varsayılanı uygula; **soru sorma, üre
 | Eşleştirme | 2 | 2 | 5 | 8 | 1 | 3 |
 | Sıralama | 0,5 | 0 | 1 | 0 | 1 | 3 |
 
-Öncüllü sorular (68 adet): öncül sayısı 4 → %54, 5 → %26, 3 → %19. Doğru cevap: ara kombinasyon %63, tek öncül ("Yalnız X") %18, tüm öncüller %19. Tarifede öncüllü soru 5 yılda yalnız 1 kez kullanıldı.
+Öncüllü sorular (68 adet): öncül sayısı 4 → %54, 5 → %26, 3 → %19. Doğru cevap: ara kombinasyon %65, tek öncül ("Yalnız X") %19, tüm öncüller %16 (liste öncüllüde %31). Tarifede öncüllü soru 5 yılda yalnız 1 kez kullanıldı.
 
 Alan bazlı üretimde yukarıdaki genel bantlar yerine **ilgili alanın** sütunu esas alınır (ör. tarifede öncüllü kullanılmaz, düz/farklı olanı bul ağırlıklıdır).
 MOD A'da paylar katı değildir: kalıbı **bilgi türü** belirler. Ama set sonunda dağılım bu bantlara yaklaşmalı.
+
+### 2.2b Alt tip hedefleri (MOD B – 100 soru)
+
+Kodlar ve her alt tipin gerçek örneği, kuruluşu ve üretim tarifi `12-SORU-TIPI-KATALOGU` dosyasındadır. `ALT TİP: OTOMATİK` seçiliyse bu tablo uygulanır.
+
+| Alan (soru) | Alt tip hedefi | Esnek kontenjan |
+|---|---|---|
+| GM (42) | O2 11 · O1 6 · Ö3 4 · G1 4 · Ö1 3 · D1 2 · Ö2 2 · D3 2 · D6 1 · K1 1 · V1/V2/V3 2 · B1/B2 2 · E1/E2 1 | 1: O3, D2 ya da G3 |
+| SAİR (30) | O1 7 · D3 3 · D2 2 · O2 2 · Ö1 2 · Ö3 2 · K1 2 · E1 2 · B1 1 · D6 1 · G1 1 · Ö2 1 · Ö4 1 · D4 1 | 2: G2, E3, D5, O3, Ö5 |
+| TARİFE (17) | O4 7 · D5 4 · D4 2 · V4 2 | 2: E1, G4, S2, G2 ya da B2 |
+| HESAP (11) | H6 3 · H3 3 · H1 2 · H2 1 (H1'e bağlı) · H4 1 · H8 1 | Üç denemeden birinde H5 ya da H7 |
+
+**Alt tip kuralları:** Aynı alt tip üst üste en fazla 3 kez; seri blok içinde alt tip değişir (kural → öncüllü → vaka). O2'lerde hiçbir bozma tekniği %30'u geçmez. Çıplak sayı sorusu (D1) azaltılır; sayı bilgisi boşluk matrisine (B1/B2) ve cümle şıkkına (G1) taşınır. Bayraklar: tuzak veri 8–10, matris şık 6–9, mutlak ifade 6–8 (bir kısmı doğru ifadede).
 
 ### 2.3 En çok ölçülen bilgi türleri (sıklık sırasıyla)
 Kapsam (dahil/hariç) › Sınıflandırma kuralı › Matrah/kıymet unsuru › Usul/prosedür › Şart › Süre ve süre başlangıcı › Belge › Makam/yetki › Tanım › Oran/tutar/eşik › Hukuki sonuç › Yaptırım/ceza › İstisna › Mükellef/sorumlu.
@@ -244,7 +258,8 @@ Her yanlış şık, metindeki gerçek bir hükmün **tek** unsurunun bozulmasıy
 
 - 3–5 öncül; en sık 4 (%54), sonra 5 (%26) ve 3 (%19).
 - Şık kalıbı: "A) Yalnız I · B) I ve II · C) I ve III · D) II, III ve IV · E) I, II, III ve IV" gibi; şıklar artan genişlikte dizilir.
-- Doğru cevap dağılımı (5 yılın 68 öncüllü sorusu): ~%18 tek öncül ("Yalnız X"), ~%19 tüm öncüller, ~%63 ara kombinasyon.
+- Doğru cevap dağılımı (5 yılın 68 öncüllü sorusu): ~%19 tek öncül ("Yalnız X"), ~%16 tüm öncüller (liste öncüllüde ~%31), ~%65 ara kombinasyon.
+- Cevap "Yalnız X" ise şıklarda en az iki "Yalnız" bulunsun. Çeldirici kümeler: doğru kümeye bir bozuk öncül eklenmiş küme, doğru kümeden bir öğesi değiştirilmiş küme, en çekici bozuk öncülü içeren küme.
 - "Hepsi" kelimesi kullanılmaz; tüm öncülleri sayan şık yazılır.
 - Öncüller paralel dilbilgisiyle yazılır. Yanlış öncül bariz olmaz.
 
@@ -277,8 +292,8 @@ Her yanlış şık, metindeki gerçek bir hükmün **tek** unsurunun bozulmasıy
 ## 7. DİL VE BİÇİM
 
 - Resmî, kısa, ölçücü, mevzuat merkezli dil kullan. Yapay zekâ dili kullanma ("temel kural", "kritik husus", "önemli düzenleme" gibi nitelemeler, "kaynak metne göre", "verilen metinde").
-- Gerçek sınavda olduğu gibi madde numarası köke **yazılmaz** (MADDE ATFI: kapalı). "Nadir açık" seçilirse sette en fazla %2: yalnız uygulamada adıyla anılan ceza fıkrası (241/1–241/2, 234/1–234/3) veya kıymet bendi (27/1-c) gibi.
-- Doğru cevap konumu: cümle şıklı sorularda ~%55–60 orta uzunlukta, en fazla %25 en uzun, en fazla %20 en kısa. Olumsuz kökte bozuk şıkkı hep en kısa, olumlu kökte doğruyu hep en uzun yapma.
+- Madde numarası: Gerçek sınavlarda 500 sorunun 38'inde (~%8) kökte ya da şıkta madde numarası geçiyor, ama hemen hep dayanak gösterimi olarak ("… 244 üncü maddesinde düzenlenen uzlaşma …"); numarayı bilmek cevabı vermiyor. MADDE ATFI kapalıysa (varsayılan) numara köke yazılmaz. "Nadir açık" seçilirse sette en fazla %8 ve yalnız dayanak gösterimi olarak; numaranın kendisi cevap olmaz. İstisna: uygulamada adıyla anılan ceza fıkrası (241/1–241/2, 234/1–234/3) veya kıymet bendi (27/1-c).
+- Doğru cevap konumu: cümle şıklı sorularda ~%60 orta uzunlukta, ~%25 en uzun, ~%15 en kısa. Gerçek sınavda olumsuz kökte bozuk şık %59 orta, %27 en uzun, %14 en kısa; olumlu kökte doğru şık %64 orta, %27 en uzun, %9 en kısa. Bozuk şıkkı kısa, doğruyu uzun yazma alışkanlığına düşme.
 - Harf dağılımı dengeli: N/5 ± 2. Aynı harf en fazla 3 kez üst üste. Şıkların yeri değiştiyse cevap ve gerekçe yeniden kontrol edilir.
 - Şıklarda "Hepsi", "Hiçbiri", "Yukarıdakilerin tümü" kullanılmaz.
 
@@ -342,6 +357,7 @@ Her yanlış şık, metindeki gerçek bir hükmün **tek** unsurunun bozulmasıy
 
 1. Alan dağılımı (MOD B)
 2. Kök tipi dağılımı ve olumsuz kutuplu toplam
+2b. Alt tip dağılımı (katalog kodlarıyla) ve bayrak sayıları (matris, mutlak, tuzak veri, seri, "Yalnız", "tümü")
 3. Bilgi türü dağılımı
 4. Cevap harf dağılımı ve en uzun aynı-harf serisi
 5. Doğru şıkkın uzunluk konumu (en uzun / orta / en kısa)
@@ -370,7 +386,7 @@ E) …
 Doğru Cevap: X
 Gerekçe: [Mevzuata göre … . Bu nedenle doğru cevap X seçeneğidir. Diğer şıklar: A …, B …] (MD 15-16)
 Tuzak: [Adayın hangi yanlış inançla hangi şıkka kayacağı]
-Kalıp/Teknik: [Bilgi türü – kök tipi – kullanılan bozma tekniği]
+Kalıp/Teknik: [Alt tip kodu – bilgi türü – kullanılan bozma tekniği] (ör. O2 – süre – süre kaydırma)
 ```
 - Soru numarası ve kök aynı satırda başlar; her soru 5 şıklıdır; şıklarda gereksiz kalın yazı olmaz.
 - Gerekçe, maddeyi hiç okumamış öğrencinin anlayacağı açıklıktadır; sonunda ilgili madde parantez içinde yazılır.
@@ -404,5 +420,5 @@ E) Süre aşımında uygulanacak yaptırım usulsüzlük cezasıdır.
 Doğru Cevap: D
 Gerekçe: Süre aşımında antrepo işleticisine ve devralana ayrı ayrı işlem yapılır; yaptırımı yalnızca devralana yönelten D yanlıştır. A, B, C ve E hükmün kendisidir. (GY – antrepoda devir hükmü)
 Tuzak: "Devralan eşyanın sahibi olduğuna göre ceza ona kesilir" sezgisi. "Yalnızca" kelimesi mutlaklaştırma bozulmasıdır.
-Kalıp/Teknik: Yaptırım – olumsuz kök – kapsam daraltma + mutlaklaştırma
+Kalıp/Teknik: O2 – yaptırım – kapsam daraltma + mutlaklaştırma
 ```
