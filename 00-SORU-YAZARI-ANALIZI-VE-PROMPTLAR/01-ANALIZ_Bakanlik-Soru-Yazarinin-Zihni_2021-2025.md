@@ -70,7 +70,27 @@
 
 - **Olumsuz kutuplu toplam** (olumsuz yönlü öncüllü ve eşleştirmeler dahil): 2022'de 40, 2023'te yaklaşık 40, 2024'te 43, 2025'te 37. **Yani soruların ~%40'ı "yanlış olanı bul".**
 - Öncüllü soruların öncül sayısı 3–5 arasında; en sık 4. 5 öncüllü sorular arttı (2025: 6 adet).
-- Öncüllü sorularda cevap **uçlarda** toplanıyor: "Yalnız I" gibi tek öncül ya da tüm öncüller. 2024'te 15 öncüllü sorunun 9'u böyle. 2023'te iki soruda "hepsi doğru" ve "hepsi yanlış" cevap. **"Hepsi olamaz" önyargısı bilinçli olarak cezalandırılıyor.**
+- Öncüllü sorularda uç cevaplar küçümsenmeyecek kadar sık: 5 yılın 68 öncüllü sorusunda %18 "Yalnız X", %19 tüm öncüller, %63 ara kombinasyon. 2024'te bu eğilim en uçtaydı (15 sorunun 9'u uçta). 2023'te iki soruda "hepsi doğru" ve "hepsi yanlış" cevap. **"Hepsi olamaz" önyargısı bilinçli olarak cezalandırılıyor.**
+
+### 1.3b Soru tipi alana göre çok farklı
+
+**Alan × kök tipi (gerçek sınavlar; hesaplar hariç sözel sorular, %):**
+
+| Kök tipi | GM 5 yıl | GM 2024–25 | Sair 5 yıl | Sair 2024–25 | Tarife 5 yıl | Tarife 2024–25 |
+|---|---|---|---|---|---|---|
+| Olumsuz | 44 | 39 | 36 | 32 | 42 | 37 |
+| Düz (farklı olanı bul dahil) | 18 | 13 | 27 | 22 | 34 | 43 |
+| Öncüllü | 19 | 23 | 17 | 19 | 1 | 0 |
+| Doğru | 9 | 10 | 6 | 5 | 9 | 6 |
+| Vaka | 4 | 5 | 1 | 2 | 7 | 3 |
+| Kavram | 2 | 4 | 5 | 6 | 3 | 6 |
+| Boşluk | 3 | 4 | 4 | 6 | 1 | 0 |
+| Eşleştirme | 2 | 2 | 5 | 8 | 1 | 3 |
+| Sıralama | 0,5 | 0 | 1 | 0 | 1 | 3 |
+
+Öncüllü sorular (68 adet): öncül sayısı 4 → %54, 5 → %26, 3 → %19. Doğru cevap: ara kombinasyon %63, tek öncül ("Yalnız X") %18, tüm öncüller %19. Tarifede öncüllü soru 5 yılda yalnız 1 kez kullanıldı.
+
+**Okuma:** Tarifede öncüllü soru yok denecek kadar az; tarife "farklı olanı bul / hangi fasılda" ve olumsuz kökle soruluyor. Öncüllü soru gümrük mevzuatı ve sairin aracı. Eşleştirme ve boşluk en çok sairde (ülke–belge, tebliğ–kurum, eşik–belge). Gümrük mevzuatında olumsuz kök hâlâ en büyük pay, ama öncüllüye doğru kayıyor.
 
 ### 1.4 Ölçülen bilgi türü (5 yılın en sık 12'si)
 Kapsam (kim/ne dahil-hariç) › Sınıflandırma kuralı › Matrah/kıymet unsuru › Usul/prosedür › Şart › Süre (+ süre başlangıcı) › Belge › Makam/yetki › Tanım › Oran/tutar/eşik › Hukuki sonuç › Yaptırım/ceza.

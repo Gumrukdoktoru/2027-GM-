@@ -148,8 +148,9 @@ Eski kurum adı (Müsteşarlık) tek başına bir şıkkı yanlış yapmaz; ayn�
 ---
 
 ## 5. TİP PAYLARI (GM bölümü için hedef)
-Olumsuz %30–35 · Öncüllü %18–22 · Düz %15–18 · Doğru %8–10 · Boşluk %5–7 · Eşleştirme/tablo %5–7 · Vaka %5–7 · Kavram %3–4.
-Olumsuz kutuplu toplam ≈ %40. Öncüllülerde cevap dağılımı: ~%25 "Yalnız X", ~%20–25 tüm öncüller, gerisi ara kombinasyon.
+Olumsuz %38–42 · Öncüllü %20–23 · Düz %13–17 · Doğru %8–10 · Vaka %4–5 · Boşluk %3–4 · Kavram %2–4 · Eşleştirme/tablo %2–3 · Sıralama ≤%1.
+(Gerçek GM sözel soruları: 5 yıl ortalaması olumsuz %44, öncüllü %19, düz %18, doğru %9, vaka %4, boşluk %3, kavram %2, eşleştirme %2. 2024–25'te olumsuz %39'a indi, öncüllü %23'e çıktı. Hedef bantlar son iki yıla ağırlık verir.)
+Olumsuz kutuplu toplam ≈ %45. Öncüllülerde cevap dağılımı: ~%18 "Yalnız X", ~%19 tüm öncüller, ~%63 ara kombinasyon. Öncül sayısı çoğunlukla 4, sonra 5.
 
 ---
 

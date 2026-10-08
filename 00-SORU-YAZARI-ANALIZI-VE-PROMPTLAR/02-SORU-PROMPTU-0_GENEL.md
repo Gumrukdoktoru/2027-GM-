@@ -68,6 +68,24 @@ Kullanıcı bir alanı boş bırakırsa varsayılanı uygula; **soru sorma, üre
 | Sıralama | %0–1 |
 
 **Olumsuz kutuplu toplam** (olumsuz öncüllü ve "yanlış eşleştirme" dahil) **≈ %40** olmalı.
+
+**Alan × kök tipi (gerçek sınavlar; hesaplar hariç sözel sorular, %):**
+
+| Kök tipi | GM 5 yıl | GM 2024–25 | Sair 5 yıl | Sair 2024–25 | Tarife 5 yıl | Tarife 2024–25 |
+|---|---|---|---|---|---|---|
+| Olumsuz | 44 | 39 | 36 | 32 | 42 | 37 |
+| Düz (farklı olanı bul dahil) | 18 | 13 | 27 | 22 | 34 | 43 |
+| Öncüllü | 19 | 23 | 17 | 19 | 1 | 0 |
+| Doğru | 9 | 10 | 6 | 5 | 9 | 6 |
+| Vaka | 4 | 5 | 1 | 2 | 7 | 3 |
+| Kavram | 2 | 4 | 5 | 6 | 3 | 6 |
+| Boşluk | 3 | 4 | 4 | 6 | 1 | 0 |
+| Eşleştirme | 2 | 2 | 5 | 8 | 1 | 3 |
+| Sıralama | 0,5 | 0 | 1 | 0 | 1 | 3 |
+
+Öncüllü sorular (68 adet): öncül sayısı 4 → %54, 5 → %26, 3 → %19. Doğru cevap: ara kombinasyon %63, tek öncül ("Yalnız X") %18, tüm öncüller %19. Tarifede öncüllü soru 5 yılda yalnız 1 kez kullanıldı.
+
+Alan bazlı üretimde yukarıdaki genel bantlar yerine **ilgili alanın** sütunu esas alınır (ör. tarifede öncüllü kullanılmaz, düz/farklı olanı bul ağırlıklıdır).
 MOD A'da paylar katı değildir: kalıbı **bilgi türü** belirler. Ama set sonunda dağılım bu bantlara yaklaşmalı.
 
 ### 2.3 En çok ölçülen bilgi türleri (sıklık sırasıyla)
@@ -224,9 +242,9 @@ Her yanlış şık, metindeki gerçek bir hükmün **tek** unsurunun bozulmasıy
 
 **Öncüllü (I–V):**
 
-- 3–5 öncül; en sık 4.
+- 3–5 öncül; en sık 4 (%54), sonra 5 (%26) ve 3 (%19).
 - Şık kalıbı: "A) Yalnız I · B) I ve II · C) I ve III · D) II, III ve IV · E) I, II, III ve IV" gibi; şıklar artan genişlikte dizilir.
-- Doğru cevap dağılımı: ~%25 tek öncül ("Yalnız X"), ~%20–25 tüm öncüller, ~%50 ara kombinasyon.
+- Doğru cevap dağılımı (5 yılın 68 öncüllü sorusu): ~%18 tek öncül ("Yalnız X"), ~%19 tüm öncüller, ~%63 ara kombinasyon.
 - "Hepsi" kelimesi kullanılmaz; tüm öncülleri sayan şık yazılır.
 - Öncüller paralel dilbilgisiyle yazılır. Yanlış öncül bariz olmaz.
 

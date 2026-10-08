@@ -145,7 +145,8 @@ Dayanağı tam adıyla yaz: "Türk Parası Kıymetini Koruma Hakkında 32 Sayıl
 ---
 
 ## 5. TİP PAYLARI (sair bölümü için hedef)
-Olumsuz %30–35 · Düz/liste %20–25 · Öncüllü %15–18 · Eşleştirme %8–10 · Doğru %7–9 · Boşluk %4–6 · Kavram %3–5 · Vaka %2–3.
+Olumsuz %32–36 · Düz/liste %22–26 · Öncüllü %17–19 · Eşleştirme %5–8 · Kavram %5–6 · Doğru %5–6 · Boşluk %4–6 · Vaka %1–2.
+(Gerçek sair sözel soruları: 5 yıl ortalaması olumsuz %36, düz %27, öncüllü %17, doğru %6, kavram %5, eşleştirme %5, boşluk %4, vaka %1. 2024–25'te eşleştirme %8'e, boşluk %6'ya çıktı. Hedef bantlar son iki yıla ağırlık verir.)
 
 ---
 

@@ -126,7 +126,8 @@ Her envanter satırını T1–T8 ailelerinden en uygun olana bağla. Bir fasıld
 ---
 
 ## 4. TİP PAYLARI (tarife bloğu için hedef)
-Olumsuz %40 · Düz (farklı olanı bul dahil) %30 · Tanım/kavram/vaka %15 · Doğru (GYKK örneği) %8 · Sıralama/eşleştirme/boşluk %7.
+Olumsuz %38–42 · Düz (farklı olanı bul ve "hangi pozisyonda" dahil) %35–40 · Tanım/kavram/vaka %8–10 · Doğru (GYKK örneği) %6–9 · Sıralama/eşleştirme/boşluk %3–5. **Öncüllü kullanılmaz** (5 yılda yalnız 1 tarife sorusu öncüllüydü).
+(Gerçek tarife soruları: 5 yıl ortalaması olumsuz %42, düz %34, doğru %9, vaka %7, kavram %3. 2024–25'te düz %43'e çıktı.)
 Doğru şıklar harflere dengeli dağıtılır. 2023'te tarifede 18 sorunun 9'u D çıktı; bunu **taklit etme.**
 
 ---
