@@ -10,6 +10,7 @@ Denemelerin nasıl üretildiğinin kaydı. Dosyalardaki `/tmp/.../scratchpad` yo
 | `VERIFY.md` | Bağımsız doğrulama talimatı |
 | `dogrulama/` | Küme küme doğrulama raporları (her soru için TAMAM / DÜZELT / YENİDEN YAZ ve gerekçesi) |
 | `CAPRAZ.md`, `capraz/` | Deneme bazında çapraz kontrol talimatı ve uygulanan yamalar |
-| `betikler/` | Plan (`blueprint.py`, `slots.py`), birleştirme (`birlestir.py`), yama (`yama_uygula.py`), denetim (`lint_deneme.py`) ve teslim (`teslim.sh`) betikleri |
+| `DERECE.md`, `derece/` | Zorluk, ölçülen bilgi özeti, soru kalıbı ve çıkmış soru karşılığı etiketleme talimatı ve her denemenin etiketleri |
+| `betikler/` | Plan (`blueprint.py`, `slots.py`), birleştirme (`birlestir.py`), yama (`yama_uygula.py`), denetim (`lint_deneme.py`, `derece_kontrol.py`), Word üretimi (`deneme_hazirla.py` → `deneme_docx.js`) ve teslim (`teslim.sh`, `teslim_docx.sh`) betikleri |
 
-Yeni deneme üretmek için aynı akış kullanılabilir: plan → küme üretimi (BRIEF) → doğrulama (VERIFY) → birleştirme → çapraz kontrol (CAPRAZ) → yama → teslim.
+Yeni deneme üretmek için aynı akış kullanılabilir: plan → küme üretimi (BRIEF) → doğrulama (VERIFY) → birleştirme → çapraz kontrol (CAPRAZ) → yama → etiketleme (DERECE) → Word/PDF teslimi.

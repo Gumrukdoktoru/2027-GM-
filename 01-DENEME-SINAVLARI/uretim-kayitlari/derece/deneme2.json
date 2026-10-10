@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "GM-B2-07",
+  "no": 1,
+  "zorluk": "O",
+  "ozet": "Çıkış özet beyanını eşyayı çıkaran/sunan kişi verir, risk analizinde bildirim yapılır; çıkış bildirimi TGB'yi terk anına kadar verilir ve taşıttaki tüm eşyayı kapsar.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Özet Beyan",
+  "cikmis": "2021/36, 2024/71"
+ },
+ {
+  "id": "GM-B2-08",
+  "no": 2,
+  "zorluk": "O",
+  "ozet": "Mahkemece iadesine karar verilen kaçak eşya tebligattan itibaren geçici depolanan eşya sayılır; 30 gün içinde gümrükçe onaylanmış işlem veya kullanım tayin edilir (GY 85).",
+  "kalip": "SÜRE",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Geçici Depolama",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-B2-09",
+  "no": 3,
+  "zorluk": "O",
+  "ozet": "Tamamlayıcı beyan, basitleştirilmiş beyanın tescil tarihinden hüküm doğurur; basitleştirilmiş beyan gerekli tüm bilgi ve belgeleri içeriyorsa tamamlayıcı beyan aranmaz.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Basitleştirilmiş Usul",
+  "cikmis": "2021/20"
+ },
+ {
+  "id": "GM-B2-10",
+  "no": 4,
+  "zorluk": "O",
+  "ozet": "Özellikleri nedeniyle geçici depolama yeri veya antrepoya alınmayan eşyanın teslimden sonra işlemlerinin tamamlanması yaygın basitleştirilmiş usuldür (Seri No: 16).",
+  "kalip": "KAVRAM",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Basitleştirilmiş Usul",
+  "cikmis": "2025/25"
+ },
+ {
+  "id": "GM-A2-15",
+  "no": 5,
+  "zorluk": "O",
+  "ozet": "Özel kuruluşlara hemen teslim edilebilecek eşya arasında aşı, gazete-dergi, tüp bebek solüsyonu, acil uçak/gemi parçası vardır; taze sebze-meyve sayılmaz.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Eşyanın Teslimi",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A1-10",
+  "no": 6,
+  "zorluk": "ÇZ",
+  "ozet": "İzinli gönderici yenilemesi her üç yılın son ayında yapılır; GM talebinde 30 günde başvurulmazsa yetki askıya alınır, askıdan itibaren 90 günde yenilenmezse iptal edilir.",
+  "kalip": "BOŞLUK",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Transit",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A1-11",
+  "no": 7,
+  "zorluk": "O",
+  "ozet": "İzinli gönderici sevkiyatına gümrük idaresinden eşya alınırsa mühür sökme, yeni mühür ve refakat belgesine mühür numarası yazma işlemlerini gümrük idaresi yapar.",
+  "kalip": "OLAY",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Transit",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A1-09",
+  "no": 8,
+  "zorluk": "ÇK",
+  "ozet": "Transitten aykırı çıkarmada sorumlular: rejim hak sahibi, çıkaran, iştirak eden ve bilerek edinen/bulunduranlardır; kefil bu kişiler arasında sayılmaz.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Transit",
+  "cikmis": "2023/88"
+ },
+ {
+  "id": "GM-A1-12",
+  "no": 9,
+  "zorluk": "K",
+  "ozet": "Transitte teminat zorunludur; hava, demir, boru hattı ve deniz yolu taşımalarında yönetmelikle belirlenen hâller dışında teminat aranmaz.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Transit",
+  "cikmis": "2021/74"
+ },
+ {
+  "id": "GM-A1-13",
+  "no": 10,
+  "zorluk": "O",
+  "ozet": "Konteynerli eşyada antrepoya alışta kap farkı çıkarsa kullanıcıdan 45 (+30) günde izah istenir; farka konu olmayan kapların işlemleri durdurulmaz (GY 522/8).",
+  "kalip": "OLAY",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Antrepo",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A1-14",
+  "no": 11,
+  "zorluk": "Z",
+  "ozet": "Antrepo yatırım izni asgari üç yıldır faaliyette olan şirketlere verilir; bildirimden itibaren altı ayda tesis hazırlanıp gümrük müdürlüğüne başvurulur (GY 518).",
+  "kalip": "BOŞLUK",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Antrepo",
+  "cikmis": "2024/85, 2022/60"
+ },
+ {
+  "id": "GM-A1-15",
+  "no": 12,
+  "zorluk": "Z",
+  "ozet": "YGM ile tespit yaptıran antrepo işleticisi arasında tespit dışı iş ilişkisi saptanırsa antrepoya üç ay süreyle eşya alınmaz (GY 525/7-b).",
+  "kalip": "SÜRE",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Antrepo",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A1-16",
+  "no": 13,
+  "zorluk": "O",
+  "ozet": "A, C, D ve E tipi antrepolarda stok kayıtlarını işletici tutar; B tipinde gümrük idaresi beyanname kaydı tutar, F tipinde gümrük kayıtları stok kaydı yerine geçer.",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Antrepo",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-B-12",
+  "no": 14,
+  "zorluk": "O",
+  "ozet": "Ticari olmayan yolcu eşyası, sarı etiketsiz posta gönderileri ve Pan-Avrupa(-Akdeniz) kümülasyon koşullarını sağlayan eşya A.TR aranmaksızın serbest dolaşımda kabul edilir.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Sair Mevzuat",
+  "konu": "A.TR Dolaşım Belgesi",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-B-15",
+  "no": 15,
+  "zorluk": "Z",
+  "ozet": "A.TR vize tarihinden itibaren dört ayda ibraz edilir; basitleştirilmiş usulle düzenlenen A.TR'de süre belgede belirtilen fiili ihraç tarihinden itibaren dört aydır.",
+  "kalip": "BOŞLUK",
+  "ders": "Sair Mevzuat",
+  "konu": "A.TR Dolaşım Belgesi",
+  "cikmis": "2023/58"
+ },
+ {
+  "id": "SR-B-16",
+  "no": 16,
+  "zorluk": "ÇK",
+  "ozet": "Yanlış form, eksik kutu, mühür/imza eksikliği, fotokopi, bildirilmemiş kaşe A.TR'nin teknik ret sebebidir; şüphe yaratmayan bariz maddi hata ret sebebi değildir.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "A.TR Dolaşım Belgesi",
+  "cikmis": "2025/32"
+ },
+ {
+  "id": "SR-B-17",
+  "no": 17,
+  "zorluk": "ÇK",
+  "ozet": "Akreditifli ödemede ithalatçının talebiyle akreditifi açan ve şartlara uygun vesaik ibrazında ödeme yükümlüsü olan banka amir (açan) bankadır.",
+  "kalip": "TANIM",
+  "ders": "Sair Mevzuat",
+  "konu": "Ödeme Şekilleri",
+  "cikmis": "2024/28"
+ },
+ {
+  "id": "SR-B-18",
+  "no": 18,
+  "zorluk": "K",
+  "ozet": "Incoterms 2020'de C grubunda (CFR, CIF, CPT, CIP) satıcı ana taşımayı sözleşir ve navlunu öder; D grubunda varma yerine kadar masraf ve risk satıcıdadır.",
+  "kalip": "KAPSAM",
+  "ders": "Sair Mevzuat",
+  "konu": "Incoterms",
+  "cikmis": "2023/64"
+ },
+ {
+  "id": "GM-A2-11",
+  "no": 19,
+  "zorluk": "O",
+  "ozet": "Yasak, tüketilebilir, ayniyeti tespit edilemeyen ve ekonomiye zararlı eşya geçici ithal edilemez; TPÖ'ye tabi olmak engel değildir (2009/15481 md. 40, GK 128).",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Geçici İthalat",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A2-12",
+  "no": 20,
+  "zorluk": "Z",
+  "ozet": "Önemli ekonomik etkisi olmayan eşyaya bir defaya mahsus tam muafiyetle verilen süre üç ayı geçemez ve uzatım talepleri karşılanmaz (2009/15481 md. 39).",
+  "kalip": "DOĞRU",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Geçici İthalat",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A2-13",
+  "no": 21,
+  "zorluk": "O",
+  "ozet": "Eşdeğer eşyanın GK 109 uyarınca işleme faaliyetinde kullanımı rejime giriş işlemlerine tabi değildir; önceden ihracatta süre ihracat beyannamesi tescilinden başlar.",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Dahilde İşleme",
+  "cikmis": "2021/15, 2024/65"
+ },
+ {
+  "id": "GM-A2-14",
+  "no": 22,
+  "zorluk": "O",
+  "ozet": "Garanti, kanuni yükümlülük veya imalat hatası nedeniyle bedelsiz tamir edildiği kanıtlanan geçici ihracat eşyası ithalat vergilerinden tam muaf girer (GK 142).",
+  "kalip": "DOĞRU",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Hariçte İşleme",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A2-16",
+  "no": 23,
+  "zorluk": "O",
+  "ozet": "Dış seferdeki taşıtlara serbest dolaşımdaki işletme ve donatım eşyası teslimi ihracat hükmündedir; yeniden ihracat hükmünde değildir (GY 418).",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "İhracat Rejimi",
+  "cikmis": "2022/14"
+ },
+ {
+  "id": "SR-C-09",
+  "no": 24,
+  "zorluk": "Z",
+  "ozet": "Konsinye ihracatta kesin satış, satıştan sonraki yüz yirmi gün içinde İhracatçı Birlikleri GS'ye ve aracı bankaya bildirilir (İhracat Yön. md. 9, 2025 değişikliği).",
+  "kalip": "YANLIŞ",
+  "ders": "Sair Mevzuat",
+  "konu": "Konsinye İhracat",
+  "cikmis": "2025/60, 2022/10"
+ },
+ {
+  "id": "SR-C-11",
+  "no": 25,
+  "zorluk": "ÇZ",
+  "ozet": "Alıcının kabul etmediği mallarda aynı veya başka bedel ve şartlarla ihracat talepleri gümrük idarelerince; yanma, çalınma gibi hâller Bakanlıkça sonuçlandırılır.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Sair Mevzuat",
+  "konu": "İhracat Yönetmeliği",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-C-10",
+  "no": 26,
+  "zorluk": "K",
+  "ozet": "Meyan kökü, ham lületaşı, orijinal bağırsak ve tohumluk olmayan haşhaş tohumu ihracı kayda bağlıdır; afyon ve haşhaş kellesi ihracı ön izne bağlıdır.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "İhracı Kayda Bağlı Mallar",
+  "cikmis": "2025/61"
+ },
+ {
+  "id": "SR-C-14",
+  "no": 27,
+  "zorluk": "Z",
+  "ozet": "İGV muafiyetli ithalatta, tarife kontenjanında, DİR telafi edici vergi hesabında ve V/VI sayılı listedeki eşyada uygulanmaz; II/III sayılı listede olmak istisna değildir.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "İlave Gümrük Vergisi",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-C-15",
+  "no": 28,
+  "zorluk": "Z",
+  "ozet": "DİR'de taahhüdün %1'ine kadar değişmemiş eşya ithali, işletme malzemesinde %2 (taş/kıymetli maden %10) sınırı vardır; döviz kullanım oranı yurt içi alımda aranmaz.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Sair Mevzuat",
+  "konu": "Dahilde İşleme",
+  "cikmis": "2024/68"
+ },
+ {
+  "id": "GM-A2-17",
+  "no": 29,
+  "zorluk": "ÇK",
+  "ozet": "Geri gelen eşya muafiyetinde ihracat beyannamesi, ayniyet belgeleri ve varsa yararlanılan hak ve menfaatin iadesine ilişkin belge ibraz edilir (GY 448, 451).",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Geri Gelen Eşya",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A2-18",
+  "no": 30,
+  "zorluk": "O",
+  "ozet": "Geçici ihracat eşyası üç yıllık süre aşılarak getirilirse GK 241/3-ı usulsüzlük cezası uygulanır, vergiler alınarak serbest dolaşıma sokulur (GY 453).",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Geçici İhracat",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-B1-09",
+  "no": 31,
+  "zorluk": "Z",
+  "ozet": "Standart depo yakıtı TIR çekicisinde 550, 15 tona kadar kamyon/tankerde 300, 15 ton üzerinde 400, otobüste 300 litreye kadar muaftır (2009/15481 md. 96).",
+  "kalip": "MUAFİYET",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Muafiyetler",
+  "cikmis": "2023/37, 2024/7"
+ },
+ {
+  "id": "GM-B1-10",
+  "no": 32,
+  "zorluk": "O",
+  "ozet": "Muafiyetlerde mücbir sebep: kriz, yasak, abluka, savaş, seferberlik, terör, kaza, hastalık, tutukluluk, iflas, faaliyetin durdurulması; ulaştırma değişikliği beklenmeyen hâldir.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Muafiyetler",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-B1-11",
+  "no": 33,
+  "zorluk": "O",
+  "ozet": "Yabancı devlet başkanı ve refakati, diplomatik pasaportlu resmî heyetler, meslekten konsolosluk memurları ve uluslararası kuruluş personeli diplomatik muafiyetten yararlanır.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Diplomatik Muafiyet",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-B1-12",
+  "no": 34,
+  "zorluk": "O",
+  "ozet": "İstisnai kıymetle beyan, sürekli akış hâlindeki boru hattı eşyası ve fiyatı sonradan gözden geçirilecek sözleşmeler gibi kesinleşmemiş kıymet unsurları için kullanılır.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2022/48, 2022/49"
+ },
+ {
+  "id": "GM-B1-13",
+  "no": 35,
+  "zorluk": "O",
+  "ozet": "Alıcının üçüncü kişiye ödediği royalti, satıcı veya ilişkilisi bu ödemeyi istemiyorsa satış şartı sayılmaz ve kıymete eklenmez.",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2024/13"
+ },
+ {
+  "id": "GM-B1-14",
+  "no": 36,
+  "zorluk": "ÇK",
+  "ozet": "Alıcının bedelsiz sağladığı parça, kalıp, ambalaj ve yurt dışında yapılan tasarım kıymete eklenir; Türkiye'de yapılan tasarım ve mühendislik eklenmez (GK 27/1-b).",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2023/77"
+ },
+ {
+  "id": "GM-B1-15",
+  "no": 37,
+  "zorluk": "K",
+  "ozet": "TPÖ'ye tabi eşyada tercihli menşe belgesi ibraz edilirse menşe şahadetnamesi aranmaz; birden fazla önlem veya ülkeye göre farklı oran varsa aranır (GY 205).",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Menşe",
+  "cikmis": "2023/45, 2025/35"
+ },
+ {
+  "id": "SR-B-19",
+  "no": 38,
+  "zorluk": "O",
+  "ozet": "Ticaretin Kolaylaştırılması Anlaşması bir DTÖ anlaşmasıdır; uygulamayı izleyen Ticaretin Kolaylaştırılması Komitesi DGÖ'de değil DTÖ bünyesinde kurulmuştur.",
+  "kalip": "YANLIŞ",
+  "ders": "Sair Mevzuat",
+  "konu": "Ticaretin Kolaylaştırılması Anlaşması",
+  "cikmis": "2025/6"
+ },
+ {
+  "id": "SR-B-20",
+  "no": 39,
+  "zorluk": "O",
+  "ozet": "Ticaretin Kolaylaştırılması Anlaşmasına göre üyeler, Anlaşmanın yürürlüğünden itibaren gümrük müşavirlerinin zorunlu kullanımını getirmez (md. 10.6.1).",
+  "kalip": "DOĞRU",
+  "ders": "Sair Mevzuat",
+  "konu": "Ticaretin Kolaylaştırılması Anlaşması",
+  "cikmis": "2025/6"
+ },
+ {
+  "id": "SR-B-21",
+  "no": 40,
+  "zorluk": "ÇK",
+  "ozet": "ATA karnesi taşıma araçları hariç eşyanın geçici ithali için kullanılır; Türkiye sergi-fuar, mesleki malzeme, eğitsel-bilimsel eşya ve hayvan eklerini kabul eder.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "ATA Karnesi",
+  "cikmis": "2024/92"
+ },
+ {
+  "id": "SR-B-22",
+  "no": 41,
+  "zorluk": "K",
+  "ozet": "TIR Sözleşmesinde uluslararası teminat sisteminin işleyişinden ve TIR karnelerinin merkezi basımı ile dağıtımından sorumlu kuruluş IRU'dur.",
+  "kalip": "YETKİ",
+  "ders": "Sair Mevzuat",
+  "konu": "TIR",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-C-16",
+  "no": 42,
+  "zorluk": "ÇZ",
+  "ozet": "Posta idaresinden, operatör koşullarından yalnız gümrük müşaviri istihdamı ile X-ray, barkod okuyucu, yürüyen bant ve kamera altyapısı koşulları aranır (Tebliğ md. 4/2).",
+  "kalip": "KAPSAM",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Posta ve Hızlı Kargo",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-A2-19",
+  "no": 43,
+  "zorluk": "K",
+  "ozet": "Kabotaja girecek gemilerin yabancı limandan aldığı yakıtta vergiye esas miktar, seyir jurnaline göre alınan ile jurnal ve devriçark defterine göre sarf edilenin farkıdır.",
+  "kalip": "SONUÇ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Akaryakıt ve Kumanya",
+  "cikmis": "2021/26"
+ },
+ {
+  "id": "GM-A2-20",
+  "no": 44,
+  "zorluk": "Z",
+  "ozet": "Sınır ticareti kapsamında ithal ve ihraç edilen ürünler Teknik Düzenlemeler Rejimi Kararına dayalı ithalat ve ihracat denetimlerinden muaftır (4874 s. Karar md. 12).",
+  "kalip": "DOĞRU",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Sınır Ticareti",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-A-15",
+  "no": 45,
+  "zorluk": "ÇK",
+  "ozet": "Kıymetli madenin çekilip şerit yapılması veya şeridin kesilmesiyle oluşturulan, herhangi bir saflık ayarındaki madenler çekili kıymetli madendir (32 s. Karar md. 2).",
+  "kalip": "KAVRAM",
+  "ders": "Sair Mevzuat",
+  "konu": "Kambiyo",
+  "cikmis": "2025/37"
+ },
+ {
+  "id": "SR-A-16",
+  "no": 46,
+  "zorluk": "O",
+  "ozet": "İhracat bedelinde mücbir sebep: afet, harp, abluka, grev, lokavt, avarya, malın kaybı/hasarı, dava veya tahkim; resmî kayıtla tevsik edilen diğer engeller haklı durumdur.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "Kambiyo",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-A-17",
+  "no": 47,
+  "zorluk": "O",
+  "ozet": "Kredi, miras, armağan, çeyiz gibi kişisel sermaye hareketleri ve ham elmas bedeli yalnız bankacılık sistemiyle getirilir; ihracat bedeli efektif yolcu beraberinde getirilebilir.",
+  "kalip": "KAPSAM",
+  "ders": "Sair Mevzuat",
+  "konu": "Kambiyo",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-A-22",
+  "no": 48,
+  "zorluk": "O",
+  "ozet": "Gümrük vergisinin maktu alındığı hâllerde tek ve maktu tarife ithalde KDV dahil edilerek belirlenir; ithalde KDV gümrük idaresince tarh edilir ve gümrük vergisiyle ödenir.",
+  "kalip": "DOĞRU",
+  "ders": "Sair Mevzuat",
+  "konu": "KDV",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-A-18",
+  "no": 49,
+  "zorluk": "O",
+  "ozet": "(I) sayılı liste ithalinde genel/özel bütçeli idareler, il özel idareleri, %51 kamu payı olanlar ve kamu çoğunluklu özelleştirme kuruluşlarından teminat aranmaz; belediyeler sayılmaz.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "ÖTV",
+  "cikmis": "2022/55"
+ },
+ {
+  "id": "SR-A-19",
+  "no": 50,
+  "zorluk": "O",
+  "ozet": "(I) sayılı listenin (A) cetveli mallarında teminat mektubu Bakanlık adına, (B) cetveli mallarında mükellefin ÖTV yönünden bağlı olduğu vergi dairesi adına düzenlenir.",
+  "kalip": "ZORUNLULUK",
+  "ders": "Sair Mevzuat",
+  "konu": "ÖTV",
+  "cikmis": "2022/55"
+ },
+ {
+  "id": "SR-A-20",
+  "no": 51,
+  "zorluk": "O",
+  "ozet": "Bankalar ve finansman şirketleri dışında Türkiye'de yerleşiklerin yurt dışından sağladıkları krediler KKDF kesintisine tabidir (88/12944 s. Karar md. 3/c).",
+  "kalip": "KAPSAM",
+  "ders": "Sair Mevzuat",
+  "konu": "KKDF",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-A-21",
+  "no": 52,
+  "zorluk": "K",
+  "ozet": "Petrol, gübre, gübre hammaddesi, buğday ve arpa ithalatı ile yatırım teşvik belgeli ithalatta KKDF kesilmez; pirinç ithalatı bu istisnada yer almaz.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Sair Mevzuat",
+  "konu": "KKDF",
+  "cikmis": "2022/2"
+ },
+ {
+  "id": "GM-B2-11",
+  "no": 53,
+  "zorluk": "Z",
+  "ozet": "Garanti mektubuyla işlemde yükümlülükler tam ve zamanında yerine getirilmezse yükümlüye bir yıl boyunca bu haktan yararlanma izni verilmez (GY 495/2).",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Teminat",
+  "cikmis": "2025/93"
+ },
+ {
+  "id": "GM-B2-12",
+  "no": 54,
+  "zorluk": "ÇK",
+  "ozet": "Gümrük yükümlülüğü ödeme, kaldırma, beyanname iptali, müsadere/imha, terk ve mücbir sebeple telef gibi hâllerle sona erer; tecil ve taksitlendirme sona erdirmez (GK 208).",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Gümrük Yükümlülüğü",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-B1-16",
+  "no": 55,
+  "zorluk": "O",
+  "ozet": "Geri verme/kaldırma başvurusu Kanundaki süreler içinde yapıldıkça, GK 242 itiraz hakkının süresinde kullanılmamış olması başvuruya engel değildir.",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Geri Verme ve Kaldırma",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-C-18",
+  "no": 56,
+  "zorluk": "K",
+  "ozet": "Uzlaşma tebliğden itibaren 15 günde istenir ve itiraz/dava süresini durdurur; uzlaşılan tutar bir ayda ödenir; uzlaşma sağlanamazsa yeniden uzlaşma talep edilemez.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Uzlaşma",
+  "cikmis": "2024/12"
+ },
+ {
+  "id": "GM-C-19",
+  "no": 57,
+  "zorluk": "K",
+  "ozet": "İtiraz tebliğden itibaren 15 günde üst makama yapılır, 30 günde karara bağlanır; itirazın reddine karşı işlemin yapıldığı yerdeki idari yargıya gidilir (GK 242).",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "İtiraz",
+  "cikmis": "2023/41"
+ },
+ {
+  "id": "GM-C-20",
+  "no": 58,
+  "zorluk": "Z",
+  "ozet": "Tasfiyelik eşyada rejim talebi ilandan önce CIF değerin %1'i, ilandan sonra ve satıştan önce yapılırsa %10'u ile cezalar ve giderlerin ödenmesine bağlıdır (GK 179).",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Tasfiye",
+  "cikmis": "2021/29, 2021/51"
+ },
+ {
+  "id": "SR-B-13",
+  "no": 59,
+  "zorluk": "ÇK",
+  "ozet": "Menşe statüsü uzun süre değişmeyecek eşyanın düzenli tedarikinde müteakip sevkiyatları kapsayan, en çok bir yıl geçerli tek beyan uzun dönem tedarikçi beyanıdır.",
+  "kalip": "KAVRAM",
+  "ders": "Sair Mevzuat",
+  "konu": "Menşe",
+  "cikmis": "2023/48"
+ },
+ {
+  "id": "SR-B-14",
+  "no": 60,
+  "zorluk": "K",
+  "ozet": "AKÇT kapsamı ürünler Gümrük Birliği dışındadır; bunların AB ile ticaretinde A.TR değil EUR.1 dolaşım belgesi kullanılır.",
+  "kalip": "EŞLEŞTİRME",
+  "ders": "Sair Mevzuat",
+  "konu": "Menşe İspat Belgeleri",
+  "cikmis": "2024/3, 2025/33"
+ },
+ {
+  "id": "SR-A-12",
+  "no": 61,
+  "zorluk": "K",
+  "ozet": "5607'de suç belgede sahtecilikle işlenirse kaçakçılık cezasına ek olarak ayrıca belgede sahtecilikten de ceza verilir; örgüt faaliyetinde ceza iki kat artırılır.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Sair Mevzuat",
+  "konu": "Kaçakçılık",
+  "cikmis": "2022/20, 2021/44"
+ },
+ {
+  "id": "SR-A-13",
+  "no": 62,
+  "zorluk": "O",
+  "ozet": "Yurt içinde FSMH ihlali şüphesiyle el konulup gümrük işlemiyle bağlantısı kurulamayan eşya gümrükçe teslim alınmaz, milli emlak birimlerine teslim edilir.",
+  "kalip": "KAPSAM",
+  "ders": "Sair Mevzuat",
+  "konu": "Tasfiye",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-A-14",
+  "no": 63,
+  "zorluk": "K",
+  "ozet": "5607'de etkin pişmanlıkla cezanın yarı oranında indirimi, gümrüklenmiş değerin iki katının soruşturma evresi sona erinceye kadar Hazineye ödenmesine bağlıdır.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Sair Mevzuat",
+  "konu": "Kaçakçılık",
+  "cikmis": "2022/15, 2023/3"
+ },
+ {
+  "id": "GM-C-11",
+  "no": 64,
+  "zorluk": "Z",
+  "ozet": "Belge sahibinin talebi ve adına YYS sertifikası düzenlenmesi statü belgesini geri alma sebebidir; ödenmeyen kamu alacağı askıya alma, sahte belge iptal sebebidir.",
+  "kalip": "ÖNERMELİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Onaylanmış Kişi Statüsü",
+  "cikmis": "2025/90"
+ },
+ {
+  "id": "GM-C-12",
+  "no": 65,
+  "zorluk": "ÇZ",
+  "ozet": "Onaylanmış kişinin eksik belgesi süresinde ibraz edilmezse beyannamenin tescil edildiği gümrük idaresi uyarır ve durumu belgeyi düzenleyen bölge müdürlüğüne bildirir.",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Onaylanmış Kişi Statüsü",
+  "cikmis": ""
+ },
+ {
+  "id": "GM-C-13",
+  "no": 66,
+  "zorluk": "K",
+  "ozet": "YYS sahibinin ithalatta yerinde gümrükleme izninden yararlanması için aranan ek koşullardan biri imalatçı olmaktır; yüz bin avro teminat ek koşul değildir.",
+  "kalip": "DOĞRU",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Yetkilendirilmiş Yükümlü",
+  "cikmis": "2025/92, 2023/42"
+ },
+ {
+  "id": "GM-C-14",
+  "no": 67,
+  "zorluk": "ÇZ",
+  "ozet": "YGM tespit raporu süreleri: SK1 beş ay, INF4 üç ay, AN7 dönemi izleyen ayın sonu, AN9 izleyen ayın ilk yedi iş günü, DR2 tebligattan itibaren bir ay.",
+  "kalip": "EŞLEŞTİRME",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Yetkilendirilmiş Gümrük Müşaviri",
+  "cikmis": "2025/98, 2021/31"
+ },
+ {
+  "id": "GM-C-15",
+  "no": 68,
+  "zorluk": "O",
+  "ozet": "Asgari Ücret Tarifesi ihtilaflarında önce Gümrük Müşavirleri Derneğine başvurulur; ihtilaf sürerse Bakanlık (Gümrükler Genel Müdürlüğü) sonuçlandırır.",
+  "kalip": "YETKİ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Gümrük Müşavirliği",
+  "cikmis": "2025/99"
+ },
+ {
+  "id": "GM-C-17",
+  "no": 69,
+  "zorluk": "K",
+  "ozet": "FSMH başvurusunun kabulü, eşyanın muayenesiz bırakılması veya alıkonulmaması gerekçesiyle hak sahibine tazminat hakkı doğurmaz.",
+  "kalip": "YANLIŞ",
+  "ders": "Gümrük Mevzuatı",
+  "konu": "Fikri ve Sınai Haklar",
+  "cikmis": "2021/17, 2024/31"
+ },
+ {
+  "id": "SR-C-12",
+  "no": 70,
+  "zorluk": "ÇZ",
+  "ozet": "2026 ÜGD tebliğlerinde makine ve araç parçasında denetim birimi TSE; tıbbi cihaz, pil-akümülatör ve yapı malzemesinde ürün güvenliği denetimleri müdürlükleridir.",
+  "kalip": "EŞLEŞTİRME",
+  "ders": "Sair Mevzuat",
+  "konu": "Ürün Güvenliği ve Denetimi",
+  "cikmis": "2025/30"
+ },
+ {
+  "id": "SR-C-13",
+  "no": 71,
+  "zorluk": "K",
+  "ozet": "Sağlık Bakanlığı özel iznine tabi maddelerde Kontrol/Kayıt Belgesi serbest dolaşım, DİR, GKAİ ve geçici ithalat beyannamelerinin tescilinde sunulur; HİR sayılmaz.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "Ürün Güvenliği ve Denetimi",
+  "cikmis": ""
+ },
+ {
+  "id": "SR-C-16",
+  "no": 72,
+  "zorluk": "O",
+  "ozet": "Damping/sübvansiyon veya zararın bulunmaması ya da marj/miktarın ihmal edilebilir olması soruşturmayı kapatır; taahhüdün kabulü soruşturmayı durdurur (3577).",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Sair Mevzuat",
+  "konu": "Damping ve Sübvansiyon",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-B-08",
+  "no": 73,
+  "zorluk": "K",
+  "ozet": "88.06 içinde pilot olmadan uçmak üzere tasarlanmış hava taşıtlarını kapsar; balonlar ve hava gemileri (sinyal balonu dahil) 88.01'de sınıflandırılır.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – 88. Fasıl",
+  "cikmis": "2022/76"
+ },
+ {
+  "id": "TR-B-09",
+  "no": 74,
+  "zorluk": "Z",
+  "ozet": "Orijinal amacıyla kullanılamaz hâle getirilmiş, paketlenmemiş ve değerli metal geri kazanımına yönelik baskılı devre kartları 85.49'da (e-atık) sınıflandırılır.",
+  "kalip": "KAPSAM",
+  "ders": "Tarife",
+  "konu": "Tarife – 85. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-B-10",
+  "no": 75,
+  "zorluk": "Z",
+  "ozet": "İnsan yemesine elverişli balık unu 03.09, elverişsiz balık unu 23.01, havyar 16.04, yem olarak kullanılan tuzlanmış morina yumurtası 05.11'dedir.",
+  "kalip": "BOŞLUK",
+  "ders": "Tarife",
+  "konu": "Tarife – 3. Fasıl",
+  "cikmis": "2025/39"
+ },
+ {
+  "id": "TR-B-13",
+  "no": 76,
+  "zorluk": "Z",
+  "ozet": "Esas niteliği gözlük çerçevesinin verdiği çerçeve + mıknatıslı güneş gözlüğü seti GYK 1, 3(b) ve 6 ile 9003.11'de sınıflandırılır; 3(c) uygulanmaz.",
+  "kalip": "EŞLEŞTİRME",
+  "ders": "Tarife",
+  "konu": "Tarife – GYKK",
+  "cikmis": "2021/97, 2022/88"
+ },
+ {
+  "id": "TR-B-14",
+  "no": 77,
+  "zorluk": "O",
+  "ozet": "GYKK 5(a) eşyaya özgü mahfazalara uygulanır; esas niteliği mahfaza olan eşyaya (çay konulmuş gümüş kupa gibi) uygulanmaz, kupa ayrı sınıflandırılır.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – GYKK",
+  "cikmis": "2021/97"
+ },
+ {
+  "id": "TR-A-16",
+  "no": 78,
+  "zorluk": "ÇK",
+  "ozet": "Tabii bal 04.09'da; suni bal ve karamel 17.02, şeker kamışı melası 17.03, beyaz çikolata 17.04 pozisyonunda (17. fasıl) yer alır.",
+  "kalip": "KAPSAM",
+  "ders": "Tarife",
+  "konu": "Tarife – 4. ve 17. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-20",
+  "no": 79,
+  "zorluk": "O",
+  "ozet": "Kavuzu çıkarılmış veya işlenmiş hububat taneleri 10. fasıl dışındadır; ancak kavuzu çıkarılmış, parlatılmış veya kırık pirinç 10.06'da kalır.",
+  "kalip": "KAPSAM",
+  "ders": "Tarife",
+  "konu": "Tarife – 10. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-B-12",
+  "no": 80,
+  "zorluk": "Z",
+  "ozet": "Hindistan cevizi kabuğundan elde edilen, besin içermeyen sıkıştırılmış hindistan cevizi torfu (kokopit) b.y.b. bitkisel ürün olarak 14.04'te sınıflandırılır.",
+  "kalip": "OLAY",
+  "ders": "Tarife",
+  "konu": "Tarife – 14. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-15",
+  "no": 81,
+  "zorluk": "K",
+  "ozet": "Soya ve yer fıstığı dışındaki bitkisel yağların ekstraksiyon küspeleri (ayçiçeği küspesi dahil), pellet olsun olmasın 23.06'da sınıflandırılır.",
+  "kalip": "KAPSAM",
+  "ders": "Tarife",
+  "konu": "Tarife – 23. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-19",
+  "no": 82,
+  "zorluk": "K",
+  "ozet": "42.03 deriden eldiven, kemer ve bilek kayışlarını kapsar; deriden saat kayışları 42. fasıl dışındadır ve 91.13'te sınıflandırılır (42. Fasıl Not 4).",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – 42. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-11",
+  "no": 83,
+  "zorluk": "K",
+  "ozet": "Sütyen, korse ve benzerleri örme olsun olmasın 62.12'de sınıflandırılır; 61. fasıl 62.12 eşyasını kapsamaz (Not 2-a).",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – 61. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-17",
+  "no": 84,
+  "zorluk": "O",
+  "ozet": "Yüzük, kol düğmesi, pudra kutusu, tesbih gibi kişisel eşya 71.13 mücevhercilik; sofra ve süs eşyası 71.14 kuyumculuk eşyasıdır (71. Fasıl Not 9-10).",
+  "kalip": "KAPSAM",
+  "ders": "Tarife",
+  "konu": "Tarife – 71. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-B-11",
+  "no": 85,
+  "zorluk": "O",
+  "ozet": "Demir/çelikten elektriksiz ev tipi barbekü ve pişirme cihazları, güneş enerjisiyle çalışsa da 73.21'de sınıflandırılır.",
+  "kalip": "OLAY",
+  "ders": "Tarife",
+  "konu": "Tarife – 73. Fasıl",
+  "cikmis": "2024/45"
+ },
+ {
+  "id": "TR-A-14",
+  "no": 86,
+  "zorluk": "O",
+  "ozet": "3 boyutlu yazıcılar (katmanlı üretim makineleri) HS 2022 ile ihdas edilen 84.85'te, plastik katmanlı olanlar 8485.20'de sınıflandırılır.",
+  "kalip": "KAPSAM",
+  "ders": "Tarife",
+  "konu": "Tarife – 84. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-18",
+  "no": 87,
+  "zorluk": "O",
+  "ozet": "85.09 yer cilalama, gıda öğütücü ve meyve presini ağırlıktan bağımsız, diğer ev tipi cihazları 20 kg'a kadar kapsar; aspiratörlü davlumbaz 84.14'tedir.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – 85. Fasıl",
+  "cikmis": "2024/45"
+ },
+ {
+  "id": "TR-A-12",
+  "no": 88,
+  "zorluk": "O",
+  "ozet": "Zemine konulmak üzere tasarlanmış aynalar 94. fasıl dışındadır ve 70.09'da sınıflandırılır; duvara tutturulan kitap dolabı 94.03'te kalır.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – 94. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "TR-A-13",
+  "no": 89,
+  "zorluk": "K",
+  "ozet": "Tedavülde olan veya tedavüle çıkacak kullanılmamış pullar 49.07'de; ilk gün zarfları 97.04, koleksiyonlar 97.05, 100 yılı aşan antikalar 97.06'dadır.",
+  "kalip": "KAPSAM_DIŞI",
+  "ders": "Tarife",
+  "konu": "Tarife – 97. Fasıl",
+  "cikmis": ""
+ },
+ {
+  "id": "HS-B-06",
+  "no": 90,
+  "zorluk": "ÇZ",
+  "ozet": "(III) sayılı liste (A) cetveli birada ÖTV, nispi vergi ile litre × alkol derecesi × asgari maktu tutardan büyük olandır; KDV matrahına ÖTV dahil edilir.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "ÖTV",
+  "cikmis": "2022/97, 2022/93"
+ },
+ {
+  "id": "HS-B-07",
+  "no": 91,
+  "zorluk": "Z",
+  "ozet": "Kıymet tescil tarihi kuruyla çevrilir; KKDF peşin kısımdan değil mal mukabili kısımdan alınır ve KDV matrahına girer; tescil sonrası ardiye matraha girmez.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "KDV Matrahı",
+  "cikmis": "2021/87"
+ },
+ {
+  "id": "HS-B-08",
+  "no": 92,
+  "zorluk": "ÇZ",
+  "ozet": "(II) sayılı listede motorlu araç ticareti yapanın satmak üzere ithali ilk iktisap değildir, ÖTV doğmaz; kullanmak üzere ithalatta ÖTV ithalde alınır.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "ÖTV",
+  "cikmis": "2023/78, 2022/53"
+ },
+ {
+  "id": "HS-B-09",
+  "no": 93,
+  "zorluk": "ÇZ",
+  "ozet": "Noksan vergiler tescilden itibaren üç yılda tebliğ edilmelidir; zamanaşımına uğramayan vergilere 3 kat ceza uygulanır, peşin ödemede yalnız cezaya 1/4 indirim yapılır.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Ceza ve Zamanaşımı",
+  "cikmis": "2021/83, 2024/23"
+ },
+ {
+  "id": "HS-A-12",
+  "no": 94,
+  "zorluk": "O",
+  "ozet": "Aynı eşya yönteminde miktar farkı satıcının geçerli fiyat listesinin aynı ticari düzeydeki kademesiyle düzeltilir; reddedilen işlem bedeli ve perakende fiyat kullanılmaz.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2023/83, 2021/88"
+ },
+ {
+  "id": "HS-A-10",
+  "no": 95,
+  "zorluk": "Z",
+  "ozet": "Gözetime tabi eşyada vergiler beyan edilip kabul edilen gözetim kıymeti üzerinden hesaplanır; satıcıya ve taşıyıcıya fiilen ödenen tutarlar değişmez.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Gözetim",
+  "cikmis": "2023/76"
+ },
+ {
+  "id": "HS-A-11",
+  "no": 96,
+  "zorluk": "O",
+  "ozet": "Satın alma komisyonu ve alıcının bayilerine ödediği prim kıymete girmez; satış komisyonu ve simsarlık ücreti eklenir; fiyata dahil satıcı primi ayrıca eklenmez.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2024/19, 2022/89"
+ },
+ {
+  "id": "HS-A-09",
+  "no": 97,
+  "zorluk": "ÇZ",
+  "ozet": "Yurt dışında yapılan tasarım ve üretimde tüketilen bedelsiz malzeme kıymete eklenir; Türkiye'de geliştirilen yazılım, faiz, teyit komisyonu, ithalat sonrası hizmet eklenmez.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2023/77, 2025/20"
+ },
+ {
+  "id": "HS-A-07",
+  "no": 98,
+  "zorluk": "Z",
+  "ozet": "Satıcıya ödenen garanti bedeli ve satış şartı patent ücreti kıymete eklenir; ayrı gösterilen ithalat sonrası bakım ve giriş yerinden sonraki giderler eklenmez.",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Gümrük Kıymeti",
+  "cikmis": "2025/20, 2024/27"
+ },
+ {
+  "id": "HS-A-08",
+  "no": 99,
+  "zorluk": "Z",
+  "ozet": "İthalde KDV matrahına kıymet ve vergilere ek olarak tescile kadar ödenen tahliye, memur yolluğu ve tescil öncesi ardiye girer; tescil sonrası giderler girmez (KDVK 21).",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "KDV Matrahı",
+  "cikmis": "2023/82, 2024/10"
+ },
+ {
+  "id": "HS-B-10",
+  "no": 100,
+  "zorluk": "O",
+  "ozet": "Tanklardan oluşan antrepoda götürü teminat saha alanına göre değil toplam tank hacmine göre hesaplanır; 2.000 m³ altı artışlar 2.000 m³'e tamamlanır (GY 527).",
+  "kalip": "HESAP",
+  "ders": "Hesaplama",
+  "konu": "Götürü Teminat",
+  "cikmis": "2023/99, 2024/83"
+ }
+]

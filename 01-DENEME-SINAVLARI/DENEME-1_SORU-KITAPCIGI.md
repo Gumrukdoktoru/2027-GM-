@@ -9,7 +9,7 @@
 3. Sınav süresi 150 dakikadır.
 4. Değerlendirme yalnız doğru cevap sayısı üzerinden yapılır; yanlış cevaplar doğruları götürmez.
 
-> Bu deneme, 2021–2025 Gümrük Müşavirliği sınavlarının soru-soru analizine dayanılarak gerçek sınavın alan dağılımı (42 Gümrük Mevzuatı, 30 Sair Mevzuat, 17 Tarife, 11 Hesap), blok düzeni ve soru tipi dağılımıyla hazırlanmıştır. Cevap anahtarı ve açıklamalı çözümler ayrı dosyadadır.
+> Bu deneme, 2021–2025 Gümrük Müşavirliği sınavlarının soru-soru analizine dayanılarak gerçek sınavın alan dağılımı (42 Gümrük Mevzuatı, 30 Sair Mevzuat, 17 Tarife, 11 Hesap), blok düzeni ve soru tipi dağılımıyla hazırlanmıştır. Cevap anahtarı ve gerekçeli çözümler tam deneme dosyasındadır (`DENEME-1`).
 
 ---
 

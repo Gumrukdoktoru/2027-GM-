@@ -6,22 +6,30 @@ Bu klasörde 100'er soruluk üç deneme sınavı var. Denemeler, 2021–2025 sı
 
 | Dosya | İçerik |
 |---|---|
-| `DENEME-1_SORU-KITAPCIGI` (.pdf / .docx / .md) | Deneme 1 — yalnız sorular; yazdırıp 150 dakikada çözmek için |
-| `DENEME-1_CEVAP-ANAHTARI-VE-COZUMLER` (.pdf / .docx / .md) | Cevap anahtarı, denemenin yapısı ve 100 sorunun açıklamalı çözümü (gerekçe, tuzak, dayanak) |
-| `DENEME-2_…`, `DENEME-3_…` | Aynı düzende Deneme 2 ve 3 |
-| `veri/deneme1.json` … `deneme3.json` | Soruların makine verisi (no, cevap, alan, konu, alt tip, açıklama, dayanak) |
-| `uretim-kayitlari/` | Plan, ajan talimatları, doğrulama ve çapraz kontrol raporları (denemelerin nasıl üretildiğinin kaydı) |
+| `DENEME-1` (.pdf / .docx) | **Tam deneme.** Kapak, Sınav Bilgileri, Bölüm A (soru kitapçığı), Cevap Anahtarı, Bölüm B (cevaplı ve gerekçeli sorular), Dağılım, Üretim Notu, Hafıza Güncellemesi |
+| `DENEME-1_SORU-KITAPCIGI` (.pdf / .docx / .md) | Yalnız sorular (kapak + Sınav Bilgileri + Bölüm A); yazdırıp 150 dakikada çözmek için |
+| `DENEME-2…`, `DENEME-3…` | Aynı düzende Deneme 2 ve 3 |
+| `veri/deneme1.json` … `deneme3.json` | Soruların makine verisi (no, cevap, alan, konu, alt tip, açıklama, tuzak, dayanak) |
+| `uretim-kayitlari/` | Plan, ajan talimatları, doğrulama ve çapraz kontrol raporları, zorluk etiketleri ve betikler (denemelerin nasıl üretildiğinin kaydı) |
+
+### Tam deneme dosyasının bölümleri
+
+- **Cevap Anahtarı:** 100 soru, 20'şerli beş tabloda (üst satır soru no, alt satır doğru şık).
+- **Bölüm B — Cevaplı ve Gerekçeli Sorular:** Her soru şıklarıyla birlikte yeniden yer alır. Sorunun üstündeki italik satır ders ve konuyu gösterir. Sorunun altında **Doğru Cevap** ve **Gerekçe** vardır. Gerekçe, doğru şıkkın neden doğru, diğerlerinin neden yanlış olduğunu açıklar ve şu kapanışla biter: "Bu nedenle doğru cevap X seçeneğidir. (MD …)". MD, mevzuat dayanağıdır (kanun, yönetmelik, tebliğ, karar maddesi; tarife sorularında fasıl/pozisyon notu ve GYKK). Hesap sorularında gerekçe, çözüm adımlarını ve her yanlış şıkkın hangi hatadan türediğini içerir.
+- **Dağılım:** Doğru cevap harfi, zorluk (ÇK çok kolay · K kolay · O orta · Z zor · ÇZ çok zor) ve soru kalıbı (HESAP, OLAY, YANLIŞ, ÖNERMELİ, EŞLEŞTİRME…) sayıları, konu tablosu.
+- **Hafıza Güncellemesi:** Her soru için tek satır: `GM1-001 | ders | konu | ölçülen bilgi | kalıp | zorluk | cevap | set`. Yanlışlarını bu satırlardan tabloya aktarıp izleyebilirsin.
+- Her sorunun ölçtüğü bilgi alanının en yakın çıkmış karşılığı (ör. `2024/61`) `uretim-kayitlari/derece/deneme<n>.json` dosyalarının `cikmis` alanında. Çıkmış bir bilgi alanına karşılık gelen soru sayısı: Deneme 1'de 71, Deneme 2'de 59, Deneme 3'te 67.
 
 ## Nasıl kullanılır?
 
 1. Soru kitapçığının PDF'ini yazdır; 150 dakika süre tut. Gerçek sınavda olduğu gibi yanlışlar doğruları götürmez.
-2. Bitirince cevap anahtarından puanla. Çözümler dosyasında her sorunun altında alanı, konusu ve soru tipi kodu (O1, O2, Ö3, H1… — açıklaması `12-SORU-TIPI-KATALOGU`) yazıyor.
-3. Yanlışlarını konu ve tipe göre grupla: hangi konuda bilgi eksiğin, hangi tipte okuma hatan var, ayrı ayrı görürsün.
+2. Bitirince tam deneme dosyasındaki **Cevap Anahtarı**ndan puanla, sonra **Bölüm B**'de yanlış ve boş bıraktığın soruların gerekçesini oku.
+3. Yanlışlarını konu, zorluk ve kalıba göre grupla (Hafıza Güncellemesi satırları bunun için). Hangi konuda bilgi eksiğin, hangi kalıpta okuma hatan var, ayrı ayrı görürsün. Alt tip kodları (O1, O2, Ö3, H1… açıklaması `12-SORU-TIPI-KATALOGU`) `veri/` dosyalarında.
 4. Denemeleri arayla çöz (ör. 1 → 2 hafta çalışma → 2 → …).
 
 ## Denemelerin yapısı
 
-Her denemede: **42 Gümrük Mevzuatı · 30 Sair Mevzuat · 17 Tarife · 11 Hesap.** Her harf 20 kez doğru cevap; aynı harf en fazla 3 kez üst üste.
+Her denemede: **42 Gümrük Mevzuatı · 30 Sair Mevzuat · 17 Tarife · 11 Hesap.** Her harf 20 kez doğru cevap; aynı harf en fazla 3 kez üst üste. Zorluk göreli olarak dağıtıldı: 10 çok kolay, 20 kolay, 40 orta, 20 zor, 10 çok zor.
 
 | | Deneme 1 | Deneme 2 | Deneme 3 |
 |---|---|---|---|
