@@ -1,0 +1,217 @@
+deneme,alan,konu,konu_adi,alt_tip
+1,GM,GM07,Transit rejimi,Ö1
+1,GM,GM07,Transit rejimi,O1
+1,GM,GM07,Transit rejimi,Ö2
+1,GM,GM07,Transit rejimi,Ö3
+1,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,Ö3
+1,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,O1
+1,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,E2
+1,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,Ö1
+1,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",O2
+1,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",V2
+1,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",B2
+1,GM,GM02,Gümrük kıymeti (sözel),O1
+1,GM,GM02,Gümrük kıymeti (sözel),O2
+1,GM,GM02,Gümrük kıymeti (sözel),Ö3
+1,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",K1
+1,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",D3
+1,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",O1
+1,GM,GM11,Geçici ithalat / geçici ihracat,D1
+1,GM,GM11,Geçici ithalat / geçici ihracat,O2
+1,GM,GM05,"Gümrük beyanı, basitleştirilmiş usuller, muayene, eşyanın teslimi",Ö1
+1,GM,GM05,"Gümrük beyanı, basitleştirilmiş usuller, muayene, eşyanın teslimi",O2
+1,GM,GM17,"Gümrük yükümlülüğü, tahakkuk, tebliğ, ödeme, zamanaşımı, teminat, tecil, faiz",O2
+1,GM,GM17,"Gümrük yükümlülüğü, tahakkuk, tebliğ, ödeme, zamanaşımı, teminat, tecil, faiz",B1
+1,GM,GM04,"Özet beyan, gümrüğe sunma, geçici depolama, çıkış bildirimi",O2
+1,GM,GM04,"Özet beyan, gümrüğe sunma, geçici depolama, çıkış bildirimi",G1
+1,GM,GM13,Geri gelen eşya,D3
+1,GM,GM13,Geri gelen eşya,O1
+1,GM,GM21,"Gümrük müşavirliği, temsil, YGM, disiplin",O1
+1,GM,GM21,"Gümrük müşavirliği, temsil, YGM, disiplin",O2
+1,GM,GM19,"Cezalar (GK 234-241), uzlaşma, itiraz (sözel)",Ö2
+1,GM,GM19,"Cezalar (GK 234-241), uzlaşma, itiraz (sözel)",O2
+1,GM,GM15,Posta ve hızlı kargo,O2
+1,GM,GM03,"Menşe (tercihsiz), BTB/BMB",Ö3
+1,GM,GM23,Fikri ve sınai haklar,D1
+1,GM,GM09,Dahilde işleme rejimi (gümrük yönü),G3
+1,GM,GM18,Geri verme – kaldırma,D6
+1,GM,GM16,"Gemiler/uçaklar: akaryakıt, kumanya, dış sefer",V2
+1,GM,GM12,İhracat rejimi (gümrük yönü),G1
+1,GM,GM22,"Gümrüksüz satış mağazaları, sınır ticareti, serbest bölgeler",O2
+1,GM,GM06,"Serbest dolaşıma giriş, nihai kullanım",G1
+1,GM,GM10,"Hariçte işleme, gümrük kontrolü altında işleme",O2
+1,GM,ROT,"D1: Genel hükümler/tanımlar/kararlar · D2: Tasfiye · D3: Genel hükümler (gümrük idareleri, gizlilik, kararların iptali/geri alınması)",G1
+2,GM,GM07,Transit rejimi,O1
+2,GM,GM07,Transit rejimi,B2
+2,GM,GM07,Transit rejimi,V2
+2,GM,GM07,Transit rejimi,Ö3
+2,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,V2
+2,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,B2
+2,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,D1
+2,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,O2
+2,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",D3
+2,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",O1
+2,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",Ö3
+2,GM,GM02,Gümrük kıymeti (sözel),Ö1
+2,GM,GM02,Gümrük kıymeti (sözel),O2
+2,GM,GM02,Gümrük kıymeti (sözel),O1
+2,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",Ö3
+2,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",O2
+2,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",G1
+2,GM,GM11,Geçici ithalat / geçici ihracat,O1
+2,GM,GM11,Geçici ithalat / geçici ihracat,G1
+2,GM,GM05,"Gümrük beyanı, basitleştirilmiş usuller, muayene, eşyanın teslimi",Ö2
+2,GM,GM05,"Gümrük beyanı, basitleştirilmiş usuller, muayene, eşyanın teslimi",K1
+2,GM,GM17,"Gümrük yükümlülüğü, tahakkuk, tebliğ, ödeme, zamanaşımı, teminat, tecil, faiz",Ö2
+2,GM,GM17,"Gümrük yükümlülüğü, tahakkuk, tebliğ, ödeme, zamanaşımı, teminat, tecil, faiz",O1
+2,GM,GM04,"Özet beyan, gümrüğe sunma, geçici depolama, çıkış bildirimi",Ö1
+2,GM,GM04,"Özet beyan, gümrüğe sunma, geçici depolama, çıkış bildirimi",D1
+2,GM,GM13,Geri gelen eşya,Ö3
+2,GM,GM13,Geri gelen eşya,O2
+2,GM,GM21,"Gümrük müşavirliği, temsil, YGM, disiplin",E1
+2,GM,GM21,"Gümrük müşavirliği, temsil, YGM, disiplin",D2
+2,GM,GM19,"Cezalar (GK 234-241), uzlaşma, itiraz (sözel)",Ö1
+2,GM,GM19,"Cezalar (GK 234-241), uzlaşma, itiraz (sözel)",O2
+2,GM,GM15,Posta ve hızlı kargo,D3
+2,GM,GM03,"Menşe (tercihsiz), BTB/BMB",O2
+2,GM,GM23,Fikri ve sınai haklar,O2
+2,GM,GM09,Dahilde işleme rejimi (gümrük yönü),O2
+2,GM,GM18,Geri verme – kaldırma,O2
+2,GM,GM16,"Gemiler/uçaklar: akaryakıt, kumanya, dış sefer",D6
+2,GM,GM12,İhracat rejimi (gümrük yönü),O2
+2,GM,GM22,"Gümrüksüz satış mağazaları, sınır ticareti, serbest bölgeler",G1
+2,GM,GM06,"Serbest dolaşıma giriş, nihai kullanım",O1
+2,GM,GM10,"Hariçte işleme, gümrük kontrolü altında işleme",G1
+2,GM,ROT,"D1: Genel hükümler/tanımlar/kararlar · D2: Tasfiye · D3: Genel hükümler (gümrük idareleri, gizlilik, kararların iptali/geri alınması)",O2
+3,GM,GM07,Transit rejimi,O2
+3,GM,GM07,Transit rejimi,Ö1
+3,GM,GM07,Transit rejimi,E2
+3,GM,GM07,Transit rejimi,Ö2
+3,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,O2
+3,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,Ö1
+3,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,B2
+3,GM,GM08,Antrepo rejimi ve geçici depolama yeri/antrepo işleticileri,Ö3
+3,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",O2
+3,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",G1
+3,GM,GM14,"Muafiyetler (GK 167-168, 2009/15481 Karar)",O1
+3,GM,GM02,Gümrük kıymeti (sözel),G1
+3,GM,GM02,Gümrük kıymeti (sözel),O2
+3,GM,GM02,Gümrük kıymeti (sözel),Ö3
+3,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",D3
+3,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",O2
+3,GM,GM20,"YYS, onaylanmış kişi, izinli alıcı/gönderici, yerinde gümrükleme",O1
+3,GM,GM11,Geçici ithalat / geçici ihracat,O2
+3,GM,GM11,Geçici ithalat / geçici ihracat,V1
+3,GM,GM05,"Gümrük beyanı, basitleştirilmiş usuller, muayene, eşyanın teslimi",O1
+3,GM,GM05,"Gümrük beyanı, basitleştirilmiş usuller, muayene, eşyanın teslimi",G1
+3,GM,GM17,"Gümrük yükümlülüğü, tahakkuk, tebliğ, ödeme, zamanaşımı, teminat, tecil, faiz",B1
+3,GM,GM17,"Gümrük yükümlülüğü, tahakkuk, tebliğ, ödeme, zamanaşımı, teminat, tecil, faiz",Ö2
+3,GM,GM04,"Özet beyan, gümrüğe sunma, geçici depolama, çıkış bildirimi",D6
+3,GM,GM04,"Özet beyan, gümrüğe sunma, geçici depolama, çıkış bildirimi",O1
+3,GM,GM13,Geri gelen eşya,O2
+3,GM,GM13,Geri gelen eşya,V2
+3,GM,GM21,"Gümrük müşavirliği, temsil, YGM, disiplin",O1
+3,GM,GM21,"Gümrük müşavirliği, temsil, YGM, disiplin",O2
+3,GM,GM19,"Cezalar (GK 234-241), uzlaşma, itiraz (sözel)",G1
+3,GM,GM19,"Cezalar (GK 234-241), uzlaşma, itiraz (sözel)",O2
+3,GM,GM15,Posta ve hızlı kargo,D1
+3,GM,GM03,"Menşe (tercihsiz), BTB/BMB",Ö1
+3,GM,GM23,Fikri ve sınai haklar,Ö3
+3,GM,GM09,Dahilde işleme rejimi (gümrük yönü),K1
+3,GM,GM18,Geri verme – kaldırma,D1
+3,GM,GM16,"Gemiler/uçaklar: akaryakıt, kumanya, dış sefer",O2
+3,GM,GM12,İhracat rejimi (gümrük yönü),O1
+3,GM,GM22,"Gümrüksüz satış mağazaları, sınır ticareti, serbest bölgeler",D3
+3,GM,GM06,"Serbest dolaşıma giriş, nihai kullanım",O2
+3,GM,GM10,"Hariçte işleme, gümrük kontrolü altında işleme",Ö3
+3,GM,ROT,"D1: Genel hükümler/tanımlar/kararlar · D2: Tasfiye · D3: Genel hükümler (gümrük idareleri, gizlilik, kararların iptali/geri alınması)",D2
+1,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",D3
+1,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",O1
+1,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",E3
+1,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",D4
+1,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",D2
+1,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,Ö1
+1,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,O1
+1,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,Ö4
+1,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",B1
+1,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",Ö1
+1,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",O1
+1,SAİR,SR15,"Dış ticaret işlemleri (Incoterms 2020, ödeme şekilleri, taşıma belgeleri)",E1
+1,SAİR,SR15,"Dış ticaret işlemleri (Incoterms 2020, ödeme şekilleri, taşıma belgeleri)",O1
+1,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",O1
+1,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",Ö3
+1,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",D3
+1,SAİR,SR04,"ÖTV (listeler, istisnalar, ithalatta uygulama)",E1
+1,SAİR,SR04,"ÖTV (listeler, istisnalar, ithalatta uygulama)",D5
+1,SAİR,SR05,"Damga vergisi, KKDF, fonlar",O2
+1,SAİR,SR05,"Damga vergisi, KKDF, fonlar",O1
+1,SAİR,SR14,"DTÖ/GATT VII Kıymet Anlaşması, TFA, DGÖ, transfer fiyatlandırması, uluslararası kuruluşlar",O1
+1,SAİR,SR14,"DTÖ/GATT VII Kıymet Anlaşması, TFA, DGÖ, transfer fiyatlandırması, uluslararası kuruluşlar",G1
+1,SAİR,SR08,"Ürün güvenliği, teknik düzenlemeler, TAREKS, ithalat denetim tebliğleri",Ö3
+1,SAİR,SR08,"Ürün güvenliği, teknik düzenlemeler, TAREKS, ithalat denetim tebliğleri",D2
+1,SAİR,SR07,"İthalat rejimi, ilave gümrük vergisi",O2
+1,SAİR,SR16,"TIR, ATA karneleri, İstanbul Sözleşmesi",Ö2
+1,SAİR,SR16,"TIR, ATA karneleri, İstanbul Sözleşmesi",K1
+1,SAİR,SR03,KDV (sözel),D3
+1,SAİR,SR12,DİR Kararı ve Tebliği (Ticaret yönü),D6
+1,SAİR,ROT,"D1: Yatırımlarda devlet yardımları (2025/9903) · D2: Ticaret politikası savunma araçları (damping, korunma, gözetim) · D3: 1/95 OKK ve Gümrük Birliği esasları",K1
+2,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",Ö3
+2,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",K1
+2,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",E1
+2,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",B1
+2,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",O1
+2,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,Ö2
+2,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,D3
+2,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,Ö4
+2,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",K1
+2,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",O1
+2,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",D3
+2,SAİR,SR15,"Dış ticaret işlemleri (Incoterms 2020, ödeme şekilleri, taşıma belgeleri)",D2
+2,SAİR,SR15,"Dış ticaret işlemleri (Incoterms 2020, ödeme şekilleri, taşıma belgeleri)",D4
+2,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",O2
+2,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",O1
+2,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",Ö1
+2,SAİR,SR04,"ÖTV (listeler, istisnalar, ithalatta uygulama)",O3
+2,SAİR,SR04,"ÖTV (listeler, istisnalar, ithalatta uygulama)",D6
+2,SAİR,SR05,"Damga vergisi, KKDF, fonlar",D3
+2,SAİR,SR05,"Damga vergisi, KKDF, fonlar",Ö3
+2,SAİR,SR14,"DTÖ/GATT VII Kıymet Anlaşması, TFA, DGÖ, transfer fiyatlandırması, uluslararası kuruluşlar",O2
+2,SAİR,SR14,"DTÖ/GATT VII Kıymet Anlaşması, TFA, DGÖ, transfer fiyatlandırması, uluslararası kuruluşlar",G2
+2,SAİR,SR08,"Ürün güvenliği, teknik düzenlemeler, TAREKS, ithalat denetim tebliğleri",E1
+2,SAİR,SR08,"Ürün güvenliği, teknik düzenlemeler, TAREKS, ithalat denetim tebliğleri",O1
+2,SAİR,SR07,"İthalat rejimi, ilave gümrük vergisi",O1
+2,SAİR,SR16,"TIR, ATA karneleri, İstanbul Sözleşmesi",O1
+2,SAİR,SR16,"TIR, ATA karneleri, İstanbul Sözleşmesi",D2
+2,SAİR,SR03,KDV (sözel),G1
+2,SAİR,SR12,DİR Kararı ve Tebliği (Ticaret yönü),Ö1
+2,SAİR,ROT,"D1: Yatırımlarda devlet yardımları (2025/9903) · D2: Ticaret politikası savunma araçları (damping, korunma, gözetim) · D3: 1/95 OKK ve Gümrük Birliği esasları",O1
+3,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",Ö3
+3,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",O1
+3,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",E3
+3,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",E1
+3,SAİR,SR10,"Tercihli ticaret ve menşe ispat belgeleri (STA/TTA, A.TR, EUR.1, GTS, kümülasyon, taraf ülkeler)",D3
+3,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,D4
+3,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,Ö2
+3,SAİR,SR01,5607 Kaçakçılıkla Mücadele Kanunu ve yönetmelikleri,Ö4
+3,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",D2
+3,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",O1
+3,SAİR,SR02,"Kambiyo (32 sayılı Karar, tebliğler, TCMB İhracat Genelgesi, kıymetli maden, nakit)",D3
+3,SAİR,SR15,"Dış ticaret işlemleri (Incoterms 2020, ödeme şekilleri, taşıma belgeleri)",O1
+3,SAİR,SR15,"Dış ticaret işlemleri (Incoterms 2020, ödeme şekilleri, taşıma belgeleri)",E1
+3,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",B1
+3,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",O1
+3,SAİR,SR06,"İhracat rejimi (Ticaret yönü: İhracat Rejimi Kararı, İhracat Yönetmeliği, yasak/ön izin/kayda bağlı, bedelsiz)",Ö1
+3,SAİR,SR04,"ÖTV (listeler, istisnalar, ithalatta uygulama)",O1
+3,SAİR,SR04,"ÖTV (listeler, istisnalar, ithalatta uygulama)",Ö3
+3,SAİR,SR05,"Damga vergisi, KKDF, fonlar",D6
+3,SAİR,SR05,"Damga vergisi, KKDF, fonlar",O2
+3,SAİR,SR14,"DTÖ/GATT VII Kıymet Anlaşması, TFA, DGÖ, transfer fiyatlandırması, uluslararası kuruluşlar",D2
+3,SAİR,SR14,"DTÖ/GATT VII Kıymet Anlaşması, TFA, DGÖ, transfer fiyatlandırması, uluslararası kuruluşlar",K1
+3,SAİR,SR08,"Ürün güvenliği, teknik düzenlemeler, TAREKS, ithalat denetim tebliğleri",O2
+3,SAİR,SR08,"Ürün güvenliği, teknik düzenlemeler, TAREKS, ithalat denetim tebliğleri",D3
+3,SAİR,SR07,"İthalat rejimi, ilave gümrük vergisi",Ö1
+3,SAİR,SR16,"TIR, ATA karneleri, İstanbul Sözleşmesi",K1
+3,SAİR,SR16,"TIR, ATA karneleri, İstanbul Sözleşmesi",G1
+3,SAİR,SR03,KDV (sözel),O1
+3,SAİR,SR12,DİR Kararı ve Tebliği (Ticaret yönü),O1
+3,SAİR,ROT,"D1: Yatırımlarda devlet yardımları (2025/9903) · D2: Ticaret politikası savunma araçları (damping, korunma, gözetim) · D3: 1/95 OKK ve Gümrük Birliği esasları",Ö5

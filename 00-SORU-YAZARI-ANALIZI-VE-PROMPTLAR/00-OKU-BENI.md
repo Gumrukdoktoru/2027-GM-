@@ -21,6 +21,8 @@ Bu klasör, 2021–2025 Gümrük Müşavirliği sınavlarının 500 sorusunun so
 
 Her dosyanın `.md` (kopyala-yapıştır için) ve `.docx` (Word) sürümü vardır.
 
+**Deneme sınavları:** Bu analizlere ve promptlara göre hazırlanmış, doğrulanmış 3 adet 100 soruluk deneme (soru kitapçığı, cevap anahtarı ve açıklamalı çözümler; PDF/Word) `../01-DENEME-SINAVLARI/` klasöründedir.
+
 **Yıl yıl ayrıntılı analiz** (100'er satırlık soru tabloları, kök kalıpları, bütün hesap sorularının çözümleri, bütün tarife sorularının gerekçeleri, konu eşleme CSV'si) `gmcikmislar` deposunun `analiz/` klasöründedir. 500 sorunun alt tip etiketleri (CSV), yıl yıl örnek dosyaları ve etiket sözlüğü `analiz/soru-tipi/` klasöründedir.
 
 ## Nasıl kullanılır?

@@ -1,0 +1,208 @@
+[
+ {
+  "id": "SR-B-09",
+  "no": 4,
+  "sorun": "Sızıntı: doğru şık ('ilişki tek başına ret gerekçesi değildir') 29. sorunun 'ilişki bulunması hâlinde bu ilişkinin fiyatı etkilememesi' şıkkıyla ve 19. sorunun kökündeki 'ilişkinin fiyatı etkilemediği' verisiyle veriliyor. GM-B1-04 GK 24'ün dört koşulunu da şık olarak kullandığından düzeltme bu soruda; doğru şık Anlaşma md. 13'e taşındı.",
+  "alan": "siklar",
+  "indeks": 4,
+  "eski": "Alıcı ile satıcının ilişkili olması, tek başına işlem değerinin kabul edilmemesi için bir gerekçe oluşturmaz.",
+  "yeni": "Kıymetin kesin tespiti ertelendiğinde ithalatçı, gerektiğinde yeterli teminat vererek eşyasını gümrükten çekebilir."
+ },
+ {
+  "id": "SR-B-09",
+  "no": 4,
+  "sorun": "Açıklama yeni doğru şıkla uyumlu hâle getirildi.",
+  "alan": "aciklama",
+  "eski": "Anlaşmanın 1/2 nci maddesine göre alıcı ile satıcı arasındaki ilişki tek başına işlem değerinin reddi için gerekçe oluşturmaz; ilişkinin fiyatı etkileyip etkilemediği incelenir.",
+  "yeni": "Anlaşmanın 13 üncü maddesine göre ithal eşyasının gümrük kıymetinin kesin olarak belirlenmesinin ertelenmesi gerektiğinde ithalatçı, gerektiğinde gümrük vergilerinin nihai ödenmesini karşılayacak kefalet, depozito veya başka uygun bir araç şeklinde yeterli teminat vermek şartıyla eşyasını gümrükten çekebilir."
+ },
+ {
+  "id": "SR-B-09",
+  "no": 4,
+  "sorun": "Tuzak yeni doğru şıkla uyumlu hâle getirildi.",
+  "alan": "tuzak",
+  "eski": "'İlişkili kişi = işlem değeri reddedilir' sezgisiyle hareket eden aday doğru cümleyi eler;",
+  "yeni": "Kıymet kesinleşmeden eşyanın gümrükten çekilemeyeceğini sanan aday doğru cümleyi eler;"
+ },
+ {
+  "id": "SR-B-09",
+  "no": 4,
+  "sorun": "Dayanak yeni doğru şıkla uyumlu hâle getirildi.",
+  "alan": "dayanak",
+  "eski": "DTÖ Gümrük Kıymeti Anlaşması md. 1/2, 4, 11, 15/2, 16",
+  "yeni": "DTÖ Gümrük Kıymeti Anlaşması md. 4, 11, 13, 15/2, 16"
+ },
+ {
+  "id": "SR-B-10",
+  "no": 37,
+  "sorun": "Tekrar ve karşılıklı sızıntı: dört öncül 75. sorunun (GM-A2-02, ATA karnesi) dört şıkkıyla birebir aynı (teminat aranmaması, posta trafiği, karne süresinin uzatılamaması, B1 için altı ay); II. öncül 75. sorunun cevabı. Soru aynı Tebliğin kefil kuruluş/süre (md. 10) ve çıkış hükmü (md. 12) hükümleriyle yeniden yazıldı; şıklar ve anahtar (Yalnız III) aynı.",
+  "alan": "yeniden_yaz",
+  "yeni": {
+   "id": "SR-B-10",
+   "deneme": 1,
+   "alan": "SAİR",
+   "konu": "SR16",
+   "alt_tip": "Ö2",
+   "seri": null,
+   "ortak_veri_id": null,
+   "ortak_veri": null,
+   "kok_on": "Aşağıda ATA karnesi ile geçici ithal edilen eşyaya ilişkin bazı ifadeler verilmiştir:",
+   "onculler": [
+    "Karnede belirtilen yurtta kalma süresi içinde yurt dışı edilmediği veya gümrükçe onaylanmış bir işlem veya kullanıma tabi tutulmadığı anlaşılan eşya için Türkiye Odalar ve Borsalar Birliğine, karnenin geçerlilik süresinin bitim tarihinden itibaren bir yıl içinde tebligat yapılması gerekir.",
+    "Türkiye Odalar ve Borsalar Birliğinin ödemekle sorumlu olduğu tutar, gümrük vergileri ile ithalatta alınan diğer vergiler toplamının %10 fazlasını aşamaz.",
+    "Yapılan tebligatta, eşyanın yurtta kalma süresi içinde yeniden ihraç edildiğine dair delil verilmesi için talep tarihinden itibaren üç aylık süre tanınır.",
+    "Eşyanın yurt dışı edilmesinden vazgeçilerek serbest dolaşıma giriş rejimine tabi tutulması çıkış hükmündedir."
+   ],
+   "tablo": null,
+   "kok": "Gümrük Genel Tebliği (Geçici İthalat) (Seri No: 4) hükümlerine göre bu ifadelerden hangisi/hangileri **<u>yanlıştır</u>**?",
+   "siklar": [
+    "Yalnız II",
+    "Yalnız III",
+    "I ve III",
+    "II ve III",
+    "III ve IV"
+   ],
+   "dogru": 1,
+   "sira_sabit": true,
+   "aciklama": "Tebliğin 10 uncu maddesine göre karnede belirtilen yurtta kalma süresi içinde yurt dışı edilmeyen veya gümrükçe onaylanmış bir işlem veya kullanıma tabi tutulmayan eşya için kefil kuruluş olan Türkiye Odalar ve Borsalar Birliğine, karnenin geçerlilik süresinin bitim tarihinden itibaren bir yıl içinde tebligat yapılır (I); Birliğin ödemekle sorumlu olduğu tutar gümrük vergileri ile ithalatta alınan diğer vergiler toplamının %10 fazlasını aşamaz (II). Eşyanın yurt dışı edilmesinden vazgeçilerek serbest dolaşıma giriş rejimine tabi tutulması 12 nci madde uyarınca çıkış hükmündedir (IV). Buna karşılık tebligatta, eşyanın süresi içinde yeniden ihraç edildiğine dair delil verilmesi için talep tarihinden itibaren üç ay değil altı aylık süre tanınır; üç aylık süre, vergiler ödendikten veya teminata bağlandıktan sonra delil sunulması hâlinde tutarın iadesine ilişkindir (md. 10/d). Bu nedenle yalnız III. ifade yanlıştır.",
+   "tuzak": "Ödenen veya teminata bağlanan tutarın iadesi için öngörülen üç aylık delil süresini tebligat üzerine tanınan altı aylık süreyle karıştıran aday III'ü doğru sayar.",
+   "dayanak": "Gümrük Genel Tebliği (Geçici İthalat) Seri No: 4 md. 10/a, 10/b, 10/d, 12",
+   "kaynak": "34-GEÇİCİ İTHALAT.txt, Seri No: 4 md. 10 (a) 'bir yıl içerisinde tebligat', (b) '%10 fazlasını aşamaz' ve '6 (altı) aylık süre', (d) '3 (üç) ay içinde delil' ve md. 12 'Çıkış Sayılan Haller'",
+   "guven": "yüksek",
+   "no": 37,
+   "cevap": "B"
+  }
+ },
+ {
+  "id": "SR-B-11",
+  "no": 38,
+  "sorun": "Kökle kelime ortaklığı: kök 'kefil olarak hareket etmek üzere yetkilendirilen kuruluş' diyor, doğru şık 'Kefil kuruluş'; cevap kökten okunuyor.",
+  "alan": "kok",
+  "eski": "gümrük makamlarınca TIR rejimini kullanan kişilere kefil olarak hareket etmek üzere yetkilendirilen kuruluşa ne ad verilir?",
+  "yeni": "gümrük makamlarınca, TIR rejimini kullanan kişiler adına ödenmesi gereken ithalat veya ihracat vergi ve resimlerini ödemeyi taahhüt etmek üzere onaylanan kuruluşa ne ad verilir?"
+ },
+ {
+  "id": "SR-B-11",
+  "no": 38,
+  "sorun": "Açıklama yeni kökle uyumlu (md. 8 taahhüdü eklendi).",
+  "alan": "aciklama",
+  "eski": "onaylanan kuruluş olarak tanımlanmıştır.",
+  "yeni": "onaylanan kuruluş olarak tanımlanmıştır; bu kuruluş, Sözleşmenin 8 inci maddesi uyarınca usulsüzlüğün tespit edildiği ülkede ödenmesi gereken ithalat veya ihracat vergi ve resimlerini ödemeyi taahhüt eder."
+ },
+ {
+  "id": "SR-B-11",
+  "no": 38,
+  "sorun": "Dayanak yeni kökle uyumlu.",
+  "alan": "dayanak",
+  "eski": "TIR Sözleşmesi (1975) md. 1 (tanımlar) ve md. 6",
+  "yeni": "TIR Sözleşmesi (1975) md. 1 (tanımlar), md. 6 ve md. 8"
+ },
+ {
+  "id": "GM-C-08",
+  "no": 99,
+  "sorun": "Sızıntı: III. öncül (234/3, kendiliğinden bildirimde ceza yüzde on nispetinde) 16. sorunun (HS-B-04) çözüm kuralının ta kendisi. III, 234/1-c'deki başka bir doğru hükümle değiştirildi; anahtar (Yalnız II) değişmiyor.",
+  "alan": "onculler",
+  "indeks": 2,
+  "eski": "Söz konusu aykırılıkların gümrük idaresince tespit edilmesinden önce beyan sahibince bildirilmesi durumunda cezalar yüzde on nispetinde uygulanır.",
+  "yeni": "Satış birimine göre miktar itibarıyla %5'i geçmeyen bir fark ile maddi hesap hatasından doğan noksan kıymet beyanlarında, bu farklara ait ithalat vergilerinden başka vergi farkının yarısı tutarında para cezası alınır."
+ },
+ {
+  "id": "GM-C-08",
+  "no": 99,
+  "sorun": "Açıklama yeni III. öncülle uyumlu.",
+  "alan": "aciklama",
+  "eski": "Kendiliğinden bildirimde cezanın yüzde on nispetinde uygulanması (III) ve genel yönetim kapsamındaki kamu idareleri için bu cezalara ilişkin hükümlerin uygulanmaması (IV) maddenin üçüncü ve dördüncü fıkralarının aynısıdır.",
+  "yeni": "Satış birimine göre miktar itibarıyla %5'i geçmeyen fark ile maddi hesap hatasından doğan noksan kıymet beyanlarında vergi farkının yarısı tutarında ceza alınması (III) birinci fıkranın (c) bendinin, genel yönetim kapsamındaki kamu idareleri için bu cezalara ilişkin hükümlerin uygulanmaması (IV) ise dördüncü fıkranın aynısıdır."
+ },
+ {
+  "id": "GM-C-08",
+  "no": 99,
+  "sorun": "Dayanak yeni III. öncülle uyumlu.",
+  "alan": "dayanak",
+  "eski": "4458 sayılı GK md. 234/1-a, 234/2, 234/3, 234/4 (ilk cümle)",
+  "yeni": "4458 sayılı GK md. 234/1-a, 234/1-c, 234/2, 234/4 (ilk cümle)"
+ },
+ {
+  "id": "HS-B-04",
+  "no": 16,
+  "sorun": "Kökteki '234 üncü maddenin birinci fıkrası uyarınca ceza katı 3' verisi 99. sorunun I. öncülünün doğru olduğunu kök düzeyinde veriyor ve 99. sorunun yeni III. öncülündeki (234/1-c, 'yarısı') hükümle görünür çelişki yaratıyor. 234/1-b üç kat temel bilgi; 2025/13'te de kat verilmemiştir. Anahtar (33.600) değişmiyor.",
+  "alan": "kok",
+  "eski": "KDV oranı %20'dir. (Gümrük Kanununun 234 üncü maddesinin birinci fıkrası uyarınca ceza katı 3 olarak dikkate alınacaktır.)",
+  "yeni": "KDV oranı %20'dir."
+ },
+ {
+  "id": "GM-C-06",
+  "no": 89,
+  "sorun": "Sızıntı: doğru (olumsuz kökte doğru) şıktaki 'her araç için ayrı bir transit beyannamesi düzenlenir' hükmü, 69. sorunun (GM-A1-03) tek yanlış öncülü olan III'ün ('sevkiyat birden çok araca bölünürse tek beyan düzenlenebilir') yanlış olduğunu gösteriyor. GY md. 469/1 ile değiştirildi.",
+  "alan": "siklar",
+  "indeks": 4,
+  "eski": "Mektup postası dışında kalan posta eşyasının başka bir gümrük idaresine sevkinde her araç için ayrı bir transit beyannamesi düzenlenir; posta çuvalları mühürlü ise taşıt aracı ayrıca mühürlenmez.",
+  "yeni": "Yurt dışından gelen koliler ve posta haberleşme gönderilerinin konulduğu yerler genel antrepo sayılır ve bu yerler posta idaresinin sorumluluğu ile gümrük idaresinin gözetim ve kontrolü altında bulunur."
+ },
+ {
+  "id": "GM-C-06",
+  "no": 89,
+  "sorun": "Açıklama yeni şıkla uyumlu.",
+  "alan": "aciklama",
+  "eski": "Yönetmeliğin 462 ve 468 inci maddelerinin aynısıdır.",
+  "yeni": "Yönetmeliğin 462 ve 469 uncu maddelerinin aynısıdır."
+ },
+ {
+  "id": "GM-C-06",
+  "no": 89,
+  "sorun": "Dayanak yeni şıkla uyumlu.",
+  "alan": "dayanak",
+  "eski": "Gümrük Yönetmeliği md. 462/3, 468/1, 474",
+  "yeni": "Gümrük Yönetmeliği md. 462/3, 469/1, 474"
+ },
+ {
+  "id": "SR-C-05",
+  "no": 87,
+  "sorun": "Kökle kelime ortaklığı: kökte 'katı yakıtların ithalatı', şıklardan yalnız doğru şıkta 'Katı Yakıt İthalatçısı' geçiyor (ve en uzun şık). Aynı Tebliğde geçen İthal Katı Yakıt Uygunluk Belgesi çeldirici yapıldı.",
+  "alan": "siklar",
+  "indeks": 1,
+  "eski": "Geçici Faaliyet Belgesi",
+  "yeni": "İthal Katı Yakıt Uygunluk Belgesi"
+ },
+ {
+  "id": "SR-C-05",
+  "no": 87,
+  "sorun": "Yeni çeldiricinin (parti bazında Çevre İl Müdürlüğünce verilen belge) ikinci doğru sayılmaması için kök md. 4/4 ile netleştirildi.",
+  "alan": "kok",
+  "eski": "Bakanlığından alınan aşağıdaki belgelerden hangisine sahip firmalar tarafından yapılabilir?",
+  "yeni": "Bakanlığından alınan ve Tebliğ kapsamında yapılacak tüm ithalat işlemlerinde geçerli olan aşağıdaki belgelerden hangisine sahip firmalar tarafından yapılabilir?"
+ },
+ {
+  "id": "SR-C-05",
+  "no": 87,
+  "sorun": "Açıklama yeni çeldiriciyle uyumlu.",
+  "alan": "aciklama",
+  "eski": "Geçici Faaliyet Belgesi ile Çevre İzin ve Lisans Belgesi ise atık ve hurda ithalatı yapacak sanayicilerde aranan belgelerdir.",
+  "yeni": "Çevre İzin ve Lisans Belgesi atık ve hurda ithalatı yapacak sanayicilerde aranan belgedir. İthal Katı Yakıt Uygunluk Belgesi ise firmaya değil, her parti yakıttan alınan numunenin analiz sonucu uygun bulunduğunda Çevre İl Müdürlüğünce düzenlenen ve beyannamenin tescilinde aranan belgedir (md. 5/3, 9/1); Kayıt Belgesi ise Tebliğ kapsamındaki tüm ithalat işlemlerinde geçerlidir (md. 4/4)."
+ },
+ {
+  "id": "SR-C-05",
+  "no": 87,
+  "sorun": "Tuzak yeni çeldiriciyle uyumlu.",
+  "alan": "tuzak",
+  "eski": "Aday, aynı Bakanlığın atık ve hurda ithalatında aradığı Geçici Faaliyet Belgesini ya da Çevre İzin ve Lisans Belgesini katı yakıt için de yeterli sanır.",
+  "yeni": "Her parti için beyannamenin tescilinde aranan İthal Katı Yakıt Uygunluk Belgesini ithalatçı firmanın sahip olması gereken belge sanan aday bu belgeye, atık ve hurda ithalatındaki belgeleri yeterli sayan aday Çevre İzin ve Lisans Belgesine kayar."
+ },
+ {
+  "id": "SR-C-05",
+  "no": 87,
+  "sorun": "Dayanak yeni çeldiriciyle uyumlu.",
+  "alan": "dayanak",
+  "eski": "(ÜGD: 2026/7) md. 4;",
+  "yeni": "(ÜGD: 2026/7) md. 4/1, 4/4, 5/3, 9/1;"
+ },
+ {
+  "id": "TR-B-03",
+  "no": 43,
+  "sorun": "Biçim: doğru şık (42 karakter) diğerlerinin (70-100) yarısı kadar; en kısa şık olarak ele veriyor. Kaynak ifadesiyle uzatıldı.",
+  "alan": "siklar",
+  "indeks": 3,
+  "eski": "İdari ve kazai uygulamalarda esas tutulur.",
+  "yeni": "Gümrük Kanunu gereğince idari ve kazai uygulamalarda esas tutulur."
+ }
+]

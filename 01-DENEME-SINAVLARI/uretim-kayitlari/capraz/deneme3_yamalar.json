@@ -1,0 +1,144 @@
+[
+ {
+  "id": "GM-B2-15",
+  "no": 24,
+  "sorun": "Çelişki/biçim: Seri No: 16 Tebliğin adı 'Gümrük İşlemleri'dir (kaynak dosya başlığı); 40. soru (GM-A2-25) aynı Tebliği doğru adla anıyor, iki soru aynı Tebliği farklı adla veriyor",
+  "alan": "kok",
+  "eski": "Gümrük Genel Tebliği (Gümrük İşleri) (Seri No: 16)",
+  "yeni": "Gümrük Genel Tebliği (Gümrük İşlemleri) (Seri No: 16)"
+ },
+ {
+  "id": "GM-B2-15",
+  "no": 24,
+  "sorun": "Dayanakta da Tebliğ adı yanlış",
+  "alan": "dayanak",
+  "eski": "(Gümrük İşleri) (Seri No: 16)",
+  "yeni": "(Gümrük İşlemleri) (Seri No: 16)"
+ },
+ {
+  "id": "SR-A-26",
+  "no": 93,
+  "sorun": "Kökteki 'açıklama yapılması istenen' ifadesi doğru şık 'Nakit Açıklama Tutanağı' ile kelime ortaklığı kurarak cevabı ele veriyor (asıl çeldirici 'Nakit Beyan Formu' etkisizleşiyor)",
+  "alan": "kok",
+  "eski": "gümrük idaresi tarafından ülkeye giren ya da ülkeden çıkan yolcudan açıklama yapılması istenen nakitle ilgili olarak düzenlenen belge",
+  "yeni": "gümrük idaresinin 5549 sayılı Kanun uyarınca ülkeye giren ya da ülkeden çıkan yolcudan beraberindeki nakdin miktarını bildirmesini istemesi üzerine düzenlenen belge"
+ },
+ {
+  "id": "SR-A-23",
+  "no": 1,
+  "sorun": "Sızıntı: 'Gümrük idaresince açıklama istenen yolcunun ... açıklama yaptığı' ifadesi, idarenin talep ettiği durumda düzenlenen belgenin 'Nakit Açıklama Tutanağı' olduğunu (93. soru) çağrıştırıyor; anlam korunarak terim değiştirildi",
+  "alan": "siklar",
+  "indeks": 1,
+  "eski": "Gümrük idaresince açıklama istenen yolcunun yanlış veya yanıltıcı açıklama yaptığının tespit edilmesi",
+  "yeni": "Gümrük idaresinin talebi üzerine beraberindeki nakdin miktarını bildiren yolcunun yanlış veya yanıltıcı bilgi verdiğinin tespit edilmesi"
+ },
+ {
+  "id": "GM-C-22",
+  "no": 86,
+  "sorun": "Sızıntı: olumsuz kökte doğru olan bu şık onaylanmış ihracatçı belgelerini 'Basitleştirilmiş işlem' adıyla anarak 46. sorunun (SR-B-25) III. durumunun ibaresini veriyor ve iki seçeneği eletiyor",
+  "alan": "siklar",
+  "indeks": 1,
+  "eski": "Basitleştirilmiş işlem kapsamında düzenlenecek A.TR dolaşım belgeleri, tasdik edilmeksizin onaylanmış ihracatçı yetkisini haiz statü belgesi sahibi tarafından vize edilir.",
+  "yeni": "Onaylanmış ihracatçı yetkisi kapsamında düzenlenecek A.TR dolaşım belgeleri, tasdik edilmeksizin yetkiyi haiz statü belgesi sahibi tarafından vize edilir."
+ },
+ {
+  "id": "GM-C-22",
+  "no": 86,
+  "sorun": "Aynı sızıntı (46. soru III. durum ibaresi 'Basitleştirilmiş işlem')",
+  "alan": "siklar",
+  "indeks": 3,
+  "eski": "Basitleştirilmiş işlem kapsamında düzenlenen A.TR dolaşım belgesinin asıl nüshası dışında kalan iki nüshasından biri ihracat beyannamesine eklenir.",
+  "yeni": "Onaylanmış ihracatçı yetkisi kapsamında düzenlenen A.TR dolaşım belgesinin asıl nüshası dışında kalan iki nüshasından biri ihracat beyannamesine eklenir."
+ },
+ {
+  "id": "SR-A-33",
+  "no": 96,
+  "sorun": "Tekrar: doğru şık (tescil tarihinden sonraki giderler matraha girmez) 70. sorunun (HS-A-14) ölçtüğü 'tescil tarihi kesim çizgisi' bilgisinin aynısı; iki tuzak da aynı ('giriş yeri' ile 'tescil tarihi' karışıklığı). Yerine KDVK md. 23/e'ye dayanan, hesap bloğunda ölçülmeyen bir unsur kondu; 21/ç (ÖTV teminatı) şıkkı ve diğer üç doğru unsur korunuyor",
+  "alan": "siklar",
+  "indeks": 3,
+  "eski": "Gümrük beyannamesinin tescil tarihinden sonra yapılan ve vergilendirilmeyen diğer giderler",
+  "yeni": "Altından mamul ziynet eşyasının ithalinde, eşyanın içerdiği külçe altın bedeli"
+ },
+ {
+  "id": "SR-A-33",
+  "no": 96,
+  "sorun": "Açıklama yeni doğru şıkla uyumlu hâle getirildi",
+  "alan": "aciklama",
+  "eski": "Tescil tarihinden sonra yapılan giderler matraha girmez; kesim çizgisi tescil tarihidir.",
+  "yeni": "Altından mamul veya altın ihtiva eden ziynet eşyasının ithalinde ise matrah, külçe altın bedeli düşüldükten sonra kalan tutardır (md. 23/e); bu nedenle külçe altın bedeli matrahı oluşturan unsurlar arasında yer almaz."
+ },
+ {
+  "id": "SR-A-33",
+  "no": 96,
+  "sorun": "Tuzak yeni doğru şıkla uyumlu hâle getirildi",
+  "alan": "tuzak",
+  "eski": "Gümrük kıymetindeki 'giriş yeri' sınırı ile KDV matrahındaki 'tescil tarihi' sınırını karıştıran veya yeni eklenen ÖTV teminat tutarını bilmeyen aday yanlış unsuru eler.",
+  "yeni": "Ziynet eşyasında külçe altın bedelinin düşüldüğü özel matrah hükmünü bilmeyen aday malın tüm kıymetini matraha dahil sayar; yeni eklenen ÖTV teminat tutarını veya kur farkını matrah dışında sanan aday ise bu unsurlardan birini işaretler."
+ },
+ {
+  "id": "SR-A-33",
+  "no": 96,
+  "sorun": "Dayanağa md. 23/e eklendi",
+  "alan": "dayanak",
+  "eski": "md. 21 (ç bendi 24.07.2025 tarihinde eklenmiştir)",
+  "yeni": "md. 21 (ç bendi 24.07.2025 tarihinde eklenmiştir) ve md. 23/e"
+ },
+ {
+  "id": "HS-B-15",
+  "no": 71,
+  "sorun": "Çelişki riski: 37. soru (GM-A2-22) rejimde kalış süresinin teslim tarihinden (GY 379/3) hesaplandığını öğretiyor; bu soru ay sayımını tescil tarihinden yapıyor ama teslim tarihini vermiyor. Teslimin tescil günü olduğu veriye eklendi (cevap değişmez: 684.000)",
+  "alan": "kok",
+  "eski": "kısmi muafiyet suretiyle geçici ithalat rejimine tabi tutmuştur. Beyannamelerin tescil tarihinde",
+  "yeni": "kısmi muafiyet suretiyle geçici ithalat rejimine tabi tutmuştur; eşya aynı gün yükümlüsüne teslim edilmiştir. Beyannamelerin tescil tarihinde"
+ },
+ {
+  "id": "HS-B-15",
+  "no": 71,
+  "sorun": "Açıklamaya teslim tarihi gerekçesi eklendi",
+  "alan": "aciklama",
+  "eski": "Tünel açma makinesi: vergi 7.500.000 × %8 = 600.000;",
+  "yeni": "Eşya tescil günü teslim edildiğinden süre hesabı (GY 379/3) 10/02/2023'ten başlar. Tünel açma makinesi: vergi 7.500.000 × %8 = 600.000;"
+ },
+ {
+  "id": "GM-A2-21",
+  "no": 36,
+  "sorun": "Zayıf sızıntı: olumsuz kökte doğru olan 'finansal kiralama yoluyla ihracatta gümrük müdürlüğünce onaylanan beyanname izin hükmündedir' ifadesi, kiralama yoluyla ihracatın gümrük mevzuatına tabi olduğunu göstererek 73. sorunun (SR-C-18) cevabına ('Ticari kiralama yoluyla yapılacak ihracat') götürüyor. Aynı Tebliğin md. 12 hükmüyle değiştirildi",
+  "alan": "siklar",
+  "indeks": 3,
+  "eski": "Finansal kiralama yoluyla yapılacak ihracatta gümrük müdürlüğü tarafından onaylanan beyanname izin hükmündedir.",
+  "yeni": "Tebliğde düzenlenenler dışında geçici olarak çıkarılacak eşyanın marka, seri numarası ve model yılı gibi ayırt edici özellikleri beyannameye kaydedilerek çıkış işlemi gerçekleştirilir."
+ },
+ {
+  "id": "GM-A2-21",
+  "no": 36,
+  "sorun": "Açıklama yeni şıkla uyumlu hâle getirildi",
+  "alan": "aciklama",
+  "eski": "finansal kiralamada onaylı beyannamenin izin hükmünde olması 10 uncu maddenin",
+  "yeni": "Tebliğde düzenlenmeyen geçici çıkışlarda eşyanın ayırt edici özelliklerinin beyannameye kaydedilmesi 12 nci maddenin"
+ },
+ {
+  "id": "GM-A2-21",
+  "no": 36,
+  "sorun": "Dayanak yeni şıkla uyumlu hâle getirildi",
+  "alan": "dayanak",
+  "eski": "md. 7/3, 8/2, 10/1, 11/2, 17/3",
+  "yeni": "md. 7/3, 8/2, 11/2, 12/1, 17/3"
+ },
+ {
+  "id": "SR-C-23",
+  "no": 76,
+  "sorun": "Biçim: doğru şık diğerlerinin 1,5 katı uzunlukta ve 'İhraç edilmek üzere' ibaresiyle rejim kapsamını işaret ederek cevabı ele veriyor; ibare çıkarıldı (şık yine kesin doğru: fideler md. 17/2 listesinde yok)",
+  "alan": "siklar",
+  "indeks": 3,
+  "eski": "İhraç edilmek üzere kesme çiçek yetiştirilmesinde kullanılacak fideler",
+  "yeni": "Kesme çiçek yetiştirilmesinde kullanılacak fideler"
+ },
+ {
+  "id": "GM-A1-23",
+  "no": 35,
+  "sorun": "Yazım: boşluk işaretinden sonra virgülden önce fazladan boşluk",
+  "alan": "kok",
+  "eski": "için ….. , diğer eşya",
+  "yeni": "için ….., diğer eşya"
+ }
+]

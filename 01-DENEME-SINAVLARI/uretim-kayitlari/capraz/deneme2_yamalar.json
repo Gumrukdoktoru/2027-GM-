@@ -1,0 +1,121 @@
+[
+ {
+  "id": "GM-B2-10",
+  "no": 4,
+  "sorun": "Tebliğ adı yanlış: kaynak dosyanın başlığı 'Gümrük Genel Tebliği (Gümrük İşlemleri) (Seri No: 16)'; 5. soru da aynı tebliğe 'Gümrük İşlemleri' diyor, iki ardışık soruda aynı tebliğ iki ayrı adla geçiyor",
+  "alan": "kok",
+  "eski": "Gümrük Genel Tebliği (Gümrük İşleri) (Seri No: 16)'da",
+  "yeni": "Gümrük Genel Tebliği (Gümrük İşlemleri) (Seri No: 16)'da"
+ },
+ {
+  "id": "GM-B2-10",
+  "no": 4,
+  "sorun": "Dayanakta tebliğ adı kökle ve kaynakla uyumlu hâle getirildi",
+  "alan": "dayanak",
+  "eski": "Gümrük Genel Tebliği (Gümrük İşleri) (Seri No: 16) md. 2/c, md. 4",
+  "yeni": "Gümrük Genel Tebliği (Gümrük İşlemleri) (Seri No: 16) md. 2/c, md. 4"
+ },
+ {
+  "id": "GM-B2-09",
+  "no": 3,
+  "sorun": "Dayanakta Seri No: 16 tebliğinin adı yanlış ('Gümrük İşleri' yerine 'Gümrük İşlemleri')",
+  "alan": "dayanak",
+  "eski": "4458 sayılı Gümrük Kanunu md. 199; Gümrük Yönetmeliği basitleştirilmiş usuller ve tamamlayıcı beyan hükümleri; Gümrük Genel Tebliği (Gümrük İşleri) (Seri No: 16) md. 18",
+  "yeni": "4458 sayılı Gümrük Kanunu md. 199; Gümrük Yönetmeliği basitleştirilmiş usuller ve tamamlayıcı beyan hükümleri; Gümrük Genel Tebliği (Gümrük İşlemleri) (Seri No: 16) md. 18"
+ },
+ {
+  "id": "GM-A2-15",
+  "no": 5,
+  "sorun": "Sızıntı: kök, Seri No: 16'da eşyanın hemen teslim edildiği usulün adını ('yaygın basitleştirilmiş usul') veriyor; hemen önceki 4. soru tam olarak bu usulün adını soruyor (cevap: Yaygın basitleştirilmiş usul). Kök md. 11'in kendi ifadesine indirildi; ölçülen liste bilgisi ve anahtar değişmiyor",
+  "alan": "kok",
+  "eski": "eksik beyanlı yaygın basitleştirilmiş usul kapsamında özel kuruluşların",
+  "yeni": "özel kuruluşların"
+ },
+ {
+  "id": "GM-B1-14",
+  "no": 38,
+  "sorun": "Sızıntı: olumsuz kökte doğru olan bu çeldirici ('Satın alma komisyonu dışındaki komisyon ve simsarlık ücretleri' eklenir), 96. hesap sorusunun ölçtüğü bilginin ta kendisi (satın alma komisyonu hariç, satış komisyonu ve simsarlık dahil; 127.000 ve 122.400 çeldiricilerini doğrudan çözüyor). Yerine, denemenin hesap sorularında ölçülmeyen GK 27/1-b-1 unsuru kondu (eklenir, kesin doğru)",
+  "alan": "siklar",
+  "indeks": 0,
+  "eski": "Satın alma komisyonu dışındaki komisyon ve simsarlık ücretleri",
+  "yeni": "İthal eşyasının bünyesine girmek üzere alıcının bedelsiz sağladığı parça ve aksamlar"
+ },
+ {
+  "id": "GM-B1-14",
+  "no": 38,
+  "sorun": "Açıklama yeni çeldiriciyle uyumlu hâle getirildi (komisyon atfı çıkarıldı; bedelsiz sağlanan malzeme ve parça zaten sayılıyor)",
+  "alan": "aciklama",
+  "eski": "GK 27 nci maddesine göre satın alma komisyonu hariç komisyon ve simsarlık ücretleri, eşya ile bir bütün sayılan kapların bedeli",
+  "yeni": "GK 27 nci maddesine göre eşya ile bir bütün sayılan kapların bedeli"
+ },
+ {
+  "id": "SR-A-17",
+  "no": 49,
+  "sorun": "Doğru şık uzunluğu (84 karakter; diğerleri 44-59) ve tek başına taşıdığı 'beyan edilmek kaydıyla' şartıyla bariz ele veriyor. Beyan şartı açıklamada zaten yazılı; şık sadeleştirildi, anahtar ve doğruluğu değişmiyor (2018-32/48 md. 3/4; Genelge 1.1)",
+  "alan": "siklar",
+  "indeks": 0,
+  "eski": "Gümrük idaresine beyan edilmek kaydıyla, ihracat bedeli olarak tahsil edilen efektif",
+  "yeni": "İhracat bedeli olarak yurt dışında tahsil edilen efektif"
+ },
+ {
+  "id": "TR-B-14",
+  "no": 77,
+  "sorun": "Doğru şık (39 karakter) diğer dört şıkkın en kısasının yarısı kadar (76-140); olumsuz kökte tek kısa öğe olarak göze batıyor. İçerik aynı kalmak üzere uzunluk dengelendi (GYKK 5 açıklama (III): 'çay konulan gümüş kupalar')",
+  "alan": "siklar",
+  "indeks": 2,
+  "eski": "İçine çay konulmuş, gümüşten mamul kupa",
+  "yeni": "Gümüşten mamul olup içine çay konulmuş olarak sunulan kupa"
+ },
+ {
+  "id": "SR-A-20",
+  "no": 53,
+  "sorun": "Tekrar: 91. soru (HS-B-07) ile aynı bilgiyi ölçüyor (KKDF'nin peşin ödemeden alınmayıp mal mukabili ödemeden alınması). Aynı id, deneme, alan, konu (SR05), alt tip (D3) ve seriyle KKDF Kararı md. 3/c (Türkiye'de yerleşik kişilerin yurt dışı kredileri kesintiye tabi) ve md. 4 (3), (5), (6), (8) istisnalarından yeniden yazıldı. Bu hükümler üç denemenin hiçbir sorusunda kullanılmadı; 54. sorunun (md. 4/9, 4/14) öğeleriyle örtüşmüyor; kur kuralına girmediği için 91. sorunun kur varsayımıyla da çatışmıyor. Anahtar harfi (A) korunuyor",
+  "alan": "yeniden_yaz",
+  "yeni": {
+   "id": "SR-A-20",
+   "deneme": 2,
+   "alan": "SAİR",
+   "konu": "SR05",
+   "alt_tip": "D3",
+   "seri": "D2-kkdf",
+   "ortak_veri_id": null,
+   "ortak_veri": null,
+   "kok_on": "",
+   "onculler": [],
+   "tablo": null,
+   "kok": "Kaynak Kullanımını Destekleme Fonu Hakkında Karara göre aşağıdaki kredilerden hangisi fon kesintisine tabidir?",
+   "siklar": [
+    "Türkiye'de yerleşik sanayi şirketlerinin yurt dışından sağladıkları krediler",
+    "Bankaların finansman şirketlerine kullandırdığı krediler",
+    "Bankalarca yurt dışında yerleşik kişilere açılan krediler",
+    "Yurt dışındaki işlerle ilgili olarak yurt dışından alınan döviz kredileri",
+    "Kanuni ve idari takibe alınmış olan krediler"
+   ],
+   "dogru": 0,
+   "sira_sabit": false,
+   "aciklama": "Karar'ın 3 üncü maddesinin (c) bendi, bankalar ve finansman şirketleri dışında Türkiye'de yerleşik kişilerin yurt dışından sağladıkları kredilerde yatırılacak tutarı Fon'un kaynakları arasında sayar; bu nedenle Türkiye'de yerleşik sanayi şirketlerinin yurt dışından sağladıkları krediler fon kesintisine tabidir. Buna karşılık 4 üncü madde; yurt içi bankalararası krediler ile bankaların finansman şirketlerine kullandırdığı kredileri (3), kanuni ve idari takibe alınan kredileri (5), bankalarca yurt dışında yerleşik kişilere açılacak kredileri (6) ve yurt dışındaki işlerle ilgili olarak yurt içindeki bankalardan veya yurt dışından alınacak döviz kredilerini (8) Fon'a kesinti yapılmayacak krediler arasında sayar. Finansman şirketlerince kullandırılan krediler kesintiye tabi olsa da bankaların finansman şirketlerine kullandırdığı krediler istisna kapsamındadır. Kesinti oranlarını artırmaya veya eksiltmeye TCMB yetkili olduğundan soru oranı değil kesintinin kapsamını ölçmektedir.",
+   "tuzak": "Yurt dışından sağlanan her krediyi kesintiye tabi sanan aday yurt dışındaki işlerle ilgili döviz kredilerini, finansman şirketlerince kullandırılan kredilerin kesintiye tabi olmasından yola çıkan aday ise bankaların finansman şirketlerine kullandırdığı kredileri işaretler.",
+   "dayanak": "Kaynak Kullanımını Destekleme Fonu Hakkında Karar (88/12944) md. 3/c ve md. 4 (3), (5), (6), (8)",
+   "kaynak": "SAİR MEVZUAT KİTABI.txt KKDF Kararı 'FON'UN KAYNAKLARI – Md.3' (c) bendi (satır 9636) ve 'Ab- Finansman şirketlerince kullandırılan kredilerde' (satır 9634); 'FON'A KESİNTİ YAPILMAYACAK KREDİLER – Md. 4' (3), (5), (6), (8) bentleri (satır 9673-9679)",
+   "guven": "yüksek",
+   "no": 53,
+   "cevap": "A"
+  }
+ },
+ {
+  "id": "HS-B-07",
+  "no": 91,
+  "sorun": "Kökteki kur varsayımı mevzuattan farklı: KKDF Kararı md. 3 ve 6 sayılı Tebliğe göre fon kesintisi, kesintinin yatırıldığı tarihteki TCMB döviz alış kuru esas alınarak hesaplanır. Varsayımın yalnız bu soru için geçerli olduğu 'Bu soruda' kaydıyla açıkça yazıldı",
+  "alan": "kok",
+  "eski": "(KKDF hesabında da tescil tarihindeki kur esas alınacaktır.",
+  "yeni": "(Bu soruda KKDF hesabında da tescil tarihindeki kur esas alınacaktır."
+ },
+ {
+  "id": "HS-B-07",
+  "no": 91,
+  "sorun": "Açıklamaya mevzuattaki kur kuralı ile soru varsayımı arasındaki fark eklendi",
+  "alan": "aciklama",
+  "eski": "Tescilden sonraki döneme ait ardiye KDV matrahına girmez.",
+  "yeni": "Tescilden sonraki döneme ait ardiye KDV matrahına girmez. Mevzuatta fon kesintisi, kesintinin yatırıldığı tarihteki gösterge niteliğindeki TCMB döviz alış kuru esas alınarak hesaplanır; bu soruda kökteki varsayım gereği tescil tarihindeki kur kullanılmıştır."
+ }
+]
