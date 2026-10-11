@@ -1,0 +1,101 @@
+YIL	SORU_NO	KONU	ÖLÇÜLEN_BİLGİ	KALIP	KAYNAK_DOSYA	RESMI_CEVAP	DOGRU_SIK_METNI
+2025	1	İç Vergiler	Gümrüğe verilen belgelerden konşimento damga vergisine tabidir; elçilik/kurye mektubu, TIR ve ATA karnesi değildir.	TABİ	YOK	C	Konşimento
+2025	2	Uluslararası Anlaşmalar-Kuruluşlar	1/95 OKK ile Türkiye menşe, gümrük değeri, beyan, serbest dolaşım, gümrük borcu hükümlerini kabul eder; cezalar listede yok.	KAPSAM_DIŞI	SAİR MEVZUAT KİTABI	C	Gümrükte uygulanacak cezalar
+2025	3	Kıymet	Kıymete dahil edilip edilmemesi taraflarca düzenlenebilen giderler nakliye, yükleme, boşaltma, elleçleme ve sigortadır; royalti bunlardan değildir.	KAPSAM_DIŞI	12-KIYMET VE KAPLAR	D	Royalti
+2025	4	Kıymet	KVK'daki transfer fiyatlandırması düzenlemeleri OECD düzenlemeleri dikkate alınarak hazırlanmıştır.	DAYANAK	YOK	E	OECD
+2025	5	Kıymet	Transfer fiyatlandırması yöntemleri karşılaştırılabilir fiyat, maliyet artı, yeniden satış ve kâr bölüşümüdür; indirgeme yöntemi değildir.	KAPSAM_DIŞI	YOK	B	İndirgeme yöntemi
+2025	6	Uluslararası Anlaşmalar-Kuruluşlar	TFA'da kıymet yöntem ve kriterleri konusunda ön karar zorunlu değildir; üyeler ön karar vermeye teşvik edilir.	DOĞRU	YOK	E	Üyeler bu konuda ön karar vermeleri için teşvik edilir
+2025	7	İç Vergiler	Uçak benzini ÖTV (I) sayılı listenin (A) cetvelindedir; (B) cetveli solvent benzeri akaryakıt dışı ürünleri kapsar.	KAPSAM_DIŞI	ozel_tuketim_vergisi_x1ix2_sayili_liste_uygulama_genel_tebligi	A	Uçak benzini
+2025	8	İç Vergiler	ÖTV diplomatik istisnası (I), (II), (III) sayılı listelerdeki mallar içindir; (IV) sayılı listede diplomatik istisna yoktur.	KAPSAM_DIŞI	SAİR MEVZUAT KİTABI	E	(IV) Sayılı Liste
+2025	9	İç Vergiler	Saç spreyi ÖTV Kanununa ekli (IV) sayılı liste kapsamındadır.	KAPSAM	ozel_tuketim_vergisi_x1ivx2_sayili_liste_uygulama_genel_tebligi	D	IV
+2025	10	İç Vergiler	Finansal kiralamada, belirli istisnalar dışında, kiralamaya konu malın tabi olduğu KDV oranı uygulanır.	ORAN-TUTAR	SAİR MEVZUAT KİTABI	E	İşleme konu olan malın tabi olduğu KDV oranı uygulanır
+2025	11	Diğer	INCOTERMS 2020'de belirlenen yerde boşaltılmış teslim DPU'dur (eski DAT).	KISA_AD	SAİR MEVZUAT KİTABI	E	DPU
+2025	12	Vergi-Hesaplama	KDV'si ödenmiş tescil öncesi ardiye ÖTV matrahına girer, KDV matrahına girmez: ÖTV 220 + KDV 244.	HESAP	SAİR MEVZUAT KİTABI;ozel_tuketim_vergisi_x1ivx2_sayili_liste_uygulama_genel_tebligi	D	464
+2025	13	Cezalar-İtiraz-Uzlaşma	Noksan kıymet beyanında GK 234/1-b: GV, EMY ve KDV farkı toplamının (3.000) üç katı para cezası.	HESAP	48-cezalar	D	9.000
+2025	14	Vergi-Hesaplama	Beyan edilmeyen royalti: GV ve 2 nolu beyanla ödenen KDV'den kalan fark ek tahakkuk, vergi farkının üç katı ceza.	HESAP	12-KIYMET VE KAPLAR;48-cezalar	A	4.800
+2025	15	Vergi-Hesaplama	ÖTV (I) sayılı liste malında ÖTV gümrükte tahsil edilmez (teminat); gümrükte GV 1.000 + KDV 2.200 alınır.	HESAP	ozel_tuketim_vergisi_x1ix2_sayili_liste_uygulama_genel_tebligi;SAİR MEVZUAT KİTABI	B	3.200
+2025	16	Kıymet	Kesin dönüşte kullanılmış araç: model-fatura yılı farkı bir yılsa fatura yılından ilk yıl %20, sonra %10 amortisman (%40).	HESAP	Hesaplama;Tarife ve Hesaplama 202601	D	6.000
+2025	17	Kıymet	Satış koşulu royalti/lisans (marka, patent, know-how, dağıtım) kıymete girer; Türkiye'de çoğaltma hakkı ödemesi girmez.	HESAP	12-KIYMET VE KAPLAR	C	12.000
+2025	18	Kıymet	Benzer eşya aynı ülkede üretilmiş, aynı işlevli ve ticari ikame edilebilir olmalı; kalite ve marka itibarı dikkate alınır.	OLAY	12-KIYMET VE KAPLAR	E	V
+2025	19	Vergi-Hesaplama	Tam muafiyetli geçici ithalatın serbest dolaşıma girişinde GK 207 gecikme zammı (320) KDV matrahına girer: GV 1.000 + KDV 2.264.	HESAP	46-teminat ve faiz;SAİR MEVZUAT KİTABI	C	3.264
+2025	20	Kıymet	Satıcıya garanti ödemesi ve brüt lisans kıymete eklenir; Türkiye'de ekspertiz, tescil sonrası masraf, finansman faizi, teyit komisyonu eklenmez.	HESAP	12-KIYMET VE KAPLAR	D	22.000
+2025	21	Beyan-Serbest Dolaşım	İzin verilirken dikkate alınan şartlardan biri değişirse nihai kullanım izin belgesinde değişiklik yapılabilir.	YANLIŞ	18-Ser.Dol.Giriş Rejimi	A	Şartlar değiştiğinde izin belgesinde değişiklik yapılamaz
+2025	22	Beyan-Serbest Dolaşım	Geçici depolama/antrepodaki eşyaya nihai kullanım izni, beyanname kapatılmamışsa sonradan verilebilir (TBYBU ve sivil hava taşıtı hariç).	DOĞRU	18-Ser.Dol.Giriş Rejimi	A	Beyannamenin kapatılmamış olması şartıyla sonradan verilebilir
+2025	23	Beyan-Serbest Dolaşım	GK 76 uygulamasında beyannameye eklenen listede eşyanın cins, tür, miktar, kıymet ve GTİP'i bulunur.	ÖNERMELİ	18-Ser.Dol.Giriş Rejimi	E	I, II, III, IV ve V
+2025	24	Serbest Bölge-GSM-YGM	Statü belgesi, SB işlem formuyla transit giren üçüncü ülke eşyası ve SB'ye ihracat beyannamesiyle gelen eşya için girişte düzenlenir.	ÖNERMELİ	38-serbest bölge	A	I ve II
+2025	25	Beyan-Serbest Dolaşım	Limanda gaz haline getirilip boru hattına verilen LNG'nin serbest dolaşıma girişinde BS-19 kodu beyan edilir.	KISA_AD	18-Ser.Dol.Giriş Rejimi	B	BS-19
+2025	26	Menşe-STA	EFTA üyeleri İsviçre, Norveç, İzlanda ve Lihtenştayn'dır; Danimarka, Finlandiya, İsveç ayrılıp AB'ye geçmiştir.	KAPSAM	STA ve KÜMÜLASYONLAR	D	İsviçre
+2025	27	Menşe-STA	A.TR doğrudan nakledilen sanayi ve işlenmiş tarım ürünleri için düzenlenir; tarım ve AKÇT ürünleri hariçtir.	ÖNERMELİ	SAİR MEVZUAT KİTABI	C	II ve IV
+2025	28	Diğer	Sahte ve korsan eşya, marka simgeleri, ihlal amaçlı kalıp-matrisler alıkonulabilir; hak sahibi izniyle üretilen eşya kapsam dışıdır.	ÖNERMELİ	16-GOBİK VE SAHTE EŞYA	E	I, II, III ve IV
+2025	29	Beyan-Serbest Dolaşım	Vergilendirmeyi doğrudan etkileyen fatura, serbest dolaşıma giriş beyannamesine eklenmesi zorunlu belgelerdendir.	BELGE	17-BEYAN	B	Fatura
+2025	30	Teknik Düzenlemeler-Ürün Güvenliği	Kontrol altındaki kimyasalların ithalat denetimi Çevre, Şehircilik ve İklim Değişikliği Bakanlığına aittir, Tarım ve Orman'a değil.	EŞLEŞTİRME	4 - TEKNİK DÜZENLEMELER	A	2025/6 Kimyasallar Tebliği – Tarım ve Orman Bakanlığı
+2025	31	Kambiyo	32 sayılı Karara göre kıymetli maden, taş ve eşyanın Türkiye'den ihracı serbesttir, kotaya tabi değildir.	YANLIŞ	SAİR MEVZUAT KİTABI	B	Kıymetli madenler, taşlar ve eşyanın ihracı kotaya tabidir
+2025	32	Menşe-STA	İhracatta düzenlenmeyip sonradan düzenlenen belge teknik ret nedeni değildir; form, boş kutu, mühür/yetki, fotokopi teknik nedendir.	KAPSAM_DIŞI	STA ve KÜMÜLASYONLAR;SAİR MEVZUAT KİTABI	E	Menşe belgesinin sonradan düzenlenmesi
+2025	33	Menşe-STA	Türkiye-Azerbaycan TTA'da menşe TR-AZ Menşe İspat Belgesiyle ispatlanır, Form A ile değil.	EŞLEŞTİRME	STA ve KÜMÜLASYONLAR	B	Türkiye/Azerbaycan TTA – Form A Menşe Belgesi
+2025	34	Menşe-STA	Türkiye-AB işlenmiş tarım ürünleri ticaretinde EUR.1 değil A.TR kullanılır; PAAMK EUR.1'i vizeden itibaren 4 ay geçerlidir.	YANLIŞ	STA ve KÜMÜLASYONLAR	D	AB ile işlenmiş tarım ürünleri ticaretinde menşe ispatında kullanılır
+2025	35	Menşe-STA	GY 205/4: önlem uygulanan ülkeden ithalde, o ülke menşeli beyanında ve tercihli menşe belgesi ibrazında menşe şahadetnamesi aranmaz.	ÖNERMELİ	10-MENŞEİ	E	I, II ve III
+2025	36	Menşe-STA	Türkiye-Özbekistan TTA'da tercihli menşe EUR.1 Dolaşım Belgesiyle ispatlanır.	BELGE	STA ve KÜMÜLASYONLAR	C	EUR.1 Dolaşım Belgesi
+2025	37	Kambiyo	İşlenmemiş standart altını yalnız TCMB ve aracı kuruluşlar ithal eder; en az 995/1000 olan standarttır, standart dışı değil.	ÖNERMELİ	SAİR MEVZUAT KİTABI	C	I ve II
+2025	38	Teknik Düzenlemeler-Ürün Güvenliği	Sayılan gruplardan yalnız oyuncaklar ithalatta TAREKS üzerinden uygunluk denetimine tabidir.	ÖNERMELİ	4 - TEKNİK DÜZENLEMELER	A	Yalnız I
+2025	39	Tarife-Sınıflandırma	Balina ve yunus Fasıl 1/2'de, levrek Fasıl 3'te yer alır; diğer gruplar 04, 05, 09. fasılda birliktedir.	SINIFLANDIRMA	FASIL01;FASIL03	C	Balina-yunus-levrek
+2025	40	Tarife-Sınıflandırma	Güneş ve kum saatleri Fasıl 91 dışındadır, yapıldıkları maddeye göre sınıflandırılır.	YANLIŞ	FASIL91	D	Güneş saatleri 91 inci fasılda yer alır
+2025	41	Tarife-Sınıflandırma	Fasıl 64 Not 2: 64.06'daki aksam tabiri ayakkabı bağlarını kapsamaz.	YANLIŞ	FASIL64	E	64.06 aksam tanımı ayakkabı bağcıklarını kapsar
+2025	42	Tarife-Sınıflandırma	GYK 3(b) perakende takım örneği: makarna, rendelenmiş peynir ve domates sosundan oluşan yemek seti 19.02'de sınıflandırılır.	SINIFLANDIRMA	TARİFENİNYORUMU İLE İLGİLİ GENEL KURALLAR 2017	B	Makarna, peynir ve sos seti 19.02'de
+2025	43	Tarife-Sınıflandırma	Ayran, yoğurttan elde edilen fermente süt ürünü olarak 04.03 pozisyonunda yer alır.	SINIFLANDIRMA	FASIL04;Tarife ve Hesaplama 202601	C	04.03
+2025	44	Tarife-Sınıflandırma	64.06 ayakkabı aksamı TGTC XII. Bölümdedir; XI. Bölüm (mensucat) kapsamında değildir.	YANLIŞ	FASIL64	A	Eşya TGTC 11. Bölüm kapsamındadır
+2025	45	Tarife-Sınıflandırma	Sıcak izostatik presler 85.14'te (elektrik fırınları) yer alır; salmastra, tav ocağı, volan Fasıl 84'tedir.	SINIFLANDIRMA	FASIL85;FASIL84	D	Sıcak izostatik presler
+2025	46	Tarife-Sınıflandırma	Fasıl 85 sırası: tıraş makinesi 85.10, akıllı kart 85.23, kondansatör 85.32, röle 85.36.	SINIFLANDIRMA	FASIL85	E	Tıraş makinası – akıllı kart – kondansatör – röle
+2025	47	Tarife-Sınıflandırma	Isıtma rezistanslı ve konnektörlü çerçeveli taşıt camı 87.08 aksamıdır; far camı, dikiz aynası, segman, gösterge başka fasılda.	SINIFLANDIRMA	FASIL87	A	Isıtmalı ön cam
+2025	48	Tarife-Sınıflandırma	Yüz yılı aşan antika 97.06'dadır; evlilik, miras, kriz ve kamu kurumu eşyası 99. fasıl özel GTİP'lerindedir.	SINIFLANDIRMA	Tarife ve Hesaplama 202601;FASIL97	A	Eskiliği yüzyılı aşan antika eşya
+2025	49	Tarife-Sınıflandırma	Koku emdirilmiş dokunmamış şeritli, içeceği aromatize eden şişe halkası başka yerde yer almayan parfümeri olarak 33.07'dedir.	SINIFLANDIRMA	FASIL33	B	33.07
+2025	50	Tarife-Sınıflandırma	09.09 anason, rezene, kişniş ve kimyon tohumlarını kapsar; zencefil 09.10'dadır.	SINIFLANDIRMA	FASIL09	E	Zencefil
+2025	51	Tarife-Sınıflandırma	Mahlut unu 11.01 ile Fasıl 11'dedir; malt ikamesi, kapçık, tapyoka ve değirmen kalıntıları başka fasıllardadır.	SINIFLANDIRMA	FASIL11	E	Mahlut unu
+2025	52	Tarife-Sınıflandırma	24.04 yanma olmadan solunan ürünleri kapsar; yanmayı takiben solunan tütün ürünleri 24.04'te sınıflandırılmaz.	SINIFLANDIRMA	FASIL24	D	Yanmayı takiben solunması amaçlanan ürünler
+2025	53	Tarife-Sınıflandırma	474 s. Kanun md.2: Cumhurbaşkanı oranları 50'ye kadar yükseltebilir, sıfıra indirebilir, had ve nispetleri %50 artırabilir.	YETKİ	Tarife ve Hesaplama 202601	B	50'ye kadar yükseltir, sıfıra indirir veya %50'sine kadar artırır
+2025	54	Tarife-Sınıflandırma	Ahtapotlar (Octopus spp.) yumuşakça olarak 03.07 pozisyonunda yer alır.	SINIFLANDIRMA	FASIL03	C	03.07
+2025	55	Tarife-Sınıflandırma	Kauçuktan yeni dış lastikler (uçak lastiği dahil) 40.11 ile Fasıl 40'tadır.	SINIFLANDIRMA	FASIL40	B	Uçak lastiği
+2025	56	Posta-Kargo-Sınır Ticareti-Kumanya	Yükünü boşaltıp diğer Türk limanlarına ihraç yükü almaya giden geminin hareketi de dış seferin devamı sayılır.	YANLIŞ	42-kumanya	B	Bu hal dış seferin devamı sayılmaz
+2025	57	İhracat-Geri Gelen	HİR ve antrepo dışındaki ekonomik etkili rejime tabi eşyanın ihracat rejimine girişi basitleştirilmiş usulle yapılabilir.	KAPSAM	17-BEYAN	D	Geçici ithalat rejimi
+2025	58	İhracat-Dış Ticaret Mevzuatı	Serbest bölgelere ihracat ihracat mevzuatına tabidir; DİR, KDV ve Eximbank mevzuatı saklıdır.	BOŞLUK	ihracat_yonetmeligi_2006;36-ihracat	B	İhracat / Dahilde İşleme
+2025	59	Kambiyo	Yolcu beraberi 185.000 TL'yi aşan Türk parası çıkışında Bakanlık nakit beyan formuyla beyan yapılır.	BOŞLUK	SAİR MEVZUAT KİTABI	C	185.000 / nakit beyan formu
+2025	60	İhracat-Dış Ticaret Mevzuatı	Konsinyede başvuru İhracatçı Birliğine; beyanname 30 gün; kesin satış 1 yıl; uzatma birlikçe 2 yıl; basitleştirilmiş beyanla mümkün.	ÖNERMELİ	ihracat_yonetmeligi_2006;36-ihracat	A	I ve III
+2025	61	İhracat-Dış Ticaret Mevzuatı	Afyon ve haşhaş kellesi ihracı Sağlık Bakanlığı ön iznine bağlıdır; Hint keneviri, yalankoz, Datça hurması, sığla ihracı yasaktır.	TABİ	ihraci_yasak_ve_on_izne_bagli_mallara_iliskin_teblig_96-31 (1)	D	Afyon ve haşhaş kellesi
+2025	62	Kambiyo	Vadesi 180 günü aşan ihracatta bedel vade bitiminden itibaren 90 gün içinde getirilir (200+90=290).	SÜRE	SAİR MEVZUAT KİTABI	B	290 gün
+2025	63	DİR	TEV ihracat beyannamesi tescil tarihindeki oran ve unsurlara göre hesaplanır; ithalat tescil tarihi esas alınmaz.	ÖNERMELİ	dahilde_isleme_rejimi_karari_sayisi_2005-8391;44-yükümlülük	B	Yalnız IV
+2025	64	DİR	DİR süresi izin tarihinden işler, bitimin rastladığı ayın son günü sona erer; ithalat-ihracat izin süresinde yapılır; ek süre verilebilir.	ÖNERMELİ	32-DAHİLDE İŞLEME	D	I, II, IV ve V
+2025	65	Transit-TIR-ATA	Ortak transitte Bakanlıkça verilen kapsamlı teminat ulusal transitte kullanılabilir; tersi öngörülmemiştir.	YANLIŞ	20-TRANSİT REJİMİ;23-SERİ NO 4	A	Ulusal transit kapsamlı teminatı ortak transitte de kullanılabilir
+2025	66	Transit-TIR-ATA	Transit basitleştirmeleri: kapsamlı teminat/teminattan vazgeçme, taşıma şekline özgü basitleştirmeler ve izinli gönderici yetkisi.	ÖNERMELİ	20-TRANSİT REJİMİ	C	I, II ve IV
+2025	67	Transit-TIR-ATA	Telef/kayıpta hırsızlık için savcılık, genel olay için mülki amir belgesi; trafik kazasında gümrük idare amirinin kararı esastır.	ÖNERMELİ	20-TRANSİT REJİMİ	C	I ve II
+2025	68	Transit-TIR-ATA	Transit beyanı Türkçe ve e-imzalı verilir; her beyan tek hareket-tek varış arası tek taşıtı kapsar; ulusal transitte TR kullanılır.	ÖNERMELİ	23-SERİ NO 4	B	I ve IV
+2025	69	Transit-TIR-ATA	GK 84: kapsam ve ibra hükmü doğru; rejim eşya varış idaresine sunulunca biter; antrepoda bekleme ve aktarma mümkündür.	ÖNERMELİ	20-TRANSİT REJİMİ	A	I ve II
+2025	70	Transit-TIR-ATA	Basitleştirme izninde ceza oranı sınırları, son yıl en az 500 transit beyanı ve TGB'de yerleşiklik aranır; finansal büyüklük aranmaz.	ÖNERMELİ	20-TRANSİT REJİMİ	E	I, II ve III
+2025	71	Transit-TIR-ATA	TIR Sözleşmesine taraf ülkeler; Libya taraf değildir.	KAPSAM_DIŞI	YOK	A	Libya
+2025	72	Transit-TIR-ATA	Geçerlilik süresinin bitiş günü hareket idaresince kabul edilen TIR karnesi taşıma sonlanana kadar geçerlidir, varışa sevk edilir.	SONUÇ	21-TIR SÖZLEŞMESİ	D	TIR Karnesi kabul edilir ve varış gümrük idaresine sevk edilir
+2025	73	Muafiyetler	Ölüm halinde muafiyet Türkiye'de ikamet eden mirasçılara tanınır; yurt dışında yerleşik mirasçıya ev eşyası muafiyeti bu kapsamda değil.	YANLIŞ	39-muafiyetler	C	Yurtdışında yerleşik kesin dönüş yapacak mirasçılara muafiyet
+2025	74	Muafiyetler	Evlilik nedeniyle gönderilen hediyelerde her biri 430, toplamı 3.000 Avro'yu aşmayanlara muafiyet tanınır.	BOŞLUK	39-muafiyetler	E	430-3.000
+2025	75	Muafiyetler	Hayır/insani yardım muafiyetinde ambulans, cenaze ve kurtarma araçları dışındaki motorlu araçlara (binek oto) muafiyet uygulanmaz.	YANLIŞ	39-muafiyetler	E	Kamu/hayır kurumlarının binek otomobillerine muafiyet tanınır
+2025	76	Muafiyetler	Yolcu Beraberi Kişisel Eşya Listesi (Ek-9) miktar sınırları; 5 adet cilt bakım/makyaj ürünü liste kapsamında muaftır.	MUAFİYET	YOK	E	5 adet cilt bakım ürünü ve makyaj malzemesi
+2025	77	Posta-Kargo-Sınır Ticareti-Kumanya	AB'den posta/kargoyla gerçek kişiye gelen 30 Avro'yu aşmayan eşyaya %30, (IV) sayılı listede ise ilave %20 tek ve maktu vergi.	BOŞLUK	YOK	B	30 Avro'yu - %30 - %20
+2025	78	Antrepo-İşleticiler	Alıcısı emre eşya izinsiz genel antrepoya konulabilir; yasak, yanıltıcı menşeli, tasfiyelik ve fazla çıkan eşya bölge izniyle konur.	KAPSAM_DIŞI	28-antrepo rejimi	C	Satıcı veya göndericisi belli, alıcısı emre olan eşya
+2025	79	Serbest Bölge-GSM-YGM	Tek işletmeciyle sözleşmeli alt işletmeci çıkış mağazasında alkollü içki ve tütün ürünleri satamaz.	YANLIŞ	30-Güm.Sat.Mağazaları	B	Y firması tütün ürünü satabilir
+2025	80	Cezalar-İtiraz-Uzlaşma	Antrepodaki eşyanın izinsiz elleçlenmesi GK 241/4-f ile dört kat usulsüzlük cezasıdır; 241/1 (Ek-82) kapsamında değildir.	KAPSAM_DIŞI	48-cezalar;28-antrepo rejimi	D	Antrepodaki eşyanın izinsiz elleçlemeye tabi tutulması
+2025	81	Antrepo-İşleticiler	Özel antrepoda devredilen eşya 5 iş günü içinde çıkarılmalı; aşan her gün işletici ve devralana ayrı ayrı GK 241/1.	BOŞLUK	28-antrepo rejimi	C	Özel - 5 iş günü - Gümrük Kanunu 241/1
+2025	82	Antrepo-İşleticiler	Götürü teminat işlemleri gümrük müdürlüğünce değil bölge müdürlüğünce sonuçlandırılır; alan hesabı ve 40 milyon TL üst sınırı.	YANLIŞ	29-iŞLETİCİLER	E	İşlemler ilgili gümrük müdürlüğünce sonuçlandırılır
+2025	83	Antrepo-İşleticiler	Akaryakıt antreposuna tank ilavesi Bakanlıkça; plan değişikliği gerektirmeyen GDY talebi bölgece; hafif kusurda üç ay süre.	EŞLEŞTİRME	29-iŞLETİCİLER	B	Yalnız II
+2025	84	Kaçakçılık	Bandrol suistimali, yetkisiz tütün ticareti, dolu makaron satışı suçtur; teknik düzenlemeye aykırı etil alkol bulundurma 5607'de tanımlı değil.	KAPSAM_DIŞI	5607_sayili_kacakcilikla_mucadele_kanunu	B	Amacı dışında/teknik düzenlemeye aykırı etil alkol bulundurmak
+2025	85	Kaçakçılık	Elkonulan taşıt, soruşturma sürerken suçta tekrar kullanılırsa alıkonulur; yük oranı ve yasak eşya şartları müsadere içindir.	ŞART	5607_sayili_kacakcilikla_mucadele_kanunu	A	Yalnız I
+2025	86	HİR-GKAİR	GKAİR'de değişmemiş veya ara aşamadaki ürün için vergi, rejim beyannamesi tescilindeki oran ve unsurlara göre hesaplanır.	MATRAH	33-GKAİR	A	GKAİR beyannamesinin tescili sırasındaki oran ve unsurlar
+2025	87	Geçici İthalat	Kısmi muafiyette geçici ithalat beyanı tarihindeki, tam muafiyette serbest dolaşıma giriş tescilindeki oranlar esas alınır.	ÖNERMELİ	34-GEÇİCİ İTHALAT	C	I ve II
+2025	88	Geçici İthalat	Kısmi muafiyetli geçici ithalatın kati ithalatında GİB tarihi oranları uygulanır, o tarihten itibaren gecikme zammı oranında faiz alınır.	OLAY	34-GEÇİCİ İTHALAT;46-teminat ve faiz	C	01.01.2025 oranları; 01.01.2025'ten itibaren faiz
+2025	89	HİR-GKAİR	Yurt dışında tamir edilen eşyanın yerine dönene kadar ikame eşyanın geçici ithali standart değişim sistemidir.	TANIM	35- hir	D	Standart değişim sistemi
+2025	90	GK-Genel	YYS sertifikasının sahte belgeye dayanılarak verildiğinin anlaşılması askıya alma değil iptal sebebidir.	KAPSAM_DIŞI	3-YYS	D	Sertifikanın sahte belgelere dayanılarak verildiğinin anlaşılması
+2025	91	GK-Genel	OKSB: iki 12 aylık dönemin her birinde en az 2 milyon $ fiili ihracat veya 1 milyonu ihracat olmak üzere 7 milyon $.	ŞART	4-OKSB	B	Birinci dönem iki, ikinci dönem dört milyon $ fiili ihracat
+2025	92	GK-Genel	İthalatta yerinde gümrükleme için YYS-I, tartım düzeneği, depolama/muayene donanımı ve 500.000 Avro teminat gerekir.	YANLIŞ	3-YYS	D	Yüz bin avro teminat vermiş olmak
+2025	93	Yükümlülük-Teminat-Faiz-Geri Verme	Teminat olarak bankaların süresiz teminat mektupları kabul edilir; süreli mektup kabul edilmez.	YANLIŞ	46-teminat ve faiz	A	Bankaların süreli teminat mektupları teminat olarak kabul edilir
+2025	94	Yükümlülük-Teminat-Faiz-Geri Verme	GK 214: uluslararası anlaşma kapsamındaki geri verme için tebliğden itibaren bir yıl içinde başvurulur.	SÜRE	47-geri verme kaldırma	B	Tebliğden itibaren 1 yıl içinde
+2025	95	Yükümlülük-Teminat-Faiz-Geri Verme	Noksan alınan vergiler tebliğden itibaren 15 gün içinde ödenir; teminatla 30 gün uzatılabilir, tecil faizi alınır.	DOĞRU	45-tebliğ	A	Tebliğden itibaren on beş gün içinde ödenmesi zorunludur
+2025	96	Uluslararası Anlaşmalar-Kuruluşlar	2006/10895 Karar: geri gelen eşya INF 3, HİR üçgen trafik INF 2, tedarikçi beyanı kontrolü INF 4 ile yürür.	EŞLEŞTİRME	SAİR MEVZUAT KİTABI	A	INF 3 - INF 2 - INF 4
+2025	97	Menşe-STA	Uruguay ile yürürlükte STA yoktur; Faroe Adaları, Morityus, Singapur ve Şili ile STA vardır.	KAPSAM_DIŞI	STA ve KÜMÜLASYONLAR	B	Uruguay
+2025	98	Serbest Bölge-GSM-YGM	DR2, DİR ithal eşyasının ihraç ürününde kullanılıp kullanılmadığının tespitidir; kıymet tespiti değildir.	EŞLEŞTİRME	31-YGM	E	DR2 – DİR kapsamı ithal eşyanın kıymet tespiti
+2025	99	Gümrük Müşavirliği-Disiplin	Aynı beyannamede tarife tablosundaki birden fazla rejim varsa ücretlerden yüksek olanı uygulanır.	ORAN-TUTAR	51-disiplin cezaları	D	Yüksek ücret
+2025	100	Serbest Bölge-GSM-YGM	Genel antrepoda AN7-AN8-AN9, özelde AN6-AN7-AN9 aynı YGM'ce yapılır; diğer tespitlerde aynı/başka YGM ile sözleşme.	DOĞRU	31-YGM	A	Genel AN7-AN8-AN9, özel AN6-AN7-AN9 aynı YGM'ce

@@ -1,0 +1,101 @@
+YIL	SORU_NO	KONU	ÖLÇÜLEN_BİLGİ	KALIP	KAYNAK_DOSYA	RESMI_CEVAP	DOGRU_SIK_METNI
+2024	1	Diğer	Incoterms 2020'de FAS yalnız deniz ve iç suyolu kuralıdır; FCA, CPT, CIP, DPU tüm taşıma türlerinde kullanılır.	KAPSAM_DIŞI	SAİR MEVZUAT KİTABI	E	FAS
+2024	2	Tarife-Sınıflandırma	İnsan tüketimine uygun kurutulmuş/tuzlanmış böcekler Fasıl 4 Not 6 gereği 04.10'da; tüketime uygun olmayanlar 05.11'de.	SINIFLANDIRMA	FASIL04	B	04.10
+2024	3	Menşe-STA	AB ile AKÇT ürünleri ticaretinde tercihli rejim için A.TR değil EUR.1 dolaşım belgesi kullanılır.	BELGE	STA ve KÜMÜLASYONLAR	D	EUR.1 Dolaşım Belgesi
+2024	4	İthalat Rejimi-Ticaret Politikası	3350 sayılı Karar md.7 özel nitelikli eşya: eski, kullanılmış, yenileştirilmiş, defolu ve yatık eşya; ithali izne tabi.	TANIM	ck_2020-03350_ithalat_rejimi_karari	A	Eski, kullanılmış, yenileştirilmiş, kusurlu ve yatık eşya
+2024	5	Kambiyo	32 sayılı Kararda kıymetli maden her tür ve şekilde altın, gümüş, platin ve paladyumdur; işlenmiş/standart dışı ayrımı fark etmez.	ÖNERMELİ	SAİR MEVZUAT KİTABI	E	I, II, III, IV ve V
+2024	6	Menşe-STA	56.01'deki tekstil ürününde tercihsiz menşe için GY ek-5 liste kuralı (liflerden imalat) aranır.	ŞART	YOK	B	Liflerden imalat
+2024	7	Muafiyetler	Standart depo fazlası petrol ürününde litre başına ÖTV'nin %50 fazlası tek ve maktu vergi olarak alınır.	DOĞRU	39-muafiyetler	C	Depo fazlası petrolde ÖTV'nin %50 fazlası maktu vergi alınır
+2024	8	İç Vergiler	KDV Kararı (I) sayılı liste (A) gıda bölümünde 24. fasıl (tütün) yer almaz; 21 tam, 22-23-25 kısmen vardır.	KAPSAM_DIŞI	SAİR MEVZUAT KİTABI	D	24
+2024	9	Kıymet	EXW fiyata yurt dışı nakliye, navlun, ihraç limanı demurajı, satış komisyonu, bedelsiz kılıf ve lisans ücreti eklenir; Türkiye sonrası giderler eklenmez.	HESAP	Hesaplamaçıkmış;12-KIYMET VE KAPLAR	D	54.750
+2024	10	Vergi-Hesaplama	İthalatta KDV matrahı: gümrük kıymeti artı tescile kadar yapılan, vergilendirilmeyen giderler (giriş limanı demurajı, tahliye, tescil öncesi ardiye).	MATRAH	SAİR MEVZUAT KİTABI;Hesaplamaçıkmış	A	57.350
+2024	11	Kıymet	Gümrük Kıymeti Komitesi GATT VII. maddesinin uygulanmasına ilişkin Anlaşmanın 18. maddesiyle kurulmuştur.	DAYANAK	Hesaplama;Tarife ve Hesaplama 202601	E	GATT 1994 VII. maddesinin uygulanmasına ilişkin Anlaşma
+2024	12	Cezalar-İtiraz-Uzlaşma	Matraha giren ama aslı gümrükçe takip ve tahsil edilmeyen vergi ve mali yükler uzlaşmaya konu olamaz.	KAPSAM_DIŞI	50-uzlaşma	E	Aslı gümrükçe takip/tahsil edilmeyen matraha giren mali yükler
+2024	13	Kıymet	Marka royaltisi ödeme zamanına göre değil GY 56/3 koşullarına göre (yeniden satış, marka altında pazarlama) kıymete eklenir.	YANLIŞ	12-KIYMET VE KAPLAR	B	Marka royaltisi sadece ödeme ithalattan önce yapılmışsa eklenir
+2024	14	Vergi-Hesaplama	İstisnai kıymetle beyanda ödemenin tamamlayıcı beyan süresinden önce yapılması halinde KKDF kesintisi yapılmaz.	KAPSAM_DIŞI	YOK	E	İstisnai kıymette ödeme tamamlayıcı beyan süresinden önce yapılırsa
+2024	15	Kıymet	Seri No:2 Tebliğe göre royalti kapsamı: patent, dizayn, know-how, model, marka, telif hakkı, imalat prosesi; reklamasyon değil.	KAPSAM_DIŞI	12-KIYMET VE KAPLAR	E	Reklamasyon
+2024	16	İç Vergiler	Gazozlar ÖTV (III) sayılı listededir; havyar, parfüm, saç spreyi, tırnak makası (IV) sayılı listededir.	KAPSAM_DIŞI	ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi;ozel_tuketim_vergisi_x1ivx2_sayili_liste_uygulama_genel_tebligi	B	Sade gazoz
+2024	17	İç Vergiler	ÖTV listelerindeki mallarda liste dışında GTC'de yapılan tarife/tanım değişiklikleri ÖTV uygulamasında hüküm ifade etmez.	BOŞLUK	SAİR MEVZUAT KİTABI;ozel_tuketim_vergisi_x1ivx2_sayili_liste_uygulama_genel_tebligi	E	hüküm ifade etmez
+2024	18	Kıymet	Kıymete fatura ödemesi ve satıcının borcu için üçüncü kişiye ödeme girer; diğer ithalatlar ve temettü ödemeleri girmez.	HESAP	12-KIYMET VE KAPLAR;KIYMET HESAPLAMA İÇİN KLAVUZ[1]	B	1.500
+2024	19	Kıymet	CFR fiyata nakliye sigortası eklenir; satın alma komisyonu ve alıcının kendi hesabına pazarlama gideri eklenmez.	HESAP	12-KIYMET VE KAPLAR;Hesaplamaçıkmış	B	50.100
+2024	20	İç Vergiler	99/13812 Karar md.4 ihracat ödemeleri, DİR ithalatı ve transit ticareti damga vergisinden istisna tutar; geri gelen eşya belgeleri sayılmaz.	KAPSAM_DIŞI	ihracat_sayilan_satis_ve_teslimlerde_vergi_harc_istisnasi_hakkinda_99-13812_sayili_karar	E	İhracat eşyasının geri gelmesine ilişkin belgeler
+2024	21	Muafiyetler	Kesin dönüşte araç: kayıt yılı itibarıyla model dahil üç yıldan eski olmamalı ve son girişten en az altı ay önce kayıtlı olmalı.	ÖNERMELİ	39-muafiyetler	A	Yalnız I
+2024	22	Kıymet	Altı yaşından eski kullanılmış taşıtta model yılı kıymetinin %20'si gümrük vergilerine esas kıymet alınır.	HESAP	Hesaplamaçıkmış	B	6.000
+2024	23	Kıymet	Marka royaltisi kıymete girer; Türkiye'de çoğaltma hakkı girmez; üç yılı aşan yükümlülükler tahakkuk zamanaşımına uğrar.	HESAP	12-KIYMET VE KAPLAR;45-tebliğ	A	10.000
+2024	24	Vergi-Hesaplama	Nispi vergi min-maks adet bazlı sınırlarla karşılaştırılır; birinci kalemde azami 80, ikinci kalemde asgari 30 Avro uygulanır.	HESAP	SAAT HESAPLAMA[1]	B	110
+2024	25	Vergi-Hesaplama	CIF, royalti ve koruyucu ambalaj kıymete girer; reklam ve müşavir ücreti girmez; GV, İGV, ÖTV sırayla KDV matrahına eklenir.	HESAP	Hesaplamaçıkmış;12-KIYMET VE KAPLAR	C	2.835
+2024	26	Kıymet	Bedelsiz gönderilen araç bedeli, işçilik, bedelsiz elektronik donanım, satış komisyonu ve navlun-sigorta kıymete girer; Türkiye limanı gecikmesi girmez.	HESAP	Hesaplamaçıkmış;12-KIYMET VE KAPLAR	D	119.500
+2024	27	Kıymet	İthalat sonrası kurulum ve bağımsız anlaşmayla proses bedeli kıymete girmez; eşyaya ilişkin patent bedeli girer.	HESAP	Hesaplamaçıkmış;12-KIYMET VE KAPLAR	C	77.000
+2024	28	Kıymet	Alıcının ödememe riskini üstlenen bankaya ihracatçı hesabına ödenen hizmet bedeli teyit komisyonudur.	TANIM	YOK	A	Teyit komisyonu
+2024	29	Vergi-Hesaplama	Gözetim kıymetine ulaşmak için eklenen ve tevsik edilemeyen tutara isabet eden KDV indirilemez (7846 sayılı CK).	HESAP	Hesaplamaçıkmış	B	19.800
+2024	30	Antrepo-İşleticiler	Antrepodaki beyannameli eşyanın geri gönderilmesinde GK 70/2 gereği işlemler tescilden itibaren otuz günde bitirilir.	SÜRE	17-BEYAN;28-antrepo rejimi	B	30
+2024	31	GK-Genel	Mahkeme imha kararında masraflar hak sahibine değil eşya sahibine ait olmak üzere tasfiye hükümlerine göre imha edilir.	YANLIŞ	16-GOBİK VE SAHTE EŞYA	A	İmha masrafları hak sahibine ait olur
+2024	32	Menşe-STA	İran TTA'sında tercih için İran menşe ispat belgesi kullanılır; EUR.1 bu ticarette kullanılmaz.	BELGE	STA ve KÜMÜLASYONLAR	A	EUR.1 Dolaşım Belgesi
+2024	33	Menşe-STA	EUR.1 ihracatta gümrükçe vize edilir; Form A ve menşe şahadetnamesi gümrükçe vize edilmez, fatura/menşe beyanı vizesizdir.	BELGE	STA ve KÜMÜLASYONLAR	D	EUR.1 Dolaşım Belgesi
+2024	34	İthalat Rejimi-Ticaret Politikası	İRK md.4'te ticaret politikası önlemleri haksız rekabet, korunma, kota, gözetim, tekstil ve ticari haklar mevzuatıyla yürütülür; kambiyo değil.	KAPSAM_DIŞI	ck_2020-03350_ithalat_rejimi_karari	E	Kambiyo Mevzuatı
+2024	35	Menşe-STA	Azerbaycan TTA'sında belge TR-AZ menşe ispat belgesidir; menşe beyanı Güney Kore, İngiltere, Singapur'da kullanılır.	EŞLEŞTİRME	STA ve KÜMÜLASYONLAR	A	Azerbaycan - Menşe Beyanı
+2024	36	Menşe-STA	Güney Kore, Malezya ve Bosna Hersek STA ülkesidir; Azerbaycan, Özbekistan, İran, Pakistan TTA ülkesidir.	KAPSAM	STA ve KÜMÜLASYONLAR	C	Güney Kore, Malezya, Bosna Hersek
+2024	37	Kambiyo	32 sayılı Kararda efektif, banknot şeklindeki bütün yabancı ülke paralarıdır; döviz efektif dahil ödeme araçlarıdır.	TANIM	SAİR MEVZUAT KİTABI	C	Efektif
+2024	38	Beyan-Serbest Dolaşım	Vergi ödenmeden/teminatsız teslim yasağı kısmi muafiyetli geçici ithalata uygulanmaz; istisnasız ifadesi yanlıştır.	ÖNERMELİ	17-BEYAN	A	Yalnız V
+2024	39	Antrepo-İşleticiler	Antrepoya alınmış beyannameli eşya herhangi bir nedenle geri gönderilebilir; kusur gerekçesi şartı yoktur.	ÖNERMELİ	YOK	A	Yalnız I
+2024	40	Menşe-STA	TPS-OIC taraf ülkeleri: Bahreyn, Bangladeş, BAE, Fas, İran, Katar, Kuveyt, Malezya, Pakistan, S.Arabistan, Umman, Ürdün.	KAPSAM	STA ve KÜMÜLASYONLAR	B	Malezya
+2024	41	Menşe-STA	Singapur STA'sında tercihli menşe menşe beyanıyla kanıtlanır; EUR.1 eşleştirmesi yanlıştır.	EŞLEŞTİRME	STA ve KÜMÜLASYONLAR	D	Singapur / EUR.1 Dolaşım Belgesi
+2024	42	Beyan-Serbest Dolaşım	Getirilmeden serbest dolaşıma giren gemi ve hava taşıtlarında özet beyan ve gümrüğe sunma hükümleri uygulanmaz.	ÖNERMELİ	18-Ser.Dol.Giriş Rejimi	C	Yalnız III
+2024	43	Menşe-STA	Menşe şahadetnamesi tercihli tarifeyi sağlamaz ama tercihsiz Mısır menşeini kanıtlar; Vietnam'a özgü damping uygulanmaz.	ÖNERMELİ	10-MENŞEİ;STA ve KÜMÜLASYONLAR	D	III ve IV
+2024	44	Tarife-Sınıflandırma	Tabii, butadien, rejenere kauçuk ve çıkıl Fasıl 40'ta; silikonlar 39.10'da sınıflandırılır.	SINIFLANDIRMA	FASIL40;FASIL39	E	Silikon
+2024	45	Tarife-Sınıflandırma	Fırınlar 73.21, 84.17, 85.14, 85.16'da yer alır; 85.09 ev tipi elektromekanik cihazları kapsar, fırın içermez.	SINIFLANDIRMA	FASIL85;FASIL73	C	85.09
+2024	46	Tarife-Sınıflandırma	Aynı bölüm sorusu: şekerleme, şarap tortusu, tütün Bölüm IV; kahve 09.01 Bölüm II (resmî cevap tartışmalı).	SINIFLANDIRMA	FASIL09;FASIL16	E	Ciklet - kahve - şarap tortusu - tütün
+2024	47	Tarife-Sınıflandırma	Kızılötesi kumanda ve yüksek frekans amplifikatörleri 85.43'te; elektrik izolatörleri 85.46'da sınıflandırılır.	SINIFLANDIRMA	FASIL85	C	Elektrik izolatörü
+2024	48	Tarife-Sınıflandırma	64.06 topuk rampasını kapsar; Fasıl 64 Not 2 gereği çivi, kopça, toka ve bağlar 64.06'ya girmez.	SINIFLANDIRMA	FASIL64	D	Ayakkabı topuk rampası
+2024	49	Tarife-Sınıflandırma	Fasıl 92 Not 2: 92.09'daki kart, disk ve rulolar müzik aletiyle gelse de ayrı eşya olarak 92.09'da kalır.	SINIFLANDIRMA	FASIL92	E	92.09
+2024	50	Tarife-Sınıflandırma	Orijinal heykel 100 yaşını geçse de Not 5(B) gereği 97.06'ya değil 97.03'e girer; GYK 1 uygulanır.	SINIFLANDIRMA	FASIL97	A	Genel Yorum Kuralı 1, 97.03
+2024	51	Tarife-Sınıflandırma	Reçeller pişirilerek hazırlanmış meyve müstahzarı olarak 20.07'de sınıflandırılır, 20.08'de değil.	EŞLEŞTİRME	FASIL20	D	Reçel 20.08
+2024	52	Tarife-Sınıflandırma	Sınai yağ alkolleri 3823.70 alt pozisyonuyla 38.23'te yer alır.	SINIFLANDIRMA	FASIL38	D	38.23
+2024	53	Tarife-Sınıflandırma	Fasıl 11 ayrımı nişasta, kül, elekten geçme oranı ve hububat cinsine dayanır; şeker oranı kullanılmaz.	KAPSAM_DIŞI	FASIL11	D	Şeker oranı
+2024	54	Tarife-Sınıflandırma	Kaju cevizi Hindistan ve Brezilya ceviziyle 08.01'de; fındık, kestane, pekan, kola cevizi 08.02'dedir.	SINIFLANDIRMA	FASIL08	B	Taze kaju cevizi
+2024	55	Tarife-Sınıflandırma	Ahşap kapı, padavra, merdiven, panjur 44.18 marangozluk mamulü; kontrplak 44.12'de yer alır.	SINIFLANDIRMA	FASIL44	B	Ahşap kontrplak
+2024	56	Tarife-Sınıflandırma	Fasıl 85 Not 7: video sinyali dönüştürme bileşeni içeren gösterge modülleri 85.24 kapsamı dışındadır.	YANLIŞ	FASIL85	E	Video sinyallerini dönüştürmek için bileşenler içerir
+2024	57	Tarife-Sınıflandırma	Römorkörler ve itici gemiler 89.04 pozisyonunda sınıflandırılır.	SINIFLANDIRMA	FASIL89	E	89.04
+2024	58	Tarife-Sınıflandırma	Ayakkabı cilası 34.05, kalıbı 44.17, amyant ayakkabı 68.12, temizleme takımı 96.05; 84.54 metalurji cihazlarıdır.	KAPSAM_DIŞI	FASIL84;FASIL34	D	84.54
+2024	59	Tarife-Sınıflandırma	Kendinden hareketli buz doldurma makinesi GYK 1 ve 6 ile 8479.89'da sınıflandırılır.	SINIFLANDIRMA	siniflandirma_avi	D	84.79
+2024	60	Tarife-Sınıflandırma	Fasıl 85 notları akıllı kart, baskılı devre, LED ve hibrit entegre devreyi tanımlar; radar için not yoktur.	KAPSAM_DIŞI	FASIL85	A	Radar
+2024	61	İhracat-Geri Gelen	Geri gelen eşya muafiyeti dış ticaret önlemine konu eşyaya ve aynen ihraç dışındaki HİR eşyasına tanınmaz.	ÖNERMELİ	37-geri gelen eşya	C	I ve IV
+2024	62	İhracat-Geri Gelen	Dolu getirilip dolu/boş çıkarılacak işaretli ambalajlar ihracatta değil geçici ithalatta sözlü beyana tabidir (GY 171).	KAPSAM_DIŞI	17-BEYAN	D	İşaretli, dolu getirilip dolu/boş çıkarılacak ambalajlar
+2024	63	İhracat-Dış Ticaret Mevzuatı	Konsinye malın ihraçtan itibaren bir yılda kesin satışı gerekir; İBGS iki yıl daha uzatabilir.	BOŞLUK	ihracat_yonetmeligi_2006	A	bir - iki
+2024	64	Vergi-Hesaplama	İhracatta DFİF kesinti listesinde pamuk (0 cent/kg) yer alır; iç fındık var, iç badem yoktur.	TABİ	HESAPLAMA TARIM PAYI VE DFİF[1]	B	Pamuk
+2024	65	DİR	Eşdeğer eşyadan üretilen ürünü önce ihraç edip ithal eşyasını sonra getirme uygulaması önceden ihracattır, önceden ithalat değil.	YANLIŞ	32-DAHİLDE İŞLEME;dahilde_isleme_rejimi_karari_sayisi_2005-8391	B	Tanımlanan uygulamaya önceden ithalat denir
+2024	66	DİR	Dahilde işleme izninde haklı sebep başvurusu gümrük idaresine izin süresi sonundan itibaren üç değil iki ayda yapılır.	SÜRE	dahilde_isleme_rejimi_tebligi_ihracat_2006_12	C	İzin için haklı sebep başvurusu 3 ay içinde gümrüğe yapılır
+2024	67	DİR	GK 117: miktar kısıtlaması, kota tarife önlemi, tarım lisansı gerektiren eşyada geri ödeme uygulanmaz; ihracat lisansı/vergisi varsa iade yok.	ÖNERMELİ	32-DAHİLDE İŞLEME	E	I, II, III ve IV
+2024	68	DİR	DİR Tebliği md.45 müeyyide hallerinde düşük kıymet beyanı sayılmaz; ihracat yokluğu, fazla ithalat, %2 işletme malzemesi sayılır.	MÜEYYİDE	dahilde_isleme_rejimi_tebligi_ihracat_2006_12	E	İthalat beyannamesinde düşük kıymet beyan edilmesi
+2024	69	İhracat-Geri Gelen	Kusurlu eşya GY 446/1-b ayrı halidir; ihracatçının elinde olmayan sebepler hasar, engel, afet, pandemi gecikmesidir.	KAPSAM_DIŞI	37-geri gelen eşya	A	Eşyanın kusurlu olması
+2024	70	İhracat-Geri Gelen	Geri getirme süresi fiili ihraçla başlar; kara ve demiryolunda kara sınırından fiilen çıkış veya serbest bölgeye giriş tarihidir.	SÜRE	36-ihracat;37-geri gelen eşya	B	Demiryolunda fiilen yabancı ülkeye çıkış/serbest bölgeye giriş tarihi
+2024	71	İhracat-Geri Gelen	Çıkış bildirimine ilişkin denizyolu zamanlaması kuralı; kaynakta çıkış bildirimi düzenlemesi bulunamadı.	YANLIŞ	YOK	C	Denizyolunda çıkış bildirimi yüklemeden sonra verilir
+2024	72	İhracat-Dış Ticaret Mevzuatı	Ticari kiralama ihracatı gümrük mevzuatına tabidir ve tanımı doğrudur; konsinye beyanname süresi 30 gün, fuar satışını gümrük sonuçlandırır.	ÖNERMELİ	ihracat_yonetmeligi_2006	C	I ve IV
+2024	73	Transit-TIR-ATA	LRN transit beyan verilerinin hareket idaresine iletilmesiyle sistemce verilen yerel referans numarasıdır; MRN ana referanstır.	KISA_AD	23-SERİ NO 4	B	Sistemce verilen yerel referans numarası
+2024	74	Transit-TIR-ATA	Transit rejiminde kefil ve rejim hak sahibi aynı kişi olamaz.	YANLIŞ	23-SERİ NO 4	C	Kefil ve rejim hak sahibi aynı kişi olabilir
+2024	75	Transit-TIR-ATA	Transitte kefil Türkiye'de yerleşik, teminat mektubu vermeye yetkili banka ve finans kuruluşudur; sigorta şirketi sayılmaz.	YANLIŞ	23-SERİ NO 4	B	Kefil banka, finans kuruluşu ve sigorta şirketi olabilir
+2024	76	Transit-TIR-ATA	Seri No:5 basitleştirme izninde manifesto ve konşimentolara erişim üç yıl süreyle sağlanır.	SÜRE	24-SERİ NO 5	C	Manifesto erişimi iki yıl süreyle sağlanır
+2024	77	Transit-TIR-ATA	Yükün TIR karnesiyle varış/çıkış (yol boyu) idaresine kontrol için sunulması TIR işleminin sona ermesidir.	TANIM	21-TIR SÖZLEŞMESİ	C	TIR İşleminin Sona Ermesi
+2024	78	Transit-TIR-ATA	Normal eşya ile ağır/havaleli eşya tek TIR taşımasında taşınırsa ayrı TIR karneleri düzenlenir.	YANLIŞ	21-TIR SÖZLEŞMESİ	A	Normal ve ağır eşya ancak aynı karneyle taşınabilir
+2024	79	Transit-TIR-ATA	Taşıt dizisi veya tek taşıta yüklenen birden fazla konteyner için tek TIR karnesi düzenlenebilir; karne tek yolculuk içindir.	DOĞRU	21-TIR SÖZLEŞMESİ	D	Taşıt dizisi/çok konteyner için tek TIR karnesi düzenlenebilir
+2024	80	Muafiyetler	Muaf ambulans ve kurtarma araçları beş yıl dolmadan muafiyetli başka kuruma vergisiz devredilemez; muafiyetsizlere on yıl.	SÜRE	39-muafiyetler	D	5
+2024	81	Muafiyetler	Evlilik nedeniyle çeyiz muafiyeti için yurt dışında en az yirmi dört değil on iki ay bulunmak gerekir.	YANLIŞ	39-muafiyetler	B	En az yirmi dört ay yurt dışında bulunma şartı
+2024	82	Posta-Kargo-Sınır Ticareti-Kumanya	Karayolu hızlı kargoya yetkili listede Bursa, Adana, Sabiha Gökçen, Gaziantep Havalimanı var; Ankara Gar yok.	YETKİ	posta_ve_hizli_kargo_yoluyla_tasinan_esyanin_gumruk_islemlerine_iliskin_teblig_seri_no_1	D	Ankara Gar Gümrük Müdürlüğü
+2024	83	Antrepo-İşleticiler	Akaryakıt antrepolarında GY 527 götürü teminatı uygulanmaz; tank ilavesinde götürü teminat verilmez.	YANLIŞ	29-iŞLETİCİLER	D	Akaryakıt antreposu tank ilavesinde götürü teminat verir
+2024	84	Antrepo-İşleticiler	Yaygın götürü teminatta beş ve üzeri antrepoda hesaplanan teminatların %75'i esas alınabilir; yalnız büyüklük ölçüt değildir.	YANLIŞ	29-iŞLETİCİLER	E	Yaygın götürü teminatta sadece antrepo büyüklüğü esas alınır
+2024	85	Antrepo-İşleticiler	Antreponun başka adrese taşınması talebi bölge müdürlüğü görüşüyle Bakanlıkça sonuçlandırılır.	YETKİ	29-iŞLETİCİLER	D	Adres taşıma talebini bölge müdürlüğü sonuçlandırır
+2024	86	Antrepo-İşleticiler	İşletici talebiyle antrepo kapatmayı koşullar tespit edilince gümrük müdürlüğü sonuçlandırır, bölge müdürlüğü değil.	YETKİ	29-iŞLETİCİLER	B	Antrepo kapatmayı bölge müdürlüğü sonuçlandırır
+2024	87	Kaçakçılık	Taşıt müsaderesi için gizli tertibat, yükün ağırlıklı kısmı veya yasak/zararlı eşya koşullarından biri gerekir.	ÖNERMELİ	5607_sayili_kacakcilikla_mucadele_kanunu	A	Yalnız I
+2024	88	Kaçakçılık	Teknik düzenlemeye uygun olmayan kaçak akaryakıt il özel idaresi/YİKOB'ca en yakın rafineriye satılır.	SONUÇ	5607_sayili_kacakcilikla_mucadele_kanunu	D	En yakın rafinericiye satılır
+2024	89	Kaçakçılık	Akaryakıt, canlı hayvan, zeytin dahil sayılan kaçakçılık türlerinde kesinleşen mahkumiyetler Bakanlıkça ilan edilebilir.	ÖNERMELİ	5607_sayili_kacakcilikla_mucadele_kanunu	E	I, II ve III
+2024	90	Kaçakçılık	Gümrük salon ve kapılarında arama izin gerektirmez, bulunan kaçak eşyaya derhal elkonulur; diğer aramalar CMK'ya tabidir.	ÖNERMELİ	5607_sayili_kacakcilikla_mucadele_kanunu	B	I ve II
+2024	91	Geçici İthalat	Geçici ithal eşyası tahsis yerinde amaca uygun kullanılır, olağan bakım dışında işleme tabi tutulamaz; serbest dolaşımda TPÖ uygulanır.	ÖNERMELİ	34-GEÇİCİ İTHALAT	A	I ve III
+2024	92	Geçici İthalat	ATA karnesi taşıma araçları hariç ve sözleşme eklerindeki eşya için kullanılır; her türlü eşya ifadesi yanlıştır.	YANLIŞ	34-GEÇİCİ İTHALAT	C	Her türlü eşyanın geçici ithali için kullanılır
+2024	93	HİR-GKAİR	Serbest bölgeye HİR'de gönderilen eşya üçüncü ülke girdisiz sadece işçilik görmüşse işçilik bedeli üzerinden yalnız KDV alınır.	MATRAH	35- hir	E	30 ABD Doları üzerinden sadece KDV
+2024	94	Geçici İthalat	Tam muafiyetli geçici ithalatta sözlü beyanlı eşya, kriz yardımı ve işaretli uluslararası trafik malzemesinde teminat aranmaz.	ÖNERMELİ	34-GEÇİCİ İTHALAT;17-BEYAN	E	I, II ve III
+2024	95	GK-Genel	YYS başvurusu Ek-20 tablosundaki yetkili bölge müdürlüklerine yapılır; Batı Marmara bunlardan değildir.	YETKİ	YOK	C	Batı Marmara Gümrük ve Dış Ticaret Bölge Müdürlüğü
+2024	96	GK-Genel	İzinli alıcı için en az 500 transit beyannamesi veya 300'ü transit olmak üzere 500 beyan işlemi aranır; 200 değil.	ŞART	3-YYS	C	Son bir yılda iki yüz transit ve özet beyan işlemi
+2024	97	GK-Genel	Götürü teminat yetkisi hem OKSB hem YYS sahiplerine tanınabilir; diğer izinler YYS'ye özgüdür.	KAPSAM	4-OKSB;3-YYS	D	Götürü Teminat Yetkisi
+2024	98	Yükümlülük-Teminat-Faiz-Geri Verme	Beyandan önce denenmek üzere teslim edilen eşyada kusurun denemede anlaşılamadığı kanıtlanmadıkça vergi geri verilmez.	DOĞRU	47-geri verme kaldırma	E	Denemede kusurun anlaşılamadığı kanıtlanmadıkça geri verilmez
+2024	99	Yükümlülük-Teminat-Faiz-Geri Verme	Tecilde azami süre 36 ay, yazılı talep gerekir, çok zor durum raporunu YGM düzenler, re'sen tecil yoktur.	ÖNERMELİ	45-tebliğ	C	II ve IV
+2024	100	Gümrük Müşavirliği-Disiplin	Asgari Ücret Tebliği md.5/ç: İTH-13 toplam ücreti yıllık tavanı aşarsa aşan kısım taraflarca belirlenir (2024 tavanı).	ORAN-TUTAR	51-disiplin cezaları	E	44.085

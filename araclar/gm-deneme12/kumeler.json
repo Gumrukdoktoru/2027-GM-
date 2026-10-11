@@ -1,0 +1,12 @@
+{
+ "H":  {"ad":"Vergi Hesaplama + İç Vergiler", "konular":{"Vergi-Hesaplama":5,"İç Vergiler":4}},
+ "K":  {"ad":"Gümrük Kıymeti", "konular":{"Kıymet":10}},
+ "M":  {"ad":"Menşe-STA + Uluslararası Anlaşmalar", "konular":{"Menşe-STA":8,"Uluslararası Anlaşmalar-Kuruluşlar":2}},
+ "R2": {"ad":"Beyan-Serbest Dolaşım + GK Genel + Muafiyetler + Posta-Kargo-Sınır Ticareti-Kumanya", "konular":{"Beyan-Serbest Dolaşım":4,"GK-Genel":3,"Muafiyetler":4,"Posta-Kargo-Sınır Ticareti-Kumanya":3}},
+ "S":  {"ad":"Sair Mevzuat: Kambiyo + Dış Ticaret + İthalat Rejimi + Teknik Düzenlemeler + Diğer", "konular":{"Kambiyo":3,"İhracat-Dış Ticaret Mevzuatı":3,"İthalat Rejimi-Ticaret Politikası":1,"Teknik Düzenlemeler-Ürün Güvenliği":1,"Diğer":1}},
+ "T1": {"ad":"Tarife 1: GTC yorum kuralları, Bölüm I–XI (Fasıl 1–63) notları ve sınıflandırma", "konular":{"Tarife-Sınıflandırma":9}},
+ "T2": {"ad":"Tarife 2: Bölüm XII–XXI (Fasıl 64–97), izahname, sınıflandırma kararları/genelgeler, BTB, tarife pozisyonu ayırma", "konular":{"Tarife-Sınıflandırma":8}},
+ "R1": {"ad":"Rejimler: DİR + HİR-GKAİR + Geçici İthalat + İhracat-Geri Gelen + Serbest Bölge-GSM-YGM", "konular":{"DİR":2,"HİR-GKAİR":1,"Geçici İthalat":2,"İhracat-Geri Gelen":3,"Serbest Bölge-GSM-YGM":2}},
+ "TA": {"ad":"Transit-TIR-ATA + Antrepo-İşleticiler", "konular":{"Transit-TIR-ATA":7,"Antrepo-İşleticiler":5}},
+ "Y":  {"ad":"Yükümlülük-Teminat-Faiz-Geri Verme + Cezalar + Kaçakçılık + Müşavirlik-Disiplin + Tasfiye", "konular":{"Yükümlülük-Teminat-Faiz-Geri Verme":3,"Cezalar-İtiraz-Uzlaşma":2,"Kaçakçılık":2,"Gümrük Müşavirliği-Disiplin":1,"Tasfiye":1}}
+}
