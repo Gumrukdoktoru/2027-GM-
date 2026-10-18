@@ -86,7 +86,7 @@ PARAMETRELER (sınav yılı):
 - Finansman faizi (yazılı anlaşma + ayrıca gösterilme + piyasa oranı şartlarıyla), BSMV, banka transfer masrafı, akreditif teyit komisyonu.
 - Temettü, huzur hakkı, başka eşyaya ait transferler.
 - İade edilen ihraç ülkesi dahili vergisi ve KDV (fiyattan düşülür).
-- Önceki işlemlerden kazanılmış özel indirim (bu eşyanın fiyatından düşülmez; 2023/79).
+- Önceki işlemlerden kazanılmış özel indirim (2023/79 resmî anahtarı bu eşyanın fiyatından düşmedi; GK md. 24–28 ve GY md. 43–57 metninde açık hüküm yok — yeni soruda bu kalemi kullanma ya da kuralı kökte açıkça ver).
 - Serbest bölgede ayrıca gösterilen depolama gideri (2023/75).
 - Ardiye, tahlil, müşavirlik ücreti, fazla mesai ve memur yolluğu kıymete girmez; **tescilden önce yapılmışlarsa KDV matrahına girerler** (bkz. K5).
 
@@ -148,7 +148,7 @@ KDV matrahı = gümrük kıymeti + gümrük vergisi + İGV + ithalat sırasında
    - Ödemenin **ayrıca gösterilip gösterilmediği**
 4. **Parantezler:** "(Döviz kuru: 1 ABD Doları = 10 TL alınacaktır.)", "(Hesaplamada sadece soruda yer verilen hususlar dikkate alınacaktır)", "(diğer vergiler ihmal edilmiştir)", "(Navlun ve sigorta giderleri ihmal edilmiştir.)", oranlar "(GV oranı %10, KDV oranı %20 …)".
 5. **Rakamlar:** Yuvarlak seçilir (5.000, 10.000, 500); sonuç tam sayı ya da en fazla 2 ondalık olur. Kur 1, 8 ya da 10 gibi kolay bir değerdir. Ölçeği (10 kat hatası; 2023/72-73) son kontrolde doğrula.
-6. **Tuzak veri:** Her vakada en az bir kullanılmaması gereken bilgi bulunur: ödeme tarihi kuru, litre başı ÖTV (yalnız tahsil edilecek tutarda; KDV matrahında 21/ç bkz. K6), önceki yıl indirimi, temettü, zamanaşımına uğramış yıl.
+6. **Tuzak veri:** Her vakada en az bir kullanılmaması gereken bilgi bulunur: ödeme tarihi kuru, litre başı ÖTV (yalnız tahsil edilecek tutarda; KDV matrahında 21/ç bkz. K6), temettü, zamanaşımına uğramış yıl.
 7. **Bağlı soru:** "…ve … numaralı soruları aşağıdaki verilere göre cevaplayınız." İlk soru gümrük kıymeti, ikinci soru KDV matrahı (veya ödenecek vergiler) olur. İkinci soruya özgü kalemler (tescil öncesi ardiye, tahliye, fazla mesai, Türkiye limanı demurajı) ilk vakaya baştan yerleştirilir.
 8. **Kök sonu:** "…gümrük kıymeti kaç TL'dir?", "…ithalatta KDV matrahı kaç TL'dir?", "…tahsili gereken vergiler toplamı kaç TL'dir?", "…ek tahakkuk ve varsa ceza tutarlarının toplamı kaç TL'dir?", "Firma hangi tutar üzerinden uzlaşma talep edecektir?", "…azami kaç gün içerisinde…?"
 
