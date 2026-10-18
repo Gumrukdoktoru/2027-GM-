@@ -1,0 +1,81 @@
+[
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "31. soru (K09-06) ile tekrar ve sızıntı: bu sorunun anahtarı (geri gelen eşyada ihracatta yararlanılan KDV istisnası nedeniyle KDV tahsil edilir, GY 451/2) ve doğru şıklardan biri (KDV karşılığı teminatla teslim, GY 451/3), 31. sorunun ölçtüğü KDVK 16/1-b hükmünü (faydalanılan miktarın gümrük idaresine ödenmesi veya bu miktar kadar teminat) aynen veriyor; aynı hüküm iki kez ölçülüyor. KDV unsuru bu sorudan çıkarılıyor, anahtar konumu değişmeden GY 452/1 (süre fiilî ihraç tarihinden başlar) üzerine kuruluyor. (1/7: kökten KDV istisnası ibaresi çıkarılır)",
+  "alan": "kok",
+  "eski": "(X) firması, ihracat teslimlerine ilişkin katma değer vergisi istisnasından yararlanarak serbest dolaşımdaki",
+  "yeni": "(X) firması, serbest dolaşımdaki"
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "2/7: anahtar şık (aynı konumda kalır) KDV yerine süre başlangıcına çevrilir",
+  "alan": "siklar",
+  "eski": "Eşya gümrük vergilerinden muaf olarak serbest dolaşıma gireceğinden, ihracatta yararlanılan istisna nedeniyle ayrıca katma değer vergisi tahsil edilmez.",
+  "yeni": "Geri getirilme süresinin başlangıcı, ihracat beyannamesinin tescil edildiği 05.02.2026 tarihidir."
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "3/7: yeni anahtarla çelişen (süre başlangıcının doğrusunu veren) doğru şık, GY 446/2'ye dayalı başka bir doğru ifadeyle değiştirilir",
+  "alan": "siklar",
+  "eski": "Geri getirilme süresinin başlangıcı, eşyanın kara sınırından fiilen yurt dışına çıktığı 10.02.2026 tarihidir.",
+  "yeni": "Sözleşme hükümlerine uygun olmadığı ancak kullanılarak anlaşılabilen eşyanın ilk kullanım dışında kullanılmamış olması gerekir."
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "4/7: 31. sorunun cevabını veren KDV teminatı şıkkı, GY 448/1'e dayalı doğru bir ifadeyle değiştirilir",
+  "alan": "siklar",
+  "eski": "Katma değer vergisi ve ihracata ilişkin diğer hak ve menfaatlere karşılık gerekli teminatın verilmesi halinde, bunlardan yararlanılıp yararlanılmadığı tespit edilmeden önce eşyanın teslimine Bakanlıkça belirlenecek usul ve esaslar çerçevesinde izin verilir.",
+  "yeni": "(X) firması, eşyanın ihracına ilişkin gümrük beyannamesini ve ayniyet tespitine ilişkin diğer belgeleri ilgili gümrük idaresine ibraz eder."
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "5/7: anahtar metni (konum değişmez)",
+  "alan": "dogru_icerik",
+  "yeni": "Geri getirilme süresinin başlangıcı, ihracat beyannamesinin tescil edildiği 05.02.2026 tarihidir."
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "6/7: açıklama yeni şıklarla uyumlu hâle getirilir",
+  "alan": "aciklama",
+  "eski": "GY 451/2'ye göre ihracat nedeniyle katma değer vergisi ve özel tüketim vergisi iadesinden veya istisnasından yararlanan eşya geri geldiğinde, gümrük vergilerinden muaf tutulsa bile bu vergiler tahsil edilir; katma değer vergisinin alınmayacağı ifadesi yanlıştır. Sözleşmeye aykırılık nedeniyle kabul edilmeyen eşyada sebebin yurt dışındaki alıcı veya yetkili kurumlardan alınacak belgelerle ispatı GY 446/1-b'nin, kara yoluyla çıkışta sürenin kara sınırından fiilen çıkış tarihinden başlaması GY 452/1 ile 416/1-a'nın, yararlanılan hak ve menfaatin iadesine ilişkin belgenin beyannameye eklenmesi GY 451/1'in, teminat karşılığında tespitten önce teslim ise GY 451/3'ün hükmüdür.",
+  "yeni": "Gümrük Yönetmeliğinin 452 nci maddesinin birinci fıkrasına göre geri getirilme süresinin başlangıcı eşyanın fiilen ihraç edildiği tarihtir; kara yoluyla çıkışlarda bu tarih, çıkış işlemleri tamamlanıp eşyanın kara sınırından fiilen çıktığı 10.02.2026'dır (GY 416/1-a). Süreyi ihracat beyannamesinin tescil edildiği 05.02.2026 tarihinden başlatan ifade bu nedenle yanlıştır. Sözleşmeye aykırılık nedeniyle kabul edilmeyen eşyada geri gelme sebebinin yurt dışındaki alıcıdan veya yetkili kurumlardan alınacak belgelerle ispatı GY 446/1-b'nin, aykırılığın ancak kullanılarak anlaşılabildiği durumda eşyanın ilk kullanım dışında kullanılmamış olması şartı GY 446/2'nin, ihracat beyannamesi ile ayniyet tespitine ilişkin belgelerin gümrük idaresine ibrazı GY 448/1'in, ihracat nedeniyle yararlanılan hak ve menfaatlerin iade edildiğini gösteren belgenin beyannameye eklenmesi ise GY 451/1'in hükmüdür."
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "7/7: tuzak ve dayanak yeni anahtara göre",
+  "alan": "tuzak",
+  "eski": "Geri gelen eşya muafiyetinin ithalatta alınan bütün vergileri kapsadığını sanan aday katma değer vergisinin alınmayacağını düşünür; beyanname tescil tarihini süre başlangıcı sanan aday ise doğru olan süre cümlesini bozuk zanneder.",
+  "yeni": "Gümrük işlemlerinin beyannamenin tescili ile başlamasından hareket eden aday geri getirilme süresini de tescil tarihinden başlatır; oysa süre, eşyanın kara sınırından fiilen çıktığı tarihten başlar."
+ },
+ {
+  "id": "K04-08",
+  "no": 14,
+  "sorun": "7/7 (devam): dayanak",
+  "alan": "dayanak",
+  "eski": "Gümrük Yönetmeliği md. 446/1-b, 451/1-3, 452/1, 416/1-a; 4458 sayılı GK md. 168/1",
+  "yeni": "Gümrük Yönetmeliği md. 416/1-a, 446/1-b, 446/2, 448/1, 451/1, 452/1; 4458 sayılı GK md. 168/1"
+ },
+ {
+  "id": "K01-12",
+  "no": 2,
+  "sorun": "tuzakta konum atfı ('ilk iki bozuk şık'); şıklar karıştırıldığı için içerikle atıf yapılmalı",
+  "alan": "tuzak",
+  "eski": "aday ilk iki bozuk şıktan birine kayar.",
+  "yeni": "aday 'ithalattan sonra yapılacağından' veya 'üçüncü bir kişiye ödeneceğinden' fiyata ilave edilmeyeceğini söyleyen ifadelere kayar."
+ },
+ {
+  "id": "K04-07",
+  "no": 12,
+  "sorun": "tuzakta konum atfı ('son seçenek'); karıştırma sonrası son şık doğru cevap (son üç ay) oldu, atıf yanlış",
+  "alan": "tuzak",
+  "eski": "185 gün şartını hatırlayan aday ise son seçeneğe kayar.",
+  "yeni": "185 gün şartını hatırlayan aday ise 'son giriş tarihinden itibaren yüz seksen beş gün' seçeneğine kayar."
+ }
+]

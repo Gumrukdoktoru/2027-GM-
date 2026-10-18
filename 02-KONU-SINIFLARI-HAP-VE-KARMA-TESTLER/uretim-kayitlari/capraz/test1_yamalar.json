@@ -1,0 +1,98 @@
+[
+ {
+  "id": "K01-04",
+  "no": 1,
+  "sorun": "Biçim: kökteki olumsuz yüklem ('dahil edilmeyen') vurgulanmamış; tümleyen küme ('II ve IV') şıklarda bulunduğundan kritik yüklem kalın ve altı çizili olmalı",
+  "alan": "kok",
+  "eski": "gümrük kıymetine dahil edilmeyen giderlerdendir?",
+  "yeni": "gümrük kıymetine **<u>dahil edilmeyen</u>** giderlerdendir?"
+ },
+ {
+  "id": "K03-01",
+  "no": 3,
+  "sorun": "Biçim/ele verme: doğru şık 'iki ayrı karayolu taşıtı' ifadesiyle kökteki 'tek bir taşıma aracı' ile anlamca çelişip cevabı bilgisiz adaya da veriyor; vagon dizisi ve zincir gemilerle aynı kalıpta, Seri No: 4 md. 17/6 kapalı listesinde olmayan (17/7-8) bir öğe konmalı",
+  "alan": "siklar",
+  "eski": "Bölünen bir sevkiyatın yüklendiği iki ayrı karayolu taşıtı",
+  "yeni": "Birlikte sevk edilen karayolu taşıtları konvoyu"
+ },
+ {
+  "id": "K03-01",
+  "no": 3,
+  "sorun": "Açıklama yeni şıkla uyumlu hâle getirilmeli",
+  "alan": "aciklama",
+  "eski": "bu nedenle bölünen sevkiyatın yüklendiği iki ayrı karayolu taşıtı tek taşıma aracı sayılmaz.",
+  "yeni": "bu nedenle birlikte sevk edilseler bile birden fazla karayolu taşıtından oluşan bir konvoy tek taşıma aracı sayılmaz; listedeki karayolu öğesi yalnız römork veya yarı römorkları ile birlikte tek bir karayolu taşıtıdır."
+ },
+ {
+  "id": "K03-01",
+  "no": 3,
+  "sorun": "Tuzak yeni şıkla uyumlu hâle getirilmeli",
+  "alan": "tuzak",
+  "eski": "Hareket ve varış idareleri aynı olduğu için bölünen sevkiyatın tek araç gibi tek beyanla gidebileceğini düşünen aday, listede olmayan iki ayrı karayolu taşıtını listede sanır.",
+  "yeni": "Vagon dizisi ve zincir oluşturan gemilerle benzerlik kuran ya da hareket ve varış idareleri aynı olduğu için birlikte giden taşıtların tek beyanla gidebileceğini düşünen aday, listede olmayan karayolu taşıtları konvoyunu listede sanır."
+ },
+ {
+  "id": "K01-06",
+  "no": 20,
+  "sorun": "Dil/açıklama: 'başvuru sahibinin talebiyle ve başka bir durumda' ifadesi anlamsız; kaynaktaki iki koşul (BTB kapsamına girmediğinin anlaşılması ve başvuru sahibinin talebi, Seri No: 14 md. 8/3) açıkça yazılmalı",
+  "alan": "aciklama",
+  "eski": "Başvurunun tarife bilgisi başvurusu olarak değerlendirilmesi ancak başvuru sahibinin talebiyle ve başka bir durumda söz konusudur;",
+  "yeni": "Başvurunun tarife bilgisi başvurusu olarak değerlendirilmesi ancak eşyanın BTB kapsamına girmediğinin sonradan anlaşılması ve başvuru sahibinin bunu talep etmesi hâlinde söz konusudur (Seri No: 14 md. 8/3);"
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Tekrar: sipariş tarihindeki 41 TL kuru ve 1.156.250 çeldiricisi, 2. sorunun (K01-05) doğrudan ölçtüğü kur kuralını (yükümlülüğün başladığı tarihteki kur, ödeme tarihindeki kur değil) aynı testte ikinci kez ölçüyor; kur unsuru çıkarılıp çeldirici KDV/ÖTV'ye özgü tek hatalı bir yola (ÖTV'nin litre üzerinden hesabı) çevrilmeli",
+  "alan": "kok",
+  "eski": "bedelin tamamı, kurun 1 ABD Doları = 41 TL olduğu sipariş tarihinde peşin olarak ödenmiştir.",
+  "yeni": "bedelin tamamı sipariş tarihinde peşin olarak ödenmiştir."
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Tekrar düzeltmesi: yeni çeldirici için tuzak verisi (litre) eklenmeli; 20.000 kg baz yağ ≈ 23.000 litre (yoğunluk ~0,87)",
+  "alan": "kok",
+  "eski": "baz yağdan 20.000 kg ithal etmektedir.",
+  "yeni": "baz yağdan 20.000 kg (23.000 litre) ithal etmektedir."
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Tekrar düzeltmesi: kur çeldiricisi yerine tek hatalı yeni çeldirici (ÖTV 23.000 lt × 4 = 92.000; 1.000.000 + 50.000 + 92.000); iki hatalı hiçbir yol 1.130.000'i vermiyor, artan sıra korunuyor",
+  "alan": "siklar",
+  "eski": "1.156.250",
+  "yeni": "1.142.000"
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Açıklama yeni kökle uyumlu hâle getirilmeli (41 TL kuru artık yok)",
+  "alan": "aciklama",
+  "eski": "25.000 × 40 = 1.000.000 TL (sipariş tarihindeki 41 TL kuru kullanılmaz; GK md. 30)",
+  "yeni": "25.000 × 40 = 1.000.000 TL (GK md. 30)"
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Açıklama: litre verisinin neden kullanılmadığı yazılmalı",
+  "alan": "aciklama",
+  "eski": "20.000 kg × 4 TL = 80.000 TL ÖTV'ye karşılık teminat alınır (ÖTVK md. 16/4).",
+  "yeni": "20.000 kg × 4 TL = 80.000 TL ÖTV'ye karşılık teminat alınır (ÖTVK md. 16/4; vergi tutarı kilogram başına belirlendiğinden litre bilgisi kullanılmaz)."
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Açıklama: şık türetimi yeni çeldiriciye göre değişmeli",
+  "alan": "aciklama",
+  "eski": "1.156.250 → kıymet peşin ödeme (sipariş) tarihindeki 41 TL kuruyla çevrilmiş (1.025.000 + 51.250 + 80.000).",
+  "yeni": "1.142.000 → ÖTV kilogram yerine litre üzerinden hesaplanmış (23.000 × 4 = 92.000; 1.000.000 + 50.000 + 92.000)."
+ },
+ {
+  "id": "K09-01",
+  "no": 50,
+  "sorun": "Tuzak yeni çeldiriciyi de kapsamalı",
+  "alan": "tuzak",
+  "eski": "(24.07.2025 öncesi okuma) ya da peşin ödemede de KKDF hesaplaması.",
+  "yeni": "(24.07.2025 öncesi okuma), peşin ödemede de KKDF hesaplaması ya da kilogram başına belirlenen ÖTV'yi litre üzerinden hesaplaması."
+ }
+]

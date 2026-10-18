@@ -1,0 +1,2314 @@
+[
+ {
+  "id": "KIYMET",
+  "ad": "Gümrük Kıymeti",
+  "ders": "GM",
+  "yillar": [
+   9,
+   12,
+   11,
+   10,
+   5
+  ],
+  "toplam": 47,
+  "son2": 15,
+  "egilim": "↓ azalan",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/4",
+   "2021/9",
+   "2021/19",
+   "2021/81",
+   "2021/84",
+   "2021/85",
+   "2021/86",
+   "2021/88",
+   "2021/89",
+   "2022/43",
+   "2022/48",
+   "2022/49",
+   "2022/52",
+   "2022/74",
+   "2022/89",
+   "2022/91",
+   "2022/92",
+   "2022/94",
+   "2022/96",
+   "2022/98",
+   "2022/100",
+   "2023/66",
+   "2023/67",
+   "2023/72",
+   "2023/74",
+   "2023/75",
+   "2023/77",
+   "2023/79",
+   "2023/80",
+   "2023/81",
+   "2023/83",
+   "2023/84",
+   "2024/9",
+   "2024/13",
+   "2024/15",
+   "2024/18",
+   "2024/19",
+   "2024/22",
+   "2024/23",
+   "2024/26",
+   "2024/27",
+   "2024/28",
+   "2025/3",
+   "2025/16",
+   "2025/17",
+   "2025/18",
+   "2025/20"
+  ],
+  "test": [
+   5,
+   5,
+   5
+  ],
+  "karma_toplam": 15
+ },
+ {
+  "id": "KACAK",
+  "ad": "Kaçakçılık (5607)",
+  "ders": "SAİR",
+  "yillar": [
+   10,
+   3,
+   3,
+   4,
+   2
+  ],
+  "toplam": 22,
+  "son2": 6,
+  "egilim": "↓ azalan",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/41",
+   "2021/42",
+   "2021/43",
+   "2021/44",
+   "2021/45",
+   "2021/46",
+   "2021/47",
+   "2021/48",
+   "2021/49",
+   "2021/50",
+   "2022/15",
+   "2022/20",
+   "2022/31",
+   "2023/1",
+   "2023/2",
+   "2023/3",
+   "2024/87",
+   "2024/88",
+   "2024/89",
+   "2024/90",
+   "2025/84",
+   "2025/85"
+  ],
+  "test": [
+   2,
+   2,
+   3
+  ],
+  "karma_toplam": 7
+ },
+ {
+  "id": "TRANSIT",
+  "ad": "Transit",
+  "ders": "GM",
+  "yillar": [
+   1,
+   4,
+   6,
+   4,
+   6
+  ],
+  "toplam": 21,
+  "son2": 10,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/74",
+   "2022/51",
+   "2022/61",
+   "2022/63",
+   "2022/66",
+   "2023/86",
+   "2023/87",
+   "2023/88",
+   "2023/90",
+   "2023/91",
+   "2023/92",
+   "2024/73",
+   "2024/74",
+   "2024/75",
+   "2024/76",
+   "2025/65",
+   "2025/66",
+   "2025/67",
+   "2025/68",
+   "2025/69",
+   "2025/70"
+  ],
+  "test": [
+   3,
+   3,
+   2
+  ],
+  "karma_toplam": 8
+ },
+ {
+  "id": "ANTREPO",
+  "ad": "Antrepo",
+  "ders": "GM",
+  "yillar": [
+   0,
+   4,
+   3,
+   6,
+   4
+  ],
+  "toplam": 17,
+  "son2": 10,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2022/41",
+   "2022/60",
+   "2022/67",
+   "2022/68",
+   "2023/97",
+   "2023/98",
+   "2023/99",
+   "2024/30",
+   "2024/39",
+   "2024/83",
+   "2024/84",
+   "2024/85",
+   "2024/86",
+   "2025/78",
+   "2025/81",
+   "2025/82",
+   "2025/83"
+  ],
+  "test": [
+   2,
+   2,
+   2
+  ],
+  "karma_toplam": 6
+ },
+ {
+  "id": "MENSEBELGE",
+  "ad": "Tercihli Menşe İspat Belgeleri",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   2,
+   5,
+   6,
+   4
+  ],
+  "toplam": 17,
+  "son2": 10,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2022/9",
+   "2022/11",
+   "2023/47",
+   "2023/48",
+   "2023/54",
+   "2023/57",
+   "2023/58",
+   "2024/3",
+   "2024/32",
+   "2024/33",
+   "2024/35",
+   "2024/41",
+   "2024/43",
+   "2025/32",
+   "2025/33",
+   "2025/34",
+   "2025/36"
+  ],
+  "test": [
+   2,
+   2,
+   2
+  ],
+  "karma_toplam": 6
+ },
+ {
+  "id": "KAMBIYO",
+  "ad": "Kambiyo",
+  "ders": "SAİR",
+  "yillar": [
+   4,
+   2,
+   5,
+   2,
+   4
+  ],
+  "toplam": 17,
+  "son2": 6,
+  "egilim": "→ sabit",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/57",
+   "2021/61",
+   "2021/62",
+   "2021/63",
+   "2022/1",
+   "2022/19",
+   "2023/33",
+   "2023/34",
+   "2023/49",
+   "2023/50",
+   "2023/51",
+   "2024/5",
+   "2024/37",
+   "2025/31",
+   "2025/37",
+   "2025/59",
+   "2025/62"
+  ],
+  "test": [
+   2,
+   2,
+   2
+  ],
+  "karma_toplam": 6
+ },
+ {
+  "id": "MUAF",
+  "ad": "Muafiyetler",
+  "ders": "GM",
+  "yillar": [
+   2,
+   2,
+   4,
+   4,
+   4
+  ],
+  "toplam": 16,
+  "son2": 8,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/27",
+   "2021/37",
+   "2022/64",
+   "2022/71",
+   "2023/35",
+   "2023/36",
+   "2023/37",
+   "2023/38",
+   "2024/7",
+   "2024/21",
+   "2024/80",
+   "2024/81",
+   "2025/73",
+   "2025/74",
+   "2025/75",
+   "2025/76"
+  ],
+  "test": [
+   2,
+   2,
+   2
+  ],
+  "karma_toplam": 6
+ },
+ {
+  "id": "OTV",
+  "ad": "ÖTV",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   5,
+   3,
+   2,
+   4
+  ],
+  "toplam": 14,
+  "son2": 6,
+  "egilim": "→ sabit",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2022/53",
+   "2022/55",
+   "2022/57",
+   "2022/93",
+   "2022/97",
+   "2023/59",
+   "2023/60",
+   "2023/78",
+   "2024/16",
+   "2024/17",
+   "2025/7",
+   "2025/8",
+   "2025/9",
+   "2025/15"
+  ],
+  "test": [
+   2,
+   2,
+   1
+  ],
+  "karma_toplam": 5
+ },
+ {
+  "id": "KDV",
+  "ad": "KDV",
+  "ders": "SAİR",
+  "yillar": [
+   2,
+   2,
+   3,
+   4,
+   2
+  ],
+  "toplam": 13,
+  "son2": 6,
+  "egilim": "→ sabit",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/87",
+   "2021/90",
+   "2022/50",
+   "2022/90",
+   "2023/63",
+   "2023/73",
+   "2023/82",
+   "2024/8",
+   "2024/10",
+   "2024/25",
+   "2024/29",
+   "2025/10",
+   "2025/12"
+  ],
+  "test": [
+   2,
+   1,
+   1
+  ],
+  "karma_toplam": 4
+ },
+ {
+  "id": "T_GIDA",
+  "ad": "Tarife – Hayvansal, Bitkisel ve Gıda Ürünleri (Fasıl 1–24)",
+  "ders": "TARİFE",
+  "yillar": [
+   1,
+   1,
+   2,
+   3,
+   5
+  ],
+  "toplam": 12,
+  "son2": 8,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/96",
+   "2022/83",
+   "2023/5",
+   "2023/20",
+   "2024/51",
+   "2024/53",
+   "2024/54",
+   "2025/39",
+   "2025/43",
+   "2025/50",
+   "2025/51",
+   "2025/54"
+  ],
+  "test": [
+   2,
+   1,
+   2
+  ],
+  "karma_toplam": 5
+ },
+ {
+  "id": "DIR",
+  "ad": "Dahilde İşleme",
+  "ders": "GM",
+  "yillar": [
+   4,
+   2,
+   0,
+   4,
+   2
+  ],
+  "toplam": 12,
+  "son2": 6,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/14",
+   "2021/15",
+   "2021/32",
+   "2021/53",
+   "2022/28",
+   "2022/42",
+   "2024/65",
+   "2024/66",
+   "2024/67",
+   "2024/68",
+   "2025/63",
+   "2025/64"
+  ],
+  "test": [
+   1,
+   2,
+   2
+  ],
+  "karma_toplam": 5
+ },
+ {
+  "id": "IHRR",
+  "ad": "İhracat Rejimi ve İhracat Yönetmeliği",
+  "ders": "SAİR",
+  "yillar": [
+   2,
+   4,
+   1,
+   2,
+   3
+  ],
+  "toplam": 12,
+  "son2": 5,
+  "egilim": "→ sabit",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/54",
+   "2021/68",
+   "2022/10",
+   "2022/35",
+   "2022/40",
+   "2022/45",
+   "2023/32",
+   "2024/63",
+   "2024/72",
+   "2025/58",
+   "2025/60",
+   "2025/61"
+  ],
+  "test": [
+   1,
+   2,
+   1
+  ],
+  "karma_toplam": 4
+ },
+ {
+  "id": "GI",
+  "ad": "Geçici İthalat (ATA dahil)",
+  "ders": "GM",
+  "yillar": [
+   1,
+   2,
+   2,
+   3,
+   3
+  ],
+  "toplam": 11,
+  "son2": 6,
+  "egilim": "↑ yükselen",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/71",
+   "2022/32",
+   "2022/36",
+   "2023/23",
+   "2023/24",
+   "2024/91",
+   "2024/92",
+   "2024/94",
+   "2025/19",
+   "2025/87",
+   "2025/88"
+  ],
+  "test": [
+   1,
+   1,
+   2
+  ],
+  "karma_toplam": 4
+ },
+ {
+  "id": "T_MAKINE",
+  "ad": "Tarife – Makine ve Elektrik (Fasıl 84–85)",
+  "ders": "TARİFE",
+  "yillar": [
+   0,
+   0,
+   5,
+   4,
+   1
+  ],
+  "toplam": 10,
+  "son2": 5,
+  "egilim": "→ sabit",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2023/10",
+   "2023/11",
+   "2023/13",
+   "2023/17",
+   "2023/21",
+   "2024/45",
+   "2024/47",
+   "2024/59",
+   "2024/60",
+   "2025/46"
+  ],
+  "test": [
+   1,
+   1,
+   1
+  ],
+  "karma_toplam": 3
+ },
+ {
+  "id": "T_YAPI",
+  "ad": "Tarife – Cetvel Yapısı, GTİP ve Tarife Hukuku",
+  "ders": "TARİFE",
+  "yillar": [
+   3,
+   2,
+   1,
+   1,
+   3
+  ],
+  "toplam": 10,
+  "son2": 4,
+  "egilim": "→ sabit",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/5",
+   "2021/59",
+   "2021/73",
+   "2022/80",
+   "2022/82",
+   "2023/15",
+   "2024/46",
+   "2025/44",
+   "2025/48",
+   "2025/53"
+  ],
+  "test": [
+   1,
+   1,
+   1
+  ],
+  "karma_toplam": 3
+ },
+ {
+  "id": "POSTA",
+  "ad": "Posta ve Hızlı Kargo",
+  "ders": "GM",
+  "yillar": [
+   4,
+   3,
+   1,
+   1,
+   1
+  ],
+  "toplam": 10,
+  "son2": 2,
+  "egilim": "↓ azalan",
+  "sinif": "ÇOK",
+  "sorular": [
+   "2021/28",
+   "2021/56",
+   "2021/69",
+   "2021/70",
+   "2022/70",
+   "2022/72",
+   "2022/73",
+   "2023/39",
+   "2024/82",
+   "2025/77"
+  ],
+  "test": [
+   1,
+   1,
+   1
+  ],
+  "karma_toplam": 3
+ },
+ {
+  "id": "YYS",
+  "ad": "Yetkilendirilmiş Yükümlü ve Yerinde Gümrükleme",
+  "ders": "GM",
+  "yillar": [
+   0,
+   1,
+   2,
+   3,
+   2
+  ],
+  "toplam": 8,
+  "son2": 5,
+  "egilim": "↑ yükselen",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/7",
+   "2023/42",
+   "2023/70",
+   "2024/95",
+   "2024/96",
+   "2024/97",
+   "2025/90",
+   "2025/92"
+  ],
+  "test": [
+   1,
+   1,
+   0
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "CEZA",
+  "ad": "Cezalar (GK 234–241)",
+  "ders": "GM",
+  "yillar": [
+   2,
+   1,
+   2,
+   0,
+   3
+  ],
+  "toplam": 8,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/79",
+   "2021/83",
+   "2022/95",
+   "2023/26",
+   "2023/69",
+   "2025/13",
+   "2025/14",
+   "2025/80"
+  ],
+  "test": [
+   1,
+   0,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "GERIGELEN",
+  "ad": "Geri Gelen Eşya",
+  "ders": "GM",
+  "yillar": [
+   3,
+   1,
+   1,
+   3,
+   0
+  ],
+  "toplam": 8,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/22",
+   "2021/24",
+   "2021/76",
+   "2022/69",
+   "2023/27",
+   "2024/61",
+   "2024/69",
+   "2024/70"
+  ],
+  "test": [
+   0,
+   1,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "T_METAL",
+  "ad": "Tarife – Ayakkabı, Taş-Cam, Kıymetli Metal ve Metaller (Fasıl 64–83)",
+  "ders": "TARİFE",
+  "yillar": [
+   1,
+   1,
+   3,
+   2,
+   1
+  ],
+  "toplam": 8,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/99",
+   "2022/85",
+   "2023/6",
+   "2023/7",
+   "2023/16",
+   "2024/48",
+   "2024/58",
+   "2025/41"
+  ],
+  "test": [
+   1,
+   1,
+   0
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "INCO",
+  "ad": "Teslim Şekilleri (Incoterms)",
+  "ders": "SAİR",
+  "yillar": [
+   1,
+   2,
+   3,
+   1,
+   1
+  ],
+  "toplam": 8,
+  "son2": 2,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/67",
+   "2022/29",
+   "2022/65",
+   "2023/64",
+   "2023/65",
+   "2023/71",
+   "2024/1",
+   "2025/11"
+  ],
+  "test": [
+   1,
+   0,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "TIR",
+  "ad": "TIR Sözleşmesi",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   1,
+   1,
+   3,
+   2
+  ],
+  "toplam": 7,
+  "son2": 5,
+  "egilim": "↑ yükselen",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/46",
+   "2023/93",
+   "2024/77",
+   "2024/78",
+   "2024/79",
+   "2025/71",
+   "2025/72"
+  ],
+  "test": [
+   0,
+   1,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "STA",
+  "ad": "STA/TTA ve Taraf Ülkeler",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   2,
+   1,
+   2,
+   2
+  ],
+  "toplam": 7,
+  "son2": 4,
+  "egilim": "↑ yükselen",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/23",
+   "2022/34",
+   "2023/100",
+   "2024/36",
+   "2024/40",
+   "2025/26",
+   "2025/97"
+  ],
+  "test": [
+   1,
+   1,
+   0
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "T_HS22",
+  "ad": "Tarife – HS 2022 Değişiklikleri",
+  "ders": "TARİFE",
+  "yillar": [
+   0,
+   3,
+   0,
+   2,
+   2
+  ],
+  "toplam": 7,
+  "son2": 4,
+  "egilim": "↑ yükselen",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/76",
+   "2022/79",
+   "2022/86",
+   "2024/2",
+   "2024/56",
+   "2025/45",
+   "2025/52"
+  ],
+  "test": [
+   1,
+   0,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "T_KIMYA",
+  "ad": "Tarife – Mineral, Kimya, Plastik ve Kauçuk (Fasıl 25–40)",
+  "ders": "TARİFE",
+  "yillar": [
+   2,
+   1,
+   0,
+   2,
+   2
+  ],
+  "toplam": 7,
+  "son2": 4,
+  "egilim": "↑ yükselen",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/91",
+   "2021/98",
+   "2022/78",
+   "2024/44",
+   "2024/52",
+   "2025/49",
+   "2025/55"
+  ],
+  "test": [
+   0,
+   1,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "GB",
+  "ad": "Gümrük Birliği (1/95 OKK, A.TR, INF)",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   2,
+   2,
+   0,
+   3
+  ],
+  "toplam": 7,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/13",
+   "2022/37",
+   "2023/55",
+   "2023/85",
+   "2025/2",
+   "2025/27",
+   "2025/96"
+  ],
+  "test": [
+   1,
+   1,
+   0
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "T_CESITLI",
+  "ad": "Tarife – Optik, Saat, Çalgı, Silah, Çeşitli ve Sanat Eşyası (Fasıl 90–97)",
+  "ders": "TARİFE",
+  "yillar": [
+   2,
+   1,
+   1,
+   2,
+   1
+  ],
+  "toplam": 7,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/92",
+   "2021/95",
+   "2022/87",
+   "2023/9",
+   "2024/49",
+   "2024/50",
+   "2025/40"
+  ],
+  "test": [
+   1,
+   0,
+   1
+  ],
+  "karma_toplam": 2
+ },
+ {
+  "id": "ITHR",
+  "ad": "İthalat Rejimi Kararı ve İlave Gümrük Vergisi",
+  "ders": "SAİR",
+  "yillar": [
+   1,
+   3,
+   0,
+   3,
+   0
+  ],
+  "toplam": 7,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/55",
+   "2022/18",
+   "2022/21",
+   "2022/99",
+   "2024/4",
+   "2024/24",
+   "2024/34"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "FSMH",
+  "ad": "Fikri ve Sınai Haklar",
+  "ders": "GM",
+  "yillar": [
+   2,
+   2,
+   1,
+   1,
+   1
+  ],
+  "toplam": 7,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/12",
+   "2021/17",
+   "2022/27",
+   "2022/38",
+   "2023/56",
+   "2024/31",
+   "2025/28"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "URUN",
+  "ad": "Ürün Güvenliği ve Teknik Düzenlemeler",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   3,
+   2,
+   0,
+   2
+  ],
+  "toplam": 7,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/16",
+   "2022/17",
+   "2022/39",
+   "2023/53",
+   "2023/94",
+   "2025/30",
+   "2025/38"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "T_GYKK",
+  "ad": "Tarife – Genel Yorum Kuralları",
+  "ders": "TARİFE",
+  "yillar": [
+   3,
+   2,
+   1,
+   0,
+   1
+  ],
+  "toplam": 7,
+  "son2": 1,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/94",
+   "2021/97",
+   "2021/100",
+   "2022/81",
+   "2022/88",
+   "2023/12",
+   "2025/42"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "OZET",
+  "ad": "Özet Beyan ve Gümrüğe Sunma",
+  "ders": "GM",
+  "yillar": [
+   6,
+   0,
+   0,
+   1,
+   0
+  ],
+  "toplam": 7,
+  "son2": 1,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/7",
+   "2021/8",
+   "2021/10",
+   "2021/23",
+   "2021/30",
+   "2021/36",
+   "2024/71"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "BEYAN",
+  "ad": "Gümrük Beyanı ve Basitleştirilmiş Usuller",
+  "ders": "GM",
+  "yillar": [
+   1,
+   0,
+   2,
+   0,
+   3
+  ],
+  "toplam": 6,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/20",
+   "2023/43",
+   "2023/46",
+   "2025/23",
+   "2025/25",
+   "2025/29"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "MUSAVIR",
+  "ad": "Gümrük Müşavirliği, Temsil ve Asgari Ücret",
+  "ders": "GM",
+  "yillar": [
+   2,
+   2,
+   0,
+   1,
+   1
+  ],
+  "toplam": 6,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/33",
+   "2021/78",
+   "2022/33",
+   "2022/56",
+   "2024/100",
+   "2025/99"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "MENSE",
+  "ad": "Menşe (Tercihsiz)",
+  "ders": "GM",
+  "yillar": [
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "toplam": 6,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/11",
+   "2021/21",
+   "2022/24",
+   "2023/45",
+   "2024/6",
+   "2025/35"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "IHRG",
+  "ad": "İhracat (Gümrük İşlemleri)",
+  "ders": "GM",
+  "yillar": [
+   0,
+   2,
+   2,
+   1,
+   1
+  ],
+  "toplam": 6,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/14",
+   "2022/44",
+   "2023/25",
+   "2023/89",
+   "2024/62",
+   "2025/57"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "KUMANYA",
+  "ad": "Akaryakıt, Kumanya ve Dış Sefer",
+  "ders": "GM",
+  "yillar": [
+   2,
+   0,
+   3,
+   0,
+   1
+  ],
+  "toplam": 6,
+  "son2": 1,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/25",
+   "2021/26",
+   "2023/28",
+   "2023/29",
+   "2023/30",
+   "2025/56"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "T_TEKSTIL",
+  "ad": "Tarife – Deri, Ahşap, Kâğıt ve Tekstil (Fasıl 41–63)",
+  "ders": "TARİFE",
+  "yillar": [
+   1,
+   1,
+   3,
+   1,
+   0
+  ],
+  "toplam": 6,
+  "son2": 1,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/93",
+   "2022/75",
+   "2023/4",
+   "2023/8",
+   "2023/14",
+   "2024/55"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "DTO",
+  "ad": "DTÖ, TFA, Transfer Fiyatlandırması ve Uluslararası Kuruluşlar",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   1,
+   1,
+   3
+  ],
+  "toplam": 5,
+  "son2": 4,
+  "egilim": "↑ yükselen",
+  "sinif": "ORTA",
+  "sorular": [
+   "2023/61",
+   "2024/11",
+   "2025/4",
+   "2025/5",
+   "2025/6"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "HIR",
+  "ad": "Hariçte İşleme, Geçici İhracat ve GKAİR",
+  "ders": "GM",
+  "yillar": [
+   0,
+   1,
+   1,
+   1,
+   2
+  ],
+  "toplam": 5,
+  "son2": 3,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/8",
+   "2023/22",
+   "2024/93",
+   "2025/86",
+   "2025/89"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "GERIVERME",
+  "ad": "Geri Verme ve Kaldırma",
+  "ders": "GM",
+  "yillar": [
+   2,
+   1,
+   0,
+   1,
+   1
+  ],
+  "toplam": 5,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/34",
+   "2021/40",
+   "2022/22",
+   "2024/98",
+   "2025/94"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "KKDF",
+  "ad": "KKDF ve Fonlar (DFİF)",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   2,
+   1,
+   2,
+   0
+  ],
+  "toplam": 5,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "ORTA",
+  "sorular": [
+   "2022/2",
+   "2022/5",
+   "2023/52",
+   "2024/14",
+   "2024/64"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "GENEL",
+  "ad": "Genel Hükümler (Kararlar, Bilgi, Süreler, Belge Saklama)",
+  "ders": "GM",
+  "yillar": [
+   3,
+   2,
+   0,
+   0,
+   0
+  ],
+  "toplam": 5,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/1",
+   "2021/3",
+   "2021/6",
+   "2022/25",
+   "2022/54"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TPS",
+  "ad": "Ticaret Politikası Savunma Araçları",
+  "ders": "SAİR",
+  "yillar": [
+   2,
+   2,
+   1,
+   0,
+   0
+  ],
+  "toplam": 5,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "ORTA",
+  "sorular": [
+   "2021/58",
+   "2021/65",
+   "2022/12",
+   "2022/26",
+   "2023/76"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "SDG",
+  "ad": "Serbest Dolaşıma Giriş ve Nihai Kullanım",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   1,
+   1,
+   2
+  ],
+  "toplam": 4,
+  "son2": 3,
+  "egilim": "↑ yükselen",
+  "sinif": "AZ",
+  "sorular": [
+   "2023/44",
+   "2024/42",
+   "2025/21",
+   "2025/22"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "T_TASIT",
+  "ad": "Tarife – Taşıtlar (Fasıl 86–89)",
+  "ders": "TARİFE",
+  "yillar": [
+   0,
+   0,
+   2,
+   1,
+   1
+  ],
+  "toplam": 4,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2023/18",
+   "2023/19",
+   "2024/57",
+   "2025/47"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TEMINAT",
+  "ad": "Teminat ve Faiz",
+  "ders": "GM",
+  "yillar": [
+   2,
+   1,
+   0,
+   0,
+   1
+  ],
+  "toplam": 4,
+  "son2": 1,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/39",
+   "2021/77",
+   "2022/6",
+   "2025/93"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "GDY",
+  "ad": "Geçici Depolama",
+  "ders": "GM",
+  "yillar": [
+   1,
+   2,
+   1,
+   0,
+   0
+  ],
+  "toplam": 4,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/35",
+   "2022/58",
+   "2022/59",
+   "2023/96"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "ODEME",
+  "ad": "Ödeme Şekilleri, Taşıma Belgeleri ve CISG",
+  "ders": "SAİR",
+  "yillar": [
+   3,
+   0,
+   1,
+   0,
+   0
+  ],
+  "toplam": 4,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/52",
+   "2021/60",
+   "2021/64",
+   "2023/62"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TAHAKKUK",
+  "ad": "Tahakkuk, Tebliğ, Ödeme ve Zamanaşımı",
+  "ders": "GM",
+  "yillar": [
+   0,
+   1,
+   0,
+   1,
+   1
+  ],
+  "toplam": 3,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2022/3",
+   "2024/99",
+   "2025/95"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "YGM",
+  "ad": "Yetkilendirilmiş Gümrük Müşavirliği (YGM)",
+  "ders": "GM",
+  "yillar": [
+   1,
+   0,
+   0,
+   0,
+   2
+  ],
+  "toplam": 3,
+  "son2": 2,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/31",
+   "2025/98",
+   "2025/100"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "MUAYENE",
+  "ad": "Muayene, Uygunluk Denetimi ve Teslim",
+  "ders": "GM",
+  "yillar": [
+   0,
+   2,
+   0,
+   1,
+   0
+  ],
+  "toplam": 3,
+  "son2": 1,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2022/47",
+   "2022/77",
+   "2024/38"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "OKS",
+  "ad": "Onaylanmış Kişi Statüsü",
+  "ders": "GM",
+  "yillar": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "toplam": 3,
+  "son2": 1,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/18",
+   "2022/62",
+   "2025/91"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "UZLASMA",
+  "ad": "Uzlaşma",
+  "ders": "GM",
+  "yillar": [
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "toplam": 3,
+  "son2": 1,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/82",
+   "2023/68",
+   "2024/12"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "SINIR",
+  "ad": "Sınır Ticareti",
+  "ders": "GM",
+  "yillar": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "toplam": 3,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/75",
+   "2022/30",
+   "2023/31"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TANIM",
+  "ad": "Temel Tanımlar",
+  "ders": "GM",
+  "yillar": [
+   3,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 3,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/2",
+   "2021/13",
+   "2021/72"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TESVIK",
+  "ad": "Yatırım Teşvik ve Yabancı Yatırım",
+  "ders": "SAİR",
+  "yillar": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "toplam": 3,
+  "son2": 0,
+  "egilim": "↓ azalan",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/66",
+   "2022/4",
+   "2023/40"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "DAMGA",
+  "ad": "Damga Vergisi",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "toplam": 2,
+  "son2": 2,
+  "egilim": "↑ yükselen",
+  "sinif": "AZ",
+  "sorular": [
+   "2024/20",
+   "2025/1"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "GSM",
+  "ad": "Gümrüksüz Satış Mağazaları",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   1,
+   0,
+   1
+  ],
+  "toplam": 2,
+  "son2": 1,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2023/95",
+   "2025/79"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "BTB",
+  "ad": "Bağlayıcı Bilgi (BTB/BMB)",
+  "ders": "GM",
+  "yillar": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "toplam": 2,
+  "son2": 0,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/16",
+   "2022/84"
+  ],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "YUKUM",
+  "ad": "Gümrük Yükümlülüğü",
+  "ders": "GM",
+  "yillar": [
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 2,
+  "son2": 0,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/38",
+   "2021/80"
+  ],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TASFIYE",
+  "ad": "Tasfiye",
+  "ders": "GM",
+  "yillar": [
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 2,
+  "son2": 0,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2021/29",
+   "2021/51"
+  ],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "SB",
+  "ad": "Serbest Bölgeler ve Gümrük Statü Belgesi",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "toplam": 1,
+  "son2": 1,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2025/24"
+  ],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "ITIRAZ",
+  "ad": "İtiraz",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "toplam": 1,
+  "son2": 0,
+  "egilim": "→ sabit",
+  "sinif": "AZ",
+  "sorular": [
+   "2023/41"
+  ],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "AKTRANSIT",
+  "ad": "Akaryakıt Transiti (Transit Seri No 3)",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "TRBASIT",
+  "ad": "Denizyolu Transiti ve İzinli Gönderici (Transit Seri No 8, 14)",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "EIHR",
+  "ad": "E-İhracat Destekleri ve Dış Ticaret Sermaye Şirketi",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "ELMAS",
+  "ad": "Ham Elmas ve Nesli Tehlikedeki Türlerin (CITES) Dış Ticareti",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "KABOTAJ",
+  "ad": "Kabotaj",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "KOTA",
+  "ad": "Kota ve Tarife Kontenjanı",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   1,
+   0,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "SONRADAN",
+  "ad": "Sonradan Kontrol",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   1,
+   0
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "TASIT",
+  "ad": "Taşıtların Giriş-Çıkışı",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "TICHAK",
+  "ad": "Türkiye'nin Ticari Haklarının Korunması",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "ESIS",
+  "ad": "Varış Öncesi İşlemler, YKTS ve Elektronik Tebligat",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ },
+ {
+  "id": "IHRSAY",
+  "ad": "İhracat Sayılan Satış ve Teslimler, 99/13812 Vergi-Harç İstisnası",
+  "ders": "SAİR",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   1
+  ],
+  "karma_toplam": 1
+ },
+ {
+  "id": "SARTLI",
+  "ad": "Şartlı Muafiyet ve Ekonomik Etkili Rejimler (Genel)",
+  "ders": "GM",
+  "yillar": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "toplam": 0,
+  "son2": 0,
+  "egilim": "—",
+  "sinif": "HİÇ",
+  "sorular": [],
+  "test": [
+   0,
+   0,
+   0
+  ],
+  "karma_toplam": 0
+ }
+]

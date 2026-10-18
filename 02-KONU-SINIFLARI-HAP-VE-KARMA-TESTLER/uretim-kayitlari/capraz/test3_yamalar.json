@@ -1,0 +1,66 @@
+[
+ {
+  "id": "K04-12",
+  "no": 12,
+  "sorun": "Güncellik: açıklama, yalnız Tebliğde (11/7) yer alan 30 günlük başvuru yükümlülüğüne uyulmamasının GK 241/1 usulsüzlük cezasını 'gerektirdiğini' söylüyor; AYM 26.03.2026 kararıyla 241/1'deki 'ikincil düzenlemelere aykırılık' ibaresi iptal edildiğinden bu kesin hüküm artık savunulamaz. Anahtar değişmiyor; açıklama tarafsız hâle getirildi.",
+  "alan": "aciklama",
+  "eski": "Geçici trafik tescil belgesi başvurusunun ilk girişten itibaren otuz gün içinde yapılmaması ise 11/7 fıkrası uyarınca GK 241/1 kapsamında usulsüzlük cezası uygulanmasını gerektirir; bu hal 19/3 fıkrasındaki diğer usulsüzlükler gibi izin iptali ve teslim alma sonucunu doğurmaz.",
+  "yeni": "Geçici trafik tescil belgesi başvurusunun ilk girişten itibaren otuz gün içinde yapılmaması ise 19/1 fıkrasında sayılan şartların ihlali hâlleri arasında yer almaz; Tebliğ bu hâl için (11/7) izin iptali ve teslim alma sonucunu öngörmemiştir."
+ },
+ {
+  "id": "K06-04",
+  "no": 21,
+  "sorun": "Tuzakta konum atfı ('ilk şıkka'); birleştirmede şıklar karıştırıldı, söz konusu ifade şimdi E şıkkı.",
+  "alan": "tuzak",
+  "eski": "uygulayan aday ilk şıkka kayar.",
+  "yeni": "uygulayan aday 'mirası reddetmemiş kanuni ve mansup mirasçılardan miras hisseleri oranında takip edilir' ifadesine kayar."
+ },
+ {
+  "id": "K08-14",
+  "no": 28,
+  "sorun": "Tuzakta konum atfı ('son ifadeyi'); şıklar karıştırıldı, kastedilen ifade (cevap) D şıkkında, son şık ise Borsaya bilgi verme ifadesi.",
+  "alan": "tuzak",
+  "eski": "aday son ifadeyi doğru sanır.",
+  "yeni": "aday (Z) firmasının gümüşü serbest bölgeden kendi adına ithal edebileceği ifadesini doğru sanır."
+ },
+ {
+  "id": "K01-14",
+  "no": 47,
+  "sorun": "Tekrar (test içi): 47. soru ile 49. soru (K09-09) aynı hükmü aynı kalemlerle ölçüyor (Mersin Limanında tescilden önce ödenen demuraj kıymete girmez ama KDV matrahına girer; ardiyenin tescil öncesi kısmı matraha girer, sonrası girmez — KDVK 21/c; ikisi de 2024/10 iskeleti). 49. sorunun ÖTV (IV) kurgusu bu kalemlere dayandığından 47. sorudan çıkarıldı; yerine üç testte hesapta kullanılmamış GY 45/1-g (fiyattan alıcı lehine düşülen ihraç ülkesi dahili vergisi) kondu. Anahtar harfi (C) değişmiyor; şıklar, açıklama, tuzak, dayanak, kaynak, cikmis_ref yenilendi.",
+  "alan": "yeniden_yaz",
+  "yeni": {
+   "id": "K01-14",
+   "test": 3,
+   "alan": "HESAP",
+   "konu": "KIYMET",
+   "alt_tip": "H3",
+   "seri": null,
+   "ortak_veri_id": null,
+   "ortak_veri": null,
+   "kok_on": "",
+   "onculler": [],
+   "tablo": null,
+   "kok": "Türkiye'de yerleşik (A) firması, ABD'de yerleşik ve (A) firmasının sermayesinin %25'ine sahip (X) firmasından CIF Mersin teslim şekline göre 400.000 ABD Doları bedelle torna tezgâhı ithal etmektedir. Eşyanın gümrük kıymetinin satış bedeli yöntemine göre belirlenebildiği ve ilişkinin fiyatı etkilemediği anlaşılmıştır. Bu ithalatla ilgili olarak aşağıdaki hususlar tespit edilmiştir:\n- Satış sözleşmesi uyarınca (A) firması, (X) firmasının tezgâhların üretiminde kullandığı çelik nedeniyle tedarikçisi (Y) firmasına olan 30.000 ABD Doları borcunu ödemiştir.\n- (A) firması, (X) firmasına ortaklık payı nedeniyle 50.000 ABD Doları temettü ödemiştir.\n- 400.000 ABD Doları tutarındaki fiyatın içinde, faturada ayrıca gösterilen ve ihraç ülkesinde ödenen 10.000 ABD Doları tutarında bir dahili vergi bulunmaktadır; bu tutarın fiyattan alıcı lehine düzeltme yapılarak düşüleceği gümrük idaresine belgelenmiş ve idarece uygun bulunmuştur.\nEşyanın gümrük vergisi oranı %5, KDV oranı %20'dir. (Döviz kuru: 1 ABD Doları = 10 TL alınacaktır. Diğer vergi ve fonlar ihmal edilecektir.)\nBu veriler çerçevesinde, ithalat sırasında ödenmesi gereken gümrük vergisi ve KDV toplamı kaç TL'dir?",
+   "siklar": [
+    "1.014.000",
+    "1.050.000",
+    "1.092.000",
+    "1.118.000",
+    "1.222.000"
+   ],
+   "dogru": 2,
+   "sira_sabit": true,
+   "aciklama": "Fiilen ödenen fiyat, alıcının satış koşulu olarak satıcının bir yükümlülüğünü karşılamak üzere üçüncü kişiye yaptığı ödemeleri de kapsar; temettü ise ithal eşyasının bedeli değildir (GK 24/3-a). Fiyatın içinde yer alan ve ihraç ülkesinde ödenen dahili vergi, fiyattan alıcı lehine düşüleceği gümrük idaresine belgelenip uygun bulunduğundan gümrük kıymetine dahil edilmez (GY 45/1-g). Kıymet = 400.000 − 10.000 + 30.000 = 420.000 ABD Doları = 4.200.000 TL; GV (%5) = 210.000 TL; KDV matrahı = 4.200.000 + 210.000 = 4.410.000 TL (KDVK 21/a-b); KDV (%20) = 882.000 TL; GV + KDV = 1.092.000 TL. Şık türetimleri: 1.014.000 = (Y)'ye ödenen borç kıymete eklenmemiş (kıymet 3.900.000; GV 195.000; KDV 819.000); 1.050.000 = gümrük vergisi KDV matrahına katılmamış (GV 210.000; KDV 840.000); 1.118.000 = ihraç ülkesi dahili vergisi kıymetten düşülmemiş (kıymet 4.300.000; GV 215.000; KDV 903.000); 1.222.000 = temettü (50.000) kıymete eklenmiş (kıymet 4.700.000; GV 235.000; KDV 987.000).",
+   "tuzak": "İlişkili satıcıya yapılan her transferi eşya bedeli sayıp temettüyü kıymete katan aday 1.222.000'e, faturadaki ihraç ülkesi vergisini fiyatın ayrılmaz parçası sayan aday 1.118.000'e kayar.",
+   "dayanak": "4458 sayılı GK md. 24/3-a; Gümrük Yönetmeliği md. 45/1-g; 3065 sayılı KDV Kanunu md. 21/a-b",
+   "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 24 (3)-a ve GY MADDE 45 (1)-g; kaynak2/diger/SAİR MEVZUAT KİTABI.md s. 165 'İTHALATTA MATRAH – Md.21' (a), (b); çıkmış 2024/18 (satıcının üçüncü kişiye borcu dahil, temettü hariç), 2022/89 (faturada gösterilip alıcı lehine düzeltilen ihraç ülkesi dahili vergisi). Çapraz kontrol: 49. soru (K09-09) ile aynı olan Mersin demurajı ve tescil öncesi/sonrası ardiye kalemleri çıkarıldı.",
+   "guven": "yüksek",
+   "kaynak_tipi": "cikmis",
+   "cikmis_ref": [
+    "2024/18",
+    "2022/89"
+   ],
+   "zorluk": "Z"
+  }
+ }
+]

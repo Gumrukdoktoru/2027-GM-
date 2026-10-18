@@ -1,0 +1,106 @@
+{
+ "K01": [
+  "KIYMET",
+  "MENSE",
+  "BTB",
+  "DTO"
+ ],
+ "K02": [
+  "TANIM",
+  "GENEL",
+  "OZET",
+  "GDY",
+  "BEYAN",
+  "MUAYENE",
+  "SDG",
+  "SONRADAN",
+  "TASIT",
+  "KABOTAJ",
+  "ESIS"
+ ],
+ "K03": [
+  "TRANSIT",
+  "TIR",
+  "AKTRANSIT",
+  "TRBASIT",
+  "ANTREPO"
+ ],
+ "K04": [
+  "DIR",
+  "HIR",
+  "GI",
+  "SARTLI",
+  "IHRG",
+  "GERIGELEN"
+ ],
+ "K05": [
+  "MUAF",
+  "POSTA",
+  "KUMANYA",
+  "GSM",
+  "SINIR",
+  "SB",
+  "FSMH",
+  "TASFIYE"
+ ],
+ "K06": [
+  "YUKUM",
+  "TAHAKKUK",
+  "TEMINAT",
+  "GERIVERME",
+  "CEZA",
+  "ITIRAZ",
+  "UZLASMA"
+ ],
+ "K07": [
+  "YYS",
+  "OKS",
+  "MUSAVIR",
+  "YGM"
+ ],
+ "K08": [
+  "KACAK",
+  "KAMBIYO",
+  "KKDF",
+  "DAMGA"
+ ],
+ "K09": [
+  "KDV",
+  "OTV",
+  "TESVIK"
+ ],
+ "K10": [
+  "ITHR",
+  "URUN",
+  "TPS",
+  "KOTA",
+  "TICHAK"
+ ],
+ "K11": [
+  "MENSEBELGE",
+  "STA",
+  "GB"
+ ],
+ "K12": [
+  "INCO",
+  "ODEME",
+  "IHRR",
+  "IHRSAY",
+  "EIHR",
+  "ELMAS"
+ ],
+ "K13": [
+  "T_GYKK",
+  "T_HS22",
+  "T_YAPI",
+  "T_GIDA",
+  "T_KIMYA"
+ ],
+ "K14": [
+  "T_TEKSTIL",
+  "T_METAL",
+  "T_MAKINE",
+  "T_TASIT",
+  "T_CESITLI"
+ ]
+}
