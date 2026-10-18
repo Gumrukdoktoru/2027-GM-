@@ -108,7 +108,7 @@ KDV matrahı = gümrük kıymeti + gümrük vergisi + İGV + ithalat sırasında
 **K6 – Vergi zinciri özel kuralları**
 
 - **MIN/MAX:** Alt ve üst sınır **kalem bazında ve adet üzerinden** ayrı ayrı uygulanır. Pahalı kalemde MAX, ucuz kalemde MIN devreye girebilir (2022/99, 2024/24).
-- **ÖTV (I) sayılı liste (akaryakıt):** İthalatta gümrükte ÖTV tahsil edilmez; teminat alınır. Litre başı vergi verilse bile kullanılmaz (tuzak veri; 2025/15).
+- **ÖTV (I) sayılı liste (akaryakıt):** İthalatta gümrükte ÖTV tahsil edilmez; teminat alınır (ÖTVK md. 16/4). Litre başı vergi tahsil edilecek tutara katılmaz (2025/15). **Ancak 24.07.2025'ten itibaren KDVK md. 21/ç uyarınca teminata esas ÖTV ithalde KDV matrahına girer;** bu tarihten sonra tescil edilen beyannamede litre başı vergi KDV matrahı için kullanılır. 2025/15 anahtarı (ç) bendi öncesi kurala dayanır; yeni soruda tescil tarihini kökte ver.
 - **ÖTV (II) sayılı liste:** Motorlu araç ticareti yapanların (distribütör, bayi) ithalatında ÖTV doğmaz (2023/78).
 - **ÖTV (III) sayılı liste – sigara:** Nispi vergi matrahı perakende satış fiyatıdır. Nispi vergi ile asgari maktu vergiden büyük olanı alınır, maktu vergi eklenir (2022/93).
 - **ÖTV (III) sayılı liste – alkol:** Asgari maktu vergi = litre × alkol derecesi × birim tutar. Nispi vergiyle karşılaştırılır, büyük olanı alınır (2022/97).
@@ -129,7 +129,7 @@ KDV matrahı = gümrük kıymeti + gümrük vergisi + İGV + ithalat sırasında
 
 **K8 – Diğer**
 
-- **Antrepo götürü teminatı:** Açık + kapalı alanın toplamı esas alınır, içinde bulunulan saha alanı esas alınmaz. Tank antrepoda toplam tank hacmi (m³) esas alınır. Kademeler ve "her … ve kesri" kuralı uygulanır. **Tutar tablosu PARAMETRELER'den alınır.**
+- **Antrepo götürü teminatı:** Resmî anahtarlar (2022/41, 2024/83-A) açık + kapalı alanın toplamını esas aldı, içinde bulunulan saha alanını almadı; GY md. 527 metninde bu ayrım açıkça yazmaz. Yeni soruda antreponun hesaba esas alanını kökte doğrudan ver, saha alanını tuzak veri yapma. Tank antrepoda toplam tank hacmi (m³) esas alınır. Kademeler ve "her … ve kesri" kuralı uygulanır. **Tutar tablosu PARAMETRELER'den alınır.**
 - **İhracat bedeli:** Vadeli ihracatta vade tarihinden itibaren ek süre (2025/62'de vade + 90 gün).
 - **Geçici ithalat:** Kısmi muafiyette aylık oran (%3) ve "ay kesri tam ay" kuralı geçerlidir. Kısmi muafiyetten kati ithalatta faiz geçici ithalat tescil tarihinden başlar.
 
@@ -148,7 +148,7 @@ KDV matrahı = gümrük kıymeti + gümrük vergisi + İGV + ithalat sırasında
    - Ödemenin **ayrıca gösterilip gösterilmediği**
 4. **Parantezler:** "(Döviz kuru: 1 ABD Doları = 10 TL alınacaktır.)", "(Hesaplamada sadece soruda yer verilen hususlar dikkate alınacaktır)", "(diğer vergiler ihmal edilmiştir)", "(Navlun ve sigorta giderleri ihmal edilmiştir.)", oranlar "(GV oranı %10, KDV oranı %20 …)".
 5. **Rakamlar:** Yuvarlak seçilir (5.000, 10.000, 500); sonuç tam sayı ya da en fazla 2 ondalık olur. Kur 1, 8 ya da 10 gibi kolay bir değerdir. Ölçeği (10 kat hatası; 2023/72-73) son kontrolde doğrula.
-6. **Tuzak veri:** Her vakada en az bir kullanılmaması gereken bilgi bulunur: ödeme tarihi kuru, saha alanı, litre başı ÖTV, önceki yıl indirimi, temettü, zamanaşımına uğramış yıl.
+6. **Tuzak veri:** Her vakada en az bir kullanılmaması gereken bilgi bulunur: ödeme tarihi kuru, litre başı ÖTV (yalnız tahsil edilecek tutarda; KDV matrahında 21/ç bkz. K6), önceki yıl indirimi, temettü, zamanaşımına uğramış yıl.
 7. **Bağlı soru:** "…ve … numaralı soruları aşağıdaki verilere göre cevaplayınız." İlk soru gümrük kıymeti, ikinci soru KDV matrahı (veya ödenecek vergiler) olur. İkinci soruya özgü kalemler (tescil öncesi ardiye, tahliye, fazla mesai, Türkiye limanı demurajı) ilk vakaya baştan yerleştirilir.
 8. **Kök sonu:** "…gümrük kıymeti kaç TL'dir?", "…ithalatta KDV matrahı kaç TL'dir?", "…tahsili gereken vergiler toplamı kaç TL'dir?", "…ek tahakkuk ve varsa ceza tutarlarının toplamı kaç TL'dir?", "Firma hangi tutar üzerinden uzlaşma talep edecektir?", "…azami kaç gün içerisinde…?"
 
