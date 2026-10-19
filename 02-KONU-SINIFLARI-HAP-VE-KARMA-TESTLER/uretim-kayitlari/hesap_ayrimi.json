@@ -1,0 +1,39 @@
+{
+ "hesap_ozet": "2021–2025'te 59 soru (10-13-16-11-9); her yıl ayrı bir blok hâlinde geldi. Dağılım: gümrük kıymeti 32, ithalatta KDV matrahı 9, GK 234 ceza 5, ÖTV 4, uzlaşma 2, antrepo götürü teminatı 2, İGV ve MIN/MAX 2; gözetim değeri, geçici ithalat faizi ve ihracat bedeli süresi birer soru. Yanlış şıklar çoğunlukla tek bir kalemin yanlış tarafa konmasıyla üretildi; soruların çoğunda kullanılmaması gereken bir veri vardı (ödeme tarihi kuru, saha alanı, temettü…). 2021–2024'te kıymet → KDV matrahı bağlı soru setleri her yıl geldi, 2025'te gelmedi.",
+ "grup": {
+  "KIYMET": "Gümrük kıymeti hesabı (32 soru)",
+  "KDV": "İthalatta KDV matrahı (9 soru)",
+  "CEZA": "GK 234 ceza hesabı (5 soru)",
+  "OTV": "ÖTV hesabı (4 soru)",
+  "UZLASMA": "Uzlaşma (2 soru)",
+  "ANTREPO": "Antrepo götürü teminatı (2 soru)",
+  "ITHR": "İGV ve MIN/MAX'lı gümrük vergisi (2 soru)",
+  "TPS": "Diğer hesaplar: gözetim değeri, geçici ithalat faizi, ihracat bedeli süresi (3 soru)",
+  "GI": "Diğer hesaplar: gözetim değeri, geçici ithalat faizi, ihracat bedeli süresi (3 soru)",
+  "KAMBIYO": "Diğer hesaplar: gözetim değeri, geçici ithalat faizi, ihracat bedeli süresi (3 soru)"
+ },
+ "cikan_ozet": {
+  "KIYMET": "Sözel 15 soru (3-5-2-3-2); ayrıca 32 kıymet hesabı sorusu (6-7-9-7-3) Hesaplama konusunda sayıldı ve hapları orada. Sözel ve hesap birlikte her yıl GK 27–28 dahil/hariç eleği (giriş yerine kadar nakliye ve ihraç limanı demurajı, assist, satış/alım komisyonu, ithalat sonrası montaj, satış koşulu royalti, Türkiye'de çoğaltma hakkı) geldi; ilişki kriterleri, aynı/benzer eşya ve kullanılmış taşıt amortismanı tekrarlandı. Toplam sayı azalıyor (2025'te 5); son iki yılda royalti/lisans ve kullanılmış otomobil öne çıktı.",
+  "KDV": "Sözel 4 soru (2022–2025'te yılda bir): altın için özel matrah, vergi sorumlusu, oran kararının (I) sayılı listesi ve finansal kiralama oranı. İthalatta KDV matrahı 9 hesap sorusuyla (2-1-2-3-1) her yıl soruldu; bu sorular Hesaplama konusunda sayıldı ve hapları orada.",
+  "OTV": "Sözel 10 soru (0-3-2-2-3); ayrıca 4 ÖTV hesabı (sigara, alkollü içki, (II) sayılı liste distribütör ithalatı, (I) sayılı liste teminatı) Hesaplama konusunda. En çok liste kapsamı soruldu, (IV) sayılı liste 2023–2025'te her yıl geldi, (I) listenin (B) cetveli ve diplomatik istisna 2025'te ilk kez soruldu; (II) listede bayi ithalatı ile (I) listede ithalde teminat kuralı hem sözel hem hesap olarak tekrarlandı.",
+  "CEZA": "Sözel 3 soru (2021, 2023, 2025): 239/2 vergili ihracat cezası ve 241 usulsüzlük (tamamlayıcı beyan gecikmesi, Ek-82). GK 234 hesapları (üç kat ceza, kendiliğinden bildirimde %10, ceza matrahına giren vergiler, zamanaşımı ve peşin ödeme indirimi) 5 hesap sorusuyla Hesaplama konusunda; son yıl hesaplar EMY/KDV ve royalti ayrıntısına indi.",
+  "UZLASMA": "Sözel 1 soru (2024/12): matraha girip gümrükçe takip edilmeyen mali yüklerin (kültür fonu) uzlaşma dışında kalması. 2021 ve 2023'teki iki soru hesap biçimindeydi (kültür fonu hesabı, uzlaşılan cezada peşin ödeme indirimi olmaması) ve Hesaplama konusunda sayıldı.",
+  "ANTREPO": "Sözel 15 soru (0-3-2-6-4); ayrıca 2 götürü teminat hesabı (2022/41, 2023/99) Hesaplama konusunda. En çok götürü teminat (tutar ve tavan, yaygın teminat, akaryakıt istisnası, yetkili bölge müdürlüğü) soruldu ve 2022'den beri her yıl geldi. 2024–2025'te makam dağılımı (taşınma ve tank ilavesi Bakanlık, kapatma gümrük müdürlüğü), kusur süreleri ve antrepoda devir öne çıktı.",
+  "GI": "Sözel 10 soru (1-2-2-3-2); tam muafiyetten serbest dolaşıma geçişte faiz ve KDV matrahı hesabı (2025/19) Hesaplama konusunda. Tam muafiyette teminat aranmayan haller (2023, 2024) tekrarlandı, kara taşıtları tebliği (süreler, karne), sözlü beyan listesi ve ATA karnesi de soruldu; 2025'te kısmi/tam muafiyette vergilendirme tarihi ve faiz ağırlık kazandı.",
+  "KAMBIYO": "Sözel 16 soru (4-2-5-2-3); ihracat bedelinin yurda getirilme süresine ilişkin gün hesabı (2025/62) Hesaplama konusunda. En çok 32 sayılı Karar md. 2 tanımları (efektif, kıymetli maden ve taş, standart altın) ile md. 7 kıymetli maden ithalat kuralları (2022–2025 her yıl) soruldu; 2023'te ihracat bedellerinin yurda getirilme süreleri, 2025'te yolcu beraberi 185.000 TL eşiği geldi, 2021'deki TCMB genelgesi soruları tekrarlanmadı.",
+  "ITHR": "Sözel 5 soru (1-2-0-2-0): İthalat Rejimi Kararının genel hükümleri (amaç ve kambiyo, özel nitelikli eşya, vergi kimlik numarası istisnası, ek mali yükümlülük, ticaret politikası önlemleri mevzuatı); özel nitelikli eşya 2022 ve 2024'te tekrarlandı. 91.02 saatlerde MIN/MAX'lı gümrük vergisi ve İGV hesabı (2022/99, 2024/24) Hesaplama konusunda.",
+  "TPS": "Sözel 4 soru (2021–2022): haksız rekabette 3577 sayılı Kanunun zarar halleri, Kurul görevleri ve 45 günlük inceleme süresi, korunma önlemlerinde geçici-kesin önlem farkı. Gözetimli kıymetle vergi hesabı (2023/76) Hesaplama konusunda; eğilim azalan, 2023'ten sonra sözel soru yok."
+ },
+ "sorulmayan_ozet_degistir": [
+  ["KIYMET", "2021–2025'te 47 soru (2021: 9, 2022: 12, 2023: 11, 2024: 10, 2025: 5);", "2021–2025'te sözel 15 soru (2021: 3, 2022: 5, 2023: 2, 2024: 3, 2025: 2) ve Hesaplama konusunda sayılan 32 kıymet hesabı;"],
+  ["ANTREPO", "2021–2025'te 17 soru (2022'de 4, 2023'te 3, 2024'te 6, 2025'te 4);", "2021–2025'te sözel 15 soru (2022'de 3, 2023'te 2, 2024'te 6, 2025'te 4) ve Hesaplama konusunda sayılan 2 götürü teminat hesabı;"],
+  ["GI", "2021–2025'te 11 soru (2021: 1, 2022: 2, 2023: 2, 2024: 3, 2025: 3);", "2021–2025'te sözel 10 soru (2021: 1, 2022: 2, 2023: 2, 2024: 3, 2025: 2) ve Hesaplama konusunda sayılan 1 faiz hesabı (2025/19);"],
+  ["CEZA", "2021–2025'te 8 soru geldi (2021'de 2, 2022'de 1, 2023'te 2, 2025'te 3).", "2021–2025'te sözel 3 soru geldi (2021, 2023 ve 2025'te birer); ayrıca 5 GK 234 hesap sorusu Hesaplama konusunda sayıldı."],
+  ["UZLASMA", "2021–2025'te 3 soru geldi (2021, 2023 ve 2024'te birer).", "2021–2025'te sözel 1 soru geldi (2024); 2021 ve 2023'teki iki soru hesap biçimindeydi ve Hesaplama konusunda sayıldı."],
+  ["KAMBIYO", "2021–2025'te 17 soru (4-2-5-2-4);", "2021–2025'te sözel 16 soru (4-2-5-2-3) ve Hesaplama konusunda sayılan 1 süre hesabı (2025/62);"],
+  ["KDV", "2021–2025'te 13 soru (2-2-3-4-2);", "2021–2025'te sözel 4 soru (0-1-1-1-1) ve Hesaplama konusunda sayılan 9 KDV matrahı hesabı;"],
+  ["OTV", "2021–2025'te 14 soru (0-5-3-2-4);", "2021–2025'te sözel 10 soru (0-3-2-2-3) ve Hesaplama konusunda sayılan 4 ÖTV hesabı;"],
+  ["ITHR", "2021–2025'te 7 soru (2021:1, 2022:3, 2024:3);", "2021–2025'te sözel 5 soru (2021: 1, 2022: 2, 2024: 2) ve Hesaplama konusunda sayılan 2 MIN/MAX ve İGV hesabı;"],
+  ["TPS", "2021–2025'te 5 soru (2021:2, 2022:2, 2023:1);", "2021–2025'te sözel 4 soru (2021: 2, 2022: 2) ve Hesaplama konusunda sayılan 1 gözetim değeri hesabı (2023/76);"]
+ ]
+}

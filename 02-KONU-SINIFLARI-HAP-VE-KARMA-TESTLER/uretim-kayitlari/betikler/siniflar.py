@@ -3,9 +3,12 @@ import json, collections, sys
 S = sys.argv[1]
 d = json.load(open(f'{S}/konu/eslesme.json', encoding='utf-8'))
 K, Q = d['konular'], d['sorular']
+# Analizdeki alan ayrımı: hesap soruları (alan HESAP) içerik konusuna değil ayrı 'Hesaplama' konusuna sayılır
+K = dict(K); K['HESAP'] = ['Hesaplama (Kıymet, Vergi ve Ceza Hesapları)', 'HESAP']
+def konu_of(q): return 'HESAP' if q['alan'] == 'HESAP' else q['konu']
 YIL = range(2021, 2026)
 yc = {k: collections.Counter() for k in K}
-for q in Q: yc[q['konu']][q['yil']] += 1
+for q in Q: yc[konu_of(q)][q['yil']] += 1
 def sinif(n): return 'ÇOK' if n >= 10 else 'ORTA' if n >= 5 else 'AZ' if n >= 1 else 'HİÇ'
 def egilim(c):
     if sum(c.values()) == 0: return '—'
@@ -15,7 +18,7 @@ rows = []
 for k, (ad, ders) in K.items():
     c = yc[k]; n = sum(c.values())
     rows.append({'id': k, 'ad': ad, 'ders': ders, 'yillar': [c[y] for y in YIL], 'toplam': n, 'son2': c[2024] + c[2025],
-                 'egilim': egilim(c), 'sinif': sinif(n), 'sorular': sorted([q['id'] for q in Q if q['konu'] == k], key=lambda s: (int(s[:4]), int(s[5:])))})
+                 'egilim': egilim(c), 'sinif': sinif(n), 'sorular': sorted([q['id'] for q in Q if konu_of(q) == k], key=lambda s: (int(s[:4]), int(s[5:])))})
 rows.sort(key=lambda r: (-r['toplam'], -r['son2'], r['ad']))
 by = collections.defaultdict(list)
 for r in rows: by[r['sinif']].append(r)

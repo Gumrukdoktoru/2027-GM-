@@ -21,7 +21,7 @@ rows = json.load(open(f'{S}/konu/siniflar.json', encoding='utf-8'))
 R = {r['id']: r for r in rows}
 kume = json.load(open(f'{S}/hap/kumeler.json', encoding='utf-8'))
 K2 = {k: kid for kid, ks in kume.items() for k in ks}
-DERS = {'GM': 'Gümrük Mevzuatı', 'SAİR': 'Sair Mevzuat', 'TARİFE': 'Tarife'}
+DERS = {'GM': 'Gümrük Mevzuatı', 'SAİR': 'Sair Mevzuat', 'TARİFE': 'Tarife', 'HESAP': 'Hesaplama'}
 SIN = [('ÇOK', 'Çok çıkan konular (5 yılda 10 ve üzeri soru)'), ('ORTA', 'Orta çıkan konular (5 yılda 5–9 soru)'),
        ('AZ', 'Az çıkan konular (5 yılda 1–4 soru)'), ('HİÇ', 'Hiç çıkmayan konular (2021–2025)')]
 KOTA = {'ÇOK': 30, 'ORTA': 13, 'AZ': 6, 'HİÇ': 1}
@@ -72,6 +72,34 @@ for r in rows:
         seen_b.add(_n(x.get('kanit'))); keep.append(x)
     k['beklenen'] = keep
 print('kümeler arası tekrar çıkarıldı:', dup)
+
+# ---- hesaplama ayrı konu (analizdeki alan ayrımı) ------------------------------
+# alan HESAP olan 59 soru içerik konusuna değil 'HESAP' konusuna sayılır. Yalnız hesap
+# sorularına dayanan haplar Hesaplama bölümüne taşınır; hem hesap hem sözel soruya dayanan
+# hap iki yerde, kendi sorularıyla gösterilir.
+HA = json.load(open(f'{S}/hap/hesap_ayrimi.json', encoding='utf-8'))
+HSET = {m['id'] for m in json.load(open(f'{S}/konu/eslesme.json', encoding='utf-8'))['sorular'] if m['alan'] == 'HESAP'}
+GRUP_SIRA = list(dict.fromkeys(HA['grup'].values()))
+hesap_haplar = []
+for kid, k in cikan.items():
+    kalan = []
+    for h in k.get('haplar', []):
+        ids = set(h.get('sorular', []))
+        hs, ss = ids & HSET, ids - HSET
+        if hs:
+            hesap_haplar.append(dict(h, sorular=sorted(hs, key=idkey), grup=HA['grup'][kid]))
+        if ss or not hs:
+            kalan.append(dict(h, sorular=sorted(ss, key=idkey)) if hs else h)
+    k['haplar'] = kalan
+    if kid in HA['cikan_ozet']: k['ozet'] = HA['cikan_ozet'][kid]
+hesap_haplar.sort(key=lambda h: GRUP_SIRA.index(h['grup']))
+cikan['HESAP'] = {'konu': 'HESAP', 'ozet': HA['hesap_ozet'], 'haplar': hesap_haplar}
+for kid, eski, yeni in HA['sorulmayan_ozet_degistir']:
+    k = sorulmayan[kid]; assert eski in k['ozet'], kid; k['ozet'] = k['ozet'].replace(eski, yeni)
+# kapsama: her soru kendi konusunun haplarında geçmeli
+for r in rows:
+    eks = set(r['sorular']) - {i for h in cikan.get(r['id'], {}).get('haplar', []) for i in h.get('sorular', [])}
+    if eks: print('UYARI hapta geçmeyen soru', r['id'], sorted(eks))
 os.makedirs(f'{OUT}/veri', exist_ok=True)
 json.dump(cikan, open(f'{OUT}/veri/cikan_haplar.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump(sorulmayan, open(f'{OUT}/veri/sorulmayan.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
@@ -81,7 +109,7 @@ def kapak(baslik, alt, boyut=56):
 def yil_tablo(L, hic=False):
     return {'t': 'tablo', 'basliklar': ['Konu', 'Ders', '21', '22', '23', '24', '25', 'Top.', 'Son 2', 'Eğilim'],
             'genislik': [35.5, 8.5, 5, 5, 5, 5, 5, 7, 9, 15],
-            'satirlar': [[r['ad'], DERS[r['ders']].replace('Gümrük Mevzuatı', 'GM').replace('Sair Mevzuat', 'Sair')] + [str(x) for x in r['yillar']] + [str(r['toplam']), str(r['son2']), r['egilim']] for r in L]}
+            'satirlar': [[r['ad'], DERS[r['ders']].replace('Gümrük Mevzuatı', 'GM').replace('Sair Mevzuat', 'Sair').replace('Hesaplama', 'Hesap')] + [str(x) for x in r['yillar']] + [str(r['toplam']), str(r['son2']), r['egilim']] for r in L]}
 by = collections.defaultdict(list)
 for r in rows: by[r['sinif']].append(r)
 
@@ -100,7 +128,7 @@ B = [kapak('ÇIKAN SORULARDAN HAP BİLGİ', 'Konu Sınıfları · GM 2021–2025
 B.append({'t': 'h1', 'metin': 'Konu Sınıfları ve Çıkan Sorulardan Hap Bilgi (GM 2021–2025)', 'yeni_sayfa': True})
 nkonu = len(rows); nhap = sum(len(cikan.get(r['id'], {}).get('haplar', [])) for r in rows)
 B.append({'t': 'kutu', 'paragraflar': [
-    f"2021–2025 Gümrük Müşavirliği sınavlarının **500 sorusu** (Gümrük Mevzuatı, Sair Mevzuat ve Tarife; hesap soruları ölçtükleri konuya göre) {nkonu} konuya ayrıldı ve konular dört sınıfa bölündü: **çok çıkan** (5 yılda 10 ve üzeri), **orta çıkan** (5–9), **az çıkan** (1–4), **hiç çıkmayan** (0).",
+    f"2021–2025 Gümrük Müşavirliği sınavlarının **500 sorusu** {nkonu} konuya ayrıldı. Analizdeki alan ayrımına uygun olarak 59 hesap sorusu içerik konusuna (kıymet, KDV, ceza…) değil ayrı **Hesaplama** konusuna sayıldı; Gümrük Kıymeti, KDV, ÖTV gibi konuların sayıları yalnız sözel sorulardır. Konular dört sınıfa bölündü: **çok çıkan** (5 yılda 10 ve üzeri), **orta çıkan** (5–9), **az çıkan** (1–4), **hiç çıkmayan** (0).",
     "Hap bilgiler çıkmış soruların ölçtüğü bilgiden, **resmî cevap anahtarına** göre yazıldı; birden çok yılda sorulan bilgi tek satırda birleştirildi (★). Bilgisi depodaki mevzuat metinlerinde bulunmayan haplar yalnız soru ve resmî cevaptan kuruldu (◇). Sınav tarihinden sonra değişen hükümler \"Not\" ile gösterildi. Parantez içinde dayanak ve sorunun yılı/numarası yer alır.",
     f"Toplam {nhap} hap. Konu sınıfları üç adet 50 soruluk karma testin dağılımına da esas alındı: test başına {KOTA['ÇOK']} çok çıkan, {KOTA['ORTA']} orta, {KOTA['AZ']} az çıkan ve {KOTA['HİÇ']} hiç çıkmayan konu sorusu."]})
 B.append({'t': 'h1', 'metin': '1. KONU SINIFLARI'})
@@ -108,7 +136,7 @@ B.append({'t': 'tablo', 'basliklar': ['Sınıf', 'Konu sayısı', '5 yılda soru
           'satirlar': [[ad.split(' (')[0], str(len(by[s])), str(sum(r['toplam'] for r in by[s])), str(KOTA[s])] for s, ad in SIN]})
 for s, ad in SIN:
     B.append({'t': 'h2', 'metin': ad}); B.append(yil_tablo(by[s]))
-B.append({'t': 'kutu', 'paragraflar': ['21–25: 2021–2025 sınav yılları; Son 2: 2024 ve 2025 toplamı. Eğilim: son iki yılın (2024–2025) yıllık ortalaması ilk üç yılın ortalamasından en az 1 soru fazlaysa yükselen, en az 1 soru azsa azalan. Ders: GM Gümrük Mevzuatı, Sair Sair Mevzuat.']})
+B.append({'t': 'kutu', 'paragraflar': ['21–25: 2021–2025 sınav yılları; Son 2: 2024 ve 2025 toplamı. Eğilim: son iki yılın (2024–2025) yıllık ortalaması ilk üç yılın ortalamasından en az 1 soru fazlaysa yükselen, en az 1 soru azsa azalan. Ders: GM Gümrük Mevzuatı, Sair Sair Mevzuat, Hesap Hesaplama (sayılar analizdeki alan ayrımıyla aynıdır: GM 222, Sair 143, Tarife 76, Hesap 59).']})
 B.append({'t': 'h1', 'metin': '2. ÇIKAN SORULARDAN HAP BİLGİ', 'yeni_sayfa': True})
 star_n = 0
 for s, ad in SIN[:3]:
@@ -119,8 +147,11 @@ for s, ad in SIN[:3]:
         if not k or not k.get('haplar'):
             B.append({'t': 'p', 'metin': '(hap hazırlanmadı)'}); continue
         if k.get('ozet'): B.append({'t': 'etiket', 'metin': k['ozet']})
-        L = []
+        L, grup = [], None
         for h in k['haplar']:
+            if h.get('grup') and h['grup'] != grup:
+                if L: B.append({'t': 'madde', 'maddeler': L}); L = []
+                grup = h['grup']; B.append({'t': 'h3', 'metin': grup})
             t, st = hap_satir(h); L.append(t); star_n += st
         B.append({'t': 'madde', 'maddeler': L})
 B.append({'t': 'h1', 'metin': 'Hiç çıkmayan konular'})
@@ -130,6 +161,9 @@ json.dump({'meta': {'baslik': 'Çıkan Sorulardan Hap Bilgi', 'ust_bilgi': 'GM �
 print('konu_siniflari', nhap, 'hap', star_n, '★')
 
 # ---- 2. BEKLENEN KONULAR HAP -------------------------------------------------
+HESAP_YONLENDIR = ('Hesap sorularının dayandığı sorulmamış hükümler ilgili konuların altında yer alır: Gümrük Kıymeti, KDV, ÖTV, '
+                   'Cezalar, Uzlaşma, Antrepo, İthalat Rejimi ve İGV, Geçici İthalat. Hesap kuralları (dahil/hariç kalemler, vergi zinciri, '
+                   'MIN/MAX, ceza ve indirimler) için Soru Tipi Kataloğu H kartlarına bakın.')
 B = [kapak('BEKLENEN KONULAR HAP BİLGİ', "2021–2025'te Sorulmamış Hükümler · Son Değişiklikler")]
 B.append({'t': 'h1', 'metin': 'Çıkması Beklenen Konulardan Hap Bilgi (GM 2027 hazırlık)', 'yeni_sayfa': True})
 B.append({'t': 'kutu', 'paragraflar': [
@@ -137,13 +171,15 @@ B.append({'t': 'kutu', 'paragraflar': [
     "Her hap kaynak metindeki karşılığıyla (birebir kesit) doğrulandı; çıkmış sorulardaki bilgi burada tekrarlanmadı. Parantez içinde dayanak madde yer alır."]})
 B.append({'t': 'h1', 'metin': '1. ÖNCELİK TABLOSU'})
 B.append({'t': 'tablo', 'basliklar': ['Konu', 'Sınıf', '5 yılda', '2024–25', 'Eğilim', 'Hap'], 'genislik': [48, 9, 10, 10, 15, 8],
-          'satirlar': [[r['ad'], r['sinif'], str(r['toplam']), str(r['son2']), r['egilim'], str(len(sorulmayan.get(r['id'], {}).get('beklenen', [])))] for r in rows]})
+          'satirlar': [[r['ad'], r['sinif'], str(r['toplam']), str(r['son2']), r['egilim'], '—' if r['id'] == 'HESAP' else str(len(sorulmayan.get(r['id'], {}).get('beklenen', [])))] for r in rows]})
 degisen = []
 for i, (s, ad) in enumerate(SIN):
     B.append({'t': 'h1', 'metin': f'{i + 2}. {ad}', 'yeni_sayfa': i == 0})
     for r in by[s]:
         k = sorulmayan.get(r['id'])
         B.append({'t': 'h2', 'metin': r['ad']})
+        if r['id'] == 'HESAP':
+            B.append({'t': 'p', 'metin': HESAP_YONLENDIR}); continue
         if not k: B.append({'t': 'p', 'metin': '(hazırlanmadı)'}); continue
         if k.get('ozet'): B.append({'t': 'kutu', 'paragraflar': [k['ozet']]})
         L = []
@@ -161,7 +197,7 @@ json.dump({'meta': {'baslik': 'Beklenen Konular Hap Bilgi', 'ust_bilgi': 'GM Bek
 print('beklenen', nb, 'hap', len(degisen), 'yeni')
 
 # ---- 3. SORULMAYAN KONULAR SORU–CEVAP ---------------------------------------
-sira = [r for d in ('GM', 'SAİR', 'TARİFE') for r in rows if r['ders'] == d]
+sira = [r for d in ('GM', 'SAİR', 'TARİFE', 'HESAP') for r in rows if r['ders'] == d]
 def say(k):
     c = collections.Counter(a.get('durum') for a in k.get('alt_konular', []))
     return c['SORULDU'], c['KISMEN'], c['SORULMADI'], sum(len(a.get('sc', [])) for a in k.get('alt_konular', []))
@@ -178,10 +214,10 @@ B.append({'t': 'h2', 'metin': 'Konu bazında çıkmış soru sayısı ve sorulma
 T = []
 for i, r in enumerate(sira, 1):
     k = sorulmayan.get(r['id'], {}); a, b_, c, n = say(k) if k else (0, 0, 0, 0)
-    T.append([str(i), r['ad']] + [str(x) for x in r['yillar']] + [str(r['toplam']), f'{a} / {b_} / {c}', str(n)])
+    T.append([str(i), r['ad']] + [str(x) for x in r['yillar']] + [str(r['toplam']), f'{a} / {b_} / {c}' if k else '— (ilgili konularda)', str(n) if k else '—'])
 B.append({'t': 'tablo', 'basliklar': ['#', 'Konu', '21', '22', '23', '24', '25', 'Top.', 'Sorulan / Kısmen / Sorulmayan alt konu', 'S–C'],
           'genislik': [5.5, 32, 4.5, 4.5, 4.5, 4.5, 4.5, 7, 19, 6], 'satirlar': T})
-B.append({'t': 'dipnot', 'metin': 'Top.: o konuda 2021–2025 sınavlarında sorulan soru sayısı (her soru tek konuya sayıldı; hesap soruları ölçtükleri konuda).'})
+B.append({'t': 'dipnot', 'metin': 'Top.: o konuda 2021–2025 sınavlarında sorulan soru sayısı (her soru tek konuya sayıldı; 59 hesap sorusu analizdeki alan ayrımına uygun olarak ayrı Hesaplama satırında).'})
 B.append({'t': 'h2', 'metin': 'Beş yılda hiç sorulmayan konular'})
 B.append({'t': 'madde', 'maddeler': [f"**{r['ad']}** ({sorulmayan.get(r['id'], {}).get('kaynak_ozeti', '')}) — {say(sorulmayan[r['id']])[3] if r['id'] in sorulmayan else 0} soru–cevap" for r in by['HİÇ']]})
 B.append({'t': 'h2', 'metin': 'Az sorulan konular (1–4 soru)'})

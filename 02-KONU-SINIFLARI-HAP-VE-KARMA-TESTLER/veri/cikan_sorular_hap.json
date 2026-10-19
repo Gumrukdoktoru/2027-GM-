@@ -1,167 +1,8 @@
 {
  "KIYMET": {
   "konu": "KIYMET",
-  "ozet": "2021–2025'te 47 soru (9-12-11-10-5), 32'si hesap; her yıl GK 27–28 dahil/hariç eleği (giriş yerine kadar nakliye ve ihraç limanı demurajı, assist, satış/alım komisyonu, ithalat sonrası montaj, satış koşulu royalti, Türkiye'de çoğaltma hakkı) geldi; ilişki kriterleri, aynı/benzer eşya ve kullanılmış taşıt amortismanı tekrarlandı. Soru sayısı azalıyor (2025'te 5); son iki yılda royalti/lisans ve kullanılmış otomobil öne çıktı.",
+  "ozet": "Sözel 15 soru (3-5-2-3-2); ayrıca 32 kıymet hesabı sorusu (6-7-9-7-3) Hesaplama konusunda sayıldı ve hapları orada. Sözel ve hesap birlikte her yıl GK 27–28 dahil/hariç eleği (giriş yerine kadar nakliye ve ihraç limanı demurajı, assist, satış/alım komisyonu, ithalat sonrası montaj, satış koşulu royalti, Türkiye'de çoğaltma hakkı) geldi; ilişki kriterleri, aynı/benzer eşya ve kullanılmış taşıt amortismanı tekrarlandı. Toplam sayı azalıyor (2025'te 5); son iki yılda royalti/lisans ve kullanılmış otomobil öne çıktı.",
   "haplar": [
-   {
-    "metin": "Kıymete eşyanın **Türkiye'deki giriş liman veya yerine kadar** yapılan nakliye, sigorta, yükleme ve elleçleme giderleri (EXW'de fabrika–ihraç limanı taşıması ve **ihraç limanındaki demuraj** dahil) eklenir; giriş yerinden sonraki nakliye, boşaltma ve **Türkiye limanındaki demuraj** eklenmez.",
-    "dayanak": "GK 27/1-e, 28/a; GY 43/1-e, 51/6; 2009/32 sayılı Genelge",
-    "sorular": [
-     "2021/85",
-     "2021/89",
-     "2022/89",
-     "2023/72",
-     "2023/81",
-     "2024/9",
-     "2024/26"
-    ],
-    "tuzak": "Türkiye limanı demurajını eklemek 2021/85'te 218.800, 2021/89'da 2.556.000, 2022/89'da 106.000, 2024/26'da 120.000 çeldiricisini verdi; 2021/89'da karayoluyla gelen eşyada Amsterdam–Kapıkule navlunu eklendi, Kapıkule–İstanbul eklenmedi; 2023/72'de Mersin antreposu ve yurt içi nakliye, 2024/9'da Mersin–Ankara taşıması (55.000) eklenmez.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-e, 28/a; GY 43/1-e, 51/6; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 19 (2009/32 Genelge)"
-   },
-   {
-    "metin": "Alıcının üreticiye **bedelsiz veya düşük bedelle** sağladığı malzeme, aksam, parça, kalıp ve Türkiye dışında yapılan mühendislik-plan hizmetleri (**assist**), satıcıya ulaştırma maliyetiyle birlikte kıymete eklenir; Türkiye'den sağlanan yazılım ile **araştırma ve ilk dizayn taslağı** giderleri eklenmez.",
-    "dayanak": "GK 27/1-b; GY 43/2, 51/2",
-    "sorular": [
-     "2021/84",
-     "2021/86",
-     "2022/89",
-     "2022/96",
-     "2023/77",
-     "2024/9",
-     "2024/26"
-    ],
-    "tuzak": "Assist unutulursa 2021/84'te 248.000, 2021/86'da 26.335, 2024/9'da 52.750 (kılıflar), 2024/26'da 113.500 çıkar; 2022/96'da aksamın satıcıya taşıma bedeli unutulursa 59.000; 2023/77'de Türkiye'den tedarik edilen yazılımı eklemek, 2021/84'te araştırma-ilk dizayn taslağını eklemek yanlış.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-b; GY 43/2, 51/2; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 14"
-   },
-   {
-    "metin": "Eşya ile ilgili ve **satış koşulu** olarak ödenen royalti ve lisans ücreti (patent, marka, imalat prosesi, yazılım lisansı), hak sahibi **üçüncü kişi** veya başka ülkede yerleşik olsa da eklenir; Türkiye'de üretim için ya da satıcıyla **bağımsız ayrı anlaşmayla** ödenen bedel eklenmez.",
-    "dayanak": "GK 27/1-c; GY 56/1, 56/4, 56/6; Kıymet Tebliği (Seri No 2) md. 5–7, 10",
-    "sorular": [
-     "2021/84",
-     "2021/89",
-     "2022/98",
-     "2023/81",
-     "2024/9",
-     "2024/27",
-     "2025/20"
-    ],
-    "tuzak": "Royalti atlanırsa 2022/98'de 750, 2023/81'de 605.500, 2025/20'de 21.500 çıkar; 2022/98'de makinelerin Türkiye'de üretimi için plan-tasarım royaltisi, 2024/27'de bağımsız anlaşmayla üretilen ürünlerin satışından ödenen bedel eklenmez; 2025/20'de lisans stopaj dahil brüt eklenir, net 400 eklenirse 21.900.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-c; GY 56; Tebliğ md. 5–7, 10"
-   },
-   {
-    "metin": "Sınai tesis, makine veya teçhizat için **ithalattan sonra** yapılan inşa, kurma, **montaj, bakım** veya teknik yardım giderleri fiyattan ayırt edilebiliyorsa kıymete girmez.",
-    "dayanak": "GK 28/b",
-    "sorular": [
-     "2021/85",
-     "2021/89",
-     "2022/89",
-     "2022/92",
-     "2022/98",
-     "2023/77",
-     "2024/27"
-    ],
-    "tuzak": "Montaj eklenirse 2021/89'da 2.592.000, 2022/92'de 510.000, 2022/98'de 1.350, 2023/77'de 5.037.000, 2024/27'de 76.000 çıkar; 2021/85'te ithalat sonrası bakım, 2022/89'da montaj ve eğitim eklenmez (111.500 yanlış); ancak 2021/89'da teslimattan önce satış şartı olarak verilen eğitim eklendi.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 28/b"
-   },
-   {
-    "metin": "Alıcının **pazarlama, reklam** ve satıcıdan bağımsız **test, kontrol veya ekspertiz** gibi kendi hesabına yaptığı faaliyetler, satıcı yararına ya da satıcıyla anlaşmaya dayansa bile dolaylı ödeme sayılmaz ve kıymete **eklenmez**.",
-    "dayanak": "GK 24/3-b; GY 43/1-g",
-    "sorular": [
-     "2021/84",
-     "2022/92",
-     "2022/96",
-     "2023/72",
-     "2023/77",
-     "2023/81",
-     "2024/19",
-     "2025/20"
-    ],
-    "tuzak": "Reklam eklenirse 2022/96'da 60.500, 2022/92'de 525.000 (diğer hatalarla), 2024/19'da 51.600 çıkar; sözleşmeden bağımsız test 2023/72'de (5.080.000) ve 2023/77'de (5.033.000) eklenmez; 2023/81'de alıcının sevkiyat öncesi kalite kontrolü, 2025/20'de Türkiye'deki üniversite ekspertizi de kıymete girmez.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-b; GY 43/1-g"
-   },
-   {
-    "metin": "İthalatçının yurt dışındaki temsilcisine eşyanın satın alınmasındaki temsil hizmeti için ödediği **satın alma komisyonu** kıymete girmez; satıcı adına çalışan komisyoncuya ödenen **satış komisyonu** ise alıcı üstlendiyse **eklenir**.",
-    "dayanak": "GK 27/1-a-i, 27/4",
-    "sorular": [
-     "2021/84",
-     "2022/89",
-     "2024/9",
-     "2024/19",
-     "2024/26"
-    ],
-    "tuzak": "2021/84'te alıcının Vietnam'daki komisyoncusuna ödenen 5.000, 2024/19'da 500 satın alma komisyonu eklenirse yanlış (50.500/50.600); 2022/89'da 3.000, 2024/9'da 500, 2024/26'da 1.000 satış komisyonu unutulursa eksik kalır (2024/26'da 118.500).",
-    "not": "Kaynaktaki güncel GK 28 metninin (e) bendinde satın alma komisyonları kıymete dahil edilmeyen giderler arasında ayrıca sayılmaktadır.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-a-i, 27/4, 28/e"
-   },
-   {
-    "metin": "İthal eşyasının **Türkiye'de çoğaltılması hakkı** için yapılan ödemeler hiçbir durumda, **dağıtım veya tekrar satış hakkı** ödemeleri ise Türkiye'ye ihraç satışında **satış koşulu değilse** kıymete eklenmez; satış koşuluysa eklenir.",
-    "dayanak": "GK 27/5; Kıymet Tebliği (Seri No 2) md. 9",
-    "sorular": [
-     "2021/84",
-     "2022/92",
-     "2022/100",
-     "2024/23",
-     "2025/17"
-    ],
-    "tuzak": "Çoğaltma hakkı ödemesi eklenirse 2022/92'de 519.000, 2022/100'de 13.000, 2024/23'te 18.000, 2025/17'de 15.000 çıkar; satış koşulu olan dağıtım/tekrar satış hakkı 2022/100 ve 2025/17'de eklenir (2025/17'de çıkarmak 11.000), 2021/84'te satıştan bağımsız tekrar satış hakkı (5.000) eklenmez.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5; Tebliğ md. 9"
-   },
-   {
-    "metin": "Giriş yerinden sonra Türkiye'de ödenen **ardiye** (tescilden önceki kısmı dahil), fazla mesai, tahliye, laboratuvar tahlil ücreti, memur yolluğu ve gümrük müşavirliği ücreti GK 27'de sayılmadığından **gümrük kıymetine girmez**.",
-    "dayanak": "GK 27/3, 28/a",
-    "sorular": [
-     "2021/89",
-     "2022/89",
-     "2023/72",
-     "2023/81",
-     "2024/9",
-     "2025/20"
-    ],
-    "tuzak": "Tescil öncesi ardiye eklenirse 2021/89'da 2.552.600, 2023/72'de 5.085.000 çıkar; 2025/20'de ardiye veya tescil sonrası fazla mesai eklenirse 23.000; bu giderlerin tescile kadar olanları KDV matrahıyla karıştırılmamalı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/3, 28/a; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 20"
-   },
-   {
-    "metin": "Alıcının **satıcının üçüncü kişiye olan borcunu** ödemesi fiilen ödenen fiyatın parçası (dolaylı ödeme) sayılır ve eklenir; satıcıya ödenen **temettü**, huzur hakkı ve başka eşyaya ait transferler ithal eşyasının bedeli değildir.",
-    "dayanak": "GK 24/3-a",
-    "sorular": [
-     "2021/89",
-     "2022/89",
-     "2024/18"
-    ],
-    "tuzak": "2021/89'da temettü + huzur hakkı eklenirse 3.376.000; 2024/18'de temettü eklenirse 2.500, diğer eşya transferleri eklenirse 3.500 çıkar; 2022/89'da satıcının 20.000 borcu unutulmamalı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 5 (temettü)"
-   },
-   {
-    "metin": "Kullanılmış taşıtta kıymet, faturadan **model yılı hariç ilk yıl %20, sonraki yıllar %10** amortisman düşülerek bulunur; **6 yaşından eski** taşıtta kıymetin **%20'si** alınır; model ile fatura yılı arasında 1 yıldan fazla fark varsa **fatura yılından sonraki** her yıl için %10 düşülür.",
-    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman)",
-    "sorular": [
-     "2022/91",
-     "2023/84",
-     "2024/22",
-     "2025/16"
-    ],
-    "tuzak": "2022/91'de yalnız ilk yıl (36.000) veya bileşik oran (32.400); 2023/84'te model yılından saymak (5.000); 2024/22'de 9 yıl × %10 düşmek (3.000); 2025/16'da tek yıl indirim (8.000) yanlış.",
-    "not": "2025/16 anahtarı tartışmalı bilinen sorulardandır (ilgili hapın notuna bakınız).",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 38; Bölüm 9 s. 27, 36 (eski model taşıt amortismanı)"
-   },
    {
     "metin": "Aynı veya benzer eşya sayılmak için kıymeti belirlenecek eşya ile **aynı ülkede üretilmiş** olmak şarttır; benzer eşyada farklı **marka** engel değildir, kalite, itibar ve ticari marka benzerlik faktörü olarak dikkate alınır.",
     "dayanak": "GY 43/1-b, 43/1-d, 43/3",
@@ -173,42 +14,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 43/1-b, 43/1-d, 43/3"
-   },
-   {
-    "metin": "Aynı eşya yönteminde emsal satış farklı miktardaysa satıcının **fiyat listesine** göre **miktar düzeltmesi** yapılır: 2.000 adetlik alımda 2.500 adet altı liste fiyatıyla (3 USD) **6.000 USD**, 300 adetlik alımda 201 adet ve üstü fiyatıyla (65 USD) **19.500 USD** bulunur.",
-    "dayanak": "GK 25/2-a; GY 46/2",
-    "sorular": [
-     "2021/88",
-     "2023/83"
-    ],
-    "tuzak": "2021/88'de reddedilen işlem bedeli (4.000), düzeltmesiz emsal (5.000) ve perakende fiyat (7.000) yanlış; 2023/83'te beyan fiyatı (15.000) veya düzeltmesiz emsal birim fiyat 70 USD (21.000) yanlış.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 25/2-a; GY 46/2"
-   },
-   {
-    "metin": "İthal eşyasının satışıyla ilgili **yazılı finansman anlaşmasına** dayanan ve finansmanın sağlandığı ülkedeki **cari oranı aşmayan** faiz, fiyattan ayırt edilebiliyorsa kıymete girmez.",
-    "dayanak": "GK 28/c; GY 45/1-a",
-    "sorular": [
-     "2023/79",
-     "2025/20"
-    ],
-    "tuzak": "2023/79'da faturada ayrı gösterilen 1.500 faiz eklenirse 101.500; 2025/20'de yazılı anlaşmalı piyasa faizi (1.000) ve BSMV eklenmez.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 28/c; GY 45/1-a; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 25"
-   },
-   {
-    "metin": "Satış sözleşmesi uyarınca **satıcının sağladığı garanti** için alıcının ödediği bedel fiilen ödenen fiyatın parçasıdır ve kıymete **eklenir**.",
-    "dayanak": "GK 24/3-a",
-    "sorular": [
-     "2021/85",
-     "2025/20"
-    ],
-    "tuzak": "2021/85'te garanti eklenmezse 210.000; 2025/20'de yalnız CIF bedel (20.000) yanlış; alıcının kendi hesabına üstlendiği pazarlama garantileriyle (GY 43/1-g) karıştırılmamalı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a"
    },
    {
     "metin": "GK 28'e göre fiyattan ayırt edilebilmeleri koşuluyla **giriş yerinden sonraki nakliye ve sigorta**, ithalattan sonraki montaj-bakım-teknik yardım, **finansman faizi** ve Türkiye'de ödenecek **ithalat vergileri** kıymete dahil edilmez; 2021'de Türkiye'de çoğaltma hakkı ödemeleri bu listede değil GK 27/5'te düzenliydi.",
@@ -242,61 +47,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 26/1; GY 49"
-   },
-   {
-    "metin": "Veri veya komut yüklü taşıyıcıda kıymet, ayrı gösterilmişse yalnız **taşıyıcı ortamın** bedelidir (GV = 10 × %10 = 1 USD); yazılım bedeli ise **KDV matrahına** girer: (10 + 1 + 1.000) × %18 = 181,98; toplam **182,98 USD**.",
-    "dayanak": "GY 54/1; KDVK 21",
-    "sorular": [
-     "2021/81"
-    ],
-    "tuzak": "Yalnız KDV (181,98) ya da yazılımı da gümrük kıymetine katmak (282,80) yanlış.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 54/1; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 22 (çözüm)"
-   },
-   {
-    "metin": "Avans dahil fiilen ödenen 30.000 USD'ye satış şartı lisans (1.000) ve **bedelsiz gönderilen aksam** (10.000) eklenir; **alım komisyonu**, araştırma ve ilk dizayn taslağı, kendi hesabına pazarlama ve satıştan bağımsız tekrar satış hakkı eklenmez: 41.000 × 8 = **328.000 TL**.",
-    "dayanak": "GK 24/3, 27/1-b, 27/1-c, 27/4, 27/5-b; GY 51/2",
-    "sorular": [
-     "2021/84"
-    ],
-    "tuzak": "Assist unutulursa 248.000; USD kalemleri kura çevirmeden TL toplama eklemek 253.000, 333.000, 334.000 çeldiricilerini verir.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27; GY 51/2"
-   },
-   {
-    "metin": "EXW 25.000 USD'ye fabrika–ihraç limanı taşıması (500), **yükleme limanı demurajı** (750) ve satıcı **garantisi** (500) eklenir; Mersin demurajı ve boşaltması, yurt içi nakliye, ithalat sonrası bakım ve banka masrafı eklenmez: 26.750 × 8 = **214.000 TL**.",
-    "dayanak": "GK 24/3-a, 27/1-e, 28/a-b",
-    "sorular": [
-     "2021/85"
-    ],
-    "tuzak": "Garanti unutulursa 210.000, Mersin demurajı eklenirse 218.800; Mersin boşaltması, bakım gibi giriş sonrası kalemleri eklemek 220.000/221.000 gibi sonuçlar verir.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-e, 28"
-   },
-   {
-    "metin": "Hesaplanmış kıymet: malzeme-imalat 21.700 + **bedelsiz fiş** 5.000 + satış ve idari gider 500 + giriş yerine kadar taşıma 700 = 27.900; kâr, assist hariç üretici CIF fiyatı **22.900 × %15** = 3.435; toplam **31.335 USD**.",
-    "dayanak": "GK 25/2-d; GY 49/2, 49/4",
-    "sorular": [
-     "2021/86"
-    ],
-    "tuzak": "Kârı assist dahil tutardan hesaplamak 32.085, assisti unutmak 26.335, kârı unutmak 27.900 verir; yurt içi taşıma eklenmez.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 49/2, 49/4"
-   },
-   {
-    "metin": "CIF Amsterdam 300.000 + Amsterdam–Kapıkule navlunu 4.500 + **satıcının borcu** 9.000 + ihraç limanı demurajı 500 + teslimattan önce **satış şartı eğitim** 2.000 + satış şartı yazılım lisansı 3.000 = 319.000 × 8 = **2.552.000 TL**.",
-    "dayanak": "GK 24/3-a, 27/1-c, 27/1-e, 28/a-b; GY 43/1-e",
-    "sorular": [
-     "2021/89"
-    ],
-    "tuzak": "Montaj 2.592.000, Türk limanı demurajı 2.556.000, temettü + huzur hakkı 3.376.000, tescil öncesi ardiye 2.552.600 verir; Kapıkule–İstanbul navlunu eklenmez.",
-    "not": "Anahtarı tartışmalı bilinen sorulardandır: GK 28/a giriş yerini gümrük birliği gümrük bölgelerine giriş olarak da tanımladığından Amsterdam sonrası navlunun da hariç tutulması (2.516.000, şıklarda yok) savunulabilir; resmî anahtar karayolunda ilk hudut gümrüğü Kapıkule'yi giriş yeri kabul etti.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27, 28/a; GY 43/1-e"
    },
    {
     "metin": "İlişkili taraflar arasında fiyatın **sanayideki normal fiyat uygulamasıyla** veya satıcının **müstakil alıcılara** fiyatlarıyla uyuşması, tüm gider ve temsili dönem kârını karşılaması ya da tarafların **ilişki yokmuş gibi** alım satım yapması ilişkinin fiyatı etkilemediğini gösterir.",
@@ -354,181 +104,15 @@
     "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 43/1-a"
    },
    {
-    "metin": "Eşya bedeli 80.000'den iade edilen **ihraç ülkesi dahili vergisi** (1.000) düşülür; satıcının borcu 20.000, fabrika–liman 500, navlun-sigorta 1.000, **satış komisyonu** 3.000, ihraç limanı demurajı 500 ve bedelsiz kumanda paneli 1.500 eklenir: **105.500 TL**; eğitim, montaj ve Türkiye giderleri eklenmez.",
-    "dayanak": "GY 45/1-g; GK 24/3-a, 27/1-a-i, 27/1-b, 27/1-e, 28",
-    "sorular": [
-     "2022/89"
-    ],
-    "tuzak": "Türk limanı demurajı eklenirse 106.000, eğitim eklenirse 106.500, montaj + eğitim eklenirse 111.500.",
-    "not": "Resmî anahtar makinenin kullanımına ilişkin eğitimi kıymete katmadı; 2021/89'da teslimattan önce satış şartı olarak verilen eğitim ise eklenmişti.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 45/1-g; GK 24, 27, 28"
-   },
-   {
-    "metin": "Diplomatik statülü görevlinin aracında KDV hariç bedelden (55.000 / 1,10 = 50.000) **%10 diplomatik indirim** düşülür (45.000); 2020 model ve alım, 2022 ithalde 2021 için **%20**, 2022 için **%10** amortisman: 45.000 × 0,70 = **31.500 Euro**.",
-    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 24",
-    "sorular": [
-     "2022/91"
-    ],
-    "tuzak": "İndirim düşülmezse 35.000, yalnız ilk yıl 36.000, bileşik oran 32.400, üç yıl sayılırsa 27.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 35–36 (çözüm); Bölüm 3 s. 38"
-   },
-   {
-    "metin": "FOB 500.000 + navlun 8.000 + sigorta 1.000 = **509.000 USD**; **Türkiye'de çoğaltma hakkı** royaltisi, ayrıca faturalanan ithalat sonrası **montaj** ve alıcının kendi adına yaptığı reklam eklenmez.",
-    "dayanak": "GK 27/1-e, 27/5-a, 28/b; GK 24/3-b",
-    "sorular": [
-     "2022/92"
-    ],
-    "tuzak": "Montaj eklenirse 510.000, royalti 519.000, ikisi 520.000, üçü 525.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5, 28/b"
-   },
-   {
-    "metin": "Türkiye'de satın alınıp üreticiye gönderilen **planlar** ve alıcının yurt dışındaki temsilcisine ödenen **alım komisyonu** kıymete girmez, bedelsiz gönderilen **malzeme** girer; ÖTV matrahı kıymet + GV, KDV matrahı buna ÖTV eklenerek bulunur; resmî anahtar toplam vergiyi **466.200 TL** kabul etti.",
-    "dayanak": "GK 27/1-b, 27/4; ÖTVK 11; KDVK 21",
-    "sorular": [
-     "2022/94"
-    ],
-    "tuzak": "ÖTV'yi CIF üzerinden hesaplamak 420.000, komisyonu yalnız ÖTV/KDV matrahına eklemek 455.200 verir.",
-    "not": "Kaynak kurallarla kıymet (90.000 + 10.000) × 10 = 1.000.000 TL, GV 100.000 + ÖTV 220.000 + KDV 132.000 = 452.000 TL çıkar; resmî anahtar 466.200 TL'yi kabul etti, bu tutar kalemlerin olağan kombinasyonlarından türetilemiyor (anahtarı tartışmalı soru).",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-b, 27/4; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 36–37 (ÖTV/KDV matrahı)"
-   },
-   {
-    "metin": "FOB 100 × 500 = 50.000 + navlun-sigorta 5.000 + bedelsiz gönderilen aksam 4.000 + aksamın satıcıya **taşıma bedeli** 1.000 = **60.000 USD**; Türkiye'deki reklam eklenmez.",
-    "dayanak": "GK 27/1-b, 27/1-e, 24/3-b",
-    "sorular": [
-     "2022/96"
-    ],
-    "tuzak": "Assistin taşıma bedeli unutulursa 59.000, reklam eklenirse 60.500.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-b"
-   },
-   {
-    "metin": "CIF 750'ye satıcının talebiyle **üçüncü ülkedeki patent sahibine** ödenen royalti (10 × 10 = 100) eklenir: **850 USD**; ithalat sonrası montaj (500) ve makinelerin **Türkiye'de üretilmesi** için plan-tasarım royaltisi (1.000) eklenmez.",
-    "dayanak": "GK 27/1-c, 28/b; GY 56/4",
-    "sorular": [
-     "2022/98"
-    ],
-    "tuzak": "Royalti atlanırsa 750, montaj eklenirse 1.350, üretim royaltisi eklenirse 1.750, hepsi 2.350.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-c; GY 56/4"
-   },
-   {
-    "metin": "Markalı ve aynen satılan çantada CIF 5.000'e satış koşulu olan **marka lisansı** (2.000) ve **dağıtım/tekrar satış lisansı** (1.000) eklenir, ithal eşyasının **çoğaltılması hakkı** (5.000) eklenmez: **8.000 USD**.",
-    "dayanak": "GK 27/1-c, 27/5; GY 56/3",
-    "sorular": [
-     "2022/100"
-    ],
-    "tuzak": "Çoğaltma hakkı eklenirse 13.000; dağıtım hakkını çıkarmak 7.000, marka lisansını çıkarmak 6.000 verir.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5; GY 56/3"
-   },
-   {
     "metin": "Tekrar satış hasılatından '**bonus**' gibi adlarla doğrudan veya dolaylı satıcıya intikal eden pay **GK 27/1-d** (hasıla) kapsamında eklenir: net kârın %25'i [15.000 − 12.200 = 2.800 × %25 = 700] CIF 11.000'e eklenerek **11.700 TL** bulunur.",
     "dayanak": "GK 24/1-c, 27/1-d",
     "sorular": [
-     "2023/67",
-     "2023/80"
+     "2023/67"
     ],
     "tuzak": "2023/67'de bu ödeme 24/3-a fiyat, 27/1-a gider, 27/1-b yardım veya 27/1-c royalti değil; 2023/80'de navlunsuz 10.700 veya hasılasız 11.000 yanlış.",
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/1-c, 27/1-d"
-   },
-   {
-    "metin": "EXW 500.000'e fabrikadan **ihraç limanı antreposuna** taşıma (2.000) ve navlun-sigorta (5.000) eklenir; sözleşmeden bağımsız test, Mersin antreposu ve Mersin–Ankara nakliyesi eklenmez: 507.000; resmî cevap **5.070.000 TL**.",
-    "dayanak": "GK 27/1-e, 28/a; GK 24/3-b",
-    "sorular": [
-     "2023/72"
-    ],
-    "tuzak": "Test eklenirse 5.080.000, tescil öncesi antrepo eklenirse 5.085.000, tüm antrepo ve test 5.100.000.",
-    "not": "Anahtarı tartışmalı bilinen sorulardandır: metindeki 1 USD = 1 TL kuruyla kıymet 507.000 TL çıkar; şıklar 10 kat ölçekli olduğundan resmî anahtar 5.070.000 TL'yi kabul etti (kur ya da basım hatası).",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-e, 28/a"
-   },
-   {
-    "metin": "Kendi kendini taşıyarak gelen gemide Türkiye'deki giriş limanına kadar **akaryakıt** (100.000), o sefere ait **liman hizmeti** (1.000) ve **personel** (30.000) gideri nakliye gideri sayılır; yolculuk öncesi bakım-servis eklenmez: **5.131.000 USD**.",
-    "dayanak": "GK 27/1-e; 2008/24 sayılı Genelge",
-    "sorular": [
-     "2023/74"
-    ],
-    "tuzak": "Bakım-servis eklenirse 5.141.000; yalnız akaryakıt 5.100.000; liman hizmeti unutulursa 5.130.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 37 (2008/24 Genelge)"
-   },
-   {
-    "metin": "Serbest bölgede satın alınıp ithal edilen eşyada kıymet SB'deki satış fiyatıdır; fiyattan **ayrı gösterilen SB depolama** gideri düşülür: 15.500 − 1.000 = **14.500 USD**; satıcının Tayvan'daki alım maliyeti ve komisyoncusu dikkate alınmaz.",
-    "dayanak": "GK 24/1, 161/1",
-    "sorular": [
-     "2023/75"
-    ],
-    "tuzak": "Satıcının maliyeti (13.500) veya depolamayı düşmeden fatura bedeli (15.500) yanlış; satıcının ödediği komisyonu eklemek 15.000/16.000 verir.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/38_38-serbest_bölge.md GK 161/1; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 37"
-   },
-   {
-    "metin": "CIF 5.000.000'e alıcının girdi bedeli için satıcıya ödediği **ek tutar** (15.000), bedelsiz verdiği **kontrol panelleri** (10.000) ve kendi ödediği teknik donanım (7.000) eklenir: **5.032.000 USD**; Türkiye'den sağlanan yazılım, reklam, ithalat sonrası montaj ve test eklenmez.",
-    "dayanak": "GK 24/3-a, 27/1-b, 28/b; GK 24/3-b",
-    "sorular": [
-     "2023/77"
-    ],
-    "tuzak": "Test 5.033.000, montaj 5.037.000, Türkiye yazılımı veya reklam 5.042.000, ikisi 5.047.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27/1-b, 28"
-   },
-   {
-    "metin": "Yazılı anlaşmayla satıcı ülkesindeki **cari faiz oranından** hesaplanıp faturada ayrı gösterilen vade faizi kıymete girmez; **önceki yıl satışları** nedeniyle tanınan özel indirim bu eşyanın kıymetinden düşülmez: **100.000 USD**.",
-    "dayanak": "GK 28/c; GY 45/1-a",
-    "sorular": [
-     "2023/79"
-    ],
-    "tuzak": "İndirim düşülürse 90.000/91.500, faiz eklenirse 101.500, indirim fiyata eklenirse 110.000.",
-    "not": "İndirimin düşülmemesi kuralı resmî anahtara dayanır; GK md. 24–28 ve GY md. 43–57 metninde açık hüküm yok.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 28/c; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 15 (iskontolar)"
-   },
-   {
-    "metin": "Fabrikada teslim 500.000 + fabrika–liman 500 + navlun-sigorta 5.000 + satış şartı **ihracat kotası** 50.000 + ayrıca faturalanan **ambalaj** 50.000 + satış şartı **lisans** 25.000 = **630.500 TL**; alıcının kalite kontrolü ve Türkiye'deki giderler eklenmez.",
-    "dayanak": "GK 24/3-a, 27/1-a-iii, 27/1-c, 27/1-e",
-    "sorular": [
-     "2023/81"
-    ],
-    "tuzak": "Kota veya ambalajı atlamak 580.500, lisansı atlamak 605.500; kontrol, tahliye veya yurt içi giderleri eklemek 631.000/631.500 verir.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27"
-   },
-   {
-    "metin": "Model yılı (2018) ile alış yılı (2020) arasında 1 yıldan fazla fark olan kullanılmış araçta amortisman **fatura yılından sonraki** her yıl için **%10** düşülür: 2021–2023 için %30, 10.000 × 0,70 = **7.000 USD**.",
-    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 167",
-    "sorular": [
-     "2023/84"
-    ],
-    "tuzak": "Model yılından saymak 5.000; fatura bedelini aynen almak ya da farklı yıl sayıları (4.000, 6.000, 8.000) yanlış.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 38; Bölüm 9 s. 39 (çözüm)"
-   },
-   {
-    "metin": "Fabrikada teslim 50.000 + fabrika–liman 250 + navlun-sigorta 500 + ihraç limanı demurajı 500 + **satıcının komisyoncusu** 500 + alıcının bedelsiz verdiği **kılıflar** 2.000 + satış şartı lisans 1.000 = **54.750 TL**; Türkiye demurajı, Mersin–Ankara taşıması, tahlil, tahliye ve ardiye eklenmez.",
-    "dayanak": "GK 27/1-a-i, 27/1-b, 27/1-c, 27/1-e, 28/a",
-    "sorular": [
-     "2024/9"
-    ],
-    "tuzak": "Kılıflar unutulursa 52.750; ihraç ülkesindeki 750 (fabrika–liman 250 ve demuraj 500) düşülürse 54.000; Mersin–Ankara eklenirse 55.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27, 28"
    },
    {
     "metin": "Marka royaltisi; eşya aynı durumda ya da önemsiz işlemle yeniden satılıyorsa, **marka altında pazarlanıyorsa** veya alıcı eşyayı ilişkisiz başka satıcılardan alma **özgürlüğüne sahip değilse** eklenir; ödemenin **ithalattan önce** yapılmış olması şartı yoktur.",
@@ -553,72 +137,6 @@
     "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md Tebliğ md. 3/1-a"
    },
    {
-    "metin": "İlişkinin fiyatı etkilemediği satışta CIF fatura için ilişkili satıcıya transfer (1.000) ile alıcının bu eşya nedeniyle **satıcının üçüncü kişiye borcu** için ödediği tutar (500) kıymettir: **1.500 USD**; diğer eşyalara ait transferler ve **temettü** eklenmez.",
-    "dayanak": "GK 24/3-a",
-    "sorular": [
-     "2024/18"
-    ],
-    "tuzak": "Yalnız fatura 1.000; temettü eklenirse 2.500; diğer eşya transferleri eklenirse 3.500; hepsi 4.500.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a"
-   },
-   {
-    "metin": "CFR teslimde fiyata dahil olmayan **sigorta** (100) eklenir; **satın alma komisyonu** (500) ve kendi hesabına pazarlama-reklam (1.000) eklenmez: 5.000 × 10 + 100 = **50.100 USD**.",
-    "dayanak": "GK 27/1-e, 27/1-a-i, 27/4; GK 24/3-b",
-    "sorular": [
-     "2024/19"
-    ],
-    "tuzak": "Sigorta unutulursa 50.000; komisyon eklenirse 50.500/50.600; pazarlama da eklenirse 51.600.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27; GK 24/3-b"
-   },
-   {
-    "metin": "**6 yaşından eski** kullanılmış otomobilde (2015'te sıfır alındı, 2024'te ithal) amortisman yerine fatura kıymetinin **%20'si** esas alınır: 30.000 × %20 = **6.000 Avro**.",
-    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 167",
-    "sorular": [
-     "2024/22"
-    ],
-    "tuzak": "9 yıl × %10 düşmek 3.000, 7 yıl × %10 düşmek 9.000; faturayı aynen almak 30.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 27, 41 (çözüm)"
-   },
-   {
-    "metin": "Sonradan kontrolde noksan vergi tebliği yükümlülüğün doğduğu tarihten **üç yıl** içinde yapılabilir ve **Türkiye'de çoğaltma hakkı** ödemesi kıymete girmez: 2024 marka royaltisi (10.000) alınır; 2022 çoğaltma, 2020 telif, 2018 patent ödemeleri alınmaz: **10.000 USD**.",
-    "dayanak": "GK 197/2, 27/1-c, 27/5-a",
-    "sorular": [
-     "2024/23"
-    ],
-    "tuzak": "Zamanaşımını göz ardı edip çoğaltmayı düşmek 17.000; çoğaltma hakkını eklemek 18.000; hepsi 25.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/45_45-tebliğ.md GK 197/2; kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5"
-   },
-   {
-    "metin": "Alıcının bedelsiz gönderdiği kamyonlar (100.000) ve elektronik donanım-yazılım (6.000) **assist**, üreticiye ödenen işçilik (10.000), **satıcının komisyoncusu** (1.000) ve navlun-sigorta (2.500) toplanır: **119.500 USD**; Türkiye limanında **geç tahliye** (500) eklenmez.",
-    "dayanak": "GK 27/1-a-i, 27/1-b, 27/1-e, 28/a",
-    "sorular": [
-     "2024/26"
-    ],
-    "tuzak": "Donanım-yazılım unutulursa 113.500, komisyon unutulursa 118.500, geç tahliye eklenirse 120.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27, 28/a"
-   },
-   {
-    "metin": "CIF 75.000'e ithal makinelerle ilgili **patent** kullanım bedeli (2.000) eklenir; ithalattan sonraki **kurulum** (5 × 200) ve satıcıyla **bağımsız ayrı anlaşmayla** üretilen ürünlerin satışından ödenen bedel (1.000) eklenmez: **77.000 USD**.",
-    "dayanak": "GK 27/1-c, 28/b; GY 56/1",
-    "sorular": [
-     "2024/27"
-    ],
-    "tuzak": "Hiç eklememek 75.000; patent yerine kurulum veya süreç bedelini eklemek 76.000; patent + süreç 78.000; hepsi 79.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-c, 28/b"
-   },
-   {
     "metin": "İhracatçıyı alıcının **ödememe veya ödeme güçlüğü** riskinden korumak için riski ihracatçı hesabına üstlenen bankaya bu hizmet karşılığı yapılan ödeme **teyit komisyonudur**.",
     "dayanak": "Akreditifli ödeme terimleri",
     "sorular": [
@@ -639,39 +157,6 @@
     "not": "",
     "kaynak_disi": true,
     "kaynak": "soru ve resmî cevap"
-   },
-   {
-    "metin": "Kullanılmış alınan 2022 model otomobil 2025'te ithal edilirken alış (fatura) yılı 2023 için **%20**, 2024 ve 2025 için **%10** (toplam **%40**) amortisman düşülür: 10.000 × 0,60 = **6.000 TL**.",
-    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 167",
-    "sorular": [
-     "2025/16"
-    ],
-    "tuzak": "Faturayı aynen almak 10.000, yalnız bir yıl %20 düşmek 8.000, üç yıl × %10 düşmek 7.000, %80 düşmek 2.000.",
-    "not": "Anahtarı tartışmalı bilinen sorulardandır; kaynak derlemedeki uygulama (model–fatura yılı farkı 1 yılı aşmıyorsa fatura yılından itibaren ilk yıl %20, sonraki yıllar %10) resmî cevabı destekler, ancak genelge metni kaynakta yok; 2023/84'teki 'fatura yılından sonraki yıllar için %10' okumasıyla 8.000 TL çıkardı.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 38"
-   },
-   {
-    "metin": "Satış koşulu olarak ödenen **marka lisansı** (5.000), **patent** (4.000), know-how (2.000) ve dağıtım/tekrar satış hakkı (1.000) eklenir, **Türkiye'de çoğaltma** hakkı (3.000) eklenmez: **12.000 TL**.",
-    "dayanak": "GK 27/1-c, 27/5; Kıymet Tebliği (Seri No 2) md. 9",
-    "sorular": [
-     "2025/17"
-    ],
-    "tuzak": "Hepsini eklemek 15.000; dağıtım hakkını da çıkarmak 11.000; marka lisansını pazarlama gideri sayıp çıkarmak 10.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5; Tebliğ md. 9"
-   },
-   {
-    "metin": "CIF 20.000'e satıcı **garantisi** (1.500) ve stopaj dahil **brüt lisans** bedeli (400 / 0,80 = 500) eklenir: **22.000 TL**; ekspertiz, tescil sonrası fazla mesai, ardiye, yazılı anlaşmalı piyasa faizi ve BSMV ile teyit komisyonu eklenmez.",
-    "dayanak": "GK 24/3-a, 27/1-c, 28/c",
-    "sorular": [
-     "2025/20"
-    ],
-    "tuzak": "Lisansı net 400 eklemek 21.900 (en sinsi tuzak); lisansı unutmak 21.500; hariç bir 1.000 TL kalemi eklemek 23.000.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a, 27/1-c, 28/c"
    }
   ]
  },
@@ -1876,14 +1361,12 @@
  },
  "ANTREPO": {
   "konu": "ANTREPO",
-  "ozet": "2021–2025'te 17 soru (0-4-3-6-4); en çok götürü teminat (hesap, tutar ve tavan, yaygın teminat, akaryakıt istisnası, yetkili bölge müdürlüğü) soruldu ve 2022'den beri her yıl geldi. 2024–2025'te makam dağılımı (taşınma ve tank ilavesi Bakanlık, kapatma gümrük müdürlüğü), kusur süreleri ve antrepoda devir öne çıktı.",
+  "ozet": "Sözel 15 soru (0-3-2-6-4); ayrıca 2 götürü teminat hesabı (2022/41, 2023/99) Hesaplama konusunda. En çok götürü teminat (tutar ve tavan, yaygın teminat, akaryakıt istisnası, yetkili bölge müdürlüğü) soruldu ve 2022'den beri her yıl geldi. 2024–2025'te makam dağılımı (taşınma ve tank ilavesi Bakanlık, kapatma gümrük müdürlüğü), kusur süreleri ve antrepoda devir öne çıktı.",
   "haplar": [
    {
     "metin": "Götürü teminat saha alanına göre değil **açık ve kapalı alan toplamına** veya **tank/silo hacmine** göre hesaplanır, dilim altı artışlar tam dilime tamamlanır; 2022–2023 tutarlarıyla **8.200 m²** antrepo 5.000.000 TL, **13.000 m³** tank antrepo 4.000.000 TL'dir.",
     "dayanak": "GY 527/2",
     "sorular": [
-     "2022/41",
-     "2023/99",
      "2024/83"
     ],
     "tuzak": "2022'de kesir dilim yok sayılınca 4,5 milyon, oransal hesapla 4,6 milyon, 10.000 m² saha esas alınınca 5,5 milyon TL çıkıyordu; 2023'te de 10.000 m² saha alanı tuzaktı. 2024'te 2.200 m² genişletmenin 3.000 m² artış esasında hesaplanması doğru şıktı.",
@@ -2332,7 +1815,7 @@
  },
  "GI": {
   "konu": "GI",
-  "ozet": "2021–2025'te 11 soru, sayısı her yıl arttı; tam muafiyette teminat aranmayan haller (2023, 2024) tekrarlandı, kara taşıtları tebliği (süreler, karne), sözlü beyan listesi ve ATA karnesi de soruldu; 2025'te kısmi/tam muafiyette vergilendirme tarihi, faiz ve faizin KDV matrahına etkisi ağırlık kazandı.",
+  "ozet": "Sözel 10 soru (1-2-2-3-2); tam muafiyetten serbest dolaşıma geçişte faiz ve KDV matrahı hesabı (2025/19) Hesaplama konusunda. Tam muafiyette teminat aranmayan haller (2023, 2024) tekrarlandı, kara taşıtları tebliği (süreler, karne), sözlü beyan listesi ve ATA karnesi de soruldu; 2025'te kısmi/tam muafiyette vergilendirme tarihi ve faiz ağırlık kazandı.",
   "haplar": [
    {
     "metin": "Tam muafiyetli geçici ithalatta **ithalat vergilerini karşılayan teminat** kuraldır; **sözlü beyana konu eşya** (ör. organ nakli cihazları, radyo-TV teçhizatı, gemi adamı ihtiyaç malzemesi) ile yazılı beyana konu **kriz hali yardım malzemesi** ve **uluslararası trafik malzemesi** için teminat aranmaz.",
@@ -2411,17 +1894,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/gm/34_34-GEÇİCİ_İTHALAT.md GGT (Geçici İthalat) Seri No 4 Madde 2-4, 9; GY MADDE 382"
-   },
-   {
-    "metin": "Tam muafiyetli geçici ithalattan serbest dolaşıma geçişte GV 1.000 ve KDV 2.200 (toplam 3.200) üzerinden 4 ay × %2,5 = **320 TL** faiz hesaplanır; faiz vergi değildir ama **KDV matrahına girer**: KDV = (10.000 + 1.000 + 320) × %20 = 2.264, vergiler toplamı **3.264 TL**.",
-    "dayanak": "GK 207/1-b; KDVK 21",
-    "sorular": [
-     "2025/19"
-    ],
-    "tuzak": "3.200 faizi yok sayar, 3.520 faizi vergilere ekler, 3.584 faizi ve faizin KDV'sini toplar, 3.000 gümrük vergisini KDV matrahına katmaz.",
-    "not": "",
-    "kaynak_disi": true,
-    "kaynak": "soru ve resmî cevap; GK 207: kaynak2/gm/46_46-teminat_ve_faiz.md (KDVK 21 kaynakta yok)"
    },
    {
     "metin": "Geçici ithal eşyası serbest dolaşıma sokulursa vergiler, **kısmi muafiyette** geçici ithalat beyannamesinin, **tam muafiyette** ise **kati ithalat (serbest dolaşım) beyannamesinin** tescil tarihindeki oran ve unsurlara göre bulunur; 01.01.2025'te kısmi muafiyetle girip 16.04.2025'te kesinleşen eşyada 01.01.2025 oranları uygulanır.",
@@ -3580,35 +3052,8 @@
  },
  "CEZA": {
   "konu": "CEZA",
-  "ozet": "8 soru, 2025'te 3: ağırlık GK 234 hesaplarında (üç kat ceza, kendiliğinden bildirimde %10, ceza matrahına giren vergiler, zamanaşımı ve peşin ödeme indirimi); 239/2 iki kat ve 241 usulsüzlük (tamamlayıcı beyan gecikmesi, Ek-82) de soruldu, son yıl hesaplar EMY/KDV ve royalti ayrıntısına indi.",
+  "ozet": "Sözel 3 soru (2021, 2023, 2025): 239/2 vergili ihracat cezası ve 241 usulsüzlük (tamamlayıcı beyan gecikmesi, Ek-82). GK 234 hesapları (üç kat ceza, kendiliğinden bildirimde %10, ceza matrahına giren vergiler, zamanaşımı ve peşin ödeme indirimi) 5 hesap sorusuyla Hesaplama konusunda; son yıl hesaplar EMY/KDV ve royalti ayrıntısına indi.",
   "haplar": [
-   {
-    "metin": "Serbest dolaşıma girişte **kıymet noksanlığında** veya tarife ve ölçü unsurlarındaki farkın %5'i aştığı hâllerde, noksan vergilerin yanı sıra **vergi farkının üç katı** idari para cezası alınır; sınav hesaplarında **GV, EMY ve KDV** farkı ceza matrahına dahil edildi.",
-    "dayanak": "GK 234/1-a, b",
-    "sorular": [
-     "2021/83",
-     "2022/95",
-     "2023/69",
-     "2025/13",
-     "2025/14"
-    ],
-    "tuzak": "2025/13'te iki kat uygulanan 6.000 ve EMY'yi dışlayan 5.250 yanlıştı; 2023/69'da farkın yarısı (12.500) veya bir katı (25.000) yanlıştı. Farkın yarısı, maddi hata/%5'e kadar miktar farkı (234/1-c) ile DİR, GKAİR ve tam muafiyetli geçici ithalatta (234/2) uygulanır.",
-    "not": "Kaynaktaki güncel GK 234/1 metninde ceza matrahı 'ithalat vergileri' ibaresiyle yer alıyor (dipnotlu değişiklik, tarihi kaynakta yok); resmî cevap KDV'yi ceza matrahına dahil etti, KDV/ÖTV'nin durumu güncel metinle ayrıca kontrol edilmeli.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234/1-2"
-   },
-   {
-    "metin": "234. madde cezaları, aykırılık **gümrük idaresince tespit edilmeden önce** bildirilirse **yüzde on** uygulanır (10.000 TL KDV farkında 30.000 yerine **3.000 TL**); aynı ticari işlem için başka idarede tespit yapılmışsa indirim olmaz, 25.000 TL farka **75.000 TL** ceza.",
-    "dayanak": "GK 234/3; GGM 22.09.2014 tarihli 2888552 sayılı yazı",
-    "sorular": [
-     "2022/95",
-     "2023/69"
-    ],
-    "tuzak": "2022/95'te indirimsiz 30.000 ve farkın %10'u olan 1.000 yanlıştı; 2023/69'da 234/3 uygulanmış gibi bulunan 7.500 ve 11.250 yanlıştı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234/3; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 40 (2888552 sayılı yazı alıntısı)"
-   },
    {
     "metin": "**Gümrük vergileri ödenerek ihraç edilebilen** eşyayı gümrük işlemlerine tabi tutmadan veya vergileri ödemeden Türkiye Gümrük Bölgesinden çıkaranlara vergilerin yanı sıra bu vergilerin **iki katı** idari para cezası verilir.",
     "dayanak": "GK 239/2",
@@ -3621,17 +3066,6 @@
     "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 239"
    },
    {
-    "metin": "Beyan edilmeyen royaltide **üç yıllık zamanaşımı** dolan 2018 ithalatı hariç tutulur; 148.000 TL kıymete GV 14.800 + KDV 29.304 = 44.104 TL vergi ile 132.312 TL üç kat cezanın **¼ peşin ödeme indirimli** hâli 99.234 TL eklenir: **143.338 TL**.",
-    "dayanak": "GK 27/1-c, 197/2, 234/1-b; 5326 md. 17/6",
-    "sorular": [
-     "2021/83"
-    ],
-    "tuzak": "İndirim uygulanmazsa 176.416; zamanaşımına uğrayan 2018 dahil edilirse 189.826 (indirimli) veya 233.632 (indirimsiz); 196.000 lisans ödemelerinin TL toplamıdır.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/45_45-tebliğ.md GK MADDE 197/2; kaynak2/gm/48_48-cezalar.md MADDE 234/1-b; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 22 çözüm (%25 indirim)"
-   },
-   {
     "metin": "İhracat hükmünde teslim edilen akaryakıt ve kumanya ticari veya idari belgeyle basitleştirilmiş usulde teslim edilir; sonradan verilen beyanname **tamamlayıcı beyan**dır, **izleyen ayın ilk yedi iş günü** aşılırsa **241/1 usulsüzlük cezası** uygulanır.",
     "dayanak": "GK 241/1; GY 156/1, 158/2",
     "sorular": [
@@ -3641,28 +3075,6 @@
     "not": "AYM'nin 26.03.2026 tarihli, E:2025/269 K:2026/72 sayılı kararıyla GK 241/1'deki 'ikincil düzenlemelere aykırılık' ibaresi iptal edildi; Yönetmelik ekine (Ek-82) dayanan usulsüzlük fiilleri bu karara göre kontrol edilmeli.",
     "kaynak_disi": false,
     "kaynak": "kaynak2/gm/17_17-BEYAN.md GY MADDE 156, 158/2; kaynak2/gm/48_48-cezalar.md MADDE 241/1"
-   },
-   {
-    "metin": "Noksan kıymet beyanında ceza matrahı **GV + EMY + KDV** farkıdır: 1.250 + 1.250 + 500 = 3.000 TL'nin **üç katı** olarak **9.000 TL** idari para cezası uygulanır.",
-    "dayanak": "GK 234/1-b",
-    "sorular": [
-     "2025/13"
-    ],
-    "tuzak": "EMY'yi matrahtan çıkaran 5.250 (1.750 × 3) ve iki kat uygulayan 6.000 yanlış.",
-    "not": "Kaynaktaki güncel GK 234/1 metninde ceza matrahı 'ithalat vergileri' ibaresiyle yer alıyor (dipnotlu değişiklik, tarihi kaynakta yok); resmî cevap KDV'yi ceza matrahına dahil etti, KDV/ÖTV'nin durumu güncel metinle ayrıca kontrol edilmeli.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234/1-b"
-   },
-   {
-    "metin": "Beyan edilmeyen 10.000 TL royaltinin KDV'si (2.000 TL) **2 no.lu KDV beyannamesiyle** ödenmişse gümrükte yalnız **GV 1.000 + GV'nin KDV'si 200** = 1.200 TL ek tahakkuk edilir; 3.600 TL üç kat cezayla toplam **4.800 TL**.",
-    "dayanak": "GK 27/1-c, 234/1-b; Gümrük Kıymeti GGT (Seri No:2) 11/6",
-    "sorular": [
-     "2025/14"
-    ],
-    "tuzak": "KDV'nin tamamını (2.200) yeniden tahakkuk ettirip cezalandıran 12.800 ve tamamını ceza matrahına alan 10.800 yanlış.",
-    "not": "Kaynaktaki güncel GK 234/1 metninde ceza matrahı 'ithalat vergileri' ibaresiyle yer alıyor (dipnotlu değişiklik, tarihi kaynakta yok); resmî cevap KDV'yi ceza matrahına dahil etti, KDV/ÖTV'nin durumu güncel metinle ayrıca kontrol edilmeli.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 27/1-c ve Gümrük Kıymeti GGT MADDE 11/6; kaynak2/gm/48_48-cezalar.md MADDE 234/1-b"
    },
    {
     "metin": "Gümrük antrepolarındaki eşyanın **izinsiz elleçlenmesi** Kanunda doğrudan sayılan, **dört kat** uygulanan usulsüzlüktür (241/4-f); antrepo beyannamesinde farklı GTİP, götürü teminatın güncellenmemesi, düzensiz depolama ve antrepo içi mükerrer devir ise **GY Ek-82** cezalarıdır.",
@@ -3696,41 +3108,18 @@
  },
  "UZLASMA": {
   "konu": "UZLASMA",
-  "ozet": "3 soru (2021, 2023, 2024): matraha girip gümrükçe takip edilmeyen mali yüklerin (kültür fonu) uzlaşma dışında kalması iki kez soruldu; uzlaşılan cezada peşin ödeme indirimi olmaması ve GK 244 kapsamı da geldi, 2021 ve 2023'te soru hesap biçimindeydi.",
+  "ozet": "Sözel 1 soru (2024/12): matraha girip gümrükçe takip edilmeyen mali yüklerin (kültür fonu) uzlaşma dışında kalması. 2021 ve 2023'teki iki soru hesap biçimindeydi (kültür fonu hesabı, uzlaşılan cezada peşin ödeme indirimi olmaması) ve Hesaplama konusunda sayıldı.",
   "haplar": [
    {
     "metin": "Gümrük vergilerinin **matrahına giren** ancak aslı gümrük idarelerince **takip ve tahsil edilmeyen** vergi ve benzeri mali yükler (ör. **kültür fonu**) uzlaşmaya konu edilemez.",
     "dayanak": "Gümrük Uzlaşma Yön. 6/1",
     "sorular": [
-     "2021/82",
      "2024/12"
     ],
     "tuzak": "2021/82'de kültür fonunu uzlaşma tutarına katan 24.000, 46.944 ve 94.944 yanlıştı; 2024/12'de tespit/bildirim farkları ile GK ve diğer kanunlara göre gümrük idaresince düzenlenen idari para cezaları uzlaşma kapsamındaydı.",
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/gm/50_50-uzlaşma.md Yönetmelik MADDE 6/1"
-   },
-   {
-    "metin": "Ödenmeyen kültür fonu (800.000 × %3 = 24.000 TL) uzlaşma dışıdır ama **ÖTV ve KDV matrahına girer**: ÖTV 1.200 + KDV 4.536 = 5.736 TL fark ve **üç kat** ceza 17.208 TL ile uzlaşma tutarı **22.944 TL**'dir.",
-    "dayanak": "GK 234/1, 244/1; Gümrük Uzlaşma Yön. 6/1",
-    "sorular": [
-     "2021/82"
-    ],
-    "tuzak": "ÖTV'yi KDV matrahına eklemeyen 22.080 yanlış; kültür fonunu katan 46.944 ve 94.944 yanlış.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/50_50-uzlaşma.md Yönetmelik MADDE 6; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 22 çözüm"
-   },
-   {
-    "metin": "Uzlaşılan idari para cezalarında Kabahatler Kanunu md. 17 uyarınca **ayrıca peşin ödeme indirimi uygulanmaz**; 60.000 TL'de uzlaşılan ceza **60.000 TL** olarak uzlaşma tutanağının tebliğinden itibaren **bir ay** içinde ödenir.",
-    "dayanak": "GK 244/5-6; Gümrük Uzlaşma Yön. 23, 24",
-    "sorular": [
-     "2023/68"
-    ],
-    "tuzak": "%25 peşin ödeme indirimiyle bulunan 45.000 TL ve diğer indirimli tutarlar yanlış.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/50_50-uzlaşma.md GK MADDE 244/5-6; Yönetmelik MADDE 23-24"
    },
    {
     "metin": "GK 244 uzlaşmasına; tespit sonucu belirlenen ve **tespitten önce beyan sahibince bildirilen** farklılıklara ilişkin tebliğ edilen gümrük vergileri ile **GK ve ilgili diğer kanunlar** uyarınca gümrük idaresince düzenlenen **idari para cezaları** girer.",
@@ -4224,7 +3613,7 @@
  },
  "KAMBIYO": {
   "konu": "KAMBIYO",
-  "ozet": "2021–2025'te 17 soru: en çok 32 sayılı Karar md. 2 tanımları (efektif, kıymetli maden ve taş, standart altın) ile md. 7 kıymetli maden ithalat kuralları (2022–2025 her yıl) soruldu; 2023 ve 2025'te ihracat bedellerinin yurda getirilme süreleri, 2025'te yolcu beraberi 185.000 TL eşiği geldi, 2021'deki TCMB genelgesi soruları tekrarlanmadı.",
+  "ozet": "Sözel 16 soru (4-2-5-2-3); ihracat bedelinin yurda getirilme süresine ilişkin gün hesabı (2025/62) Hesaplama konusunda. En çok 32 sayılı Karar md. 2 tanımları (efektif, kıymetli maden ve taş, standart altın) ile md. 7 kıymetli maden ithalat kuralları (2022–2025 her yıl) soruldu; 2023'te ihracat bedellerinin yurda getirilme süreleri, 2025'te yolcu beraberi 185.000 TL eşiği geldi, 2021'deki TCMB genelgesi soruları tekrarlanmadı.",
   "haplar": [
    {
     "metin": "Standart ve standart dışı **işlenmemiş kıymetli madenlerin** serbest dolaşıma giriş rejimi kapsamında ithali **yalnızca Merkez Bankası** ve kendi mevzuatı saklı kalmak kaydıyla **kıymetli madenler aracı kuruluşlarınca** yapılır; aracı kuruluşlar bunları **üç iş günü** içinde Borsa İstanbul'a teslim eder.",
@@ -4429,17 +3818,6 @@
     "not": "185.000 TL eşiği 2025 sınavındaki tutardır; 32 s. Karar md. 3/d'ye 15.03.2025 değişikliğiyle işlenmiştir.",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md 2008-32/34 Md.3/5, 4/2 (Sayfa 86); 32 s. Karar Md.3/d (Sayfa 72)"
-   },
-   {
-    "metin": "İhracat bedeli kural olarak fiili ihraçtan itibaren **180 gün** içinde getirilir; sözleşmede **180 günü aşan vade** öngörülmüşse bedel **vade bitiminden itibaren 90 gün** içinde getirilir: 200 gün vade + 90 gün = **290 gün**.",
-    "dayanak": "2018-32/48 Tebliğ md. 3/1, 5/5",
-    "sorular": [
-     "2025/62"
-    ],
-    "tuzak": "270 gün (180+90) vadeyi yok sayar; 380 gün (200+180) ek süreyi 180 gün sanır.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md 2018-32/48 Md.3/1, 5/5 (Sayfa 82-83)"
    }
   ]
  },
@@ -4535,69 +3913,8 @@
  },
  "KDV": {
   "konu": "KDV",
-  "ozet": "2021–2025'te 13 soru (yılda 2–4), 9'u hesap: ithalatta KDV matrahı (gümrük kıymeti + tescile kadar yapılan giderler) her yıl soruldu, ÖTV–KKDF zinciri, gözetim farkının indirimi ve istisnadan vazgeçilen ardiye de geldi; sözelde altın için özel matrah, vergi sorumlusu, oran kararının (I) sayılı listesi ve finansal kiralama oranı soruldu. Son iki yılda hesaplar matrah zinciri ile indirim/mahsup inceliklerine kaydı.",
+  "ozet": "Sözel 4 soru (2022–2025'te yılda bir): altın için özel matrah, vergi sorumlusu, oran kararının (I) sayılı listesi ve finansal kiralama oranı. İthalatta KDV matrahı 9 hesap sorusuyla (2-1-2-3-1) her yıl soruldu; bu sorular Hesaplama konusunda sayıldı ve hapları orada.",
   "haplar": [
-   {
-    "metin": "İthalatta KDV matrahı, gümrük kıymetine **beyanname tescil tarihine kadar** yapılan giderler eklenerek bulunur: Türk limanındaki demuraj, tahliye, tescil öncesi ardiye, fazla mesai ve memur yolluğu girer; **tescil sonrası ardiye**, **gümrük laboratuvarı tahlil ücreti**, müşavirlik ücreti ve yurt içi nakliye girmez.",
-    "dayanak": "KDVK 21/1-c; 2009/32 s. Genelge (varış sonrası demuraj)",
-    "sorular": [
-     "2021/90",
-     "2022/90",
-     "2023/73",
-     "2023/82",
-     "2024/10"
-    ],
-    "tuzak": "2021/90'da tescil sonrası 400 TL ardiyeyi ekleyen 2.557.100; 2022/90'da tescil sonrası ardiyeyi (107.500) veya müşavir ücretini (108.000) ekleyen; 2023/73'te gümrük kıymetini matrah sayan 5.070.000; 2023/82'de tahlil ücretini ekleyen 636.500; 2024/10'da tescil sonrası ardiye ve tahlil ücretini ekleyen şıklar yanlıştı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c (Sayfa 165); kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 19 (2009/32 Genelge: varış sonrası demuraj her durumda KDV matrahına girer)"
-   },
-   {
-    "metin": "İthalatta ÖTV matrahı, hesaplanacak **ÖTV hariç KDV matrahı** unsurlarından (kıymet, GV, İGV, KKDF, tescile kadar giderler) oluşur; KDV matrahına ayrıca **ödenen ÖTV** eklenir: KDV matrahı = ÖTV matrahı + ÖTV.",
-    "dayanak": "ÖTVK 11/3; KDVK 21/1-b",
-    "sorular": [
-     "2021/87",
-     "2024/25",
-     "2025/12"
-    ],
-    "tuzak": "2021/87'de KKDF de ÖTV matrahına girdi; 2024/25'te ÖTV'yi KDV matrahına eklemeyen 2.700 USD, 2025/12'de ÖTV'yi KDV matrahına katmayan 400 ve 448 TL şıkları yanlıştı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/3 (Sayfa 182), KDVK Md.21/b; kaynak2/genelge/ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi.md III/A-1.2"
-   },
-   {
-    "metin": "KKDF; kabul kredili, vadeli akreditifli ve **mal mukabili** ithalatta %6 alınır, **peşin** ödenen kısımdan alınmaz; kıymet, gümrük yükümlülüğünün başladığı **tescil tarihindeki** TCMB döviz satış kuruyla TL'ye çevrilir.",
-    "dayanak": "KKDF Kararı (88/12944) 3/d; GK 30",
-    "sorular": [
-     "2021/87"
-    ],
-    "tuzak": "Peşin ödeme tarihindeki 8,50 kur kullanılmaz; KKDF'yi 10.000 USD'nin tamamından hesaplayan 124.848 TL yanlıştı.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KKDF Kararı Md.3/d (Sayfa 189); kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 30"
-   },
-   {
-    "metin": "Kolalı gazozda kıymet 80.000 TL, GV 7.680, KKDF 3.840 (64.000 × %6); **ÖTV matrahı 91.520** × %35 = 32.032 eklenince **KDV matrahı 123.552 TL** olur.",
-    "dayanak": "GK 30; KKDF Kararı 3/d; ÖTVK 11/3; KDVK 21/1-b",
-    "sorular": [
-     "2021/87"
-    ],
-    "tuzak": "GV ve KKDF unutulursa 80.000 × 1,35 = 108.000 TL çıkar.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/3, KDVK Md.21; kaynak2/diger/Hesaplamaçıkmış.md (2021/87 çözümü)"
-   },
-   {
-    "metin": "Gümrük kıymeti 2.552.000 TL'ye Türk limanındaki **500 USD demuraj** (4.000 TL), **600 TL tescil öncesi ardiye** ve **100 TL fazla mesai** eklenir; tescil sonrası ardiye, tahlil ve müşavirlik ücreti eklenmez: **2.556.700 TL**.",
-    "dayanak": "KDVK 21/1-c",
-    "sorular": [
-     "2021/90"
-    ],
-    "tuzak": "Fazla mesai unutulursa 2.556.600; tescil sonrası 400 TL ardiye de eklenirse 2.557.100 TL.",
-    "not": "Resmî çözüm 500 USD'yi Türk limanı demurajı olarak katıyor; kıymete girmeyen Kapıkule–İstanbul taşıması (500 USD) da tescilden önce yapıldıysa KDVK 21/1-c lafzına göre eklenirdi ve 2.560.700 TL çıkardı (şıklarda yok); soru anahtarı tartışmalı bilinenler arasında.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/Hesaplamaçıkmış.md (2021/90 çözümü)"
-   },
    {
     "metin": "Altından mamul veya altın içeren **ziynet eşyası** ile **sikke altınların** teslim ve ithalinde KDV matrahı, **külçe altın bedeli düşüldükten sonra kalan** tutardır.",
     "dayanak": "KDVK 23/e",
@@ -4608,17 +3925,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.23/e (Sayfa 165)"
-   },
-   {
-    "metin": "Gümrük kıymeti **105.500 TL**'ye Türk limanındaki demuraj, tescil öncesi ardiye ve fazla mesai (500'er TL) eklenir; tescil sonrası ardiye, müşavir ücreti ve Ankara'ya iç nakliye eklenmez: **107.000 TL**.",
-    "dayanak": "KDVK 21/1-c",
-    "sorular": [
-     "2022/90"
-    ],
-    "tuzak": "Tescil sonrası ardiye eklenirse 107.500; müşavir ücreti eklenirse 108.000 TL.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 19"
    },
    {
     "metin": "Mükellefin Türkiye'de ikametgâhı, işyeri, kanuni merkezi ve iş merkezi bulunmadığında vergi alacağının emniyeti için verginin ödenmesinden sorumlu tutulan işlem tarafı **vergi sorumlusudur**; sorumlu tutma yetkisi **Maliye Bakanlığındadır**.",
@@ -4632,28 +3938,6 @@
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.8-9 (Sayfa 156-157)"
    },
    {
-    "metin": "Kıymete girmeyen ama teslimden önce ödenen **test ücreti** ile **tescil öncesi antrepo ücreti** KDV matrahına eklenir; tescil sonrası antrepo payı ve Mersin–Ankara nakliyesi eklenmez: (507.000 + 1.000 + 1.500) USD → **5.095.000 TL**.",
-    "dayanak": "KDVK 21/1-c",
-    "sorular": [
-     "2023/73"
-    ],
-    "tuzak": "Gümrük kıymetini matrah sayan 5.070.000, yalnız testi ekleyen 5.080.000, yalnız antrepoyu ekleyen 5.085.000 TL eksikti.",
-    "not": "Kökte kur 1 USD = 1 TL yazılı olduğu hâlde şıklar 10 kat ölçekli (1 USD = 10 TL ile tutarlı); resmî anahtar 5.095.000'i kabul etti (2023/72-73 tartışmalı bilinen sorular).",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/Hesaplamaçıkmış.md (2023/73 çözümü: 509.500 × 10 TL)"
-   },
-   {
-    "metin": "Gümrük kıymeti **630.500 TL**'ye tescil öncesi **tahliye ücreti (1.000 TL)** ve **memur yolluğu (3.000 TL)** eklenir; gümrük laboratuvarı tahlil ücreti ve İstanbul–Ankara taşıması eklenmez: **634.500 TL**.",
-    "dayanak": "KDVK 21/1-c",
-    "sorular": [
-     "2023/82"
-    ],
-    "tuzak": "Tahlil ücreti de eklenirse 636.500; yalnız tahliye eklenirse 631.500 TL.",
-    "not": "Sevkiyat öncesi yurt dışında yaptırılan 1.000 USD kontrol ücreti tahliye ile aynı tutarda olduğundan şıklar hangisinin katıldığını ayırmıyor; ikisi birlikte eklenirse 635.500 TL çıkar (şıklarda yok).",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/Hesaplamaçıkmış.md (2023/81-82 çözümü)"
-   },
-   {
     "metin": "KDV oranları Kararının (I) sayılı listesinin **(A) Gıda Maddeleri** bölümünde 21. fasıl ile 22, 23 ve 25. fasıllardan yalnız sayılan pozisyonlar (ör. 2501.00.91 tuz) yer alır; **24. fasıl (tütün)** bu bölümde **yoktur**.",
     "dayanak": "2007/13033 s. Karar eki (I) sayılı liste (A) bölümü 17–20. sıralar",
     "sorular": [
@@ -4665,39 +3949,6 @@
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md 2007/13033 Karar (I) sayılı liste A bölümü (Sayfa 172-173)"
    },
    {
-    "metin": "Gümrük kıymeti 54.750 TL'ye Türk giriş limanına varıştan sonraki **600 USD demuraj**, tescil öncesi 1.000 TL tahliye ve 1.000 TL ardiye eklenir; tescil sonrası ardiye (2.000), tahlil ücreti (3.000) ve Mersin–Ankara nakliyesi eklenmez: **57.350 TL**.",
-    "dayanak": "KDVK 21/1-c; 2009/32 s. Genelge",
-    "sorular": [
-     "2024/10"
-    ],
-    "tuzak": "Varış sonrası demuraj kıymete girmez ama KDV matrahına girer: kıymette kesim çizgisi giriş yeri, KDV matrahında tescil tarihidir.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 19"
-   },
-   {
-    "metin": "Kıymet CIF 8.500 + **royalti 1.000** + eşyayla birlikte işlem gören **ambalaj 500** = 10.000 USD (reklam ve müşavirlik hariç); GV 1.000 ve İGV 2.500 ile ÖTV matrahı 13.500, ÖTV 675; KDV 14.175 × %20 = **2.835 USD**.",
-    "dayanak": "GK 27/1-a, 27/1-c; ÖTVK 11/3; KDVK 21",
-    "sorular": [
-     "2024/25"
-    ],
-    "tuzak": "ÖTV KDV matrahına eklenmezse 2.700; yalnız gümrük kıymetine %20 uygulanırsa 2.000 USD çıkar.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 27; kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/3, KDVK Md.21"
-   },
-   {
-    "metin": "Kıymet kriterli gözetime ulaşmak için faturaya eklenen **farka** ve bu farkın GV'sine isabet eden KDV indirilemez; indirim gerçek bedel ve onun GV'si üzerinden yapılır: (90.000 + 9.000) × %20 = **19.800 TL**.",
-    "dayanak": "KDVK 29/1-b; KDV Genel Uygulama Tebliği (gözetim farkı açıklaması)",
-    "sorular": [
-     "2024/29"
-    ],
-    "tuzak": "Tahsil edilen 22.000 TL'nin tamamı indirilemez; beyan edilen 100.000'e %20 (20.000) ve GV'siz fatura bedeline %20 (18.000) de yanlış.",
-    "not": "",
-    "kaynak_disi": true,
-    "kaynak": "soru ve resmî cevap (KDVK Md.29 indirim hükmü görüldü; gözetim farkına ilişkin açıklama kaynaklarda yok)"
-   },
-   {
     "metin": "**Finansal kiralama** işlemlerinde, (I) sayılı listenin (B) bölümünün 16 ve 17. sıraları hariç, **işleme konu malın tabi olduğu KDV oranı** uygulanır.",
     "dayanak": "2007/13033 s. Karar 1/2",
     "sorular": [
@@ -4707,30 +3958,18 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md 2007/13033 Karar Md.1/2 ve (I) sayılı liste B-16 (Sayfa 172-173)"
-   },
-   {
-    "metin": "Tescil öncesi **ardiye (100 TL)** kıymete girmez, ÖTV ve KDV matrahına girer; ÖTV 1.100 × %20 = 220, KDV 1.320 × %20 = 264'ten antrepo işleticisinin fatura ettiği **20 TL KDV** düşülünce ödenecek tutar **464 TL** olur.",
-    "dayanak": "KDVK 21/1-c, 18; ÖTVK 11/3",
-    "sorular": [
-     "2025/12"
-    ],
-    "tuzak": "20 TL mahsup edilmezse 484 TL çıkar.",
-    "not": "Kaynaktaki KDVK 21/1-c metni ('giderler ve ödemelerden vergilendirilmeyenler') ve GKAİR Tebliği açıklamasına göre KDV'si hesaplanmış (vergilendirilmiş) ardiye KDV matrahına girmez; bu okumayla ÖTV 200 + KDV 240 = 440 TL bulunur. Resmî anahtar 464'ü kabul etti (2025/12 tartışmalı bilinen sorular arasında).",
-    "kaynak_disi": true,
-    "kaynak": "soru ve resmî cevap (mahsup mekanizması kaynakta yok); kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.18, 21/c; kaynak2/gm/33_33-GKAİR.md (vergilendirilmiş giderler KDV matrahına girmez)"
    }
   ]
  },
  "OTV": {
   "konu": "OTV",
-  "ozet": "2021–2025'te 14 soru (2021 hariç her yıl); en çok liste kapsamı soruldu, (IV) sayılı liste 2023–2025'te her yıl geldi, (I) listenin (B) cetveli ve diplomatik istisna 2025'te ilk kez soruldu; (II) listede bayi ithalatı ile (I) listede ithalde teminat kuralı hem sözel hem hesap olarak tekrarlandı, alkol ve sigara ÖTV hesabı 2022'de soruldu.",
+  "ozet": "Sözel 10 soru (0-3-2-2-3); ayrıca 4 ÖTV hesabı (sigara, alkollü içki, (II) sayılı liste distribütör ithalatı, (I) sayılı liste teminatı) Hesaplama konusunda. En çok liste kapsamı soruldu, (IV) sayılı liste 2023–2025'te her yıl geldi, (I) listenin (B) cetveli ve diplomatik istisna 2025'te ilk kez soruldu; (II) listede bayi ithalatı ile (I) listede ithalde teminat kuralı hem sözel hem hesap olarak tekrarlandı.",
   "haplar": [
    {
     "metin": "(II) sayılı listedeki kayıt-tescile tabi taşıtların **motorlu araç ticareti yapanlarca satılmak üzere ithali** ilk iktisap sayılmaz, bu safhada ÖTV alınmaz; kullanılmak üzere ithal, bunlardan iktisap ve bunlarca kullanmaya başlama veya **aktife alma** ilk iktisaptır.",
     "dayanak": "ÖTVK 2/1-b, 2/1-d; (II) Sayılı Liste Tebliği I/B-2",
     "sorular": [
-     "2022/53",
-     "2023/78"
+     "2022/53"
     ],
     "tuzak": "2022/53'te 'ticaret yapanlardan iktisap', 'kullanılmaya başlanması' ve 'aktife alınması' ilk iktisap sayılan hâllerdi; 2023/78'de distribütör ithalatında ÖTV hesaplayan 32.800 TL yanlıştı.",
     "not": "",
@@ -4741,8 +3980,7 @@
     "metin": "(I) sayılı liste mallarında vergiyi doğuran olay **ithalatçının teslimi** olduğundan ithalde ÖTV tahsil edilmez; gümrük idaresince yürürlükteki ÖTV tutarı kadar **teminat alınır**, teminat verilmeden gümrükleme yapılmaz.",
     "dayanak": "ÖTVK 1/1, 16/4; (I) Sayılı Liste Tebliği V/A-1",
     "sorular": [
-     "2022/55",
-     "2025/15"
+     "2022/55"
     ],
     "tuzak": "2022/55'te 'tahsil edilir', 'tecil edilir', 'işlem yapılmaz' ve 'bir ay içinde ödeneceğine taahhütname alınır' yanlıştı; 2025/15'te litre başı 15 TL ÖTV'yi tahsil edilecek vergilere katan 21.000 TL şıkkı yanlıştı.",
     "not": "Teminata esas ÖTV tutarı 24.07.2025'ten beri ithalde KDV matrahına girer (KDVK 21/1-ç); ayrıntı 2025/15 hapında.",
@@ -4766,36 +4004,12 @@
     "metin": "(III) sayılı listenin **(A) cetvelinde** asgari maktu vergiden az olmamak üzere **yalnızca nispi vergi**, (B) cetvelinde ise **maktu vergi ile birlikte** asgari maktu vergiden az olmamak üzere nispi vergi uygulanır.",
     "dayanak": "ÖTVK 11/5",
     "sorular": [
-     "2022/57",
-     "2022/93",
-     "2022/97"
+     "2022/57"
     ],
     "tuzak": "2022/57'de (B) cetvelinin 'maktu + nispi' yöntemi (A) için verilmişti; 2022/97'de nispi ile asgari maktuyu toplayan 230 TL, 2022/93'te maktu vergiyi unutan 18.000 TL yanlıştı.",
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/5 (Sayfa 182-183); kaynak2/genelge/ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi.md III/B"
-   },
-   {
-    "metin": "Sigarada nispi ÖTV **perakende satış fiyatı** üzerinden (1.000 paket × 30 × %60 = 18.000), asgari maktu her bir sigara için (20.000 × 0,80 = 16.000) hesaplanır; büyüğüne paket başı maktu vergi (900) eklenir: **18.900 TL**.",
-    "dayanak": "ÖTVK 11/2-b, 11/4, 11/5",
-    "sorular": [
-     "2022/93"
-    ],
-    "tuzak": "Matrah CIF + GV alınırsa 7.200; maktu vergi unutulursa 18.000; asgari maktu seçilirse 16.000 veya 16.900 TL.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/2-b, 11/4 (Sayfa 182); kaynak2/genelge/ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi.md III/B-2"
-   },
-   {
-    "metin": "%40 alkollü 0,75 lt viskide nispi ÖTV 100 × %50 = 50 TL, asgari maktu **içerdiği alkolün litresi** üzerinden 0,75 × 0,40 × 600 = 180 TL olduğundan **büyük olan 180 TL** ödenir.",
-    "dayanak": "ÖTVK 11/2-a, 11/5",
-    "sorular": [
-     "2022/97"
-    ],
-    "tuzak": "İkisi toplanırsa 230; alkol oranı atlanırsa 450; şişe hacmi atlanırsa 240 TL.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/2-a (Sayfa 182), Sayfa 188 içki formülü"
    },
    {
     "metin": "ÖTV Kanununda **ithalat**, verginin konusuna giren malların **Türkiye Cumhuriyeti Gümrük Bölgesine girişini** ifade eder.",
@@ -4818,17 +4032,6 @@
     "not": "",
     "kaynak_disi": true,
     "kaynak": "soru ve resmî cevap ((IV) sayılı listenin GTİP dökümü kaynaklarda yok)"
-   },
-   {
-    "metin": "Distribütörün satmak üzere ithal ettiği 87.03 araçta **ÖTV alınmaz**: GV 5.000 + İGV 5.000 + KDV (60.000 × %20) 12.000 = **22.000 TL** ödenir.",
-    "dayanak": "ÖTVK 2/1-b; KDVK 21",
-    "sorular": [
-     "2023/78"
-    ],
-    "tuzak": "ÖTV de hesaplanırsa 32.800; ÖTV ve KDV kıymet üzerinden alınırsa 27.500; KDV unutulursa 19.000 TL.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/genelge/ozel_tuketim_vergisi_ii_sayili_liste_uygulama_genel_tebligi.md I/B-2 (satılmak üzere ithalde vergi uygulanmaz); kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21"
    },
    {
     "metin": "Kolalı, meyveli ve **sade gazozlar** ÖTV'de **(III) sayılı listenin (A) cetvelinde** yer alır; (IV) sayılı listede değildir.",
@@ -4873,17 +4076,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.6 Diplomatik İstisna (Sayfa 178)"
-   },
-   {
-    "metin": "(I) sayılı liste (A) cetveli eşyasında gümrükte GV 1.000 ve KDV (11.000 × %20) 2.200 tahsil edilir, **ÖTV teminata bağlanır**: toplam **3.200 TL**.",
-    "dayanak": "ÖTVK 1/1, 16/4; KDVK 21",
-    "sorular": [
-     "2025/15"
-    ],
-    "tuzak": "KDV yalnız CIF üzerinden hesaplanırsa 3.000; ÖTV tahsil edilirse 21.000 TL civarı çıkar.",
-    "not": "24.07.2025'te eklenen KDVK 21/1-ç'ye göre (I) sayılı liste malının teminatına esas ÖTV tutarı (15.000 TL) ithalde KDV matrahına girer; bu hükümle KDV 5.200, tahsil edilecek GV + KDV 6.200 TL olurdu (şıklarda yok). 30.11.2025 sınavında resmî anahtar 3.200'ü kabul etti.",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/ç (24.07.2025), ÖTVK Md.11 notu; kaynak2/genelge/ozel_tuketim_vergisi_x1ix2_sayili_liste_uygulama_genel_tebligi.md V/A-1"
    }
   ]
  },
@@ -4961,7 +4153,7 @@
  },
  "ITHR": {
   "konu": "ITHR",
-  "ozet": "2021–2025'te 7 soru; İthalat Rejimi Kararının genel hükümleri (amaç ve kambiyo, özel nitelikli eşya, vergi kimlik numarası istisnası, ek mali yükümlülük, ticaret politikası önlemleri mevzuatı) ile 91.02 saatlerde MIN/MAX'lı gümrük vergisi hesabı soruldu; özel nitelikli eşya ve MIN/MAX hesabı 2022 ve 2024'te tekrarlandı, 2023 ve 2025'te soru gelmedi.",
+  "ozet": "Sözel 5 soru (1-2-0-2-0): İthalat Rejimi Kararının genel hükümleri (amaç ve kambiyo, özel nitelikli eşya, vergi kimlik numarası istisnası, ek mali yükümlülük, ticaret politikası önlemleri mevzuatı); özel nitelikli eşya 2022 ve 2024'te tekrarlandı. 91.02 saatlerde MIN/MAX'lı gümrük vergisi ve İGV hesabı (2022/99, 2024/24) Hesaplama konusunda.",
   "haplar": [
    {
     "metin": "İthalat Rejimi Kararına göre **özel nitelikli eşya**; eski, kullanılmış, yenileştirilmiş, kusurlu (defolu) ve yatık (zamanla dayanıklılığını yitirmiş) eşyadır ve bu eşyanın ithali **izne tabidir**.",
@@ -4974,18 +4166,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/ck_2020-03350_ithalat_rejimi_karari.md MADDE 7"
-   },
-   {
-    "metin": "İRK eki listede “%4,5 MIN 0,3 EUR Adet MAX 0,8 EUR Adet” biçimindeki oranda önce **%4,5 nispi vergi** hesaplanır; adet başına tutar 0,3 EUR'nun altındaysa **MIN**, 0,8 EUR'nun üstündeyse **MAX** maktu tutar, arada kalırsa nispi tutar alınır.",
-    "dayanak": "İRK eki II sayılı liste (91.02)",
-    "sorular": [
-     "2022/99",
-     "2024/24"
-    ],
-    "tuzak": "2022'de MIN atlanıp nispi 450 EUR alınınca 1.450, MAX uygulanınca 5.000 çeldiricisi çıkıyordu; 2024'te her kaleme MIN (60), her kaleme MAX (160) ya da iki kaleme düz %4,5 (472,5) uygulamak yanlıştı. Karşılaştırma kalem kalem ve adet başına yapılır.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 51 (İRK II sayılı liste 91. fasıl, MIN/MAX okuma kuralı)"
    },
    {
     "metin": "İthalatı vergi kimlik numarası olan kişiler yürütür; ancak **özel anlaşmalara dayanan** ithalatta, **kitap ve diğer yayınların** ithalatında ve ülkemizdeki uluslararası fuarlarda **Bakanlıkça perakende satışına izin verilen** eşyada vergi kimlik numarası şartı aranmaz.",
@@ -5041,28 +4221,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/ck_2020-03350_ithalat_rejimi_karari.md MADDE 2, 9; kaynak2/diger/SAİR MEVZUAT KİTABI.md Sayfa 29 (3577 md. 7)"
-   },
-   {
-    "metin": "Tanesi 2 EUR'luk 5.000 saatte (10.000 EUR) %4,5 nispi vergi 450 EUR, adet başına 0,09 EUR olup MIN'in altında kaldığından GV 5.000 × 0,3 = **1.500 EUR**, %10 İGV **1.000 EUR**, toplam **2.500 EUR**'dur.",
-    "dayanak": "İRK eki II sayılı liste (91.02); İGV Kararı (3351) md. 2",
-    "sorular": [
-     "2022/99"
-    ],
-    "tuzak": "MIN atlanırsa 450 + 1.000 = 1.450, MAX uygulanırsa 4.000 + 1.000 = 5.000, yalnız İGV alınırsa 1.000 bulunur. İGV gümrük vergisinden ayrı tahsil edilir ve gümrük vergisinin usul ve hükümlerine tabidir (3351 md. 2/4-5).",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 51; kaynak2/genelge/ithalatta_ilave_gumruk_vergisi_uygulanmasina_iliskin_karar.md MADDE 2"
-   },
-   {
-    "metin": "100 adet × 100 EUR kalemde adet başı nispi vergi 4,5 EUR olup **MAX**'ı aştığından 100 × 0,8 = 80 EUR, 100 adet × 5 EUR kalemde 0,225 EUR olup **MIN**'in altında kaldığından 100 × 0,3 = 30 EUR alınır; toplam GV **110 EUR**'dur.",
-    "dayanak": "İRK eki II sayılı liste (91.02)",
-    "sorular": [
-     "2024/24"
-    ],
-    "tuzak": "60 tüm saatlere MIN, 160 tüm saatlere MAX, 450 yalnız birinci kaleme nispi oran, 472,5 iki kaleme düz %4,5 uygulamaktan çıkar.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 51 ve 2024/24 çözümü"
    },
    {
     "metin": "İRK md. 4/3'e göre ticaret politikası önlemleri; ithalatta **haksız rekabetin önlenmesi**, korunma önlemleri, kota ve tarife kontenjanı idaresi, gözetim, belirli tekstil ürünlerinde gözetim ve korunma ile **Türkiye'nin ticari haklarının korunması** mevzuatı çerçevesinde yürütülür.",
@@ -5173,7 +4331,7 @@
  },
  "TPS": {
   "konu": "TPS",
-  "ozet": "2021–2023'te 5 soru; haksız rekabette 3577 sayılı Kanunun zarar halleri, Kurul görevleri ve 45 günlük inceleme süresi, korunma önlemlerinde geçici-kesin önlem farkı ve gözetimli kıymetle vergi hesabı soruldu; eğilim azalan, 2024–2025'te soru yok.",
+  "ozet": "Sözel 4 soru (2021–2022): haksız rekabette 3577 sayılı Kanunun zarar halleri, Kurul görevleri ve 45 günlük inceleme süresi, korunma önlemlerinde geçici-kesin önlem farkı. Gözetimli kıymetle vergi hesabı (2023/76) Hesaplama konusunda; eğilim azalan, 2023'ten sonra sözel soru yok.",
   "haplar": [
    {
     "metin": "3577 sayılı Kanuna göre dampinge veya sübvansiyona konu ithalatın bir üretim dalında **maddi zarara yol açması**, **maddi zarar tehdidi oluşturması** veya bir üretim dalının kurulmasını **fiziki olarak geciktirmesi** önlem alınmasını gerektiren hallerdir.",
@@ -5229,17 +4387,6 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md Sayfa 43 (Yönetmelik md. 20)"
-   },
-   {
-    "metin": "Gözetim değeri dikkate alınarak kıymeti **1.000 TL** beyan edilen ve satıcıya 950 TL ödenen eşyada GV 1.000 × %10 = 100 TL, KDV (1.000 + 100) × %20 = **220 TL** olup vergiler dahil toplam ödeme **1.270 TL**'dir.",
-    "dayanak": "İthalatta Gözetim Uygulanmasına İlişkin Tebliğ (2022/1) md. 6/2; KDV K. md. 21/1-a, b",
-    "sorular": [
-     "2023/76"
-    ],
-    "tuzak": "Tümünü 950 üzerinden hesaplamak 1.254, GV'yi KDV matrahına katmamak 1.250, satıcıya ödenen bedeli 1.000 saymak 1.300/1.320 verir; vergiler beyan edilen kıymetten, mal bedeli fiilen ödenen tutardan alınır.",
-    "not": "",
-    "kaynak_disi": false,
-    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md Sayfa 62 (Gözetim Tebliği md. 6) ve KDV md. 21; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md (gözetimli sorular)"
    }
   ]
  },
@@ -6796,6 +5943,1002 @@
     "not": "",
     "kaynak_disi": false,
     "kaynak": "kaynak/txt/FASIL91.txt genel açıklamalar, hariçler (a)-(e)"
+   }
+  ]
+ },
+ "HESAP": {
+  "konu": "HESAP",
+  "ozet": "2021–2025'te 59 soru (10-13-16-11-9); her yıl ayrı bir blok hâlinde geldi. Dağılım: gümrük kıymeti 32, ithalatta KDV matrahı 9, GK 234 ceza 5, ÖTV 4, uzlaşma 2, antrepo götürü teminatı 2, İGV ve MIN/MAX 2; gözetim değeri, geçici ithalat faizi ve ihracat bedeli süresi birer soru. Yanlış şıklar çoğunlukla tek bir kalemin yanlış tarafa konmasıyla üretildi; soruların çoğunda kullanılmaması gereken bir veri vardı (ödeme tarihi kuru, saha alanı, temettü…). 2021–2024'te kıymet → KDV matrahı bağlı soru setleri her yıl geldi, 2025'te gelmedi.",
+  "haplar": [
+   {
+    "metin": "Kıymete eşyanın **Türkiye'deki giriş liman veya yerine kadar** yapılan nakliye, sigorta, yükleme ve elleçleme giderleri (EXW'de fabrika–ihraç limanı taşıması ve **ihraç limanındaki demuraj** dahil) eklenir; giriş yerinden sonraki nakliye, boşaltma ve **Türkiye limanındaki demuraj** eklenmez.",
+    "dayanak": "GK 27/1-e, 28/a; GY 43/1-e, 51/6; 2009/32 sayılı Genelge",
+    "sorular": [
+     "2021/85",
+     "2021/89",
+     "2022/89",
+     "2023/72",
+     "2023/81",
+     "2024/9",
+     "2024/26"
+    ],
+    "tuzak": "Türkiye limanı demurajını eklemek 2021/85'te 218.800, 2021/89'da 2.556.000, 2022/89'da 106.000, 2024/26'da 120.000 çeldiricisini verdi; 2021/89'da karayoluyla gelen eşyada Amsterdam–Kapıkule navlunu eklendi, Kapıkule–İstanbul eklenmedi; 2023/72'de Mersin antreposu ve yurt içi nakliye, 2024/9'da Mersin–Ankara taşıması (55.000) eklenmez.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-e, 28/a; GY 43/1-e, 51/6; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 19 (2009/32 Genelge)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Alıcının üreticiye **bedelsiz veya düşük bedelle** sağladığı malzeme, aksam, parça, kalıp ve Türkiye dışında yapılan mühendislik-plan hizmetleri (**assist**), satıcıya ulaştırma maliyetiyle birlikte kıymete eklenir; Türkiye'den sağlanan yazılım ile **araştırma ve ilk dizayn taslağı** giderleri eklenmez.",
+    "dayanak": "GK 27/1-b; GY 43/2, 51/2",
+    "sorular": [
+     "2021/84",
+     "2021/86",
+     "2022/89",
+     "2022/96",
+     "2023/77",
+     "2024/9",
+     "2024/26"
+    ],
+    "tuzak": "Assist unutulursa 2021/84'te 248.000, 2021/86'da 26.335, 2024/9'da 52.750 (kılıflar), 2024/26'da 113.500 çıkar; 2022/96'da aksamın satıcıya taşıma bedeli unutulursa 59.000; 2023/77'de Türkiye'den tedarik edilen yazılımı eklemek, 2021/84'te araştırma-ilk dizayn taslağını eklemek yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-b; GY 43/2, 51/2; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 14",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Eşya ile ilgili ve **satış koşulu** olarak ödenen royalti ve lisans ücreti (patent, marka, imalat prosesi, yazılım lisansı), hak sahibi **üçüncü kişi** veya başka ülkede yerleşik olsa da eklenir; Türkiye'de üretim için ya da satıcıyla **bağımsız ayrı anlaşmayla** ödenen bedel eklenmez.",
+    "dayanak": "GK 27/1-c; GY 56/1, 56/4, 56/6; Kıymet Tebliği (Seri No 2) md. 5–7, 10",
+    "sorular": [
+     "2021/84",
+     "2021/89",
+     "2022/98",
+     "2023/81",
+     "2024/9",
+     "2024/27",
+     "2025/20"
+    ],
+    "tuzak": "Royalti atlanırsa 2022/98'de 750, 2023/81'de 605.500, 2025/20'de 21.500 çıkar; 2022/98'de makinelerin Türkiye'de üretimi için plan-tasarım royaltisi, 2024/27'de bağımsız anlaşmayla üretilen ürünlerin satışından ödenen bedel eklenmez; 2025/20'de lisans stopaj dahil brüt eklenir, net 400 eklenirse 21.900.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-c; GY 56; Tebliğ md. 5–7, 10",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Sınai tesis, makine veya teçhizat için **ithalattan sonra** yapılan inşa, kurma, **montaj, bakım** veya teknik yardım giderleri fiyattan ayırt edilebiliyorsa kıymete girmez.",
+    "dayanak": "GK 28/b",
+    "sorular": [
+     "2021/85",
+     "2021/89",
+     "2022/89",
+     "2022/92",
+     "2022/98",
+     "2023/77",
+     "2024/27"
+    ],
+    "tuzak": "Montaj eklenirse 2021/89'da 2.592.000, 2022/92'de 510.000, 2022/98'de 1.350, 2023/77'de 5.037.000, 2024/27'de 76.000 çıkar; 2021/85'te ithalat sonrası bakım, 2022/89'da montaj ve eğitim eklenmez (111.500 yanlış); ancak 2021/89'da teslimattan önce satış şartı olarak verilen eğitim eklendi.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 28/b",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Alıcının **pazarlama, reklam** ve satıcıdan bağımsız **test, kontrol veya ekspertiz** gibi kendi hesabına yaptığı faaliyetler, satıcı yararına ya da satıcıyla anlaşmaya dayansa bile dolaylı ödeme sayılmaz ve kıymete **eklenmez**.",
+    "dayanak": "GK 24/3-b; GY 43/1-g",
+    "sorular": [
+     "2021/84",
+     "2022/92",
+     "2022/96",
+     "2023/72",
+     "2023/77",
+     "2023/81",
+     "2024/19",
+     "2025/20"
+    ],
+    "tuzak": "Reklam eklenirse 2022/96'da 60.500, 2022/92'de 525.000 (diğer hatalarla), 2024/19'da 51.600 çıkar; sözleşmeden bağımsız test 2023/72'de (5.080.000) ve 2023/77'de (5.033.000) eklenmez; 2023/81'de alıcının sevkiyat öncesi kalite kontrolü, 2025/20'de Türkiye'deki üniversite ekspertizi de kıymete girmez.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-b; GY 43/1-g",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "İthalatçının yurt dışındaki temsilcisine eşyanın satın alınmasındaki temsil hizmeti için ödediği **satın alma komisyonu** kıymete girmez; satıcı adına çalışan komisyoncuya ödenen **satış komisyonu** ise alıcı üstlendiyse **eklenir**.",
+    "dayanak": "GK 27/1-a-i, 27/4",
+    "sorular": [
+     "2021/84",
+     "2022/89",
+     "2024/9",
+     "2024/19",
+     "2024/26"
+    ],
+    "tuzak": "2021/84'te alıcının Vietnam'daki komisyoncusuna ödenen 5.000, 2024/19'da 500 satın alma komisyonu eklenirse yanlış (50.500/50.600); 2022/89'da 3.000, 2024/9'da 500, 2024/26'da 1.000 satış komisyonu unutulursa eksik kalır (2024/26'da 118.500).",
+    "not": "Kaynaktaki güncel GK 28 metninin (e) bendinde satın alma komisyonları kıymete dahil edilmeyen giderler arasında ayrıca sayılmaktadır.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-a-i, 27/4, 28/e",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "İthal eşyasının **Türkiye'de çoğaltılması hakkı** için yapılan ödemeler hiçbir durumda, **dağıtım veya tekrar satış hakkı** ödemeleri ise Türkiye'ye ihraç satışında **satış koşulu değilse** kıymete eklenmez; satış koşuluysa eklenir.",
+    "dayanak": "GK 27/5; Kıymet Tebliği (Seri No 2) md. 9",
+    "sorular": [
+     "2021/84",
+     "2022/92",
+     "2022/100",
+     "2024/23",
+     "2025/17"
+    ],
+    "tuzak": "Çoğaltma hakkı ödemesi eklenirse 2022/92'de 519.000, 2022/100'de 13.000, 2024/23'te 18.000, 2025/17'de 15.000 çıkar; satış koşulu olan dağıtım/tekrar satış hakkı 2022/100 ve 2025/17'de eklenir (2025/17'de çıkarmak 11.000), 2021/84'te satıştan bağımsız tekrar satış hakkı (5.000) eklenmez.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5; Tebliğ md. 9",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Giriş yerinden sonra Türkiye'de ödenen **ardiye** (tescilden önceki kısmı dahil), fazla mesai, tahliye, laboratuvar tahlil ücreti, memur yolluğu ve gümrük müşavirliği ücreti GK 27'de sayılmadığından **gümrük kıymetine girmez**.",
+    "dayanak": "GK 27/3, 28/a",
+    "sorular": [
+     "2021/89",
+     "2022/89",
+     "2023/72",
+     "2023/81",
+     "2024/9",
+     "2025/20"
+    ],
+    "tuzak": "Tescil öncesi ardiye eklenirse 2021/89'da 2.552.600, 2023/72'de 5.085.000 çıkar; 2025/20'de ardiye veya tescil sonrası fazla mesai eklenirse 23.000; bu giderlerin tescile kadar olanları KDV matrahıyla karıştırılmamalı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/3, 28/a; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 20",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Alıcının **satıcının üçüncü kişiye olan borcunu** ödemesi fiilen ödenen fiyatın parçası (dolaylı ödeme) sayılır ve eklenir; satıcıya ödenen **temettü**, huzur hakkı ve başka eşyaya ait transferler ithal eşyasının bedeli değildir.",
+    "dayanak": "GK 24/3-a",
+    "sorular": [
+     "2021/89",
+     "2022/89",
+     "2024/18"
+    ],
+    "tuzak": "2021/89'da temettü + huzur hakkı eklenirse 3.376.000; 2024/18'de temettü eklenirse 2.500, diğer eşya transferleri eklenirse 3.500 çıkar; 2022/89'da satıcının 20.000 borcu unutulmamalı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 5 (temettü)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Kullanılmış taşıtta kıymet, faturadan **model yılı hariç ilk yıl %20, sonraki yıllar %10** amortisman düşülerek bulunur; **6 yaşından eski** taşıtta kıymetin **%20'si** alınır; model ile fatura yılı arasında 1 yıldan fazla fark varsa **fatura yılından sonraki** her yıl için %10 düşülür.",
+    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman)",
+    "sorular": [
+     "2022/91",
+     "2023/84",
+     "2024/22",
+     "2025/16"
+    ],
+    "tuzak": "2022/91'de yalnız ilk yıl (36.000) veya bileşik oran (32.400); 2023/84'te model yılından saymak (5.000); 2024/22'de 9 yıl × %10 düşmek (3.000); 2025/16'da tek yıl indirim (8.000) yanlış.",
+    "not": "2025/16 anahtarı tartışmalı bilinen sorulardandır (ilgili hapın notuna bakınız).",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 38; Bölüm 9 s. 27, 36 (eski model taşıt amortismanı)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Aynı eşya yönteminde emsal satış farklı miktardaysa satıcının **fiyat listesine** göre **miktar düzeltmesi** yapılır: 2.000 adetlik alımda 2.500 adet altı liste fiyatıyla (3 USD) **6.000 USD**, 300 adetlik alımda 201 adet ve üstü fiyatıyla (65 USD) **19.500 USD** bulunur.",
+    "dayanak": "GK 25/2-a; GY 46/2",
+    "sorular": [
+     "2021/88",
+     "2023/83"
+    ],
+    "tuzak": "2021/88'de reddedilen işlem bedeli (4.000), düzeltmesiz emsal (5.000) ve perakende fiyat (7.000) yanlış; 2023/83'te beyan fiyatı (15.000) veya düzeltmesiz emsal birim fiyat 70 USD (21.000) yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 25/2-a; GY 46/2",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "İthal eşyasının satışıyla ilgili **yazılı finansman anlaşmasına** dayanan ve finansmanın sağlandığı ülkedeki **cari oranı aşmayan** faiz, fiyattan ayırt edilebiliyorsa kıymete girmez.",
+    "dayanak": "GK 28/c; GY 45/1-a",
+    "sorular": [
+     "2023/79",
+     "2025/20"
+    ],
+    "tuzak": "2023/79'da faturada ayrı gösterilen 1.500 faiz eklenirse 101.500; 2025/20'de yazılı anlaşmalı piyasa faizi (1.000) ve BSMV eklenmez.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 28/c; GY 45/1-a; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 25",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Satış sözleşmesi uyarınca **satıcının sağladığı garanti** için alıcının ödediği bedel fiilen ödenen fiyatın parçasıdır ve kıymete **eklenir**.",
+    "dayanak": "GK 24/3-a",
+    "sorular": [
+     "2021/85",
+     "2025/20"
+    ],
+    "tuzak": "2021/85'te garanti eklenmezse 210.000; 2025/20'de yalnız CIF bedel (20.000) yanlış; alıcının kendi hesabına üstlendiği pazarlama garantileriyle (GY 43/1-g) karıştırılmamalı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Veri veya komut yüklü taşıyıcıda kıymet, ayrı gösterilmişse yalnız **taşıyıcı ortamın** bedelidir (GV = 10 × %10 = 1 USD); yazılım bedeli ise **KDV matrahına** girer: (10 + 1 + 1.000) × %18 = 181,98; toplam **182,98 USD**.",
+    "dayanak": "GY 54/1; KDVK 21",
+    "sorular": [
+     "2021/81"
+    ],
+    "tuzak": "Yalnız KDV (181,98) ya da yazılımı da gümrük kıymetine katmak (282,80) yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 54/1; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 22 (çözüm)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Avans dahil fiilen ödenen 30.000 USD'ye satış şartı lisans (1.000) ve **bedelsiz gönderilen aksam** (10.000) eklenir; **alım komisyonu**, araştırma ve ilk dizayn taslağı, kendi hesabına pazarlama ve satıştan bağımsız tekrar satış hakkı eklenmez: 41.000 × 8 = **328.000 TL**.",
+    "dayanak": "GK 24/3, 27/1-b, 27/1-c, 27/4, 27/5-b; GY 51/2",
+    "sorular": [
+     "2021/84"
+    ],
+    "tuzak": "Assist unutulursa 248.000; USD kalemleri kura çevirmeden TL toplama eklemek 253.000, 333.000, 334.000 çeldiricilerini verir.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27; GY 51/2",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "EXW 25.000 USD'ye fabrika–ihraç limanı taşıması (500), **yükleme limanı demurajı** (750) ve satıcı **garantisi** (500) eklenir; Mersin demurajı ve boşaltması, yurt içi nakliye, ithalat sonrası bakım ve banka masrafı eklenmez: 26.750 × 8 = **214.000 TL**.",
+    "dayanak": "GK 24/3-a, 27/1-e, 28/a-b",
+    "sorular": [
+     "2021/85"
+    ],
+    "tuzak": "Garanti unutulursa 210.000, Mersin demurajı eklenirse 218.800; Mersin boşaltması, bakım gibi giriş sonrası kalemleri eklemek 220.000/221.000 gibi sonuçlar verir.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-e, 28",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Hesaplanmış kıymet: malzeme-imalat 21.700 + **bedelsiz fiş** 5.000 + satış ve idari gider 500 + giriş yerine kadar taşıma 700 = 27.900; kâr, assist hariç üretici CIF fiyatı **22.900 × %15** = 3.435; toplam **31.335 USD**.",
+    "dayanak": "GK 25/2-d; GY 49/2, 49/4",
+    "sorular": [
+     "2021/86"
+    ],
+    "tuzak": "Kârı assist dahil tutardan hesaplamak 32.085, assisti unutmak 26.335, kârı unutmak 27.900 verir; yurt içi taşıma eklenmez.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 49/2, 49/4",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "CIF Amsterdam 300.000 + Amsterdam–Kapıkule navlunu 4.500 + **satıcının borcu** 9.000 + ihraç limanı demurajı 500 + teslimattan önce **satış şartı eğitim** 2.000 + satış şartı yazılım lisansı 3.000 = 319.000 × 8 = **2.552.000 TL**.",
+    "dayanak": "GK 24/3-a, 27/1-c, 27/1-e, 28/a-b; GY 43/1-e",
+    "sorular": [
+     "2021/89"
+    ],
+    "tuzak": "Montaj 2.592.000, Türk limanı demurajı 2.556.000, temettü + huzur hakkı 3.376.000, tescil öncesi ardiye 2.552.600 verir; Kapıkule–İstanbul navlunu eklenmez.",
+    "not": "Anahtarı tartışmalı bilinen sorulardandır: GK 28/a giriş yerini gümrük birliği gümrük bölgelerine giriş olarak da tanımladığından Amsterdam sonrası navlunun da hariç tutulması (2.516.000, şıklarda yok) savunulabilir; resmî anahtar karayolunda ilk hudut gümrüğü Kapıkule'yi giriş yeri kabul etti.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27, 28/a; GY 43/1-e",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Eşya bedeli 80.000'den iade edilen **ihraç ülkesi dahili vergisi** (1.000) düşülür; satıcının borcu 20.000, fabrika–liman 500, navlun-sigorta 1.000, **satış komisyonu** 3.000, ihraç limanı demurajı 500 ve bedelsiz kumanda paneli 1.500 eklenir: **105.500 TL**; eğitim, montaj ve Türkiye giderleri eklenmez.",
+    "dayanak": "GY 45/1-g; GK 24/3-a, 27/1-a-i, 27/1-b, 27/1-e, 28",
+    "sorular": [
+     "2022/89"
+    ],
+    "tuzak": "Türk limanı demurajı eklenirse 106.000, eğitim eklenirse 106.500, montaj + eğitim eklenirse 111.500.",
+    "not": "Resmî anahtar makinenin kullanımına ilişkin eğitimi kıymete katmadı; 2021/89'da teslimattan önce satış şartı olarak verilen eğitim ise eklenmişti.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GY 45/1-g; GK 24, 27, 28",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Diplomatik statülü görevlinin aracında KDV hariç bedelden (55.000 / 1,10 = 50.000) **%10 diplomatik indirim** düşülür (45.000); 2020 model ve alım, 2022 ithalde 2021 için **%20**, 2022 için **%10** amortisman: 45.000 × 0,70 = **31.500 Euro**.",
+    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 24",
+    "sorular": [
+     "2022/91"
+    ],
+    "tuzak": "İndirim düşülmezse 35.000, yalnız ilk yıl 36.000, bileşik oran 32.400, üç yıl sayılırsa 27.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 35–36 (çözüm); Bölüm 3 s. 38",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "FOB 500.000 + navlun 8.000 + sigorta 1.000 = **509.000 USD**; **Türkiye'de çoğaltma hakkı** royaltisi, ayrıca faturalanan ithalat sonrası **montaj** ve alıcının kendi adına yaptığı reklam eklenmez.",
+    "dayanak": "GK 27/1-e, 27/5-a, 28/b; GK 24/3-b",
+    "sorular": [
+     "2022/92"
+    ],
+    "tuzak": "Montaj eklenirse 510.000, royalti 519.000, ikisi 520.000, üçü 525.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5, 28/b",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Türkiye'de satın alınıp üreticiye gönderilen **planlar** ve alıcının yurt dışındaki temsilcisine ödenen **alım komisyonu** kıymete girmez, bedelsiz gönderilen **malzeme** girer; ÖTV matrahı kıymet + GV, KDV matrahı buna ÖTV eklenerek bulunur; resmî anahtar toplam vergiyi **466.200 TL** kabul etti.",
+    "dayanak": "GK 27/1-b, 27/4; ÖTVK 11; KDVK 21",
+    "sorular": [
+     "2022/94"
+    ],
+    "tuzak": "ÖTV'yi CIF üzerinden hesaplamak 420.000, komisyonu yalnız ÖTV/KDV matrahına eklemek 455.200 verir.",
+    "not": "Kaynak kurallarla kıymet (90.000 + 10.000) × 10 = 1.000.000 TL, GV 100.000 + ÖTV 220.000 + KDV 132.000 = 452.000 TL çıkar; resmî anahtar 466.200 TL'yi kabul etti, bu tutar kalemlerin olağan kombinasyonlarından türetilemiyor (anahtarı tartışmalı soru).",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-b, 27/4; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 36–37 (ÖTV/KDV matrahı)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "FOB 100 × 500 = 50.000 + navlun-sigorta 5.000 + bedelsiz gönderilen aksam 4.000 + aksamın satıcıya **taşıma bedeli** 1.000 = **60.000 USD**; Türkiye'deki reklam eklenmez.",
+    "dayanak": "GK 27/1-b, 27/1-e, 24/3-b",
+    "sorular": [
+     "2022/96"
+    ],
+    "tuzak": "Assistin taşıma bedeli unutulursa 59.000, reklam eklenirse 60.500.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-b",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "CIF 750'ye satıcının talebiyle **üçüncü ülkedeki patent sahibine** ödenen royalti (10 × 10 = 100) eklenir: **850 USD**; ithalat sonrası montaj (500) ve makinelerin **Türkiye'de üretilmesi** için plan-tasarım royaltisi (1.000) eklenmez.",
+    "dayanak": "GK 27/1-c, 28/b; GY 56/4",
+    "sorular": [
+     "2022/98"
+    ],
+    "tuzak": "Royalti atlanırsa 750, montaj eklenirse 1.350, üretim royaltisi eklenirse 1.750, hepsi 2.350.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-c; GY 56/4",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Markalı ve aynen satılan çantada CIF 5.000'e satış koşulu olan **marka lisansı** (2.000) ve **dağıtım/tekrar satış lisansı** (1.000) eklenir, ithal eşyasının **çoğaltılması hakkı** (5.000) eklenmez: **8.000 USD**.",
+    "dayanak": "GK 27/1-c, 27/5; GY 56/3",
+    "sorular": [
+     "2022/100"
+    ],
+    "tuzak": "Çoğaltma hakkı eklenirse 13.000; dağıtım hakkını çıkarmak 7.000, marka lisansını çıkarmak 6.000 verir.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5; GY 56/3",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Tekrar satış hasılatından '**bonus**' gibi adlarla doğrudan veya dolaylı satıcıya intikal eden pay **GK 27/1-d** (hasıla) kapsamında eklenir: net kârın %25'i [15.000 − 12.200 = 2.800 × %25 = 700] CIF 11.000'e eklenerek **11.700 TL** bulunur.",
+    "dayanak": "GK 24/1-c, 27/1-d",
+    "sorular": [
+     "2023/80"
+    ],
+    "tuzak": "2023/67'de bu ödeme 24/3-a fiyat, 27/1-a gider, 27/1-b yardım veya 27/1-c royalti değil; 2023/80'de navlunsuz 10.700 veya hasılasız 11.000 yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/1-c, 27/1-d",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "EXW 500.000'e fabrikadan **ihraç limanı antreposuna** taşıma (2.000) ve navlun-sigorta (5.000) eklenir; sözleşmeden bağımsız test, Mersin antreposu ve Mersin–Ankara nakliyesi eklenmez: 507.000; resmî cevap **5.070.000 TL**.",
+    "dayanak": "GK 27/1-e, 28/a; GK 24/3-b",
+    "sorular": [
+     "2023/72"
+    ],
+    "tuzak": "Test eklenirse 5.080.000, tescil öncesi antrepo eklenirse 5.085.000, tüm antrepo ve test 5.100.000.",
+    "not": "Anahtarı tartışmalı bilinen sorulardandır: metindeki 1 USD = 1 TL kuruyla kıymet 507.000 TL çıkar; şıklar 10 kat ölçekli olduğundan resmî anahtar 5.070.000 TL'yi kabul etti (kur ya da basım hatası).",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-e, 28/a",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Kendi kendini taşıyarak gelen gemide Türkiye'deki giriş limanına kadar **akaryakıt** (100.000), o sefere ait **liman hizmeti** (1.000) ve **personel** (30.000) gideri nakliye gideri sayılır; yolculuk öncesi bakım-servis eklenmez: **5.131.000 USD**.",
+    "dayanak": "GK 27/1-e; 2008/24 sayılı Genelge",
+    "sorular": [
+     "2023/74"
+    ],
+    "tuzak": "Bakım-servis eklenirse 5.141.000; yalnız akaryakıt 5.100.000; liman hizmeti unutulursa 5.130.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 37 (2008/24 Genelge)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Serbest bölgede satın alınıp ithal edilen eşyada kıymet SB'deki satış fiyatıdır; fiyattan **ayrı gösterilen SB depolama** gideri düşülür: 15.500 − 1.000 = **14.500 USD**; satıcının Tayvan'daki alım maliyeti ve komisyoncusu dikkate alınmaz.",
+    "dayanak": "GK 24/1, 161/1",
+    "sorular": [
+     "2023/75"
+    ],
+    "tuzak": "Satıcının maliyeti (13.500) veya depolamayı düşmeden fatura bedeli (15.500) yanlış; satıcının ödediği komisyonu eklemek 15.000/16.000 verir.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/38_38-serbest_bölge.md GK 161/1; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 37",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "CIF 5.000.000'e alıcının girdi bedeli için satıcıya ödediği **ek tutar** (15.000), bedelsiz verdiği **kontrol panelleri** (10.000) ve kendi ödediği teknik donanım (7.000) eklenir: **5.032.000 USD**; Türkiye'den sağlanan yazılım, reklam, ithalat sonrası montaj ve test eklenmez.",
+    "dayanak": "GK 24/3-a, 27/1-b, 28/b; GK 24/3-b",
+    "sorular": [
+     "2023/77"
+    ],
+    "tuzak": "Test 5.033.000, montaj 5.037.000, Türkiye yazılımı veya reklam 5.042.000, ikisi 5.047.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27/1-b, 28",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Yazılı anlaşmayla satıcı ülkesindeki **cari faiz oranından** hesaplanıp faturada ayrı gösterilen vade faizi kıymete girmez; **önceki yıl satışları** nedeniyle tanınan özel indirim bu eşyanın kıymetinden düşülmez: **100.000 USD**.",
+    "dayanak": "GK 28/c; GY 45/1-a",
+    "sorular": [
+     "2023/79"
+    ],
+    "tuzak": "İndirim düşülürse 90.000/91.500, faiz eklenirse 101.500, indirim fiyata eklenirse 110.000.",
+    "not": "İndirimin düşülmemesi kuralı resmî anahtara dayanır; GK md. 24–28 ve GY md. 43–57 metninde açık hüküm yok.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 28/c; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 15 (iskontolar)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Fabrikada teslim 500.000 + fabrika–liman 500 + navlun-sigorta 5.000 + satış şartı **ihracat kotası** 50.000 + ayrıca faturalanan **ambalaj** 50.000 + satış şartı **lisans** 25.000 = **630.500 TL**; alıcının kalite kontrolü ve Türkiye'deki giderler eklenmez.",
+    "dayanak": "GK 24/3-a, 27/1-a-iii, 27/1-c, 27/1-e",
+    "sorular": [
+     "2023/81"
+    ],
+    "tuzak": "Kota veya ambalajı atlamak 580.500, lisansı atlamak 605.500; kontrol, tahliye veya yurt içi giderleri eklemek 631.000/631.500 verir.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24, 27",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Model yılı (2018) ile alış yılı (2020) arasında 1 yıldan fazla fark olan kullanılmış araçta amortisman **fatura yılından sonraki** her yıl için **%10** düşülür: 2021–2023 için %30, 10.000 × 0,70 = **7.000 USD**.",
+    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 167",
+    "sorular": [
+     "2023/84"
+    ],
+    "tuzak": "Model yılından saymak 5.000; fatura bedelini aynen almak ya da farklı yıl sayıları (4.000, 6.000, 8.000) yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 38; Bölüm 9 s. 39 (çözüm)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Fabrikada teslim 50.000 + fabrika–liman 250 + navlun-sigorta 500 + ihraç limanı demurajı 500 + **satıcının komisyoncusu** 500 + alıcının bedelsiz verdiği **kılıflar** 2.000 + satış şartı lisans 1.000 = **54.750 TL**; Türkiye demurajı, Mersin–Ankara taşıması, tahlil, tahliye ve ardiye eklenmez.",
+    "dayanak": "GK 27/1-a-i, 27/1-b, 27/1-c, 27/1-e, 28/a",
+    "sorular": [
+     "2024/9"
+    ],
+    "tuzak": "Kılıflar unutulursa 52.750; ihraç ülkesindeki 750 (fabrika–liman 250 ve demuraj 500) düşülürse 54.000; Mersin–Ankara eklenirse 55.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27, 28",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "İlişkinin fiyatı etkilemediği satışta CIF fatura için ilişkili satıcıya transfer (1.000) ile alıcının bu eşya nedeniyle **satıcının üçüncü kişiye borcu** için ödediği tutar (500) kıymettir: **1.500 USD**; diğer eşyalara ait transferler ve **temettü** eklenmez.",
+    "dayanak": "GK 24/3-a",
+    "sorular": [
+     "2024/18"
+    ],
+    "tuzak": "Yalnız fatura 1.000; temettü eklenirse 2.500; diğer eşya transferleri eklenirse 3.500; hepsi 4.500.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "CFR teslimde fiyata dahil olmayan **sigorta** (100) eklenir; **satın alma komisyonu** (500) ve kendi hesabına pazarlama-reklam (1.000) eklenmez: 5.000 × 10 + 100 = **50.100 USD**.",
+    "dayanak": "GK 27/1-e, 27/1-a-i, 27/4; GK 24/3-b",
+    "sorular": [
+     "2024/19"
+    ],
+    "tuzak": "Sigorta unutulursa 50.000; komisyon eklenirse 50.500/50.600; pazarlama da eklenirse 51.600.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27; GK 24/3-b",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "**6 yaşından eski** kullanılmış otomobilde (2015'te sıfır alındı, 2024'te ithal) amortisman yerine fatura kıymetinin **%20'si** esas alınır: 30.000 × %20 = **6.000 Avro**.",
+    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 167",
+    "sorular": [
+     "2024/22"
+    ],
+    "tuzak": "9 yıl × %10 düşmek 3.000, 7 yıl × %10 düşmek 9.000; faturayı aynen almak 30.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 9 s. 27, 41 (çözüm)",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Sonradan kontrolde noksan vergi tebliği yükümlülüğün doğduğu tarihten **üç yıl** içinde yapılabilir ve **Türkiye'de çoğaltma hakkı** ödemesi kıymete girmez: 2024 marka royaltisi (10.000) alınır; 2022 çoğaltma, 2020 telif, 2018 patent ödemeleri alınmaz: **10.000 USD**.",
+    "dayanak": "GK 197/2, 27/1-c, 27/5-a",
+    "sorular": [
+     "2024/23"
+    ],
+    "tuzak": "Zamanaşımını göz ardı edip çoğaltmayı düşmek 17.000; çoğaltma hakkını eklemek 18.000; hepsi 25.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/45_45-tebliğ.md GK 197/2; kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Alıcının bedelsiz gönderdiği kamyonlar (100.000) ve elektronik donanım-yazılım (6.000) **assist**, üreticiye ödenen işçilik (10.000), **satıcının komisyoncusu** (1.000) ve navlun-sigorta (2.500) toplanır: **119.500 USD**; Türkiye limanında **geç tahliye** (500) eklenmez.",
+    "dayanak": "GK 27/1-a-i, 27/1-b, 27/1-e, 28/a",
+    "sorular": [
+     "2024/26"
+    ],
+    "tuzak": "Donanım-yazılım unutulursa 113.500, komisyon unutulursa 118.500, geç tahliye eklenirse 120.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27, 28/a",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "CIF 75.000'e ithal makinelerle ilgili **patent** kullanım bedeli (2.000) eklenir; ithalattan sonraki **kurulum** (5 × 200) ve satıcıyla **bağımsız ayrı anlaşmayla** üretilen ürünlerin satışından ödenen bedel (1.000) eklenmez: **77.000 USD**.",
+    "dayanak": "GK 27/1-c, 28/b; GY 56/1",
+    "sorular": [
+     "2024/27"
+    ],
+    "tuzak": "Hiç eklememek 75.000; patent yerine kurulum veya süreç bedelini eklemek 76.000; patent + süreç 78.000; hepsi 79.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/1-c, 28/b",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Kullanılmış alınan 2022 model otomobil 2025'te ithal edilirken alış (fatura) yılı 2023 için **%20**, 2024 ve 2025 için **%10** (toplam **%40**) amortisman düşülür: 10.000 × 0,60 = **6.000 TL**.",
+    "dayanak": "Eski model taşıt kıymet uygulaması (amortisman); GK 167",
+    "sorular": [
+     "2025/16"
+    ],
+    "tuzak": "Faturayı aynen almak 10.000, yalnız bir yıl %20 düşmek 8.000, üç yıl × %10 düşmek 7.000, %80 düşmek 2.000.",
+    "not": "Anahtarı tartışmalı bilinen sorulardandır; kaynak derlemedeki uygulama (model–fatura yılı farkı 1 yılı aşmıyorsa fatura yılından itibaren ilk yıl %20, sonraki yıllar %10) resmî cevabı destekler, ancak genelge metni kaynakta yok; 2023/84'teki 'fatura yılından sonraki yıllar için %10' okumasıyla 8.000 TL çıkardı.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Bölüm 3 s. 38",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "Satış koşulu olarak ödenen **marka lisansı** (5.000), **patent** (4.000), know-how (2.000) ve dağıtım/tekrar satış hakkı (1.000) eklenir, **Türkiye'de çoğaltma** hakkı (3.000) eklenmez: **12.000 TL**.",
+    "dayanak": "GK 27/1-c, 27/5; Kıymet Tebliği (Seri No 2) md. 9",
+    "sorular": [
+     "2025/17"
+    ],
+    "tuzak": "Hepsini eklemek 15.000; dağıtım hakkını da çıkarmak 11.000; marka lisansını pazarlama gideri sayıp çıkarmak 10.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 27/5; Tebliğ md. 9",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "CIF 20.000'e satıcı **garantisi** (1.500) ve stopaj dahil **brüt lisans** bedeli (400 / 0,80 = 500) eklenir: **22.000 TL**; ekspertiz, tescil sonrası fazla mesai, ardiye, yazılı anlaşmalı piyasa faizi ve BSMV ile teyit komisyonu eklenmez.",
+    "dayanak": "GK 24/3-a, 27/1-c, 28/c",
+    "sorular": [
+     "2025/20"
+    ],
+    "tuzak": "Lisansı net 400 eklemek 21.900 (en sinsi tuzak); lisansı unutmak 21.500; hariç bir 1.000 TL kalemi eklemek 23.000.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK 24/3-a, 27/1-c, 28/c",
+    "grup": "Gümrük kıymeti hesabı (32 soru)"
+   },
+   {
+    "metin": "İthalatta KDV matrahı, gümrük kıymetine **beyanname tescil tarihine kadar** yapılan giderler eklenerek bulunur: Türk limanındaki demuraj, tahliye, tescil öncesi ardiye, fazla mesai ve memur yolluğu girer; **tescil sonrası ardiye**, **gümrük laboratuvarı tahlil ücreti**, müşavirlik ücreti ve yurt içi nakliye girmez.",
+    "dayanak": "KDVK 21/1-c; 2009/32 s. Genelge (varış sonrası demuraj)",
+    "sorular": [
+     "2021/90",
+     "2022/90",
+     "2023/73",
+     "2023/82",
+     "2024/10"
+    ],
+    "tuzak": "2021/90'da tescil sonrası 400 TL ardiyeyi ekleyen 2.557.100; 2022/90'da tescil sonrası ardiyeyi (107.500) veya müşavir ücretini (108.000) ekleyen; 2023/73'te gümrük kıymetini matrah sayan 5.070.000; 2023/82'de tahlil ücretini ekleyen 636.500; 2024/10'da tescil sonrası ardiye ve tahlil ücretini ekleyen şıklar yanlıştı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c (Sayfa 165); kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 19 (2009/32 Genelge: varış sonrası demuraj her durumda KDV matrahına girer)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "İthalatta ÖTV matrahı, hesaplanacak **ÖTV hariç KDV matrahı** unsurlarından (kıymet, GV, İGV, KKDF, tescile kadar giderler) oluşur; KDV matrahına ayrıca **ödenen ÖTV** eklenir: KDV matrahı = ÖTV matrahı + ÖTV.",
+    "dayanak": "ÖTVK 11/3; KDVK 21/1-b",
+    "sorular": [
+     "2021/87",
+     "2024/25",
+     "2025/12"
+    ],
+    "tuzak": "2021/87'de KKDF de ÖTV matrahına girdi; 2024/25'te ÖTV'yi KDV matrahına eklemeyen 2.700 USD, 2025/12'de ÖTV'yi KDV matrahına katmayan 400 ve 448 TL şıkları yanlıştı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/3 (Sayfa 182), KDVK Md.21/b; kaynak2/genelge/ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi.md III/A-1.2",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "KKDF; kabul kredili, vadeli akreditifli ve **mal mukabili** ithalatta %6 alınır, **peşin** ödenen kısımdan alınmaz; kıymet, gümrük yükümlülüğünün başladığı **tescil tarihindeki** TCMB döviz satış kuruyla TL'ye çevrilir.",
+    "dayanak": "KKDF Kararı (88/12944) 3/d; GK 30",
+    "sorular": [
+     "2021/87"
+    ],
+    "tuzak": "Peşin ödeme tarihindeki 8,50 kur kullanılmaz; KKDF'yi 10.000 USD'nin tamamından hesaplayan 124.848 TL yanlıştı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KKDF Kararı Md.3/d (Sayfa 189); kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 30",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Kolalı gazozda kıymet 80.000 TL, GV 7.680, KKDF 3.840 (64.000 × %6); **ÖTV matrahı 91.520** × %35 = 32.032 eklenince **KDV matrahı 123.552 TL** olur.",
+    "dayanak": "GK 30; KKDF Kararı 3/d; ÖTVK 11/3; KDVK 21/1-b",
+    "sorular": [
+     "2021/87"
+    ],
+    "tuzak": "GV ve KKDF unutulursa 80.000 × 1,35 = 108.000 TL çıkar.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/3, KDVK Md.21; kaynak2/diger/Hesaplamaçıkmış.md (2021/87 çözümü)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Gümrük kıymeti 2.552.000 TL'ye Türk limanındaki **500 USD demuraj** (4.000 TL), **600 TL tescil öncesi ardiye** ve **100 TL fazla mesai** eklenir; tescil sonrası ardiye, tahlil ve müşavirlik ücreti eklenmez: **2.556.700 TL**.",
+    "dayanak": "KDVK 21/1-c",
+    "sorular": [
+     "2021/90"
+    ],
+    "tuzak": "Fazla mesai unutulursa 2.556.600; tescil sonrası 400 TL ardiye de eklenirse 2.557.100 TL.",
+    "not": "Resmî çözüm 500 USD'yi Türk limanı demurajı olarak katıyor; kıymete girmeyen Kapıkule–İstanbul taşıması (500 USD) da tescilden önce yapıldıysa KDVK 21/1-c lafzına göre eklenirdi ve 2.560.700 TL çıkardı (şıklarda yok); soru anahtarı tartışmalı bilinenler arasında.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/Hesaplamaçıkmış.md (2021/90 çözümü)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Gümrük kıymeti **105.500 TL**'ye Türk limanındaki demuraj, tescil öncesi ardiye ve fazla mesai (500'er TL) eklenir; tescil sonrası ardiye, müşavir ücreti ve Ankara'ya iç nakliye eklenmez: **107.000 TL**.",
+    "dayanak": "KDVK 21/1-c",
+    "sorular": [
+     "2022/90"
+    ],
+    "tuzak": "Tescil sonrası ardiye eklenirse 107.500; müşavir ücreti eklenirse 108.000 TL.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 19",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Kıymete girmeyen ama teslimden önce ödenen **test ücreti** ile **tescil öncesi antrepo ücreti** KDV matrahına eklenir; tescil sonrası antrepo payı ve Mersin–Ankara nakliyesi eklenmez: (507.000 + 1.000 + 1.500) USD → **5.095.000 TL**.",
+    "dayanak": "KDVK 21/1-c",
+    "sorular": [
+     "2023/73"
+    ],
+    "tuzak": "Gümrük kıymetini matrah sayan 5.070.000, yalnız testi ekleyen 5.080.000, yalnız antrepoyu ekleyen 5.085.000 TL eksikti.",
+    "not": "Kökte kur 1 USD = 1 TL yazılı olduğu hâlde şıklar 10 kat ölçekli (1 USD = 10 TL ile tutarlı); resmî anahtar 5.095.000'i kabul etti (2023/72-73 tartışmalı bilinen sorular).",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/Hesaplamaçıkmış.md (2023/73 çözümü: 509.500 × 10 TL)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Gümrük kıymeti **630.500 TL**'ye tescil öncesi **tahliye ücreti (1.000 TL)** ve **memur yolluğu (3.000 TL)** eklenir; gümrük laboratuvarı tahlil ücreti ve İstanbul–Ankara taşıması eklenmez: **634.500 TL**.",
+    "dayanak": "KDVK 21/1-c",
+    "sorular": [
+     "2023/82"
+    ],
+    "tuzak": "Tahlil ücreti de eklenirse 636.500; yalnız tahliye eklenirse 631.500 TL.",
+    "not": "Sevkiyat öncesi yurt dışında yaptırılan 1.000 USD kontrol ücreti tahliye ile aynı tutarda olduğundan şıklar hangisinin katıldığını ayırmıyor; ikisi birlikte eklenirse 635.500 TL çıkar (şıklarda yok).",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/Hesaplamaçıkmış.md (2023/81-82 çözümü)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Gümrük kıymeti 54.750 TL'ye Türk giriş limanına varıştan sonraki **600 USD demuraj**, tescil öncesi 1.000 TL tahliye ve 1.000 TL ardiye eklenir; tescil sonrası ardiye (2.000), tahlil ücreti (3.000) ve Mersin–Ankara nakliyesi eklenmez: **57.350 TL**.",
+    "dayanak": "KDVK 21/1-c; 2009/32 s. Genelge",
+    "sorular": [
+     "2024/10"
+    ],
+    "tuzak": "Varış sonrası demuraj kıymete girmez ama KDV matrahına girer: kıymette kesim çizgisi giriş yeri, KDV matrahında tescil tarihidir.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/c; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 19",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Kıymet CIF 8.500 + **royalti 1.000** + eşyayla birlikte işlem gören **ambalaj 500** = 10.000 USD (reklam ve müşavirlik hariç); GV 1.000 ve İGV 2.500 ile ÖTV matrahı 13.500, ÖTV 675; KDV 14.175 × %20 = **2.835 USD**.",
+    "dayanak": "GK 27/1-a, 27/1-c; ÖTVK 11/3; KDVK 21",
+    "sorular": [
+     "2024/25"
+    ],
+    "tuzak": "ÖTV KDV matrahına eklenmezse 2.700; yalnız gümrük kıymetine %20 uygulanırsa 2.000 USD çıkar.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 27; kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/3, KDVK Md.21",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Kıymet kriterli gözetime ulaşmak için faturaya eklenen **farka** ve bu farkın GV'sine isabet eden KDV indirilemez; indirim gerçek bedel ve onun GV'si üzerinden yapılır: (90.000 + 9.000) × %20 = **19.800 TL**.",
+    "dayanak": "KDVK 29/1-b; KDV Genel Uygulama Tebliği (gözetim farkı açıklaması)",
+    "sorular": [
+     "2024/29"
+    ],
+    "tuzak": "Tahsil edilen 22.000 TL'nin tamamı indirilemez; beyan edilen 100.000'e %20 (20.000) ve GV'siz fatura bedeline %20 (18.000) de yanlış.",
+    "not": "",
+    "kaynak_disi": true,
+    "kaynak": "soru ve resmî cevap (KDVK Md.29 indirim hükmü görüldü; gözetim farkına ilişkin açıklama kaynaklarda yok)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Tescil öncesi **ardiye (100 TL)** kıymete girmez, ÖTV ve KDV matrahına girer; ÖTV 1.100 × %20 = 220, KDV 1.320 × %20 = 264'ten antrepo işleticisinin fatura ettiği **20 TL KDV** düşülünce ödenecek tutar **464 TL** olur.",
+    "dayanak": "KDVK 21/1-c, 18; ÖTVK 11/3",
+    "sorular": [
+     "2025/12"
+    ],
+    "tuzak": "20 TL mahsup edilmezse 484 TL çıkar.",
+    "not": "Kaynaktaki KDVK 21/1-c metni ('giderler ve ödemelerden vergilendirilmeyenler') ve GKAİR Tebliği açıklamasına göre KDV'si hesaplanmış (vergilendirilmiş) ardiye KDV matrahına girmez; bu okumayla ÖTV 200 + KDV 240 = 440 TL bulunur. Resmî anahtar 464'ü kabul etti (2025/12 tartışmalı bilinen sorular arasında).",
+    "kaynak_disi": true,
+    "kaynak": "soru ve resmî cevap (mahsup mekanizması kaynakta yok); kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.18, 21/c; kaynak2/gm/33_33-GKAİR.md (vergilendirilmiş giderler KDV matrahına girmez)",
+    "grup": "İthalatta KDV matrahı (9 soru)"
+   },
+   {
+    "metin": "Serbest dolaşıma girişte **kıymet noksanlığında** veya tarife ve ölçü unsurlarındaki farkın %5'i aştığı hâllerde, noksan vergilerin yanı sıra **vergi farkının üç katı** idari para cezası alınır; sınav hesaplarında **GV, EMY ve KDV** farkı ceza matrahına dahil edildi.",
+    "dayanak": "GK 234/1-a, b",
+    "sorular": [
+     "2021/83",
+     "2022/95",
+     "2023/69",
+     "2025/13",
+     "2025/14"
+    ],
+    "tuzak": "2025/13'te iki kat uygulanan 6.000 ve EMY'yi dışlayan 5.250 yanlıştı; 2023/69'da farkın yarısı (12.500) veya bir katı (25.000) yanlıştı. Farkın yarısı, maddi hata/%5'e kadar miktar farkı (234/1-c) ile DİR, GKAİR ve tam muafiyetli geçici ithalatta (234/2) uygulanır.",
+    "not": "Kaynaktaki güncel GK 234/1 metninde ceza matrahı 'ithalat vergileri' ibaresiyle yer alıyor (dipnotlu değişiklik, tarihi kaynakta yok); resmî cevap KDV'yi ceza matrahına dahil etti, KDV/ÖTV'nin durumu güncel metinle ayrıca kontrol edilmeli.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234/1-2",
+    "grup": "GK 234 ceza hesabı (5 soru)"
+   },
+   {
+    "metin": "234. madde cezaları, aykırılık **gümrük idaresince tespit edilmeden önce** bildirilirse **yüzde on** uygulanır (10.000 TL KDV farkında 30.000 yerine **3.000 TL**); aynı ticari işlem için başka idarede tespit yapılmışsa indirim olmaz, 25.000 TL farka **75.000 TL** ceza.",
+    "dayanak": "GK 234/3; GGM 22.09.2014 tarihli 2888552 sayılı yazı",
+    "sorular": [
+     "2022/95",
+     "2023/69"
+    ],
+    "tuzak": "2022/95'te indirimsiz 30.000 ve farkın %10'u olan 1.000 yanlıştı; 2023/69'da 234/3 uygulanmış gibi bulunan 7.500 ve 11.250 yanlıştı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234/3; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 40 (2888552 sayılı yazı alıntısı)",
+    "grup": "GK 234 ceza hesabı (5 soru)"
+   },
+   {
+    "metin": "Beyan edilmeyen royaltide **üç yıllık zamanaşımı** dolan 2018 ithalatı hariç tutulur; 148.000 TL kıymete GV 14.800 + KDV 29.304 = 44.104 TL vergi ile 132.312 TL üç kat cezanın **¼ peşin ödeme indirimli** hâli 99.234 TL eklenir: **143.338 TL**.",
+    "dayanak": "GK 27/1-c, 197/2, 234/1-b; 5326 md. 17/6",
+    "sorular": [
+     "2021/83"
+    ],
+    "tuzak": "İndirim uygulanmazsa 176.416; zamanaşımına uğrayan 2018 dahil edilirse 189.826 (indirimli) veya 233.632 (indirimsiz); 196.000 lisans ödemelerinin TL toplamıdır.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/45_45-tebliğ.md GK MADDE 197/2; kaynak2/gm/48_48-cezalar.md MADDE 234/1-b; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 22 çözüm (%25 indirim)",
+    "grup": "GK 234 ceza hesabı (5 soru)"
+   },
+   {
+    "metin": "Noksan kıymet beyanında ceza matrahı **GV + EMY + KDV** farkıdır: 1.250 + 1.250 + 500 = 3.000 TL'nin **üç katı** olarak **9.000 TL** idari para cezası uygulanır.",
+    "dayanak": "GK 234/1-b",
+    "sorular": [
+     "2025/13"
+    ],
+    "tuzak": "EMY'yi matrahtan çıkaran 5.250 (1.750 × 3) ve iki kat uygulayan 6.000 yanlış.",
+    "not": "Kaynaktaki güncel GK 234/1 metninde ceza matrahı 'ithalat vergileri' ibaresiyle yer alıyor (dipnotlu değişiklik, tarihi kaynakta yok); resmî cevap KDV'yi ceza matrahına dahil etti, KDV/ÖTV'nin durumu güncel metinle ayrıca kontrol edilmeli.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234/1-b",
+    "grup": "GK 234 ceza hesabı (5 soru)"
+   },
+   {
+    "metin": "Beyan edilmeyen 10.000 TL royaltinin KDV'si (2.000 TL) **2 no.lu KDV beyannamesiyle** ödenmişse gümrükte yalnız **GV 1.000 + GV'nin KDV'si 200** = 1.200 TL ek tahakkuk edilir; 3.600 TL üç kat cezayla toplam **4.800 TL**.",
+    "dayanak": "GK 27/1-c, 234/1-b; Gümrük Kıymeti GGT (Seri No:2) 11/6",
+    "sorular": [
+     "2025/14"
+    ],
+    "tuzak": "KDV'nin tamamını (2.200) yeniden tahakkuk ettirip cezalandıran 12.800 ve tamamını ceza matrahına alan 10.800 yanlış.",
+    "not": "Kaynaktaki güncel GK 234/1 metninde ceza matrahı 'ithalat vergileri' ibaresiyle yer alıyor (dipnotlu değişiklik, tarihi kaynakta yok); resmî cevap KDV'yi ceza matrahına dahil etti, KDV/ÖTV'nin durumu güncel metinle ayrıca kontrol edilmeli.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK MADDE 27/1-c ve Gümrük Kıymeti GGT MADDE 11/6; kaynak2/gm/48_48-cezalar.md MADDE 234/1-b",
+    "grup": "GK 234 ceza hesabı (5 soru)"
+   },
+   {
+    "metin": "(II) sayılı listedeki kayıt-tescile tabi taşıtların **motorlu araç ticareti yapanlarca satılmak üzere ithali** ilk iktisap sayılmaz, bu safhada ÖTV alınmaz; kullanılmak üzere ithal, bunlardan iktisap ve bunlarca kullanmaya başlama veya **aktife alma** ilk iktisaptır.",
+    "dayanak": "ÖTVK 2/1-b, 2/1-d; (II) Sayılı Liste Tebliği I/B-2",
+    "sorular": [
+     "2023/78"
+    ],
+    "tuzak": "2022/53'te 'ticaret yapanlardan iktisap', 'kullanılmaya başlanması' ve 'aktife alınması' ilk iktisap sayılan hâllerdi; 2023/78'de distribütör ithalatında ÖTV hesaplayan 32.800 TL yanlıştı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.2 (Sayfa 176); kaynak2/genelge/ozel_tuketim_vergisi_ii_sayili_liste_uygulama_genel_tebligi.md I/B-2 İlk İktisap",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "(I) sayılı liste mallarında vergiyi doğuran olay **ithalatçının teslimi** olduğundan ithalde ÖTV tahsil edilmez; gümrük idaresince yürürlükteki ÖTV tutarı kadar **teminat alınır**, teminat verilmeden gümrükleme yapılmaz.",
+    "dayanak": "ÖTVK 1/1, 16/4; (I) Sayılı Liste Tebliği V/A-1",
+    "sorular": [
+     "2025/15"
+    ],
+    "tuzak": "2022/55'te 'tahsil edilir', 'tecil edilir', 'işlem yapılmaz' ve 'bir ay içinde ödeneceğine taahhütname alınır' yanlıştı; 2025/15'te litre başı 15 TL ÖTV'yi tahsil edilecek vergilere katan 21.000 TL şıkkı yanlıştı.",
+    "not": "Teminata esas ÖTV tutarı 24.07.2025'ten beri ithalde KDV matrahına girer (KDVK 21/1-ç); ayrıntı 2025/15 hapında.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.1 ve Md.11 notu (Sayfa 176, 182); kaynak2/genelge/ozel_tuketim_vergisi_x1ix2_sayili_liste_uygulama_genel_tebligi.md V/A-1 Gümrükte Alınacak Teminat",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "(III) sayılı listenin **(A) cetvelinde** asgari maktu vergiden az olmamak üzere **yalnızca nispi vergi**, (B) cetvelinde ise **maktu vergi ile birlikte** asgari maktu vergiden az olmamak üzere nispi vergi uygulanır.",
+    "dayanak": "ÖTVK 11/5",
+    "sorular": [
+     "2022/93",
+     "2022/97"
+    ],
+    "tuzak": "2022/57'de (B) cetvelinin 'maktu + nispi' yöntemi (A) için verilmişti; 2022/97'de nispi ile asgari maktuyu toplayan 230 TL, 2022/93'te maktu vergiyi unutan 18.000 TL yanlıştı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/5 (Sayfa 182-183); kaynak2/genelge/ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi.md III/B",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "Sigarada nispi ÖTV **perakende satış fiyatı** üzerinden (1.000 paket × 30 × %60 = 18.000), asgari maktu her bir sigara için (20.000 × 0,80 = 16.000) hesaplanır; büyüğüne paket başı maktu vergi (900) eklenir: **18.900 TL**.",
+    "dayanak": "ÖTVK 11/2-b, 11/4, 11/5",
+    "sorular": [
+     "2022/93"
+    ],
+    "tuzak": "Matrah CIF + GV alınırsa 7.200; maktu vergi unutulursa 18.000; asgari maktu seçilirse 16.000 veya 16.900 TL.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/2-b, 11/4 (Sayfa 182); kaynak2/genelge/ozel_tuketim_vergisi_x1iiix2_sayili_liste_uygulama_genel_tebligi.md III/B-2",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "%40 alkollü 0,75 lt viskide nispi ÖTV 100 × %50 = 50 TL, asgari maktu **içerdiği alkolün litresi** üzerinden 0,75 × 0,40 × 600 = 180 TL olduğundan **büyük olan 180 TL** ödenir.",
+    "dayanak": "ÖTVK 11/2-a, 11/5",
+    "sorular": [
+     "2022/97"
+    ],
+    "tuzak": "İkisi toplanırsa 230; alkol oranı atlanırsa 450; şişe hacmi atlanırsa 240 TL.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK Md.11/2-a (Sayfa 182), Sayfa 188 içki formülü",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "Distribütörün satmak üzere ithal ettiği 87.03 araçta **ÖTV alınmaz**: GV 5.000 + İGV 5.000 + KDV (60.000 × %20) 12.000 = **22.000 TL** ödenir.",
+    "dayanak": "ÖTVK 2/1-b; KDVK 21",
+    "sorular": [
+     "2023/78"
+    ],
+    "tuzak": "ÖTV de hesaplanırsa 32.800; ÖTV ve KDV kıymet üzerinden alınırsa 27.500; KDV unutulursa 19.000 TL.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/genelge/ozel_tuketim_vergisi_ii_sayili_liste_uygulama_genel_tebligi.md I/B-2 (satılmak üzere ithalde vergi uygulanmaz); kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "(I) sayılı liste (A) cetveli eşyasında gümrükte GV 1.000 ve KDV (11.000 × %20) 2.200 tahsil edilir, **ÖTV teminata bağlanır**: toplam **3.200 TL**.",
+    "dayanak": "ÖTVK 1/1, 16/4; KDVK 21",
+    "sorular": [
+     "2025/15"
+    ],
+    "tuzak": "KDV yalnız CIF üzerinden hesaplanırsa 3.000; ÖTV tahsil edilirse 21.000 TL civarı çıkar.",
+    "not": "24.07.2025'te eklenen KDVK 21/1-ç'ye göre (I) sayılı liste malının teminatına esas ÖTV tutarı (15.000 TL) ithalde KDV matrahına girer; bu hükümle KDV 5.200, tahsil edilecek GV + KDV 6.200 TL olurdu (şıklarda yok). 30.11.2025 sınavında resmî anahtar 3.200'ü kabul etti.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md KDVK Md.21/ç (24.07.2025), ÖTVK Md.11 notu; kaynak2/genelge/ozel_tuketim_vergisi_x1ix2_sayili_liste_uygulama_genel_tebligi.md V/A-1",
+    "grup": "ÖTV hesabı (4 soru)"
+   },
+   {
+    "metin": "Gümrük vergilerinin **matrahına giren** ancak aslı gümrük idarelerince **takip ve tahsil edilmeyen** vergi ve benzeri mali yükler (ör. **kültür fonu**) uzlaşmaya konu edilemez.",
+    "dayanak": "Gümrük Uzlaşma Yön. 6/1",
+    "sorular": [
+     "2021/82"
+    ],
+    "tuzak": "2021/82'de kültür fonunu uzlaşma tutarına katan 24.000, 46.944 ve 94.944 yanlıştı; 2024/12'de tespit/bildirim farkları ile GK ve diğer kanunlara göre gümrük idaresince düzenlenen idari para cezaları uzlaşma kapsamındaydı.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/50_50-uzlaşma.md Yönetmelik MADDE 6/1",
+    "grup": "Uzlaşma (2 soru)"
+   },
+   {
+    "metin": "Ödenmeyen kültür fonu (800.000 × %3 = 24.000 TL) uzlaşma dışıdır ama **ÖTV ve KDV matrahına girer**: ÖTV 1.200 + KDV 4.536 = 5.736 TL fark ve **üç kat** ceza 17.208 TL ile uzlaşma tutarı **22.944 TL**'dir.",
+    "dayanak": "GK 234/1, 244/1; Gümrük Uzlaşma Yön. 6/1",
+    "sorular": [
+     "2021/82"
+    ],
+    "tuzak": "ÖTV'yi KDV matrahına eklemeyen 22.080 yanlış; kültür fonunu katan 46.944 ve 94.944 yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/50_50-uzlaşma.md Yönetmelik MADDE 6; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 22 çözüm",
+    "grup": "Uzlaşma (2 soru)"
+   },
+   {
+    "metin": "Uzlaşılan idari para cezalarında Kabahatler Kanunu md. 17 uyarınca **ayrıca peşin ödeme indirimi uygulanmaz**; 60.000 TL'de uzlaşılan ceza **60.000 TL** olarak uzlaşma tutanağının tebliğinden itibaren **bir ay** içinde ödenir.",
+    "dayanak": "GK 244/5-6; Gümrük Uzlaşma Yön. 23, 24",
+    "sorular": [
+     "2023/68"
+    ],
+    "tuzak": "%25 peşin ödeme indirimiyle bulunan 45.000 TL ve diğer indirimli tutarlar yanlış.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/50_50-uzlaşma.md GK MADDE 244/5-6; Yönetmelik MADDE 23-24",
+    "grup": "Uzlaşma (2 soru)"
+   },
+   {
+    "metin": "Götürü teminat saha alanına göre değil **açık ve kapalı alan toplamına** veya **tank/silo hacmine** göre hesaplanır, dilim altı artışlar tam dilime tamamlanır; 2022–2023 tutarlarıyla **8.200 m²** antrepo 5.000.000 TL, **13.000 m³** tank antrepo 4.000.000 TL'dir.",
+    "dayanak": "GY 527/2",
+    "sorular": [
+     "2022/41",
+     "2023/99"
+    ],
+    "tuzak": "2022'de kesir dilim yok sayılınca 4,5 milyon, oransal hesapla 4,6 milyon, 10.000 m² saha esas alınınca 5,5 milyon TL çıkıyordu; 2023'te de 10.000 m² saha alanı tuzaktı. 2024'te 2.200 m² genişletmenin 3.000 m² artış esasında hesaplanması doğru şıktı.",
+    "not": "2022–2023 tutarları (ilk 1.000 m²/2.000 m³ için 1.000.000 TL, sonraki her dilim 500.000 TL) resmî cevaplardan türetildi; güncel metinde ilk dilim 3.000.000 TL, sonraki her dilim 1.000.000 TL, tavan 40.000.000 TL. \"Açık + kapalı alan toplamı\" ölçütü resmî anahtarlardan çıkar; GY md. 527 metninde saha alanı ile açık/kapalı alan ayrımı açıkça yazmaz.",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/gm/29_29-iŞLETİCİLER.md GY MADDE 527",
+    "grup": "Antrepo götürü teminatı (2 soru)"
+   },
+   {
+    "metin": "İRK eki listede “%4,5 MIN 0,3 EUR Adet MAX 0,8 EUR Adet” biçimindeki oranda önce **%4,5 nispi vergi** hesaplanır; adet başına tutar 0,3 EUR'nun altındaysa **MIN**, 0,8 EUR'nun üstündeyse **MAX** maktu tutar, arada kalırsa nispi tutar alınır.",
+    "dayanak": "İRK eki II sayılı liste (91.02)",
+    "sorular": [
+     "2022/99",
+     "2024/24"
+    ],
+    "tuzak": "2022'de MIN atlanıp nispi 450 EUR alınınca 1.450, MAX uygulanınca 5.000 çeldiricisi çıkıyordu; 2024'te her kaleme MIN (60), her kaleme MAX (160) ya da iki kaleme düz %4,5 (472,5) uygulamak yanlıştı. Karşılaştırma kalem kalem ve adet başına yapılır.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 51 (İRK II sayılı liste 91. fasıl, MIN/MAX okuma kuralı)",
+    "grup": "İGV ve MIN/MAX'lı gümrük vergisi (2 soru)"
+   },
+   {
+    "metin": "Tanesi 2 EUR'luk 5.000 saatte (10.000 EUR) %4,5 nispi vergi 450 EUR, adet başına 0,09 EUR olup MIN'in altında kaldığından GV 5.000 × 0,3 = **1.500 EUR**, %10 İGV **1.000 EUR**, toplam **2.500 EUR**'dur.",
+    "dayanak": "İRK eki II sayılı liste (91.02); İGV Kararı (3351) md. 2",
+    "sorular": [
+     "2022/99"
+    ],
+    "tuzak": "MIN atlanırsa 450 + 1.000 = 1.450, MAX uygulanırsa 4.000 + 1.000 = 5.000, yalnız İGV alınırsa 1.000 bulunur. İGV gümrük vergisinden ayrı tahsil edilir ve gümrük vergisinin usul ve hükümlerine tabidir (3351 md. 2/4-5).",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 51; kaynak2/genelge/ithalatta_ilave_gumruk_vergisi_uygulanmasina_iliskin_karar.md MADDE 2",
+    "grup": "İGV ve MIN/MAX'lı gümrük vergisi (2 soru)"
+   },
+   {
+    "metin": "100 adet × 100 EUR kalemde adet başı nispi vergi 4,5 EUR olup **MAX**'ı aştığından 100 × 0,8 = 80 EUR, 100 adet × 5 EUR kalemde 0,225 EUR olup **MIN**'in altında kaldığından 100 × 0,3 = 30 EUR alınır; toplam GV **110 EUR**'dur.",
+    "dayanak": "İRK eki II sayılı liste (91.02)",
+    "sorular": [
+     "2024/24"
+    ],
+    "tuzak": "60 tüm saatlere MIN, 160 tüm saatlere MAX, 450 yalnız birinci kaleme nispi oran, 472,5 iki kaleme düz %4,5 uygulamaktan çıkar.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md Sayfa 51 ve 2024/24 çözümü",
+    "grup": "İGV ve MIN/MAX'lı gümrük vergisi (2 soru)"
+   },
+   {
+    "metin": "Tam muafiyetli geçici ithalattan serbest dolaşıma geçişte GV 1.000 ve KDV 2.200 (toplam 3.200) üzerinden 4 ay × %2,5 = **320 TL** faiz hesaplanır; faiz vergi değildir ama **KDV matrahına girer**: KDV = (10.000 + 1.000 + 320) × %20 = 2.264, vergiler toplamı **3.264 TL**.",
+    "dayanak": "GK 207/1-b; KDVK 21",
+    "sorular": [
+     "2025/19"
+    ],
+    "tuzak": "3.200 faizi yok sayar, 3.520 faizi vergilere ekler, 3.584 faizi ve faizin KDV'sini toplar, 3.000 gümrük vergisini KDV matrahına katmaz.",
+    "not": "",
+    "kaynak_disi": true,
+    "kaynak": "soru ve resmî cevap; GK 207: kaynak2/gm/46_46-teminat_ve_faiz.md (KDVK 21 kaynakta yok)",
+    "grup": "Diğer hesaplar: gözetim değeri, geçici ithalat faizi, ihracat bedeli süresi (3 soru)"
+   },
+   {
+    "metin": "İhracat bedeli kural olarak fiili ihraçtan itibaren **180 gün** içinde getirilir; sözleşmede **180 günü aşan vade** öngörülmüşse bedel **vade bitiminden itibaren 90 gün** içinde getirilir: 200 gün vade + 90 gün = **290 gün**.",
+    "dayanak": "2018-32/48 Tebliğ md. 3/1, 5/5",
+    "sorular": [
+     "2025/62"
+    ],
+    "tuzak": "270 gün (180+90) vadeyi yok sayar; 380 gün (200+180) ek süreyi 180 gün sanır.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md 2018-32/48 Md.3/1, 5/5 (Sayfa 82-83)",
+    "grup": "Diğer hesaplar: gözetim değeri, geçici ithalat faizi, ihracat bedeli süresi (3 soru)"
+   },
+   {
+    "metin": "Gözetim değeri dikkate alınarak kıymeti **1.000 TL** beyan edilen ve satıcıya 950 TL ödenen eşyada GV 1.000 × %10 = 100 TL, KDV (1.000 + 100) × %20 = **220 TL** olup vergiler dahil toplam ödeme **1.270 TL**'dir.",
+    "dayanak": "İthalatta Gözetim Uygulanmasına İlişkin Tebliğ (2022/1) md. 6/2; KDV K. md. 21/1-a, b",
+    "sorular": [
+     "2023/76"
+    ],
+    "tuzak": "Tümünü 950 üzerinden hesaplamak 1.254, GV'yi KDV matrahına katmamak 1.250, satıcıya ödenen bedeli 1.000 saymak 1.300/1.320 verir; vergiler beyan edilen kıymetten, mal bedeli fiilen ödenen tutardan alınır.",
+    "not": "",
+    "kaynak_disi": false,
+    "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md Sayfa 62 (Gözetim Tebliği md. 6) ve KDV md. 21; kaynak2/diger/VERGI_HESAPLAMA_DERLEMESI.md (gözetimli sorular)",
+    "grup": "Diğer hesaplar: gözetim değeri, geçici ithalat faizi, ihracat bedeli süresi (3 soru)"
    }
   ]
  }

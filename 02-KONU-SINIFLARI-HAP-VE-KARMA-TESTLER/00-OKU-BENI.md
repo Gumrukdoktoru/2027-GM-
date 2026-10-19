@@ -1,30 +1,32 @@
 # GÜMRÜK MÜŞAVİRLİĞİ SINAVI — KONU SINIFLARI, HAP BİLGİLER VE KARMA TESTLER (2027 sınavına hazırlık)
 
-Bu klasör, 2021–2025 Gümrük Müşavirliği sınavlarının 500 sorusunu konu konu sayarak 76 konuyu dört sınıfa ayırır: **çok çıkan**, **orta çıkan**, **az çıkan** ve **hiç çıkmayan**. Bu ayrıma dayanan dört çalışma dokümanı ve 50'şer soruluk üç karma test içerir. Dokümanlar örnek alınan "Konu Sınıfları ve Çıkan Sorular Hap", "Beklenen Konular Hap", "Sorulmayan Konular Soru–Cevap" ve "Soru Tipi Kataloğu" düzeninde hazırlandı.
+Bu klasör, 2021–2025 Gümrük Müşavirliği sınavlarının 500 sorusunu konu konu sayarak 77 konuyu dört sınıfa ayırır: **çok çıkan**, **orta çıkan**, **az çıkan** ve **hiç çıkmayan**. Bu ayrıma dayanan dört çalışma dokümanı ve 50'şer soruluk üç karma test içerir. Dokümanlar örnek alınan "Konu Sınıfları ve Çıkan Sorular Hap", "Beklenen Konular Hap", "Sorulmayan Konular Soru–Cevap" ve "Soru Tipi Kataloğu" düzeninde hazırlandı.
 
 ## Dosyalar
 
 | Dosya | İçerik |
 |---|---|
-| `01-KONU-SINIFLARI-VE-CIKAN-SORULAR-HAP` (.pdf / .docx, 69 sayfa) | Konu sınıfları tabloları (yıl yıl soru sayısı, son 2 yıl, eğilim) ve her konu için **çıkmış sorulardan hap bilgi**: 559 hap, her biri hangi soruda çıktığıyla (ör. `2024/61`), tuzağıyla ve notuyla |
+| `01-KONU-SINIFLARI-VE-CIKAN-SORULAR-HAP` (.pdf / .docx, 71 sayfa) | Konu sınıfları tabloları (yıl yıl soru sayısı, son 2 yıl, eğilim) ve her konu için **çıkmış sorulardan hap bilgi**: 565 hap (Hesaplama bölümü kıymet, KDV matrahı, ceza, ÖTV, uzlaşma, antrepo teminatı, İGV/MIN-MAX ve diğer hesaplar diye gruplu), her biri hangi soruda çıktığıyla (ör. `2024/61`), tuzağıyla ve notuyla |
 | `02-BEKLENEN-KONULAR-HAP` (.pdf / .docx, 67 sayfa) | Her konuda **henüz sorulmamış ama sorulma ihtimali yüksek** hükümler: 719 hap, 125'i değişiklik notu taşıyan hükümlerden (**[Yeni]** etiketli); sonda "Son Değişiklikler — Toplu Liste" |
-| `03-SORULMAYAN-KONULAR-SORU-CEVAP` (.pdf / .docx, 332 sayfa) | Her konunun alt konuları SORULDU / KISMEN / SORULMADI diye işaretli; sorulmayan ve kısmen sorulan alt konular için **2.659 soru–cevap**, her cevap mevzuat dayanağıyla |
+| `03-SORULMAYAN-KONULAR-SORU-CEVAP` (.pdf / .docx, 333 sayfa) | Her konunun alt konuları SORULDU / KISMEN / SORULMADI diye işaretli; sorulmayan ve kısmen sorulan alt konular için **2.659 soru–cevap**, her cevap mevzuat dayanağıyla |
 | `04-SORU-TIPI-KATALOGU` (.pdf / .docx, 36 sayfa) | 500 sorunun 39 alt tipe ve 9 biçim bayrağına ayrıldığı katalog (`00-SORU-YAZARI-ANALIZI-VE-PROMPTLAR/12-SORU-TIPI-KATALOGU.md`'nin örnek düzeninde baskısı) |
 | `KARMA-TEST-1` (.pdf / .docx) | **Tam test.** Kapak, Sınav Bilgileri, Bölüm A (soru kitapçığı), Cevap Anahtarı, Bölüm B (cevaplı ve gerekçeli sorular), Dağılım, Üretim Notu, Hafıza Güncellemesi |
 | `KARMA-TEST-1_SORU-KITAPCIGI` (.pdf / .docx) | Yalnız sorular; yazdırıp 75 dakikada çözmek için |
 | `KARMA-TEST-2…`, `KARMA-TEST-3…` | Aynı düzende Test 2 ve 3 |
-| `veri/` | Makine verisi: `konu_siniflari.json` (76 konu, yıl yıl sayım, sınıf, eğilim, soru listesi), `soru_konu_eslesmesi.json` (500 sorunun konu kodu), `cikan_sorular_hap.json`, `beklenen_ve_sorulmayan.json`, `karma-test1..3.json` |
+| `veri/` | Makine verisi: `konu_siniflari.json` (77 konu — Hesaplama dahil —, yıl yıl sayım, sınıf, eğilim, soru listesi), `soru_konu_eslesmesi.json` (500 sorunun alanı ve içerik konusu; `alan: HESAP` olanlar Hesaplama konusuna sayılır), `cikan_sorular_hap.json`, `beklenen_ve_sorulmayan.json`, `karma-test1..3.json` |
 | `uretim-kayitlari/` | Ajan talimatları, konu kümeleri, test slotları, küme doğrulama raporları, çapraz kontrol yamaları ve betikler (dokümanların nasıl üretildiğinin kaydı) |
 
 ## Konu sınıfları (2021–2025, 500 soru)
+
+Sayım, analizdeki alan ayrımıyla aynıdır (Gümrük Mevzuatı 222 · Sair Mevzuat 143 · Tarife 76 · Hesaplama 59). **Hesap soruları içerik konusuna değil ayrı "Hesaplama" konusuna sayıldı:** Gümrük Kıymeti, KDV, ÖTV, Cezalar gibi konuların sayıları yalnız sözel sorulardır (ör. Gümrük Kıymeti 15 sözel soru; kıymet hesabı 32 soru Hesaplama'da).
 
 Sınıf sınırları: **çok çıkan** 5 yılda 10 ve üzeri soru · **orta** 5–9 · **az** 1–4 · **hiç çıkmayan** 0. Eğilim, son 2 yılın ortalamasının ilk 3 yılın ortalamasından en az 1 soru farklı olmasına göre "yükselen / azalan / sabit" olarak verildi.
 
 | Sınıf | Konu | Toplam soru | Konular |
 |---|---|---|---|
-| Çok çıkan | 16 | 261 | Gümrük Kıymeti 47 · Kaçakçılık (5607) 22 · Transit 21 · Antrepo 17 · Tercihli Menşe İspat Belgeleri 17 · Kambiyo 17 · Muafiyetler 16 · ÖTV 14 · KDV 13 · Tarife Fasıl 1–24 12 · Dahilde İşleme 12 · İhracat Rejimi 12 · Geçici İthalat 11 · Tarife Fasıl 84–85 10 · Tarife Cetvel Yapısı/GTİP 10 · Posta ve Hızlı Kargo 10 |
-| Orta çıkan | 28 | 183 | YYS ve Yerinde Gümrükleme, Cezalar, Geri Gelen Eşya, Incoterms, TIR, STA/TTA, HS 2022, Gümrük Birliği, İthalat Rejimi ve İGV, Fikri Haklar, Ürün Güvenliği, GYKK, Özet Beyan, Beyan, Müşavirlik, Tercihsiz Menşe, Kumanya, DTÖ, Hariçte İşleme, Geri Verme, KKDF ve diğer tarife fasıl grupları |
-| Az çıkan | 20 | 56 | Serbest Dolaşım ve Nihai Kullanım, Teminat ve Faiz, Geçici Depolama, Ödeme Şekilleri, Tahakkuk-Tebliğ-Zamanaşımı, YGM, Muayene, Onaylanmış Kişi, Uzlaşma, Sınır Ticareti, Yatırım Teşvik, Damga Vergisi, Gümrüksüz Satış, BTB/BMB, Yükümlülük, Tasfiye, Serbest Bölgeler, İtiraz… |
+| Çok çıkan | 16 | 267 | **Hesaplama 59** (kıymet hesabı 32, KDV matrahı 9, ceza 5, ÖTV 4, uzlaşma 2, antrepo teminatı 2, İGV ve MIN/MAX 2, diğer 3) · Kaçakçılık (5607) 22 · Transit 21 · Tercihli Menşe İspat Belgeleri 17 · Muafiyetler 16 · Kambiyo 16 · Antrepo 15 · Gümrük Kıymeti 15 · Tarife Fasıl 1–24 12 · Dahilde İşleme 12 · İhracat Rejimi 12 · Geçici İthalat 10 · Tarife Fasıl 84–85 10 · ÖTV 10 · Tarife Cetvel Yapısı/GTİP 10 · Posta ve Hızlı Kargo 10 |
+| Orta çıkan | 26 | 168 | YYS ve Yerinde Gümrükleme, Geri Gelen Eşya, Incoterms, TIR, STA/TTA, HS 2022, Gümrük Birliği, Fikri Haklar, Ürün Güvenliği, GYKK, Özet Beyan, Beyan, Müşavirlik, Tercihsiz Menşe, İhracat, Kumanya, DTÖ, Hariçte İşleme, Geri Verme, KKDF, İthalat Rejimi ve İGV, Genel Hükümler ve diğer tarife fasıl grupları |
+| Az çıkan | 23 | 65 | Serbest Dolaşım ve Nihai Kullanım, **KDV (sözel 4)**, Tarife Taşıtlar, Teminat ve Faiz, Geçici Depolama, **Ticaret Politikası Savunma Araçları**, Ödeme Şekilleri, Tahakkuk-Tebliğ-Zamanaşımı, YGM, **Cezalar (sözel 3)**, Muayene, Onaylanmış Kişi, Sınır Ticareti, Tanımlar, Yatırım Teşvik, Damga Vergisi, Gümrüksüz Satış, BTB/BMB, Yükümlülük, Tasfiye, Serbest Bölgeler, Uzlaşma, İtiraz |
 | Hiç çıkmayan | 12 | 0 | Akaryakıt Transiti · Denizyolu Transiti ve İzinli Gönderici · E-İhracat ve DTSŞ · Ham Elmas ve CITES · Kabotaj · Kota ve Tarife Kontenjanı · Sonradan Kontrol · Taşıtların Giriş-Çıkışı · Ticari Hakların Korunması · Varış Öncesi İşlemler, YKTS ve E-Tebligat · İhracat Sayılan Satış ve 99/13812 · Şartlı Muafiyet (Genel) |
 
 Ayrıntılı tablo (yıl yıl sayılar ve eğilim) 01 numaralı dokümanın başında.
@@ -67,8 +69,8 @@ Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç
 
 ## Nasıl hazırlandı?
 
-1. **Konu eşleme:** 500 sorunun her biri 76 ince konudan birine atandı. Sorular, mevzuat dosyaları ve resmî anahtarlar konu dosyalarında toplandı.
-2. **Çıkan sorulardan hap:** 76 konu 14 kümeye ayrıldı. Her kümede bütün çıkmış sorular hap satırlarına dönüştürüldü; bir betik, her sorunun en az bir hapta geçtiğini denetledi (500/500).
+1. **Konu eşleme:** 500 sorunun her biri 76 ince içerik konusundan birine atandı; analizdeki alan ayrımına uygun olarak 59 hesap sorusu ayrıca "Hesaplama" konusunda sayıldı (toplam 77 konu). Sorular, mevzuat dosyaları ve resmî anahtarlar konu dosyalarında toplandı.
+2. **Çıkan sorulardan hap:** 76 içerik konusu 14 kümeye ayrıldı. Her kümede bütün çıkmış sorular hap satırlarına dönüştürüldü; hesap sorularının hapları Hesaplama bölümüne taşındı (hem hesap hem sözel soruya dayanan 6 hap iki yerde). Bir betik, her sorunun kendi konusunun haplarında geçtiğini denetledi (500/500).
 3. **Beklenen ve sorulmayan:** Her konunun alt konuları kaynak metinle karşılaştırılıp SORULDU / KISMEN / SORULMADI diye işaretlendi. Soru–cevapların ve beklenen hapların her biri kaynak metinden birebir bir kesitle (kanıt) yazıldı; bir betik bu kesitleri kaynak dosyalarda aradı, bulunamayanlar elendi. Kümeler arası tekrarlar ve güncelliğini yitirmiş iki madde (Revize PEM 27.03.2026 yazısıyla) çıkarıldı.
 4. **Karma testler:** 150 soru konu slotlarına bölündü ve 14 kümede yazıldı. Hesap soruları çıkmış hesap sorularının iskeleti üzerine kuruldu.
 5. **Bağımsız doğrulama:** Her küme, soruyu cevaba bakmadan çözen ikinci bir uzman tarafından kaynakla karşılaştırıldı. 150 sorunun **133'ü değişmeden geçti, 17'si düzeltildi** (iki hatanın birlikte doğru cevabı verdiği hesaplar, belirsiz veri, önceki denemeyle tekrar). Hiçbir cevap harfi değişmedi. Hesap sorularının bütün şıkları ve 0–2 hatalı bütün yolları betikle yeniden hesaplandı.

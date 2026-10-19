@@ -23,11 +23,12 @@ for t in (1, 2, 3):
         if q.get('ortak_veri'):
             ns = sorted(sets[q['ortak_veri_id']])
             q['_ortak_baslik'] = f'{ns[0]} ve {ns[-1]} numaralı soruları aşağıdaki verilere göre cevaplayınız.' if len(ns) == 2 else f'{ns[0]}–{ns[-1]} numaralı soruları aşağıdaki verilere göre cevaplayınız.'
-        r = R[q['konu']]
+        r = R['HESAP' if q['alan'] == 'HESAP' else q['konu']]
         ek = f" · {SIN_AD[r['sinif']]} ({r['toplam']} soru)"
         if q.get('kaynak_tipi') == 'cikmis' and q.get('cikmis_ref'): ek += ' · çıkmış bilgi: ' + ', '.join(q['cikmis_ref'])
         elif q.get('kaynak_tipi') == 'beklenen': ek += ' · beklenen hüküm'
-        konu_ad = r['ad'] if r['ad'].split(' – ')[0] == q['_ders'] else f"{q['_ders']} – {r['ad']}"
+        if q['alan'] == 'HESAP': konu_ad = f"Hesaplama – {q['_hesap_turu']}"
+        else: konu_ad = r['ad'] if r['ad'].split(' – ')[0] == q['_ders'] else f"{q['_ders']} – {r['ad']}"
         q['_etiket'] = konu_ad + ek
     sc = collections.Counter(q['_sinif'] for q in qs)
     dc = collections.Counter(q['_ders'] for q in qs if q['alan'] != 'HESAP'); h = sum(1 for q in qs if q['alan'] == 'HESAP')
@@ -53,8 +54,8 @@ for t in (1, 2, 3):
     konu_c = collections.Counter((q['_konu_ad'], SIN_AD[q['_sinif']]) for q in qs)
     konu_tablo = [[f'{k} ({s})', str(v)] for (k, s), v in sorted(konu_c.items(), key=lambda x: (-x[1], x[0]))]
     uretim = [
-        'Konu sınıfları 2021–2025 GM sınavlarının 500 sorusunun konu konu sayımına dayanır: çok çıkan (5 yılda 10 ve üzeri soru), orta (5–9), az (1–4), hiç çıkmayan (0). Ayrıntı: Konu Sınıfları ve Çıkan Sorulardan Hap Bilgi dokümanı.',
-        'Her testte 30 çok çıkan, 13 orta, 6 az ve 1 hiç çıkmayan konu sorusu var; çok çıkan konuların soru sayısı 5 yıllık sıklıklarıyla orantılıdır (yükselen konulara küçük ek ağırlık).',
+        'Konu sınıfları 2021–2025 GM sınavlarının 500 sorusunun konu konu sayımına dayanır: çok çıkan (5 yılda 10 ve üzeri soru), orta (5–9), az (1–4), hiç çıkmayan (0). Analizdeki alan ayrımına uygun olarak 59 hesap sorusu ayrı Hesaplama konusuna sayıldı (çok çıkan; kıymet, KDV, ceza gibi konuların sayıları yalnız sözel sorulardır). Ayrıntı: Konu Sınıfları ve Çıkan Sorulardan Hap Bilgi dokümanı.',
+        'Her testte 30 çok çıkan, 13 orta, 6 az ve 1 hiç çıkmayan konu sorusu var; çok çıkan konuların soru sayısı 5 yıllık sıklıklarıyla orantılıdır (yükselen konulara küçük ek ağırlık). En çok çıkan konu olan Hesaplamadan (59 soru) her testte 6–7 soru var.',
         'Çok çıkan konulardaki soruların yaklaşık yarısı çıkmış soruların ölçtüğü bilgi alanını yeni bir kurguyla sorar (çıkmış soru numarası Bölüm B etiketinde yazılı); diğerleri hiç sorulmamış ama sorulma ihtimali yüksek hükümlerdendir (Beklenen Konular Hap Bilgi).',
         'Hesap soruları çıkmış hesap sorularının iskeleti üzerine sayılar ve kalemler değiştirilerek kurulmuştur; her şıkkın hangi hatadan türediği gerekçede yazılıdır.',
         'Sorular depodaki mevzuat metinlerine (Gümrük Kanunu ve Yönetmeliği bölümleri, tebliğler, Sair Mevzuat Kitabı, tarife fasılları) dayanır; her soru cevaba bakmadan çözen bağımsız bir doğrulamadan geçirilmiştir.',

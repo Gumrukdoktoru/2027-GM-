@@ -8,6 +8,9 @@ S = sys.argv[1]
 R = {r['id']: r for r in json.load(open(f'{S}/konu/siniflar.json', encoding='utf-8'))}
 OUTD = f'{S}/karma/birlesik'; os.makedirs(OUTD, exist_ok=True)
 SIRA = {'ÇOK': 0, 'ORTA': 1, 'AZ': 2, 'HİÇ': 3}
+# hesap soruları analizdeki alan ayrımına göre ayrı 'HESAP' konusuna sayılır; `konu` alanı hesap türünü gösterir
+def kk(q): return 'HESAP' if q['alan'] == 'HESAP' else q['konu']
+TUR_SIRA = ['KIYMET', 'KDV', 'OTV', 'CEZA', 'UZLASMA', 'ITHR', 'ANTREPO', 'GI', 'TPS', 'KAMBIYO']
 L = 'ABCDE'
 
 qs = []
@@ -34,10 +37,21 @@ BLOK_AD = ['Gümrük Mevzuatı', 'Sair Mevzuat', 'Tarife', 'Hesaplama']
 
 def order(tqs):
     seq = []
+    grup_tur = {}
+    for q in tqs:
+        if q.get('ortak_veri_id') and q['alan'] == 'HESAP':
+            t = TUR_SIRA.index(q['konu']) if q['konu'] in TUR_SIRA else 99
+            grup_tur[q['ortak_veri_id']] = min(t, grup_tur.get(q['ortak_veri_id'], 99))
+    def tur(q):
+        if q.get('ortak_veri_id') in grup_tur: return grup_tur[q['ortak_veri_id']]
+        return TUR_SIRA.index(q['konu']) if q['konu'] in TUR_SIRA else 99
     for b in range(4):
         part = [q for q in tqs if blok(q) == b]
-        part.sort(key=lambda q: (SIRA[R[q['konu']]['sinif']], -R[q['konu']]['toplam'], q['konu'],
-                                 q.get('ortak_veri_id') or '', 0 if q.get('ortak_veri') else 1, q['id']))
+        if b == 3:
+            part.sort(key=lambda q: (tur(q), q.get('ortak_veri_id') or '', 0 if q.get('ortak_veri') else 1, q['id']))
+        else:
+            part.sort(key=lambda q: (SIRA[R[kk(q)]['sinif']], -R[kk(q)]['toplam'], q['konu'],
+                                     q.get('ortak_veri_id') or '', 0 if q.get('ortak_veri') else 1, q['id']))
         seq += part
     return seq
 
@@ -75,8 +89,9 @@ for t in (1, 2, 3):
         print('denge bulunamadı', t); sys.exit(1)
     for n, q in enumerate(out, 1):
         q['no'] = n; q['cevap'] = L[q['dogru']]; q['_blok'] = BLOK_AD[blok(q)]
-        r = R[q['konu']]; q['_sinif'] = r['sinif']; q['_konu_ad'] = r['ad']; q['_ders'] = {'GM': 'Gümrük Mevzuatı', 'SAİR': 'Sair Mevzuat', 'TARİFE': 'Tarife'}[r['ders']]
+        r = R[kk(q)]; q['_sinif'] = r['sinif']; q['_konu_ad'] = r['ad']; q['_ders'] = {'GM': 'Gümrük Mevzuatı', 'SAİR': 'Sair Mevzuat', 'TARİFE': 'Tarife', 'HESAP': 'Hesaplama'}[r['ders']]
+        if q['alan'] == 'HESAP': q['_hesap_turu'] = R[q['konu']]['ad']
     json.dump(out, open(f'{OUTD}/test{t}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     c = collections.Counter(q['cevap'] for q in out); s = collections.Counter(q['_sinif'] for q in out)
-    print(f'Test {t}: {len(out)} soru, harf {dict(sorted(c.items()))}, sınıf {dict(s)}, blok {dict(collections.Counter(q["_blok"] for q in out))}, '
+    print(f'Test {t}: {len(out)} soru, hesap {sum(1 for q in out if q["alan"] == "HESAP")}, harf {dict(sorted(c.items()))}, sınıf {dict(s)}, blok {dict(collections.Counter(q["_blok"] for q in out))}, '
           f'kaynak {dict(collections.Counter(q.get("kaynak_tipi") for q in out))}')
