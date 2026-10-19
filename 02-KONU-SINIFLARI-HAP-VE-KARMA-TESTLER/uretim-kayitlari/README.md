@@ -18,3 +18,4 @@ Konu sınıfları, hap dokümanları ve karma testlerin nasıl üretildiğinin k
 | `betikler/sayi_ek_kontrol.py` | Sayılara gelen eklerin (18'i, 16'sı, 30'da…) ses uyumu denetimi |
 | `etiket_denetimi.json`, `etiket_denetimi.md` | "Çıkmış bilgi / beklenen hüküm" etiketlerinin çıkmış sorularla tek tek karşılaştırıldığı denetim ve uygulanan düzeltmeler |
 | `betikler/benzerlik_kontrol.py`, `benzerlik_ifade.py` | Karma soruların birbirleriyle, önceki denemelerle ve çıkmış sorularla metin benzerliği taraması |
+| `hesap_ayrimi.json`, `cikarilan_hesap_ayrimi.json`, `slotlar/K15.md`, `slotlar/K16.md` | Hesaplamanın ayrı konu sayılması: hap gruplama ve konu özetleri; testlerden çıkarılan 9 soru; yerine yazılan 4 sözel ve 5 hesap sorusunun slotları |

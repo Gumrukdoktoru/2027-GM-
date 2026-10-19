@@ -1,0 +1,20 @@
+[
+ {
+  "id": "K01-09",
+  "test": 2,
+  "no": 46,
+  "sorun": "Test 2 sızıntı (K16-04 kaynaklı): kökteki 'beyannamenin tescilinden önce yapılan giderler ihmal edilecektir' notu, tescil öncesi giderlerin GV/KDV hesabını etkilediğini ve tescil tarihinin sınır olduğunu söyleyerek 49. sorunun (K16-04, KDV matrahı: tescil öncesi transit ve ardiye matraha girer, tescil sonrası girmez) ölçtüğü KDVK 21/c kuralını ele veriyor. Soruda tescil öncesi gider verisi zaten yok; genel 'yalnız soruda yer verilen hususlar' notu yeterli, cevap (1.084.800) değişmez.",
+  "alan": "kok",
+  "eski": "Diğer vergi ve fonlar ile beyannamenin tescilinden önce yapılan giderler ihmal edilecektir.",
+  "yeni": "Diğer vergi ve fonlar ihmal edilecektir. Hesaplamada sadece soruda yer verilen hususlar dikkate alınacaktır."
+ },
+ {
+  "id": "K16-04",
+  "test": 2,
+  "no": 49,
+  "sorun": "Açıklamada belirsiz soru atfı: 50 soruluk karma testte 'birinci sorudaki hata' 1. soruyu (K03-06) çağrıştırıyor; kastedilen ortak veri setinin kıymet sorusudur.",
+  "alan": "aciklama",
+  "eski": "2.392.000 → birinci sorudaki hata taşınmış;",
+  "yeni": "2.392.000 → ortak veri setinin kıymet sorusundaki hata taşınmış;"
+ }
+]

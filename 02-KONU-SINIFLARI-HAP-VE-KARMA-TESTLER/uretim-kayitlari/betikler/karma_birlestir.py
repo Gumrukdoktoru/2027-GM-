@@ -10,7 +10,10 @@ OUTD = f'{S}/karma/birlesik'; os.makedirs(OUTD, exist_ok=True)
 SIRA = {'ÇOK': 0, 'ORTA': 1, 'AZ': 2, 'HİÇ': 3}
 # hesap soruları analizdeki alan ayrımına göre ayrı 'HESAP' konusuna sayılır; `konu` alanı hesap türünü gösterir
 def kk(q): return 'HESAP' if q['alan'] == 'HESAP' else q['konu']
-TUR_SIRA = ['KIYMET', 'KDV', 'OTV', 'CEZA', 'UZLASMA', 'ITHR', 'ANTREPO', 'GI', 'TPS', 'KAMBIYO']
+HESAP_TURU = {'KIYMET': 'Gümrük kıymeti hesabı', 'KDV': 'İthalatta KDV matrahı', 'OTV': 'ÖTV hesabı', 'KKDF': 'KKDF hesabı',
+              'CEZA': 'GK 234 ceza hesabı', 'UZLASMA': 'Uzlaşma hesabı', 'ITHR': 'İGV ve MIN/MAX gümrük vergisi', 'ANTREPO': 'Antrepo götürü teminatı',
+              'GI': 'Geçici ithalat vergisi ve faizi', 'TPS': 'Gözetim değeri', 'KAMBIYO': 'İhracat bedeli süresi'}
+TUR_SIRA = ['KIYMET', 'KDV', 'OTV', 'KKDF', 'CEZA', 'UZLASMA', 'ITHR', 'ANTREPO', 'GI', 'TPS', 'KAMBIYO']
 L = 'ABCDE'
 
 qs = []
@@ -90,7 +93,7 @@ for t in (1, 2, 3):
     for n, q in enumerate(out, 1):
         q['no'] = n; q['cevap'] = L[q['dogru']]; q['_blok'] = BLOK_AD[blok(q)]
         r = R[kk(q)]; q['_sinif'] = r['sinif']; q['_konu_ad'] = r['ad']; q['_ders'] = {'GM': 'Gümrük Mevzuatı', 'SAİR': 'Sair Mevzuat', 'TARİFE': 'Tarife', 'HESAP': 'Hesaplama'}[r['ders']]
-        if q['alan'] == 'HESAP': q['_hesap_turu'] = R[q['konu']]['ad']
+        if q['alan'] == 'HESAP': q['_hesap_turu'] = HESAP_TURU.get(q['konu'], R[q['konu']]['ad'] + ' hesabı')
     json.dump(out, open(f'{OUTD}/test{t}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     c = collections.Counter(q['cevap'] for q in out); s = collections.Counter(q['_sinif'] for q in out)
     print(f'Test {t}: {len(out)} soru, hesap {sum(1 for q in out if q["alan"] == "HESAP")}, harf {dict(sorted(c.items()))}, sınıf {dict(s)}, blok {dict(collections.Counter(q["_blok"] for q in out))}, '

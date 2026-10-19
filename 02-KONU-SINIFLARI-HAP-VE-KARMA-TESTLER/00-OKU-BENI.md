@@ -45,18 +45,19 @@ Beklenen konular dokümanında **[Yeni]** etiketi, kaynak metinde değişiklik n
 
 ## Karma testler
 
-Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç çıkmayan** konu sorusu. Çok çıkan konuların soru sayısı 5 yıllık sıklıklarıyla orantılı (yükselen konulara küçük ek ağırlık); her hiç çıkmayan konu en fazla 1 soruyla geldi.
+Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç çıkmayan** konu sorusu. Çok çıkan konuların soru sayısı 5 yıllık sıklıklarıyla orantılı (yükselen konulara küçük ek ağırlık); her hiç çıkmayan konu en fazla 1 soruyla geldi. En çok çıkan konu olan **Hesaplama**dan (59 soru) her testte 6–7 hesap sorusu var (toplam 19: kıymet 10, KDV matrahı 3, ceza 2, ÖTV, KKDF, İGV/MIN-MAX ve antrepo teminatı birer).
 
 | | Test 1 | Test 2 | Test 3 |
 |---|---|---|---|
-| Blok düzeni | 1–20 Gümrük Mevzuatı · 21–38 Sair · 39–45 Tarife · 46–50 Hesap | 1–23 GM · 24–39 Sair · 40–46 Tarife · 47–50 Hesap | 1–24 GM · 25–37 Sair · 38–45 Tarife · 46–50 Hesap |
+| Blok düzeni | 1–20 Gümrük Mevzuatı · 21–36 Sair · 37–43 Tarife · 44–50 Hesap | 1–22 GM · 23–37 Sair · 38–44 Tarife · 45–50 Hesap | 1–23 GM · 24–36 Sair · 37–44 Tarife · 45–50 Hesap |
+| Hesap sorusu | 7 | 6 (48–49 ortak veriye bağlı kıymet → KDV matrahı) | 6 |
 | Hiç çıkmayan konu sorusu | Kota ve Tarife Kontenjanı | Sonradan Kontrol | İhracat Sayılan Satış ve Teslimler (99/13812) |
-| Çıkmış bilgi alanı / beklenen hüküm | 20 / 30 | 17 / 33 | 20 / 30 |
-| Zorluk (kolay · orta · zor) | 11 · 26 · 13 | 9 · 31 · 10 | 15 · 19 · 16 |
+| Çıkmış bilgi alanı / beklenen hüküm | 21 / 29 | 19 / 31 | 22 / 28 |
+| Zorluk (kolay · orta · zor) | 11 · 26 · 13 | 9 · 32 · 9 | 14 · 20 · 16 |
 | Konu sayısı | 36 | 36 | 36 |
 
 - Her harf 10 kez doğru cevap; aynı harf en fazla 3 kez üst üste.
-- Bölüm B'de her sorunun üstündeki italik satır: ders – konu · sınıfı (5 yıldaki soru sayısı) · bilgi kaynağı. "çıkmış bilgi: 2024/61" yazan soru, o çıkmış sorunun ölçtüğü bilgiyi (aynı hükmü ya da aynı mevzuat listesini) **yeni bir kurguyla** sorar; kopya değildir. "beklenen hüküm" yazan soru, cevabı belirleyen bilgisi 2021–2025'te hiç ölçülmemiş bir hükmü sorar. Üç testte toplam 57 çıkmış bilgi, 93 beklenen hüküm sorusu var.
+- Bölüm B'de her sorunun üstündeki italik satır: ders – konu · sınıfı (5 yıldaki soru sayısı) · bilgi kaynağı. "çıkmış bilgi: 2024/61" yazan soru, o çıkmış sorunun ölçtüğü bilgiyi (aynı hükmü ya da aynı mevzuat listesini) **yeni bir kurguyla** sorar; kopya değildir. "beklenen hüküm" yazan soru, cevabı belirleyen bilgisi 2021–2025'te hiç ölçülmemiş bir hükmü sorar. Üç testte toplam 62 çıkmış bilgi, 88 beklenen hüküm sorusu var.
 - Gerekçe, doğru şıkkın neden doğru, diğerlerinin neden yanlış olduğunu açıklar ve "Bu nedenle doğru cevap X seçeneğidir. (MD …)" ile biter. Hesap sorularında her yanlış şıkkın hangi hatadan türediği yazılıdır.
 - **Hafıza Güncellemesi:** her soru için tek satır `KT1-001 | ders | konu | sınıf | alt tip | zorluk | cevap | çıkmış ref | set`. Yanlışlarını konu ve sınıfa göre izlemek için.
 
@@ -72,10 +73,11 @@ Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç
 1. **Konu eşleme:** 500 sorunun her biri 76 ince içerik konusundan birine atandı; analizdeki alan ayrımına uygun olarak 59 hesap sorusu ayrıca "Hesaplama" konusunda sayıldı (toplam 77 konu). Sorular, mevzuat dosyaları ve resmî anahtarlar konu dosyalarında toplandı.
 2. **Çıkan sorulardan hap:** 76 içerik konusu 14 kümeye ayrıldı. Her kümede bütün çıkmış sorular hap satırlarına dönüştürüldü; hesap sorularının hapları Hesaplama bölümüne taşındı (hem hesap hem sözel soruya dayanan 6 hap iki yerde). Bir betik, her sorunun kendi konusunun haplarında geçtiğini denetledi (500/500).
 3. **Beklenen ve sorulmayan:** Her konunun alt konuları kaynak metinle karşılaştırılıp SORULDU / KISMEN / SORULMADI diye işaretlendi. Soru–cevapların ve beklenen hapların her biri kaynak metinden birebir bir kesitle (kanıt) yazıldı; bir betik bu kesitleri kaynak dosyalarda aradı, bulunamayanlar elendi. Kümeler arası tekrarlar ve güncelliğini yitirmiş iki madde (Revize PEM 27.03.2026 yazısıyla) çıkarıldı.
-4. **Karma testler:** 150 soru konu slotlarına bölündü ve 14 kümede yazıldı. Hesap soruları çıkmış hesap sorularının iskeleti üzerine kuruldu.
+4. **Karma testler:** 150 soru konu slotlarına bölündü ve 14 kümede yazıldı (8. adımdaki güncellemeyle 16 küme). Hesap soruları çıkmış hesap sorularının iskeleti üzerine kuruldu.
 5. **Bağımsız doğrulama:** Her küme, soruyu cevaba bakmadan çözen ikinci bir uzman tarafından kaynakla karşılaştırıldı. 150 sorunun **133'ü değişmeden geçti, 17'si düzeltildi** (iki hatanın birlikte doğru cevabı verdiği hesaplar, belirsiz veri, önceki denemeyle tekrar). Hiçbir cevap harfi değişmedi. Hesap sorularının bütün şıkları ve 0–2 hatalı bütün yolları betikle yeniden hesaplandı.
 6. **Test bazında çapraz kontrol:** Her test 50 sorusuyla baştan sona, anahtara bakmadan çözüldü. Anahtar hatası çıkmadı. 11 soruda test içi tekrar ya da sızıntı, şık konumuna kalmış atıf, vurgusuz olumsuz kök ve güncellik düzeltmesi yapıldı (1 soru yeniden yazıldı).
 7. **Bilgi kaynağı etiketi denetimi:** 150 sorunun her birinin "çıkmış bilgi / beklenen hüküm" etiketi, cevabı belirleyen bilginin 2021–2025 sorularında ölçülüp ölçülmediğine bakılarak yeniden kontrol edildi. 6 sorunun etiketi değişti (2'si beklenen → çıkmış, 4'ü çıkmış → beklenen), 6 sorunun çıkmış soru referansı düzeltildi. Metin benzerliği taramasında testler kendi aralarında, önceki 3 denemeyle ve 500 çıkmış soruyla kopya ya da birbirine yakın soru çıkmadı.
+8. **Hesaplamanın ayrı konu sayılması:** Analizdeki alan ayrımına uygun olarak 59 hesap sorusu ayrı "Hesaplama" konusuna sayılınca (Gümrük Kıymeti 47 → 15, KDV 13 → 4 vb.) test dağılımı yeniden hesaplandı. Hesap sorusu 14'ten 19'a çıktı; fazla kalan konulardan 9 soru çıkarıldı, yerine 5 hesap ve 4 sözel soru yazıldı (bir soru Test 3'ten Test 2'ye taşındı). Yeni soruların hepsi bağımsız doğrulamadan (4 sözelde 3, 5 hesapta 5 düzeltme; 1 hesap sorusu yeniden yazıldı) ve kendi testleriyle çapraz kontrolden geçti. Konu başına soru sayıları yeni sınıflamanın hedefleriyle birebir aynı.
 
 ## Güncellik uyarıları
 
