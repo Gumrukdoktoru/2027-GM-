@@ -110,6 +110,7 @@
   "guven": "yüksek",
   "kaynak_tipi": "cikmis",
   "cikmis_ref": [
+   "2025/65",
    "2025/68"
   ],
   "zorluk": "O"
@@ -852,8 +853,10 @@
   "dayanak": "4458 sayılı Gümrük Kanunu md. 3/2-c, d, e; md. 165/B-2; çeldiriciler için Gümrük Yönetmeliği transit tanımları",
   "kaynak": "kaynak2/gm/01_1-TANIMLAR.md GK MADDE 3/2 (d) 'İhracat gümrük idaresi' ve (e) 'Çıkış gümrük idaresi'; kaynak2/gm/15_15-ÖZET_BEYAN.md GK MADDE 165/B (2); kaynak2/gm/20_20-TRANSİT_REJİMİ.md 'c) Hareket gümrük idaresi', 'j) Varış gümrük idaresi'; hap/sorulmayan/K02.json TANIM beklenen (GK 3/2-d, e)",
   "guven": "yüksek",
-  "kaynak_tipi": "beklenen",
-  "cikmis_ref": [],
+  "kaynak_tipi": "cikmis",
+  "cikmis_ref": [
+   "2023/89"
+  ],
   "zorluk": "K"
  },
  {
@@ -963,11 +966,8 @@
   "dayanak": "5607 sayılı Kanun md. 16/A-1, 16/A-3",
   "kaynak": "kaynak2/diger/kaçakçılık.md Sayfa 10 (Md.16/A-1 hudut kapısı 'numune alınarak', terk edilen 'numune alınmaksızın'; Md.16/A-3 rafinerici ve atık yakma tesisleri); 2021/41 ve 2024/88 resmî cevapları; doğrulamada şık ifadeleri Md.16/A-1 lafzına uyarlandı ('kullanımına bedelsiz tahsis edilerek veya satışı yapılarak', il özel idaresi bulunmayan yerde YİKOB)",
   "guven": "yüksek",
-  "kaynak_tipi": "cikmis",
-  "cikmis_ref": [
-   "2021/41",
-   "2024/88"
-  ],
+  "kaynak_tipi": "beklenen",
+  "cikmis_ref": [],
   "zorluk": "O"
  },
  {
@@ -1155,10 +1155,8 @@
   "dayanak": "Türkiye–İran TTA, Türkiye–Özbekistan TTA, Türkiye–Venezuela Ticaretin Geliştirilmesi Anlaşması ve Türkiye–Birleşik Krallık STA menşe hükümleri; 2014/7064 sayılı GTS Menşe Kararı md. 4/6",
   "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md Sayfa 209 (2014/7064 md. 4/6: 10 ay), Sayfa 238 (BK menşe beyanı 12 ay), Sayfa 239 (Venezuela EUR.1 12 ay), Sayfa 240 (İran menşe ispat belgesi vize tarihinden 6 ay), Sayfa 241 (Özbekistan EUR.1 12 ay); kaynak2/diger/STA ve KÜMÜLASYONLAR.md Sayfa 17, 25, 27, 52; 2023/58 doğru ifade (Form A 10 ay)",
   "guven": "yüksek",
-  "kaynak_tipi": "cikmis",
-  "cikmis_ref": [
-   "2023/58"
-  ],
+  "kaynak_tipi": "beklenen",
+  "cikmis_ref": [],
   "zorluk": "Z"
  },
  {
@@ -1231,10 +1229,8 @@
   "dayanak": "ÖTVK md. 1/2; ÖTV (II) ve (IV) Sayılı Liste Uyg. Gen. Tebliğleri I/A-2, I/A-3, I/A-4",
   "kaynak": "kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK 'VERGİNİN KONUSU – Md.1' (2); kaynak2/genelge/ozel_tuketim_vergisi_ii_sayili_liste_uygulama_genel_tebligi.md I/A-2 (tanımlar), I/A-3 'G.T.İ.P. Numarasının Tespiti', I/A-4; kaynak2/genelge/ozel_tuketim_vergisi_x1ivx2_sayili_liste_uygulama_genel_tebligi.md I/A-2, I/A-3, I/A-4",
   "guven": "yüksek",
-  "kaynak_tipi": "cikmis",
-  "cikmis_ref": [
-   "2024/17"
-  ],
+  "kaynak_tipi": "beklenen",
+  "cikmis_ref": [],
   "zorluk": "Z"
  },
  {

@@ -16,3 +16,5 @@ Konu sınıfları, hap dokümanları ve karma testlerin nasıl üretildiğinin k
 | `talimatlar/KARMA_CAPRAZ.md`, `capraz/` | Test bazında son okuma talimatı ve uygulanan yamalar |
 | `betikler/karma_birlestir.py`, `karma_hazirla.py`, `karma_md.py`, `yama_uygula.py`, `deneme_docx.js` | Testlerin birleştirilmesi (blok sırası, harf dengesi), yamaların uygulanması ve Word çıktısı |
 | `betikler/sayi_ek_kontrol.py` | Sayılara gelen eklerin (18'i, 16'sı, 30'da…) ses uyumu denetimi |
+| `etiket_denetimi.json`, `etiket_denetimi.md` | "Çıkmış bilgi / beklenen hüküm" etiketlerinin çıkmış sorularla tek tek karşılaştırıldığı denetim ve uygulanan düzeltmeler |
+| `betikler/benzerlik_kontrol.py`, `benzerlik_ifade.py` | Karma soruların birbirleriyle, önceki denemelerle ve çıkmış sorularla metin benzerliği taraması |

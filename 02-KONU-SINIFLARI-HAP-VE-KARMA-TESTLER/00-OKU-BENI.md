@@ -49,12 +49,12 @@ Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç
 |---|---|---|---|
 | Blok düzeni | 1–20 Gümrük Mevzuatı · 21–38 Sair · 39–45 Tarife · 46–50 Hesap | 1–23 GM · 24–39 Sair · 40–46 Tarife · 47–50 Hesap | 1–24 GM · 25–37 Sair · 38–45 Tarife · 46–50 Hesap |
 | Hiç çıkmayan konu sorusu | Kota ve Tarife Kontenjanı | Sonradan Kontrol | İhracat Sayılan Satış ve Teslimler (99/13812) |
-| Çıkmış bilgi alanı / beklenen hüküm | 20 / 30 | 17 / 33 | 22 / 28 |
+| Çıkmış bilgi alanı / beklenen hüküm | 20 / 30 | 17 / 33 | 20 / 30 |
 | Zorluk (kolay · orta · zor) | 11 · 26 · 13 | 9 · 31 · 10 | 15 · 19 · 16 |
 | Konu sayısı | 36 | 36 | 36 |
 
 - Her harf 10 kez doğru cevap; aynı harf en fazla 3 kez üst üste.
-- Bölüm B'de her sorunun üstündeki italik satır: ders – konu · sınıfı (5 yıldaki soru sayısı) · bilgi kaynağı. "çıkmış bilgi: 2024/61" yazan soru, o çıkmış sorunun ölçtüğü bilgiyi **yeni bir kurguyla** sorar (kopya değildir); "beklenen hüküm" yazan soru, 2021–2025'te hiç sorulmamış ve 02 numaralı dokümanda yer alan bir hükmü sorar.
+- Bölüm B'de her sorunun üstündeki italik satır: ders – konu · sınıfı (5 yıldaki soru sayısı) · bilgi kaynağı. "çıkmış bilgi: 2024/61" yazan soru, o çıkmış sorunun ölçtüğü bilgiyi (aynı hükmü ya da aynı mevzuat listesini) **yeni bir kurguyla** sorar; kopya değildir. "beklenen hüküm" yazan soru, cevabı belirleyen bilgisi 2021–2025'te hiç ölçülmemiş bir hükmü sorar. Üç testte toplam 57 çıkmış bilgi, 93 beklenen hüküm sorusu var.
 - Gerekçe, doğru şıkkın neden doğru, diğerlerinin neden yanlış olduğunu açıklar ve "Bu nedenle doğru cevap X seçeneğidir. (MD …)" ile biter. Hesap sorularında her yanlış şıkkın hangi hatadan türediği yazılıdır.
 - **Hafıza Güncellemesi:** her soru için tek satır `KT1-001 | ders | konu | sınıf | alt tip | zorluk | cevap | çıkmış ref | set`. Yanlışlarını konu ve sınıfa göre izlemek için.
 
@@ -73,6 +73,7 @@ Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç
 4. **Karma testler:** 150 soru konu slotlarına bölündü ve 14 kümede yazıldı. Hesap soruları çıkmış hesap sorularının iskeleti üzerine kuruldu.
 5. **Bağımsız doğrulama:** Her küme, soruyu cevaba bakmadan çözen ikinci bir uzman tarafından kaynakla karşılaştırıldı. 150 sorunun **133'ü değişmeden geçti, 17'si düzeltildi** (iki hatanın birlikte doğru cevabı verdiği hesaplar, belirsiz veri, önceki denemeyle tekrar). Hiçbir cevap harfi değişmedi. Hesap sorularının bütün şıkları ve 0–2 hatalı bütün yolları betikle yeniden hesaplandı.
 6. **Test bazında çapraz kontrol:** Her test 50 sorusuyla baştan sona, anahtara bakmadan çözüldü. Anahtar hatası çıkmadı. 11 soruda test içi tekrar ya da sızıntı, şık konumuna kalmış atıf, vurgusuz olumsuz kök ve güncellik düzeltmesi yapıldı (1 soru yeniden yazıldı).
+7. **Bilgi kaynağı etiketi denetimi:** 150 sorunun her birinin "çıkmış bilgi / beklenen hüküm" etiketi, cevabı belirleyen bilginin 2021–2025 sorularında ölçülüp ölçülmediğine bakılarak yeniden kontrol edildi. 6 sorunun etiketi değişti (2'si beklenen → çıkmış, 4'ü çıkmış → beklenen), 6 sorunun çıkmış soru referansı düzeltildi. Metin benzerliği taramasında testler kendi aralarında, önceki 3 denemeyle ve 500 çıkmış soruyla kopya ya da birbirine yakın soru çıkmadı.
 
 ## Güncellik uyarıları
 

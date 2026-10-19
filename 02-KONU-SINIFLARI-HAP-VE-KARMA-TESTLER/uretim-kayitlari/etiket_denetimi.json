@@ -1,0 +1,108 @@
+[
+ {
+  "id": "K02-07",
+  "eski_tip": "beklenen",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2023/89"
+  ],
+  "gerekce": "Soru, TGB'yi terk edecek eşyanın onaylanmış işlem ve kullanıma ilişkin işlemlerinin yapıldığı idarenin ihracat gümrük idaresi olduğunu (çıkış/giriş/ithalat idaresinden ayırarak) ölçüyor. 2023/89 aynı ayrımı vaka ile ölçtü: ihracatçının işlemleri için ilk başvuracağı idare = ihracat gümrük idaresi (çeldiriciler çıkış, giriş, ithalat, ihtisas). Kilit bilgi çıkmış."
+ },
+ {
+  "id": "K03-07",
+  "eski_tip": "cikmis",
+  "yeni_tip": "beklenen",
+  "yeni_ref": [],
+  "gerekce": "Cevap (boru hattıyla transitte rejimin bir gümrük idaresine sunulmakla değil, eşyanın gönderildiği işletmeye ulaşıp kayıtlarına geçmesiyle sona ermesi, GY 238) hiçbir çıkmış soruda ölçülmedi. 2023/90 yalnız transit hükümlerinin boru hattında hangi aşamada uygulanmaya başladığını ölçtü; bu bilgi yalnız A çeldiricisine (238/1-a) dokunuyor. Tek çeldiriciye dokunma = sınır durum; etiket beklenen olmalı."
+ },
+ {
+  "id": "K08-11",
+  "eski_tip": "cikmis",
+  "yeni_tip": "beklenen",
+  "yeni_ref": [],
+  "gerekce": "Cevap (hudut kapılarında elkonulan kaçak akaryakıtın numune alınarak, gümrüğe terk edilenin numune alınmaksızın tasfiyesi, 5607 md. 16/A-1) ölçülmedi. 2021/41 ve 2024/88 teknik düzenlemeye uygun olmayan akaryakıtın en yakın rafinericiye satılmasını (16/A-3) ölçtü; bu yalnız D çeldiricisine karşılık geliyor."
+ },
+ {
+  "id": "K09-10",
+  "eski_tip": "cikmis",
+  "yeni_tip": "beklenen",
+  "yeni_ref": [],
+  "gerekce": "Cevap (malın hangi G.T.İ.P.'te sınıflandırılacağını belirlemeye yetkili kurumun Gelir İdaresi Başkanlığı değil Ticaret Bakanlığı olması; liste uygulama tebliğleri I/A-3) hiçbir çıkmış soruda ölçülmedi. 2024/17 yalnız ÖTVK 1/2'deki 'listeler dışındaki tarife numarası/tanım değişiklikleri hüküm ifade etmez' kalıbını ölçtü; bu B çeldiricisine karşılık geliyor (A cümlesi 2024/17'nin kökünde verilen bilgi, ölçülen kısım değil)."
+ },
+ {
+  "id": "K11-09",
+  "eski_tip": "cikmis",
+  "yeni_tip": "beklenen",
+  "yeni_ref": [],
+  "gerekce": "Doğru şık (Türkiye–İran TTA menşe ispat belgesinin vize tarihinden itibaren altı ay geçerli olması) hiçbir çıkmış soruda ölçülmedi; İran'la ilgili 2023/47 ve 2024/32 yalnız belge adını/EUR.1 kullanılmadığını ölçtü. 2023/58 Form A (10 ay), A.TR ve Malezya belgesi sürelerini ölçtü; yalnız B çeldiricisine (Form A) dokunuyor. Özbekistan, Venezuela ve Birleşik Krallık süreleri de yeni."
+ },
+ {
+  "id": "K03-12",
+  "eski_tip": "cikmis",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2025/65",
+   "2025/68"
+  ],
+  "gerekce": "Ref eksik: cevabı belirleyen bilgi (Türkiye'de serbest dolaşımdaki ihracat eşyasının ortak transitte birlik eşyası sayılmayıp T1 ile taşınması) 2025/65 D'de doğru şık olarak ölçüldü ('ortak transit işlemlerinde serbest dolaşımda bulunan eşya serbest dolaşımda bulunmayan eşya olarak kabul edilir'). 2025/68 yalnız ulusal transitte TR sembolüne (A çeldiricisi) dokunuyor; ikincil ref olarak kalabilir."
+ },
+ {
+  "id": "K11-05",
+  "eski_tip": "cikmis",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2025/32",
+   "2023/54",
+   "2023/58",
+   "2024/41",
+   "2025/33",
+   "2025/36",
+   "2023/47"
+  ],
+  "gerekce": "Ref eksik: mevcut refler yalnız çeldiricileri (Şili, Venezuela, Özbekistan anlaşmalarında EUR.1) ölçüyor. Cevabı belirleyen bilgi (Malezya STA'sında EUR.1 değil anlaşmaya özgü Menşe Belgesi kullanılması) 2025/32 (Malezya Menşe Belgesinin teknik reddi), 2023/54 IV (Malezya Menşe Belgesinin vizesi) ve 2023/58 E (Malezya Menşe Belgesinin süresi) sorularında ölçüldü; bunlar eklenmeli."
+ },
+ {
+  "id": "K08-06",
+  "eski_tip": "cikmis",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2022/15"
+  ],
+  "gerekce": "2023/3 çıkarılmalı: o soru etkin pişmanlığı genel olarak, özellikle md. 5/1'deki bilgi verme yolunu ölçtü; anahtarı 'mükerrirler hakkında uygulanması mümkündür' ve 'yasak eşyada uygulanmaz' ifadesini yanlış sayıyor. Karma sorusu ise md. 5/2'deki gümrüklenmiş değerin iki katını ödeyerek indirimi ve bunun 3/7 (yasak eşya), mükerrir ve örgüt hâllerinde uygulanmamasını (5/2, 5/3) ölçüyor; 2023/3 aynı kilit bilgiyi değil, ona zıt görünen başka bir fıkrayı ölçüyor ve adayı yanıltabilir. 2022/15 (A: soruşturma evresinde yarı oranında indirim; D-E: mükerrir ve örgütte uygulanmaz) doğrudan ref olarak yeterli."
+ },
+ {
+  "id": "K01-04",
+  "eski_tip": "cikmis",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2021/4",
+   "2023/67"
+  ],
+  "gerekce": "Önemli ref eksik: D ile E şıkları yalnız II. öncülde (tekrar satıştan satıcıya intikal eden hâsıla) ayrılıyor. Bu kalemin kıymete eklenen bir unsur olduğu (GK 27/1-d) 2023/67'de doğru cevap olarak ölçüldü. 2021/4 I, III ve V'yi kapsıyor."
+ },
+ {
+  "id": "K01-08",
+  "eski_tip": "cikmis",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2021/84",
+   "2024/9",
+   "2024/26",
+   "2022/96",
+   "2023/79"
+  ],
+  "gerekce": "Önemli ref eksik: 10.600.000 çeldiricisi vade farkının finansman faizi sayılıp sayılmayacağına dayanıyor. Faizin kıymete girmemesinin koşulları (yazılı finansman anlaşması, faturada ayrıca gösterilme) 2023/79'da ölçüldü; karma bu koşulun sağlanmadığı karşı durumu soruyor."
+ },
+ {
+  "id": "K04-05",
+  "eski_tip": "cikmis",
+  "yeni_tip": "cikmis",
+  "yeni_ref": [
+   "2021/53",
+   "2024/65",
+   "2021/14",
+   "2024/67"
+  ],
+  "gerekce": "Önemli ref eksik: cevap (ticaret politikası önlemlerine tabi tutmadan ithalatın geri ödeme sisteminin değil şartlı muafiyetin özelliği olması) 2021/53 A'nın yanında 2024/65 A'da da doğru ifade olarak ölçüldü. 2021/14 ve 2024/67 yalnız A ve B çeldiricilerini (geri ödeme sisteminin uygulanmadığı hâller) ölçüyor."
+ }
+]

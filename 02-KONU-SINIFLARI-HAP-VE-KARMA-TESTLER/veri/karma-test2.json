@@ -146,10 +146,8 @@
   "dayanak": "Gümrük Yönetmeliği md. 229/3, 238/1-4",
   "kaynak": "kaynak2/gm/20_20-TRANSİT_REJİMİ.md GY MADDE 238 ve MADDE 229 (3); 2023/90 doğru ifadesi",
   "guven": "yüksek",
-  "kaynak_tipi": "cikmis",
-  "cikmis_ref": [
-   "2023/90"
-  ],
+  "kaynak_tipi": "beklenen",
+  "cikmis_ref": [],
   "zorluk": "O"
  },
  {
@@ -408,9 +406,10 @@
   "zorluk": "O",
   "kaynak_tipi": "cikmis",
   "cikmis_ref": [
+   "2021/53",
+   "2024/65",
    "2021/14",
-   "2024/67",
-   "2021/53"
+   "2024/67"
   ],
   "seri": null,
   "ortak_veri_id": null,
@@ -521,8 +520,11 @@
   "alan": "GM",
   "alt_tip": "V2",
   "zorluk": "O",
-  "kaynak_tipi": "beklenen",
-  "cikmis_ref": [],
+  "kaynak_tipi": "cikmis",
+  "cikmis_ref": [
+   "2024/70",
+   "2022/69"
+  ],
   "seri": null,
   "ortak_veri_id": null,
   "ortak_veri": null,
@@ -922,8 +924,7 @@
   "guven": "yüksek",
   "kaynak_tipi": "cikmis",
   "cikmis_ref": [
-   "2022/15",
-   "2023/3"
+   "2022/15"
   ],
   "zorluk": "K"
  },
@@ -1082,6 +1083,9 @@
   "guven": "yüksek",
   "kaynak_tipi": "cikmis",
   "cikmis_ref": [
+   "2025/32",
+   "2023/54",
+   "2023/58",
    "2024/41",
    "2025/33",
    "2025/36",
@@ -1834,7 +1838,8 @@
    "2021/84",
    "2024/9",
    "2024/26",
-   "2022/96"
+   "2022/96",
+   "2023/79"
   ],
   "zorluk": "O"
  },
