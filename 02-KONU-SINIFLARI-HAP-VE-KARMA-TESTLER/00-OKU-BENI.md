@@ -86,7 +86,7 @@ Dokümanlar ve testler depodaki mevzuat metinlerinin son hâline göre hazırlan
 - **GK 241/1:** Anayasa Mahkemesinin 26.03.2026 tarihli kararıyla (E.2025/269, K.2026/72) yalnız "ikincil düzenlemelere aykırılık" ibaresi iptal edildi; 241/1'deki miktar ve 241/3–6 katları yürürlükte.
 - **GY 94 ve 130/1:** Danıştay 12.08.2026 kararıyla iptal.
 - **KDV Kanunu md. 21/1-ç (24.07.2025):** (I) sayılı listede teminata esas ÖTV ithalde KDV matrahına girer; 2025/15'in resmî anahtarı eski kurala dayanır.
-- **İthalat Rejimi Kararı md. 62/1** (07.01.2026) ve **TIR Tebliği** (04.07.2026; md. 20/1'deki sayı sınırı sekiz) değişiklikleri.
+- **2009/15481 sayılı Karar md. 62/1** (07.01.2026 tarihli Cumhurbaşkanı Kararı ile değişik, yürürlük 06.02.2026: posta ve hızlı kargoda gerçek kişiye gelen eşyada tek ve maktu vergi yalnız reçeteli ilaç ve takviye edici gıdaya uygulanır) ve **TIR Tebliği** (04.07.2026; md. 20/1'deki sayı sınırı sekiz) değişiklikleri.
 - **2025/9903 sayılı Karar** 2012/3305'in yerini aldı (yatırım teşvik).
 - **Revize PEM menşe kuralları** (27.03.2026 yazısı): tam kümülasyona ilişkin eski bilgiler çıkarıldı.
 - **Resmî anahtarı tartışmalı sorular** (2021/89-90, 2022/94, 2023/57, 2023/72-73, 2023/82, 2023/98, 2024/46, 2025/12, 2025/15, 2025/16, 2025/82): haplarda resmî anahtar ve tartışma birlikte verildi; testlerde bu sorular iskelet olarak kullanılmadı.
