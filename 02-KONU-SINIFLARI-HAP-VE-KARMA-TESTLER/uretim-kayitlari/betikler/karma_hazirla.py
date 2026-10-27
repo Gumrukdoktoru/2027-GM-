@@ -4,13 +4,15 @@ Kullanım: python3 karma_hazirla.py <S> <cikti_dir>
 """
 import json, os, sys, collections
 S, OUT = sys.argv[1:3]
+KD = sys.argv[3] if len(sys.argv) > 3 else 'karma'
+import glob, re
 os.makedirs(OUT, exist_ok=True)
 L = 'ABCDE'
 R = {r['id']: r for r in json.load(open(f'{S}/konu/siniflar.json', encoding='utf-8'))}
 SIN_AD = {'ÇOK': 'Çok çıkan', 'ORTA': 'Orta çıkan', 'AZ': 'Az çıkan', 'HİÇ': 'Hiç çıkmayan'}
 ZOR = {'K': 'Kolay', 'O': 'Orta', 'Z': 'Zor'}
-for t in (1, 2, 3):
-    qs = json.load(open(f'{S}/karma/birlesik/test{t}.json', encoding='utf-8'))
+for t in sorted(int(re.search(r'test(\d+)', f).group(1)) for f in glob.glob(f'{S}/{KD}/birlesik/test*.json')):
+    qs = json.load(open(f'{S}/{KD}/birlesik/test{t}.json', encoding='utf-8'))
     # blok başlıkları (numara aralığıyla)
     groups = collections.OrderedDict()
     for q in qs: groups.setdefault(q['_blok'], []).append(q)
@@ -56,7 +58,8 @@ for t in (1, 2, 3):
     uretim = [
         'Konu sınıfları 2021–2025 GM sınavlarının 500 sorusunun konu konu sayımına dayanır: çok çıkan (5 yılda 10 ve üzeri soru), orta (5–9), az (1–4), hiç çıkmayan (0). Analizdeki alan ayrımına uygun olarak 59 hesap sorusu ayrı Hesaplama konusuna sayıldı (çok çıkan; kıymet, KDV, ceza gibi konuların sayıları yalnız sözel sorulardır). Ayrıntı: Konu Sınıfları ve Çıkan Sorulardan Hap Bilgi dokümanı.',
         'Her testte 30 çok çıkan, 13 orta, 6 az ve 1 hiç çıkmayan konu sorusu var; çok çıkan konuların soru sayısı 5 yıllık sıklıklarıyla orantılıdır (yükselen konulara küçük ek ağırlık). En çok çıkan konu olan Hesaplamadan (59 soru) her testte 6–7 soru var.',
-        'Çok çıkan konulardaki soruların yaklaşık yarısı çıkmış soruların ölçtüğü bilgi alanını yeni bir kurguyla sorar (çıkmış soru numarası Bölüm B etiketinde yazılı); diğerleri hiç sorulmamış ama sorulma ihtimali yüksek hükümlerdendir (Beklenen Konular Hap Bilgi).',
+        ('Çok çıkan konulardaki soruların yaklaşık yarısı çıkmış soruların ölçtüğü bilgi alanını yeni bir kurguyla sorar (çıkmış soru numarası Bölüm B etiketinde yazılı); diğerleri hiç sorulmamış ama sorulma ihtimali yüksek hükümlerdendir (Beklenen Konular Hap Bilgi).' if KD == 'karma' else
+         'Bu ikinci sette (Test 4–6) ağırlık hiç sorulmamış ama sorulma ihtimali yüksek hükümlerdedir (Beklenen Konular Hap Bilgi). Karma Test 1–3\'te ve üç deneme sınavında cevabı belirleyen bilgi olarak ölçülen hiçbir hüküm burada tekrar edilmemiştir; çıkmış bilgi alanı kullanılan sorularda ilk setin kullanmadığı çıkmış sorular seçilmiştir (çıkmış soru numarası Bölüm B etiketinde yazılı).'),
         'Hesap soruları çıkmış hesap sorularının iskeleti üzerine sayılar ve kalemler değiştirilerek kurulmuştur; her şıkkın hangi hatadan türediği gerekçede yazılıdır.',
         'Sorular depodaki mevzuat metinlerine (Gümrük Kanunu ve Yönetmeliği bölümleri, tebliğler, Sair Mevzuat Kitabı, tarife fasılları) dayanır; her soru cevaba bakmadan çözen bağımsız bir doğrulamadan geçirilmiştir.',
         'Yıllık güncellenen tutarlar (ceza, teminat, ücret tarifesi) doğru cevap yapılmamış; gerektiğinde soruda veri olarak verilmiştir.',

@@ -13,8 +13,9 @@ Bu klasör, 2021–2025 Gümrük Müşavirliği sınavlarının 500 sorusunu kon
 | `KARMA-TEST-1` (.pdf / .docx) | **Tam test.** Kapak, Sınav Bilgileri, Bölüm A (soru kitapçığı), Cevap Anahtarı, Bölüm B (cevaplı ve gerekçeli sorular), Dağılım, Üretim Notu, Hafıza Güncellemesi |
 | `KARMA-TEST-1_SORU-KITAPCIGI` (.pdf / .docx) | Yalnız sorular; yazdırıp 75 dakikada çözmek için |
 | `KARMA-TEST-2…`, `KARMA-TEST-3…` | Aynı düzende Test 2 ve 3 |
-| `veri/` | Makine verisi: `konu_siniflari.json` (77 konu — Hesaplama dahil —, yıl yıl sayım, sınıf, eğilim, soru listesi), `soru_konu_eslesmesi.json` (500 sorunun alanı ve içerik konusu; `alan: HESAP` olanlar Hesaplama konusuna sayılır), `cikan_sorular_hap.json`, `beklenen_ve_sorulmayan.json`, `karma-test1..3.json` |
-| `uretim-kayitlari/` | Ajan talimatları, konu kümeleri, test slotları, küme doğrulama raporları, çapraz kontrol yamaları ve betikler (dokümanların nasıl üretildiğinin kaydı) |
+| `KARMA-TEST-4…`, `KARMA-TEST-5…`, `KARMA-TEST-6…` | **İkinci set**, aynı düzende ve aynı dağılım kurallarıyla; Test 1–3'te ve üç denemede ölçülen hiçbir hükmü tekrar etmez (aşağıda "İkinci set") |
+| `veri/` | Makine verisi: `konu_siniflari.json` (77 konu — Hesaplama dahil —, yıl yıl sayım, sınıf, eğilim, soru listesi), `soru_konu_eslesmesi.json` (500 sorunun alanı ve içerik konusu; `alan: HESAP` olanlar Hesaplama konusuna sayılır), `cikan_sorular_hap.json`, `beklenen_ve_sorulmayan.json`, `karma-test1..6.json` |
+| `uretim-kayitlari/` | Ajan talimatları, konu kümeleri, test slotları, küme doğrulama raporları, çapraz kontrol yamaları ve betikler (dokümanların nasıl üretildiğinin kaydı); ikinci setinkiler `uretim-kayitlari/ikinci-set/` altında |
 
 ## Konu sınıfları (2021–2025, 500 soru)
 
@@ -61,6 +62,22 @@ Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç
 - Gerekçe, doğru şıkkın neden doğru, diğerlerinin neden yanlış olduğunu açıklar ve "Bu nedenle doğru cevap X seçeneğidir. (MD …)" ile biter. Hesap sorularında her yanlış şıkkın hangi hatadan türediği yazılıdır.
 - **Hafıza Güncellemesi:** her soru için tek satır `KT1-001 | ders | konu | sınıf | alt tip | zorluk | cevap | çıkmış ref | set`. Yanlışlarını konu ve sınıfa göre izlemek için.
 
+### İkinci set: Test 4–6
+
+Aynı kurallar: **50 soru · 75 dakika**, **30 çok çıkan + 13 orta + 6 az + 1 hiç çıkmayan** konu sorusu, Hesaplama ayrı konu. Fark: cevabı belirleyen bilgi olarak **Karma Test 1–3'te ya da önceki üç deneme sınavında ölçülen hiçbir hüküm tekrar edilmedi**; çeldiricilerde de aynı hüküm aynı kurguyla kullanılmadı. Bu yüzden ağırlık hiç sorulmamış hükümlerdedir; çıkmış bilgi alanı kullanılan sorularda ilk setin kullanmadığı çıkmış sorular seçildi. Hesap sorusu toplam 19: kıymet 10, KDV matrahı 3, ceza, uzlaşma, TPS gözetimi, ÖTV (sigara), İGV tavanı ve geçici ithalat faizi birer.
+
+| | Test 4 | Test 5 | Test 6 |
+|---|---|---|---|
+| Blok düzeni | 1–23 GM · 24–36 Sair · 37–43 Tarife · 44–50 Hesap | 1–23 GM · 24–38 Sair · 39–44 Tarife · 45–50 Hesap | 1–20 GM · 21–35 Sair · 36–44 Tarife · 45–50 Hesap |
+| Hesap sorusu | 7 | 6 (47–48 ortak veriye bağlı kıymet → KDV matrahı) | 6 |
+| Hiç çıkmayan konu sorusu | Denizyolu Transiti ve İzinli Gönderici | E-İhracat Destekleri ve Dış Ticaret Sermaye Şirketi | Taşıtların Giriş-Çıkışı |
+| Çıkmış bilgi alanı / beklenen hüküm | 5 / 45 | 9 / 41 | 8 / 42 |
+| Zorluk (kolay · orta · zor) | 12 · 25 · 13 | 10 · 27 · 13 | 13 · 25 · 12 |
+| Konu sayısı | 36 | 36 | 36 |
+
+- Her harf 10 kez doğru cevap; aynı harf en fazla 3 kez üst üste.
+- Metin benzerliği taramasında ikinci setin 150 sorusu ilk setle, üç denemeyle, 500 çıkmış soruyla ve kendi aralarında karşılaştırıldı; kopya ya da aynı hükmü aynı kurguyla ölçen soru kalmadı.
+
 ### Önerilen kullanım
 
 1. Önce 01 numaralı dokümanda **çok çıkan** konuların haplarını, sonra **orta** ve **az** çıkanları çalış. ★ işaretli haplar birden fazla yılda sorulmuş bilgilerdir.
@@ -78,6 +95,7 @@ Her testte **50 soru · 75 dakika**: **30 çok çıkan + 13 orta + 6 az + 1 hiç
 6. **Test bazında çapraz kontrol:** Her test 50 sorusuyla baştan sona, anahtara bakmadan çözüldü. Anahtar hatası çıkmadı. 11 soruda test içi tekrar ya da sızıntı, şık konumuna kalmış atıf, vurgusuz olumsuz kök ve güncellik düzeltmesi yapıldı (1 soru yeniden yazıldı).
 7. **Bilgi kaynağı etiketi denetimi:** 150 sorunun her birinin "çıkmış bilgi / beklenen hüküm" etiketi, cevabı belirleyen bilginin 2021–2025 sorularında ölçülüp ölçülmediğine bakılarak yeniden kontrol edildi. 6 sorunun etiketi değişti (2'si beklenen → çıkmış, 4'ü çıkmış → beklenen), 6 sorunun çıkmış soru referansı düzeltildi. Metin benzerliği taramasında testler kendi aralarında, önceki 3 denemeyle ve 500 çıkmış soruyla kopya ya da birbirine yakın soru çıkmadı.
 8. **Hesaplamanın ayrı konu sayılması:** Analizdeki alan ayrımına uygun olarak 59 hesap sorusu ayrı "Hesaplama" konusuna sayılınca (Gümrük Kıymeti 47 → 15, KDV 13 → 4 vb.) test dağılımı yeniden hesaplandı. Hesap sorusu 14'ten 19'a çıktı; fazla kalan konulardan 9 soru çıkarıldı, yerine 5 hesap ve 4 sözel soru yazıldı (bir soru Test 3'ten Test 2'ye taşındı). Yeni soruların hepsi bağımsız doğrulamadan (4 sözelde 3, 5 hesapta 5 düzeltme; 1 hesap sorusu yeniden yazıldı) ve kendi testleriyle çapraz kontrolden geçti. Konu başına soru sayıları yeni sınıflamanın hedefleriyle birebir aynı.
+9. **İkinci set (Test 4–6):** 150 yeni soru aynı slot dağılımıyla 16 kümede yazıldı; her yazar ilk setin 150 sorusunu ve üç denemeyi tarayıp aynı konunun sorulmamış alt başlıklarına gitti. Bağımsız küme doğrulamasında **118 soru değişmeden geçti, 32'si düzeltildi**; çoğu ilk setle ya da denemelerle çakışan bir çeldiricinin değiştirilmesiydi. 2 sorunun cevabı değişti: Revize PEM sonrası tartışmalı hâle gelen "doğrudan nakil" öncülü çıkarıldı; yalnız resmî anahtara dayanan "faiz KDV matrahına girer" kuralı hesaptan çıkarıldı. Test bazında çapraz kontrolde anahtar hatası çıkmadı; 11 soru düzeltildi (3'ü ilk setle ya da denemeyle kurgu tekrarı yüzünden yeniden yazıldı, 2'sinde art arda aynı kalıpla biten cevap düzeni bozuldu). Test 5'teki bağlı hesap setinin Türkiye giderleri, ilk setteki demuraj/ardiye kurgusunu tekrar etmesin diye dampinge karşı vergiyle yeniden kuruldu. Yeniden yazılan bütün sorular ayrıca bağımsız olarak çözüldü.
 
 ## Güncellik uyarıları
 
