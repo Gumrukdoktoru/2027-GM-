@@ -1,0 +1,25 @@
+i) Türkiye'de yerleşik (A) firması, belediyelere satmak üzere 5 adet çöp toplama aracı ithal etmektedir. Araçların yapımında kullanılan 5 adet kamyon şasisi, (A) firması tarafından Japonya'da yerleşik (Y) firmasından, Çin'de yerleşik üretici (X) firmasının tesisinde teslim edilmek üzere tanesi 40.600 ABD Doları bedelle satın alınmış ve Türkiye'ye getirilmeksizin (X) firmasına bedelsiz olarak sağlanmıştır.
+ii) (X) firması, şasilerin üzerine çöp toplama üst yapısını (sıkıştırma haznesi ve kaldırma sistemi) imal ederek monte etmiş ve bu iş karşılığında (A) firmasına araç başına 25.000 ABD Doları fatura etmiştir.
+iii) Üst yapıda kullanılan 5 adet hidrolik pompa (her araçta bir adet), (A) firması tarafından İtalya'da yerleşik (Z) firmasından tanesi 4.000 ABD Doları bedelle satın alınmış ve (X) firmasına tanesi 1.000 ABD Doları bedelle verilmiştir. (X) firmasının pompalar için (A) firmasına ödediği bu bedel, araç başına fatura edilen 25.000 ABD Dolarının içinde yer almaktadır.
+iv) (X) firması adına bu satışa aracılık eden acenteye (A) firması tarafından 2.000 ABD Doları komisyon ödenmiştir.
+v) (A) firmasını Çin'de temsil eden ve üretimin takibini yürüten satın alma acentesine 1.500 ABD Doları komisyon ödenmiştir.
+vi) Araçların (X) firmasının tesisinden Şanghay Limanına taşınması ve gemiye yüklenmesi için 1.000 ABD Doları, Şanghay Limanından Türkiye Gümrük Bölgesine giriş yeri olan Mersin Limanına kadar deniz taşıması için sigorta dahil 9.000 ABD Doları ödenmiştir.
+vii) Mersin Limanında geminin geç boşaltılması nedeniyle, beyannamenin tescilinden önce 1.200 ABD Doları demuraj ödenmiştir.
+viii) Beyannamenin tescilinden önce araçların gemiden tahliyesi için 22.000 TL ödenmiştir.
+ix) Araçların Mersin Limanındaki geçici depolama yerinde kalması için 31.000 TL ardiye ücreti ödenmiş olup bunun 14.000 TL'lik kısmı beyannamenin tescil tarihinden önceki, 17.000 TL'lik kısmı ise sonraki döneme aittir.
+x) Beyannamenin tescilinden önce gümrük personelince yapılan fazla mesai nedeniyle 4.000 TL fazla mesai ücreti ödenmiştir.
+xi) İthalat işlemleri nedeniyle gümrük müşavirine KDV dahil 36.000 TL ücret ödenmiştir.
+xii) Araçların beyannamenin tescilinden sonra Mersin'den (A) firmasının Konya'daki deposuna taşınması için 26.000 TL ödenmiştir.
+(vii, viii, ix ve x numaralı bentlerde yer alan hizmet ve ödemeler için KDV hesaplanmamıştır.)
+Eşyanın gümrük vergisi oranının %10, ilave gümrük vergisi oranının %15 olduğu varsayılmaktadır.
+(Döviz kuru: 1 ABD Doları = 10 TL alınacaktır. Hesaplamada sadece soruda yer verilen hususlar dikkate alınacaktır.)
+
+
+=== B15 YAZARININ NOTU (ortak veri metnine dahil değildir; B16 yazarı için) — B15 DENETÇİSİNCE GÜNCELLENDİ ===
+B15-04 (Test 5, H2, ortak_veri_id "KT5-H2", seri "KT5-H2-set") kıymet sorusunun doğru cevabı: 3.550.000 TL (değişmedi).
+Kıymet çözümü (ABD Doları): şasi (yardım, satın alma bedeli; (X)'in tesisinde teslim) 5 × 40.600 = 203.000 + (X)'e ödenen bedel 125.000 + pompa farkı 5 × (4.000 − 1.000) = 15.000 + satış komisyonu 2.000 + tesis–liman taşıma ve yükleme 1.000 + deniz navlunu ve sigorta 9.000 = 355.000 × 10 = 3.550.000 TL.
+Kıymete girmeyenler: alım komisyonu (v), Mersin demurajı (vii), tahliye (viii), ardiye (ix), fazla mesai (x), müşavirlik (xi), tescil sonrası taşıma (xii).
+B15-04 şıkları: 3.400.000 / 3.530.000 / 3.540.000 / 3.550.000 (doğru) / 3.600.000.
+DENETÇİ DEĞİŞİKLİĞİ: Önceki metindeki 'Şasilerin Japonya'dan (X) firmasının tesisine taşınması için (A) firması 3.000 ABD Doları ödemiştir.' cümlesi çıkarıldı (yardımın üreticiye taşınma bedelinin eklenmesi mevzuat metninde açık değil, yalnız 2022/96 resmî anahtarına dayanıyordu); aynı tutar şasi satın alma bedeline eklendi (tanesi 40.000 → 40.600 ABD Doları, (X)'in tesisinde teslim; Ek-8 yorum notu: ilave konusu satın alma bedelidir). Şasi ve pompa adedi (5'er) açıkça yazıldı. Toplam kıymet, pompa kalemi, KDV'yi ilgilendiren kalemler (vii–xii), GV %10 ve İGV %15 DEĞİŞMEDİ.
+B16-05 için: açıklamadaki '(bedelsiz sağlanan şasiler ve üreticiye taşınması, ...)' ifadesi '(bedelsiz sağlanan şasilerin satın alma bedeli, ...)' olarak güncellenmeli; tutarlar ve şıklar aynen geçerlidir.
+KDV matrahını ilgilendiren kalemler: vii (12.000 TL), viii (22.000 TL), ix'un tescil öncesi kısmı (14.000 TL), x (4.000 TL) — dördü için "KDV hesaplanmamıştır" notu KDVK 21/c'deki "vergilendirilmeyenler" şartını karşılamak için konuldu. xi (KDV dahil müşavirlik), ix'un tescil sonrası kısmı ve xii matraha girmez. GV ve İGV oranları veri olarak verildi.

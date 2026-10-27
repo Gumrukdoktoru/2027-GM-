@@ -1,0 +1,58 @@
+[
+ {
+  "id": "B04-08",
+  "test": 5,
+  "no": 18,
+  "sorun": "Doğru şık kökle kelime ortaklığıyla ele veriyor: kökteki 'gönderilmesi için verilen hariçte işleme izninin' ifadesiyle yalnız 'İzni veren …' şıkkı örtüşüyor; aday izni verenin sonuçlandıracağını kökten çıkarabilir. Aynı merci Tebliğ 17/2'deki nötr adla ('ilgili ihracatçı birlikleri genel sekreterliği') verildi; anahtar değişmez.",
+  "alan": "siklar",
+  "eski": "İzni veren ihracatçı birlikleri genel sekreterliği",
+  "yeni": "İlgili ihracatçı birlikleri genel sekreterliği"
+ },
+ {
+  "id": "B11-04",
+  "test": 5,
+  "no": 27,
+  "sorun": "Tekrar (ilk set + deneme): cevabı belirleyen kural ('yanlış/eksik bilgi ya da sahte belgeyle verilen yetki iptal edilir; hak ve uygulamalar verildiği tarih itibarıyla geçersiz', çeldirici 'iptal tarihinden itibaren') Test 3 K07-05'te (GY 26/5, OKS belgesi: 'düzenlendiği tarih' ↔ 'iptal edildiği tarih'; 'geçerlilik süresinin sonuna kadar' çeldiricisi) aynı kurguyla ölçüldü; 'iki yazılı uyarı + üçüncüde altı ay askı' çeldiricisi Deneme 3 GM-C-22'nin cevabı (OKS Tebliği md. 59, aynı kural). Soru, Seri No 7'nin hiçbir sette ölçülmemiş md. 8/2 hükmüyle (eksik belge → bir aylık ek süre, dosya iadesi) aynı alt tipte (D6) yeniden yazıldı; doğru şık A konumunda kalıyor.",
+  "alan": "yeniden_yaz",
+  "yeni": {
+   "id": "B11-04",
+   "test": 5,
+   "alan": "SAİR",
+   "konu": "MENSEBELGE",
+   "alt_tip": "D6",
+   "seri": null,
+   "ortak_veri_id": null,
+   "ortak_veri": null,
+   "kok_on": "",
+   "onculler": [],
+   "tablo": null,
+   "kok": "Gümrük Genel Tebliği (Uluslararası Anlaşmalar) (Seri No: 7) uyarınca, eşyanın kıymetine bakılmaksızın fatura beyanı veya EUR.MED fatura beyanı düzenlenmesine ilişkin Onaylanmış İhracatçı yetkisi için yapılan başvurunun incelenmesinde, aranan belgelerden bir kısmının başvuru dosyasında yer almadığının tespit edilmesi hâlinde yapılacak işlem aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+   "siklar": [
+    "Başvuru sahibine eksik belgelerin tamamlanması için yazılı olarak bir aylık ek süre verilir; bildirim tarihinden itibaren bu süre içinde eksiklikleri tamamlanmayan başvuru dosyası kendisine iade edilir.",
+    "Başvuru sahibine eksik belgelerin tamamlanması için yazılı olarak üç aylık ek süre verilir; bildirim tarihinden itibaren bu süre içinde eksiklikleri tamamlanmayan başvuru dosyası kendisine iade edilir.",
+    "Başvuru sahibine eksik belgelerin tamamlanması için yazılı olarak altı aylık ek süre verilir; bildirim tarihinden itibaren bu süre içinde eksiklikleri tamamlanmayan başvuru dosyası kendisine iade edilir.",
+    "Başvuru sahibine eksik belgelerin tamamlanması için yazılı olarak bir aylık ek süre verilir; bu süre içinde eksiklikleri tamamlanmayan başvuru reddedilir ve başvuru sahibi bir yıl süreyle yeniden başvuruda bulunamaz.",
+    "Başvuru, ek süre verilmeksizin reddedilir; başvuru sahibi eksik belgeleri tamamlayarak yeni bir başvuruda bulunabilir."
+   ],
+   "dogru": 0,
+   "sira_sabit": false,
+   "aciklama": "Tebliğin 8 inci maddesinin ikinci fıkrasına göre Onaylanmış İhracatçı yetkisi başvurusunda aranan belgelerden bir kısmının başvuru dosyasında yer almadığının tespit edilmesi hâlinde başvuru sahibine eksik belgelerin tamamlanması için yazılı olarak bir aylık ek süre verilir; bildirimin yapıldığı tarihten itibaren bu süre içinde eksiklikleri tamamlanmayan başvuru dosyaları kendilerine iade edilir. Üç aylık ve altı aylık ek süre öngören ifadeler Tebliğdeki başka sürelere dayanır (11 inci maddedeki üçer aylık liste dönemleri, 13 üncü maddedeki altı aylık askı süresi). Tebliğde eksik belge nedeniyle ek süre verilmeksizin ret ya da bir yıllık yeniden başvuru yasağı öngörülmemiştir; bir yıl, 14 üncü maddede yetkinin geri alınma süresinin alt sınırıdır.",
+   "tuzak": "Eksik belgeli başvurunun doğrudan reddedileceğini düşünen ya da Tebliğdeki üçer aylık liste dönemini veya altı aylık askı süresini eksik belge için verilen ek süreyle karıştıran aday yanlış ifadeye yönelir.",
+   "dayanak": "Gümrük Genel Tebliği (Uluslararası Anlaşmalar) (Seri No: 7) md. 8/2 (çeldiriciler: md. 11/1-c, 13/1, 14/4)",
+   "kaynak": "kaynak2/genelge/gumruk_genel_tebligi_x1uluslararasi_anlasmalarx2_seri_no_7.md MADDE 8/2 ('Aranan belgelerden bir kısmının başvuru dosyasında yer almadığının tespit edilmesi halinde başvuru sahibine eksik belgelerin tamamlanması için yazılı olarak 1 aylık ek süre verilir. Başvuru sahibine bildirimin yapıldığı tarihten itibaren bu süre içinde eksiklikleri tamamlanmayan başvuru dosyaları kendilerine iade edilir.'), MADDE 11, 13, 14; hap/sorulmayan/K11.json 'Onaylanmış ihracatçı yetkisi (Seri No 7 Tebliği)' (SORULMADI, sc md. 8/2). İlk sette, denemelerde ve Test 4/6'da Seri No 7 md. 8 kullanılmadı.",
+   "guven": "yüksek",
+   "kaynak_tipi": "beklenen",
+   "cikmis_ref": [],
+   "zorluk": "O"
+  }
+ },
+ {
+  "id": "B16-05",
+  "test": 5,
+  "no": 48,
+  "sorun": "Tuzakta belirsiz soru atfı: 50 soruluk testte 'ilk sorudaki' ifadesi 1. soruyu (B03-07) çağrıştırıyor; kastedilen ortak veri setinin kıymet sorusu (47. soru, B15-04).",
+  "alan": "tuzak",
+  "eski": "ilk sorudaki kıymet hatası 4.302.000'e taşınır.",
+  "yeni": "ortak veri setinin kıymet sorusundaki hata (pompaların bedel farkının eklenmemesi) 4.302.000'e taşınır."
+ }
+]

@@ -1,0 +1,96 @@
+[
+ {
+  "id": "B07-04",
+  "no": 17,
+  "sorun": "Biçim: tuzakta konum atfı ('ilk iki ifadeden birine'); şıklar karıştırıldı, kastedilen 'üç yıl içinde … üç dönem' ifadesi artık E, 'ceza kararının düzenlendiği tarih' ifadesi B şıkkında. Atıf içerikle yapılmalı.",
+  "alan": "tuzak",
+  "eski": "taşıyan aday ilk iki ifadeden birine;",
+  "yeni": "taşıyan aday üç yıllık dönemi ya da ceza kararının düzenlendiği tarihi esas alan ifadelere;"
+ },
+ {
+  "id": "B03-17",
+  "no": 32,
+  "sorun": "Biçim (test içi cevap örüntüsü): 15, 22, 32 ve 33. soruların dördünde de öncüller doğru-yanlış-doğru-yanlış dizilimli ve cevap 'I ve III'; 15, 22 ve 32'de şık kümesi de birebir aynı. Bu soruda IV. öncül TIR Tebliği 34/6'nın doğru metnine çevrilerek cevap 'I, III ve IV' yapılır (1/4: öncül).",
+  "alan": "onculler",
+  "eski": "Dökme eşyada eksiklik veya fazlalığın, eşyanın tabiatı icabı kabul edilen oranları aşması hâlinde takibat ve varsa cezai işlem eksiklik veya fazlalığın tamamı için uygulanır.",
+  "yeni": "Dökme eşyada eksiklik veya fazlalığın, eşyanın tabiatı icabı kabul edilen oranları aşması hâlinde takibat ve varsa cezai işlem, bu oranları aşan kısım için uygulanır."
+ },
+ {
+  "id": "B03-17",
+  "no": 32,
+  "sorun": "2/4: açıklama yeni IV. öncülle uyumlu hâle getirilir.",
+  "alan": "aciklama",
+  "eski": "(34/6; IV yanlış)",
+  "yeni": "(34/6; IV doğru)"
+ },
+ {
+  "id": "B03-17",
+  "no": 32,
+  "sorun": "3/4: tuzak yeni anahtara göre (yanılgı artık IV'ü yanlış saydırıyor).",
+  "alan": "tuzak",
+  "eski": "ya da oran aşılınca eksikliğin tamamının takibe gireceğini sanmak.",
+  "yeni": "ya da oran aşılınca eksikliğin tamamının takibe gireceğini sanıp IV'ü yanlış saymak."
+ },
+ {
+  "id": "B03-17",
+  "no": 32,
+  "sorun": "4/4: anahtar 'I ve III' yerine 'I, III ve IV' (I, III, IV doğru; II yanlış: 34/4 en yüksek vergili pozisyon).",
+  "alan": "dogru_icerik",
+  "yeni": "I, III ve IV"
+ },
+ {
+  "id": "B10-03",
+  "no": 33,
+  "sorun": "Biçim (test içi cevap örüntüsü, bkz. 32. soru): dördüncü 'I ve III' cevabı. II. öncüldeki süre kaynaktaki doğru değere (iki yıl; ÜGD 2026/23 md. 4/3, SAİR MEVZUAT KİTABI s. 16536) çevrilerek cevap 'I, II ve III' yapılır (1/4: öncül).",
+  "alan": "onculler",
+  "eski": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığınca düzenlenen Metal Hurda İthalatçı Belgesi verildiği tarihten itibaren bir yıl geçerlidir ve belge alan sanayicilerin listesi anılan Bakanlığın internet sayfasında ilan edilir.",
+  "yeni": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığınca düzenlenen Metal Hurda İthalatçı Belgesi verildiği tarihten itibaren iki yıl geçerlidir ve belge alan sanayicilerin listesi anılan Bakanlığın internet sayfasında ilan edilir."
+ },
+ {
+  "id": "B10-03",
+  "no": 33,
+  "sorun": "2/4: açıklama yeni II. öncülle uyumlu hâle getirilir.",
+  "alan": "aciklama",
+  "eski": "Metal Hurda İthalatçı Belgesi bir yıl değil, verildiği tarihten itibaren iki yıl geçerlidir (II yanlış).",
+  "yeni": "Metal Hurda İthalatçı Belgesi verildiği tarihten itibaren iki yıl geçerlidir ve belge alan sanayicilerin listesi Çevre, Şehircilik ve İklim Değişikliği Bakanlığının internet sayfasında ilan edilir (II doğru)."
+ },
+ {
+  "id": "B10-03",
+  "no": 33,
+  "sorun": "3/4: tuzak yeni anahtara göre.",
+  "alan": "tuzak",
+  "eski": "belgenin süresini bir yıl sanan aday II'yi ekler.",
+  "yeni": "belgenin iki yıllık geçerlilik süresini bir yıl sanan aday II'yi eler."
+ },
+ {
+  "id": "B10-03",
+  "no": 33,
+  "sorun": "4/4: anahtar 'I ve III' yerine 'I, II ve III' (IV yanlış: uygunluk denetimi ÇŞİDB İl Müdürlüğünde).",
+  "alan": "dogru_icerik",
+  "yeni": "I, II ve III"
+ },
+ {
+  "id": "B11-07",
+  "no": 23,
+  "sorun": "Dil: virgül eksikliği yinelenmiş sözcük görüntüsü veriyor ('tercihli menşe menşe beyanı').",
+  "alan": "aciklama",
+  "eski": "tercihli menşe menşe beyanı ile ispatlanır",
+  "yeni": "tercihli menşe, menşe beyanı ile ispatlanır"
+ },
+ {
+  "id": "B16-08",
+  "no": 49,
+  "sorun": "Tekrar (düşük öncelik): kökteki 'bedel, kur 36 TL iken peşin ödendi' verisi, ilk setin K01-05 sorusunun (ödeme tarihindeki kur değil yükümlülüğün başladığı tarihteki kur, 2021/87) ve D2 HS-B-07 / D3 HS-A-15'in peşin ödeme/avans kuru tuzağını aynı kurguyla tekrarlıyor; hiçbir şıkta kullanılmıyor. Çıkarılır; ölçülen bilgi (her beyanname için kendi tescil kuru ve 21/c kesimi) ve anahtar değişmez (1/2: kök).",
+  "alan": "kok",
+  "eski": "satın almış ve bedelin tamamını, kurun 1 ABD Doları = 36 TL olduğu tarihte peşin ödemiştir.",
+  "yeni": "satın almıştır."
+ },
+ {
+  "id": "B16-08",
+  "no": 49,
+  "sorun": "2/2: açıklamadan peşin ödeme kuru atfı çıkarılır.",
+  "alan": "aciklama",
+  "eski": "; peşin ödeme tarihindeki kur (36) ve ilk beyannamenin tescil kuru (38) bu beyanname için kullanılmaz.",
+  "yeni": "; ilk beyannamenin tescil kuru (38) bu beyanname için kullanılmaz."
+ }
+]

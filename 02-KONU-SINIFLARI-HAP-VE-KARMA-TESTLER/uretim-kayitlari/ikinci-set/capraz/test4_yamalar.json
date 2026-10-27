@@ -1,0 +1,84 @@
+[
+ {
+  "id": "B13-04",
+  "no": 42,
+  "sorun": "Biçim: olumsuz köklü soruda doğru şık ('Tütünden ekstrakte edilmiş nikotin (alkaloid)', 45 karakter) diğer şıkların (85-196 karakter) yaklaşık yarısı uzunlukta; kısalığıyla cevabı ele veriyor. Şık, anlamı değiştirilmeden (24.04 Açıklama Notu hariç (b): tütünden ekstrakte edilen nikotin → 29.39) uzatıldı.",
+  "alan": "siklar",
+  "eski": "Tütünden ekstrakte edilmiş nikotin (alkaloid)",
+  "yeni": "Tütün yapraklarından ekstraksiyon yoluyla elde edilen nikotin (alkaloid)"
+ },
+ {
+  "id": "B16-01",
+  "no": 47,
+  "sorun": "Tekrar (TEST_BRIEF2 §3, §7): Deneme 3 HS-B-11 aynı kurguyu ('GV, İGV, ÖTV ve KDV tutarlarının toplamı') aynı tuzakla kurmuştu: kökte peşin ödeme tarihindeki kur ile tescil tarihi kuru verilip 'peşin ödeme kuru kullanılmış' çeldiricisi (GK 30). Bu soruda aynı tuzak veri ve aynı çeldirici (1.699.520) var. Tuzak kökten çıkarıldı, çeldirici yerine yeni ve oran sınırına bağlı tek hata (İGV ÖTV matrahına katılmamış → 990.000 → %60 → 1.216.800) kondu. Şıklar küçükten büyüğe yeniden dizildiği için doğru şık D'den E'ye kayıyor (tutar değişmedi: 1.627.200). 0–2 hatalı yollar tarandı.",
+  "alan": "yeniden_yaz",
+  "yeni": {
+   "id": "B16-01",
+   "test": 4,
+   "alan": "HESAP",
+   "konu": "KDV",
+   "alt_tip": "H3",
+   "seri": null,
+   "ortak_veri_id": null,
+   "ortak_veri": null,
+   "kok_on": "",
+   "onculler": [],
+   "tablo": null,
+   "kok": "(A) Lojistik A.Ş., yöneticilerinin kullanımına tahsis etmek ve adına kayıt ve tescil ettirmek üzere, Çin'de yerleşik (X) firmasından Türk Gümrük Tarife Cetvelinin 87.03 pozisyonunda yer alan, motor silindir hacmi 1.600 cm³'ü geçmeyen, benzinli, yeni bir binek otomobil ithal etmektedir. (A) firması motorlu araç ticareti ile uğraşmamaktadır. Otomobilin gümrük kıymeti 20.000 Avro olup serbest dolaşıma giriş beyannamesinin tescil tarihinde kur 1 Avro = 45 TL'dir.\nVergisel yüklere ilişkin bilgiler şöyledir: Gümrük vergisi %10; ilave gümrük vergisi %20 (gümrük kıymeti üzerinden); ÖTV Kanunu eki (II) sayılı listede bu otomobiller için ÖTV oranı, özel tüketim vergisi matrahı 1.000.000 TL'yi aşmayanlarda %60, 1.000.000 TL'yi aşanlarda %80; KDV %20.\n(Oran ve matrah sınırlarının bu şekilde olduğu varsayılmaktadır. Diğer vergi ve mali yükümlülükler ihmal edilmiştir.)\nBu veriler çerçevesinde, söz konusu otomobilin ithalinde ödenecek gümrük vergisi, ilave gümrük vergisi, ÖTV ve KDV tutarlarının toplamı kaç TL'dir?",
+   "siklar": [
+    "1.216.800",
+    "1.346.400",
+    "1.387.200",
+    "1.440.000",
+    "1.627.200"
+   ],
+   "dogru": 4,
+   "sira_sabit": true,
+   "aciklama": "Çözüm: Kıymet, gümrük yükümlülüğünün başladığı tarihte (beyannamenin tescil tarihi) yürürlükte olan kurla TL'ye çevrilir (GK md. 30): 20.000 × 45 = 900.000 TL. GV = 900.000 × %10 = 90.000; İGV = 900.000 × %20 = 180.000. (II) sayılı listedeki taşıtların ithalinde ÖTV matrahı, hesaplanacak ÖTV hariç KDV matrahını oluşturan unsurlardan oluşur; ithalat sırasında ödenen GV ve İGV matraha girer (ÖTVK md. 11; (II) Sayılı Liste Tebliği III/A-2): 900.000 + 90.000 + 180.000 = 1.170.000 TL. Listede oranlar özel tüketim vergisi matrahının alt ve üst sınırlarına göre belirlendiğinden oranı belirleyen tutar gümrük kıymeti değil bu matrahtır; 1.170.000 TL, 1.000.000 TL'yi aştığından matrahın tamamına %80 uygulanır: ÖTV = 936.000. KDV matrahı = 1.170.000 + 936.000 = 2.106.000; KDV = 421.200. Toplam = 90.000 + 180.000 + 936.000 + 421.200 = 1.627.200 TL. Motorlu araç ticareti yapmayan firmanın kayıt ve tescile tabi taşıtı kullanmak üzere ithalinde ÖTV gümrükte alınır. Şık türetimleri: 1.627.200 → doğru tutar. 1.216.800 → İGV ÖTV matrahına katılmamış; matrah 990.000 TL bulunup sınırın altında kaldığı için %60 uygulanmış (ÖTV 594.000; KDV matrahı 1.764.000, KDV 352.800). 1.346.400 → oran dilimi gümrük kıymetine (900.000) göre belirlenip %60 uygulanmış (ÖTV 702.000; KDV 374.400). 1.387.200 → oran, artan oranlı tarifedeki gibi dilimlere bölünmüş (1.000.000 × %60 + 170.000 × %80 = 736.000 ÖTV; KDV 381.200). 1.440.000 → ÖTV, KDV matrahına eklenmemiş (KDV 1.170.000 × %20 = 234.000). Tarama: tek hatalar birbirinden farklı sonuç verir; hiçbir iki hatanın birleşimi doğru tutarı vermez.",
+   "tuzak": "Oran dilimini gümrük kıymetine göre seçen aday 1.346.400'e, ÖTV oranını artan oranlı tarifedeki gibi dilimlere bölen aday 1.387.200'e, İGV'yi ÖTV matrahına katmayıp matrahı sınırın altında bulan aday 1.216.800'e kayar.",
+   "dayanak": "4760 sayılı ÖTV Kanunu md. 11 ((II) sayılı listede ithalde matrah) ve md. 12; ÖTV (II) Sayılı Liste Uygulama Genel Tebliği III/A-2 ve III/B-1; 3065 sayılı KDV Kanunu md. 21; 4458 sayılı Gümrük Kanunu md. 30",
+   "kaynak": "kaynak2/genelge/ozel_tuketim_vergisi_ii_sayili_liste_uygulama_genel_tebligi.md '2. İthalatta Matrah' (ÖTV matrahı: kıymet + ÖTV ve KDV hariç vergiler…) ve 'B- ORAN' bölümü ('oranlara esas özel tüketim vergisi matrahlarının alt ve üst sınırları', '87.03 … farklı matrah grupları'); kaynak2/diger/SAİR MEVZUAT KİTABI.md ÖTVK md. 11/3 ve KDVK md. 21; kaynak2/gm/12_12-KIYMET_VE_KAPLAR.md GK md. 30 (tescil tarihi kuru); çapraz kontrol: deneme 3 HS-B-11'de aynı 'GV + İGV + ÖTV + KDV toplamı' kurgusunda kullanılan peşin ödeme tarihindeki kur tuzağı (çeldirici 'peşin ödeme kuru kullanılmış') kökten ve şıklardan çıkarıldı; yerine oran sınırıyla bağlantılı 'İGV ÖTV matrahına katılmamış' çeldiricisi kondu",
+   "guven": "yüksek",
+   "kaynak_tipi": "beklenen",
+   "cikmis_ref": [],
+   "zorluk": "O"
+  }
+ },
+ {
+  "id": "B16-02",
+  "no": 48,
+  "sorun": "Tekrar (TEST_BRIEF2 §3): Cevabı belirleyen iki hüküm daha önce ölçülmüş. Kısmi muafiyetli geçici ithalatın 234/1 (üç kat), tam muafiyetlinin 234/2 (yarım) kapsamında olması ile kamu idarelerine 234 cezalarının uygulanmaması, deneme 1 GM-C-08'in öncülleri (I, II, IV); 234/1–234/2 rejim ayrımını hesapta sınayan kurgu ise ilk set K06-07'de (DİR yarım ceza) var. I. bent serbest dolaşıma giriş rejimine çevrildi; soru artık sorulmamış 234/6 alt sınırını ve 234/4'ün ikinci cümlesini (241/1 uygulanması) ölçüyor. '13.000' çeldiricisi düştü, '59.500' (alt sınır ayrıca ceza gibi eklenmiş) geldi. Doğru tutar aynı (58.000), doğru şık D'den C'ye kayıyor. 0–2 hatalı yollar tarandı.",
+  "alan": "yeniden_yaz",
+  "yeni": {
+   "id": "B16-02",
+   "test": 4,
+   "alan": "HESAP",
+   "konu": "CEZA",
+   "alt_tip": "H4",
+   "seri": null,
+   "ortak_veri_id": null,
+   "ortak_veri": null,
+   "kok_on": "",
+   "onculler": [],
+   "tablo": null,
+   "kok": "Gümrük idaresince yapılan kontroller sonucunda aşağıdaki hususlar tespit edilmiştir:\nI. Yükümlü (A) firmasının serbest dolaşıma giriş rejimi kapsamında ithal ettiği bir mobil vincin kıymeti noksan beyan edilmiş olup noksanlığa ait ithalat vergileri farkı 18.000 TL'dir.\nII. Yükümlü (A) firmasının serbest dolaşıma giriş rejimi kapsamında ithal ettiği başka bir eşyanın kıymeti noksan beyan edilmiş olup noksanlığa ait ithalat vergileri farkı 500 TL'dir.\nIII. Genel yönetim kapsamındaki kamu idarelerinden (B) Belediyesinin serbest dolaşıma giriş rejimi kapsamında ithal ettiği eşyanın kıymeti noksan beyan edilmiş olup noksanlığa ait ithalat vergileri farkı 6.000 TL'dir.\nAykırılıkların hiçbiri gümrük idaresince tespit edilmeden önce beyan sahiplerince bildirilmemiştir.\n(Ceza hesabında yalnız yukarıda verilen vergi farkları esas alınacaktır. Gümrük Kanununun 234 üncü maddesinin birinci fıkrasının (b) bendinde öngörülen para cezasının vergi farkının üç katı, 241 inci maddesinin birinci fıkrasında belirtilen usulsüzlük cezası miktarının ise 2.000 TL olduğu dikkate alınacaktır.)\nBu tespitler nedeniyle uygulanacak idari para cezalarının toplamı kaç TL'dir?",
+   "siklar": [
+    "56.000",
+    "57.500",
+    "58.000",
+    "59.500",
+    "74.000"
+   ],
+   "dogru": 2,
+   "sira_sabit": true,
+   "aciklama": "Çözüm: I. Serbest dolaşıma giriş rejiminde noksan kıymet için GK 234/1-b uyarınca vergi farkının üç katı ceza alınır: 18.000 × 3 = 54.000 TL. II. Aynı hükme göre 500 × 3 = 1.500 TL hesaplanır; ancak birinci ila üçüncü fıkralara göre verilen cezalar 241 inci maddenin birinci fıkrasındaki miktardan az olamayacağından (234/6) ceza 2.000 TL'dir; alt sınır hesaplanan cezaya ayrıca eklenmez, cezayı bu tutara tamamlar. III. Genel yönetim kapsamındaki kamu idareleri için 234 üncü maddedeki cezalara ilişkin hükümler uygulanmaz; bu hâlde 241 inci maddenin birinci fıkrasına göre işlem yapılır (234/4): 2.000 TL usulsüzlük cezası. Toplam = 54.000 + 2.000 + 2.000 = 58.000 TL. Şık türetimleri: 58.000 → doğru tutar. 56.000 → kamu idaresine hiç ceza verilmeyeceği düşünülmüş (54.000 + 2.000). 57.500 → 234/6'daki alt sınır uygulanmamış (54.000 + 1.500 + 2.000). 59.500 → alt sınır, hesaplanan cezaya 241/1 usulsüzlük cezası ayrıca eklenerek uygulanmış (54.000 + 3.500 + 2.000). 74.000 → belediyeye de vergi farkının üç katı ceza uygulanmış (54.000 + 2.000 + 18.000). Tarama: tek hatalar birbirinden farklı sonuç verir; hiçbir iki hatanın birleşimi doğru tutarı vermez.",
+   "tuzak": "Küçük vergi farkında alt sınırı unutan aday 57.500'e, alt sınırı ayrı bir usulsüzlük cezası gibi ekleyen aday 59.500'e, kamu idaresine üç kat ceza uygulayan aday 74.000'e, hiç ceza uygulamayan aday 56.000'e kayar.",
+   "dayanak": "4458 sayılı Gümrük Kanunu md. 234/1-b, 234/4, 234/6 ve md. 241/1",
+   "kaynak": "kaynak2/gm/48_48-cezalar.md MADDE 234 (1. fıkra (b) bendi; 4. fıkra 'Genel yönetim kapsamındaki kamu idareleri için yukarıda belirtilen cezalara ilişkin hükümler uygulanmaz. Bu gibi hallerde, 241 inci maddenin birinci fıkra hükmüne göre işlem yapılır'; 6. fıkra 'Bir ila üçüncü fıkralara göre verilen cezalar 241 inci maddenin [birinci] fıkrasında belirtilen miktardan az olamaz'); MADDE 241/1 (AYM 26.03.2026 kararıyla yalnız 'ikincil düzenlemelere' ibaresi iptal edildi, miktar ve 234/4, 234/6 atıfları yürürlükte); hap/sorulmayan/K06.json CEZA alt konusu. Çapraz kontrol: I. bentteki kısmi muafiyetli geçici ithalat (234/1–234/2 rejim ayrımı) deneme 1 GM-C-08 öncül I-II ve ilk set K06-07 (DİR yarım ceza) kurgusuyla örtüştüğünden serbest dolaşıma giriş rejimine çevrildi; 13.000 çeldiricisi yerine 59.500 kondu",
+   "guven": "yüksek",
+   "kaynak_tipi": "beklenen",
+   "cikmis_ref": [],
+   "zorluk": "O"
+  }
+ }
+]
